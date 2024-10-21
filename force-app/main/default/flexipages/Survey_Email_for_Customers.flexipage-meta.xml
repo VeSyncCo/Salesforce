@@ -43,7 +43,7 @@
                     <value>100</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:image</componentName>
-                <identifier>contentbuilder_image3</identifier>
+                <identifier>contentbuilder_image7</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-d4e58535-121a-40f6-94de-1db260511d6a</name>
@@ -77,7 +77,7 @@
                     <value>100%</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:column</componentName>
-                <identifier>contentbuilder_column7</identifier>
+                <identifier>contentbuilder_column19</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-daa67495-c6b0-463b-82ed-268247bb8ddf</name>
@@ -117,7 +117,7 @@
 We value your Feedback on our Support Process and we really wish for you to fill the survey below to help us improve ourselves!</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:richText</componentName>
-                <identifier>contentbuilder_richText3</identifier>
+                <identifier>contentbuilder_richText9</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-6d64ed05-43b1-4087-bc23-8f1f2c19d0da</name>
@@ -151,7 +151,7 @@ We value your Feedback on our Support Process and we really wish for you to fill
                     <value>100%</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:column</componentName>
-                <identifier>contentbuilder_column8</identifier>
+                <identifier>contentbuilder_column20</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-1b0f65bd-0590-4d4d-a2d0-6bc4b8d83c65</name>
@@ -241,7 +241,7 @@ We value your Feedback on our Support Process and we really wish for you to fill
                     <value>#ffffff</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:button</componentName>
-                <identifier>contentbuilder_button3</identifier>
+                <identifier>contentbuilder_button7</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-fdc0a32e-8425-4b65-a14c-6f4b02ba22b7</name>
@@ -275,7 +275,7 @@ We value your Feedback on our Support Process and we really wish for you to fill
                     <value>100%</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:column</componentName>
-                <identifier>contentbuilder_column9</identifier>
+                <identifier>contentbuilder_column21</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-f2b68c6b-a71e-4c65-af91-74a5f0ec7e50</name>
@@ -288,6 +288,9 @@ We value your Feedback on our Support Process and we really wish for you to fill
                     <name>backgroundColor</name>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
+                    <name>backgroundImageUrl</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
                     <name>columns</name>
                     <value>Facet-daa67495-c6b0-463b-82ed-268247bb8ddf</value>
                 </componentInstanceProperties>
@@ -296,13 +299,16 @@ We value your Feedback on our Support Process and we really wish for you to fill
                     <value>top</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:row</componentName>
-                <identifier>contentbuilder_row7</identifier>
+                <identifier>contentbuilder_row19</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
                     <name>backgroundColor</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>backgroundImageUrl</name>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>columns</name>
@@ -313,13 +319,16 @@ We value your Feedback on our Support Process and we really wish for you to fill
                     <value>top</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:row</componentName>
-                <identifier>contentbuilder_row8</identifier>
+                <identifier>contentbuilder_row20</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
                     <name>backgroundColor</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>backgroundImageUrl</name>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>columns</name>
@@ -330,7 +339,7 @@ We value your Feedback on our Support Process and we really wish for you to fill
                     <value>top</value>
                 </componentInstanceProperties>
                 <componentName>contentbuilder:row</componentName>
-                <identifier>contentbuilder_row9</identifier>
+                <identifier>contentbuilder_row21</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

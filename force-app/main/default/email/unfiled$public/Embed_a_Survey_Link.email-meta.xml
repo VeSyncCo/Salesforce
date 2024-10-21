@@ -4,7 +4,7 @@
     <description>Boilerplate content for when you embed a link to a survey in an email. You can&apos;t embed a survey link if you edit the merge fields or delete this template.</description>
     <encodingKey>UTF-8</encodingKey>
     <name>Embed_a_Survey_Link</name>
-    <relatedEntityType>Case</relatedEntityType>
+    <relatedEntityType>SurveyQuestion</relatedEntityType>
     <style>none</style>
     <subject>Your feedback is important. Help us to improve by taking this survey.</subject>
     <type>custom</type>
