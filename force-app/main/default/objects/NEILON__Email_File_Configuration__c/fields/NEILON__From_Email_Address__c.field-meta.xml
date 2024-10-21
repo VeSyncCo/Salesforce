@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__From_Email_Address__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Email to be use as &quot;From&quot; while sending mails. You can use one of the organization wide emails configured at Your Name | Setup | Administration Setup | Email Administration | Organization-wide Addresses. If blank, current user&apos;s email will be used.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Email to be use as &quot;From&quot; while sending mails. You can use one of the organization wide emails configured at Your Name | Setup | Administration Setup | Email Administration | Organization-wide Addresses. If blank, current user&apos;s email will be used.</inlineHelpText>
+    <label>From Email Address</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

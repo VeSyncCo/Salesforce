@@ -1,0 +1,3 @@
+A new {!Case.Brand__c} ticket has been created, and the ticket number is {!Case.CaseNumber}. 
+
+To add additional comments, reply to this email. Repeated responses will cause the ticket to be moved to the end of the queue, resulting in extended waiting periods.

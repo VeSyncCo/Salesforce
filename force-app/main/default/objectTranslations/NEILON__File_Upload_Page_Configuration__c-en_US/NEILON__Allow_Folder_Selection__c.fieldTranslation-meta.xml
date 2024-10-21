@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, users will be able to select folder from the local machine to upload files. --></help>
+    <label><!-- Allow Folder Selection? --></label>
+    <name>NEILON__Allow_Folder_Selection__c</name>
+</CustomFieldTranslation>

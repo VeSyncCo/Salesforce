@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The name of the Glacier Storage Class in which you would like to archive your S3 files. Allowed values are DEEP_ARCHIVE and GLACIER. --></help>
+    <label><!-- Archive Storage Class --></label>
+    <name>NEILON__Archive_Storage_Class__c</name>
+</CustomFieldTranslation>

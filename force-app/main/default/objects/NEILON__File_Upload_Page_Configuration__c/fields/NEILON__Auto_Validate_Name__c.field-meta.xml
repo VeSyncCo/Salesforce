@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Auto_Validate_Name__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>There are some validation on file name. There are some characters which are not allowed in file name and file name cannot go beyond 80 characters. If this option is enabled, we auto replace all invalid characters with &quot;_&quot; and trim file name if it is beyond 80 characters.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>There are some validation on file name. There are some characters which are not allowed in file name and file name cannot go beyond 80 characters. If this option is enabled, we auto replace all invalid characters with &quot;_&quot; and trim file name if it is beyond 80 characters.</inlineHelpText>
+    <label>Auto Validate File Name</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>S3-File Restoration Request Template</name>
+    <style>none</style>
+    <subject>S3-File Restoration Completed</subject>
+    <textOnly>Hello {!User.Name},
+
+Your request to retrieve the S3-File {!NEILON__File__c.Name}  is completed. You can now download or view S3-File. You can access the file using the link below. 
+{!NEILON__File__c.Link}
+
+Thanks &amp; Regards,
+S3-Link Automation Team.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Enable_Attachment_as_Content_Disposition__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, Amazon S3 Download URL will download the file instead of displaying in-browser.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, Amazon S3 Download URL will download the file instead of displaying in-browser.</inlineHelpText>
+    <label>Enable Attachment as Content-Disposition</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Duration to expire the download links in the email. --></help>
+    <label><!-- Download Link Expiry Duration --></label>
+    <name>NEILON__Download_Link_Expiry_Duration__c</name>
+</CustomFieldTranslation>

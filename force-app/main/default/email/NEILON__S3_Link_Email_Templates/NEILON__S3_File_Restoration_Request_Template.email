@@ -1,0 +1,9 @@
+Hello {!User.Name},
+<br/>
+<br/>
+Your request to restore the S3-File {!NEILON__File__c.Name}  is completed. You can now download or view the S3-File. You can access the file using the link below. <br/>
+{!NEILON__File__c.Link}
+<br/>
+<br/>
+Thanks & Regards,<br/>
+Neilon Technologies

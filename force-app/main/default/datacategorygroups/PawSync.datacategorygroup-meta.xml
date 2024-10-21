@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Smart Pet Feeder</label>
+            <name>Smart_Pet_Feeder</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Smart Pet Feeder</label>
+                <name>Smart_Pet_Feeder_FAQs</name>
+            </dataCategory>
+            <label>FAQs</label>
+            <name>FAQs</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Shipping</label>
+                <name>Shipping</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Returns</label>
+                <name>Returns</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Warranty</label>
+                <name>Warranty</name>
+            </dataCategory>
+            <label>Shipping &amp; Warranty</label>
+            <name>Shipping_Warranty</name>
+        </dataCategory>
+        <label>PawSync Articles</label>
+        <name>PawSync_Articles</name>
+    </dataCategory>
+    <description>PawSync Articles</description>
+    <label>PawSync</label>
+    <objectUsage>
+        <object>SvcCatalogItemDef</object>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

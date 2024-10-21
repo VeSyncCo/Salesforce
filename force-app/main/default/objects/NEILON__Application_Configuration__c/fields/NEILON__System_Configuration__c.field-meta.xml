@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__System_Configuration__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, configuration will be display in System Configuration list.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, configuration will be display in System Configuration list.</inlineHelpText>
+    <label>System Configuration?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

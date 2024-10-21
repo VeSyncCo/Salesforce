@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, auto search for file selection will be disabled. --></help>
+    <label><!-- Disable Auto Search for Files --></label>
+    <name>NEILON__Use_Tree_for_File_Selection__c</name>
+</CustomFieldTranslation>

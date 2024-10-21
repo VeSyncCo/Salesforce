@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Id of the external parent record (If file is created for any external object record). --></help>
+    <label><!-- External Parent Id --></label>
+    <name>NEILON__External_Parent_Id__c</name>
+</CustomFieldTranslation>

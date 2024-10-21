@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Use_Title_as_Download_File_Name__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, the name of the downloaded file will be file title.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, the name of the downloaded file will be file title.</inlineHelpText>
+    <label>Use Title as Download File Name</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Salesforce_Files_Where_Clause__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>SOQL WHERE clause to filter Salesforce Files / Attachments records which need to be migrated. For example, for ContentDocument, you can use ContentDocument.FileExtension = &apos;pdf&apos; and for Attachment, you can use BodyLength &gt; 1024</inlineHelpText>
+    <label>SOQL Where Clause(for Salesforce Files)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

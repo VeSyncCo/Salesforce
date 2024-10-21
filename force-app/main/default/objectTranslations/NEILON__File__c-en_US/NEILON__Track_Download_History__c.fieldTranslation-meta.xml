@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If true, download / view history will be tracked for this file. --></help>
+    <label><!-- Track Download / View History? --></label>
+    <name>NEILON__Track_Download_History__c</name>
+</CustomFieldTranslation>

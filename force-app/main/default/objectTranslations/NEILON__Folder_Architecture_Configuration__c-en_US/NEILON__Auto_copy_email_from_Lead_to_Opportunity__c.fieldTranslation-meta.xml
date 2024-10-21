@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, while conversion, email attachments of lead will be automatically copied to converted opportunity. --></help>
+    <label><!-- Auto copy email from Lead to Opportunity --></label>
+    <name>NEILON__Auto_copy_email_from_Lead_to_Opportunity__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Other Fields For New Folder Page --></label>
+        <name>NEILON__Folder_Info</name>
+    </fieldSets>
+    <validationRules>
+        <errorMessage><!-- You cannot change name of bucket. You have to create new bucket from System Configration page. Contact your System Admin. --></errorMessage>
+        <name>NEILON__Bucket_Name_Change_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The folder name cannot contain special characters  &quot;/&quot; and &quot;?&quot;. --></errorMessage>
+        <name>NEILON__Folder_Name_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Folder --></label>
+        <name>NEILON__New_Folder</name>
+    </webLinks>
+</CustomObjectTranslation>

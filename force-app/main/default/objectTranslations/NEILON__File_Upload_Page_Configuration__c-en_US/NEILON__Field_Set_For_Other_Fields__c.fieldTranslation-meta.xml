@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Name of the field set which will be used to show additional fields in file upload UI. --></help>
+    <label><!-- Field Set For Other Fields --></label>
+    <name>NEILON__Field_Set_For_Other_Fields__c</name>
+</CustomFieldTranslation>

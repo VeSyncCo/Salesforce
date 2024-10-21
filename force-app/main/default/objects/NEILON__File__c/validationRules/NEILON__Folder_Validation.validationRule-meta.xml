@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Folder_Validation</fullName>
+    <active>true</active>
+    <description>Folder cannot updated manually.</description>
+    <errorConditionFormula>AND(NOT(NEILON__System_Update__c), NOT(ISNEW()), ISCHANGED( NEILON__Folder__c ))</errorConditionFormula>
+    <errorDisplayField>NEILON__Folder__c</errorDisplayField>
+    <errorMessage>Folder cannot be updated manually. Its a system generated field.</errorMessage>
+</ValidationRule>

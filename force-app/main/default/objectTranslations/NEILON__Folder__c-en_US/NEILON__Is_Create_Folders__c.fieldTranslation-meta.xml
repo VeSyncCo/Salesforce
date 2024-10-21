@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If true, folder structure will be created using Amazon File Key for folder. --></help>
+    <label><!-- Is Create Folders? --></label>
+    <name>NEILON__Is_Create_Folders__c</name>
+</CustomFieldTranslation>

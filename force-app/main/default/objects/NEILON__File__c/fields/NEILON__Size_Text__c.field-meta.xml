@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Size_Text__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(AND(NOT(ISNULL(NEILON__Size__c)), NEILON__Size__c != 0), TEXT( IF(FLOOR( LOG(NEILON__Size__c) / LOG(1024)) == 0, NEILON__Size__c, IF(FLOOR( LOG(NEILON__Size__c)/LOG(1024)) == 1, ROUND(NEILON__Size__c/1024, 2), IF(FLOOR(LOG(NEILON__Size__c)/LOG(1024)) == 2, ROUND(NEILON__Size__c/(1024*1024), 2), IF(FLOOR(LOG(NEILON__Size__c)/LOG(1024)) == 3, ROUND(NEILON__Size__c/(1024*1024*1024), 2), ROUND(NEILON__Size__c/(1024*1024*1024*1024), 2)))))) &amp; &quot; &quot; &amp; IF(FLOOR(LOG(NEILON__Size__c)/LOG(1024)) == 0, &quot;B&quot;, IF(FLOOR(LOG(NEILON__Size__c)/LOG(1024)) == 1, &quot;KB&quot;, IF(FLOOR(LOG(NEILON__Size__c)/LOG(1024)) == 2, &quot;MB&quot;, IF(FLOOR(LOG(NEILON__Size__c)/LOG(1024)) == 3, &quot;GB&quot;, &quot;TB&quot;)))), &quot;0 B&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Size</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

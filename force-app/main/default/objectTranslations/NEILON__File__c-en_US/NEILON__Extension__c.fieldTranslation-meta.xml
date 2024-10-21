@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Extension --></label>
+    <name>NEILON__Extension__c</name>
+    <picklistValues>
+        <masterLabel>.doc</masterLabel>
+        <translation><!-- .doc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.gif</masterLabel>
+        <translation><!-- .gif --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.jpeg</masterLabel>
+        <translation><!-- .jpeg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.jpg</masterLabel>
+        <translation><!-- .jpg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.mkv</masterLabel>
+        <translation><!-- .mkv --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.mp3</masterLabel>
+        <translation><!-- .mp3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.pdf</masterLabel>
+        <translation><!-- .pdf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.png</masterLabel>
+        <translation><!-- .png --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.txt</masterLabel>
+        <translation><!-- .txt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.wmv</masterLabel>
+        <translation><!-- .wmv --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.wsdl</masterLabel>
+        <translation><!-- .wsdl --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.xls</masterLabel>
+        <translation><!-- .xls --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.xlsx</masterLabel>
+        <translation><!-- .xlsx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.xml</masterLabel>
+        <translation><!-- .xml --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>.xsml</masterLabel>
+        <translation><!-- .xsml --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>xsl</masterLabel>
+        <translation><!-- xsl --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

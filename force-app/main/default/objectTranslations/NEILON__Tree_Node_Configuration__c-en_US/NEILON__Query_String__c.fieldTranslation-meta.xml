@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Node query string for query type nodes. The query string is (name, value) pairs of conditions in the form Name#Vaue~N2#V2....  AND condition is assumed between each (name, value) pairs. --></help>
+    <label><!-- Query String --></label>
+    <name>NEILON__Query_String__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>NEILON__Type__c</name>
+    <picklistValues>
+        <masterLabel>Error Log</masterLabel>
+        <translation><!-- Error Log --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>File Preview Content Container</masterLabel>
+        <translation><!-- File Preview Content Container --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inbound Email Attachment Container</masterLabel>
+        <translation><!-- Inbound Email Attachment Container --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Job Tracker</masterLabel>
+        <translation><!-- Job Tracker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>S3-Link Email Files Template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>S3-Link Default Email Files Template</name>
+    <style>none</style>
+    <subject>Files to download</subject>
+    <textOnly>Please find the files.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, multiple file upload UI will be used for file upload. --></help>
+    <label><!-- Use Multiple File Upload UI --></label>
+    <name>NEILON__Use_Multiple_File_Upload_UI__c</name>
+</CustomFieldTranslation>

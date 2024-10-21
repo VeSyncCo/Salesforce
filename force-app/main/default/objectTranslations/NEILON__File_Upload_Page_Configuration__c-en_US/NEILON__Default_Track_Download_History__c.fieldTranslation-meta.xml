@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- In S3-Link, we have a feature to track downloads and views of S3-Files by users inside your Salesforce org. You can enable that feature at the S3-File record level by checking &quot;Track Download History&quot; in S3-File. So if you want to enable it by default for all new S3-Files, you can check this checkbox. We have another object called S3-File Download History and with download and view tracking enabled, we create S3-File Download History record when someone in your Salesforce will download / view the file. --></help>
+    <label><!-- Default Track Download / View History --></label>
+    <name>NEILON__Default_Track_Download_History__c</name>
+</CustomFieldTranslation>

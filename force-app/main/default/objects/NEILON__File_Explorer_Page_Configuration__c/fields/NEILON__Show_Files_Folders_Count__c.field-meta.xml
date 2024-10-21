@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Show_Files_Folders_Count__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, count of sub folders and files under each folder will be displayed in S3-File Explorer</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, count of sub folders and files under each folder will be displayed in S3-File Explorer</inlineHelpText>
+    <label>Show Files &amp; Folder Count</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

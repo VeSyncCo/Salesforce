@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Soft_Delete__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, file won&apos;t be deleted from Amazon server. Only Salesforce File reference will be deleted.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, file won&apos;t be deleted from Amazon server. Only Salesforce File reference will be deleted.</inlineHelpText>
+    <label>Soft Delete</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

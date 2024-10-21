@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Is_Allow_Folder_Creation__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, users can create folders.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, users can create folders.</inlineHelpText>
+    <label>Enable Folder Creation</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

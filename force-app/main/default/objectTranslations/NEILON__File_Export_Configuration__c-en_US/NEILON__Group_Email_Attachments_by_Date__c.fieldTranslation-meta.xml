@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, email attachments will be grouped by date. --></help>
+    <label><!-- Group Email Attachments by Date? --></label>
+    <name>NEILON__Group_Email_Attachments_by_Date__c</name>
+</CustomFieldTranslation>

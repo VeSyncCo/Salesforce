@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Multipart_Upload__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, multipart file upload will be enabled. It is required for files larger than 5 GB. This requires additional settings. So please consult help from S3-Link support team before enabling this option.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, multipart file upload will be enabled. It is required for files larger than 5 GB. This requires additional settings. So please consult help from S3-Link support team before enabling this option.</inlineHelpText>
+    <label>Multipart Upload?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

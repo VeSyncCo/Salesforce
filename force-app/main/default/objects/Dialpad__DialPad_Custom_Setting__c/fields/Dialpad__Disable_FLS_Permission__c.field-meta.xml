@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dialpad__Disable_FLS_Permission__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>On Checking this dialpad doesn&amp;apos;t consider user field level access while making any DML.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>On Checking this dialpad doesn&amp;apos;t consider user field level access while making any DML.</inlineHelpText>
+    <label>Disable FLS Permission</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

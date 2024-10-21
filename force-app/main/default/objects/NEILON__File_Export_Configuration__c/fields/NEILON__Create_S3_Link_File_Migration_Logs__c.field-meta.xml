@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Create_S3_Link_File_Migration_Logs__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, S3-Link File Migration Logs will be created for Salesforce files which are not migrated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, S3-Link File Migration Logs will be created for Salesforce files which are not migrated.</inlineHelpText>
+    <label>Create S3-Link File Migration Logs</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

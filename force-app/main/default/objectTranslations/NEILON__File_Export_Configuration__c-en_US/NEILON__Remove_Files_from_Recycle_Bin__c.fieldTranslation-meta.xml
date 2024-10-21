@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, Salesforce attachments and files will be removed from Recycle Bin once they are moved to Amazon S3. --></help>
+    <label><!-- Remove Files from Recycle Bin --></label>
+    <name>NEILON__Remove_Files_from_Recycle_Bin__c</name>
+</CustomFieldTranslation>

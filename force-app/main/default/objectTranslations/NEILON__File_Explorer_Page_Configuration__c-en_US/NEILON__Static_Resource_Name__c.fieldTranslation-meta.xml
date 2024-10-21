@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Name of static resource where your file extension icons are added. Keep it empty, if you want to use default icons. --></help>
+    <label><!-- Static Resource Name --></label>
+    <name>NEILON__Static_Resource_Name__c</name>
+</CustomFieldTranslation>

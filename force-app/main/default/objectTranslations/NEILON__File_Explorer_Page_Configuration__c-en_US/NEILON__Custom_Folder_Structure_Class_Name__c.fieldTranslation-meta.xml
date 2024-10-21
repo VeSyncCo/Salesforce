@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Name of the class to be invoked when creating folder structure for Salesforce records through File Explorer page --></help>
+    <label><!-- Custom Folder Structure Class Name --></label>
+    <name>NEILON__Custom_Folder_Structure_Class_Name__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dialpad__RegexCheck</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(REGEX(Name, &quot;^([0-9a-zA-Z\\d-_]+\\s?)*$&quot;))</errorConditionFormula>
+    <errorMessage>Please fill a valid Name</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, multipart file upload will be enabled. It is required for files larger than 5 GB. This requires additional settings. So please consult help from S3-Link support team before enabling this option. --></help>
+    <label><!-- Multipart Upload? --></label>
+    <name>NEILON__Multipart_Upload__c</name>
+</CustomFieldTranslation>

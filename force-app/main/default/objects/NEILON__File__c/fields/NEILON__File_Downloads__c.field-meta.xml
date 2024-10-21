@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__File_Downloads__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total numbers of file views / downloads.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total numbers of file views / downloads.</inlineHelpText>
+    <label>Number of Views / Downloads</label>
+    <summaryForeignKey>NEILON__File_Download_History__c.NEILON__File__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

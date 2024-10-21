@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Brand__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Product_Category</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <valueName>Air Fryer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <valueName>Air Fryer Toaster Oven</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <valueName>Coffe Grinder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <valueName>Coffee Maker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <valueName>Coffee Warmer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <valueName>Electric Kettle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <valueName>Food Dehydrator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <valueName>Gooseneck Kettle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <valueName>Indoor Grill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <valueName>Pressure Cooker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <valueName>Rice Cooker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <valueName>Teapot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <valueName>Toaster Over</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cosori</controllingFieldValue>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <controllingFieldValue>Levoit</controllingFieldValue>
+            <controllingFieldValue>PawSync</controllingFieldValue>
+            <valueName>All products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Air Mattress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Air Pump</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Blood Pressure Monitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Body Fat Scale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Body Weight Scale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Camping Lantern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Electric Toothbrush</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Fitness Tracker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Foot Massager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Kitchen Scale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Luggage Scale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Massager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Multimeter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Nutrition Scales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Outdoor Remote Outlet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Smart 3-way Light Switch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Smart Plug</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Smart Bulb</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Smart Single Pole Light Switch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Smart Switch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>TENS Unit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Etekcity</controllingFieldValue>
+            <valueName>Thermometer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Levoit</controllingFieldValue>
+            <valueName>Air Purifier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Levoit</controllingFieldValue>
+            <valueName>Air Purifier Filter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Levoit</controllingFieldValue>
+            <valueName>Humidifier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Levoit</controllingFieldValue>
+            <valueName>Hygrothermograph</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Levoit</controllingFieldValue>
+            <valueName>Smart Thermostat &amp; Power Extended Kit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Levoit</controllingFieldValue>
+            <valueName>Tower Fans</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Levoit</controllingFieldValue>
+            <valueName>Vaccum Cleaner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PawSync</controllingFieldValue>
+            <valueName>Automatic Pets Feeders</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

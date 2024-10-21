@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, by default user&apos;s email signature will be added to the email. --></help>
+    <label><!-- Use Email Signature? --></label>
+    <name>NEILON__Use_Email_Signature__c</name>
+</CustomFieldTranslation>

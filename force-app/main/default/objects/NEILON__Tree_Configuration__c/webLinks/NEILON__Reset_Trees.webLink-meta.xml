@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Reset_Trees</fullName>
+    <availability>online</availability>
+    <description>This page is used to reset tree configurations.</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Reset Trees</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>{!URLFOR(&quot;/apex/NEILON__edTreeConfiguration&quot;, null, [&apos;retURL&apos;=&apos;/&apos;+$ObjectType.NEILON__Tree_Configuration__c])}</url>
+</WebLink>

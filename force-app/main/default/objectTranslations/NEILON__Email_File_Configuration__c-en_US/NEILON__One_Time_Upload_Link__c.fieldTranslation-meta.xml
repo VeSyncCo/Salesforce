@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, users will not be able to upload documents more than once using the upload link in the email. --></help>
+    <label><!-- One Time Upload Link? --></label>
+    <name>NEILON__One_Time_Upload_Link__c</name>
+</CustomFieldTranslation>

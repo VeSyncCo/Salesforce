@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, new users will automatically granted S3-Link access. --></help>
+    <label><!-- Auto Grant Access to New Users --></label>
+    <name>NEILON__Auto_Grant_Access_To_New_Users__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__File_Meta_Fields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>File fields which need to be stored as Amazon S3 object metadata.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>File fields which need to be stored as Amazon S3 object metadata.</inlineHelpText>
+    <label>Amazon S3 File Metadata Fields</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

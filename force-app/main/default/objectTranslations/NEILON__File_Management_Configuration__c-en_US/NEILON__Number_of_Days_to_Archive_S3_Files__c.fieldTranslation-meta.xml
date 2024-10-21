@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- S3-Files will be auto archived after these many days from CreatedDate. --></help>
+    <label><!-- Number of Days to Archive S3-Files --></label>
+    <name>NEILON__Number_of_Days_to_Archive_S3_Files__c</name>
+</CustomFieldTranslation>

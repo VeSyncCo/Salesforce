@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If file is not Public on Amazon, the AWS links in Download URL field can last maximum for 7 days. To set the link expiry duration for S3-Files, we have a field called Presigned URL Reset Frequency in S3-File. The AWS link for the file auto expires after that duration. To avoid the AWS link expiry, we have added a background job which runs every night and reset links which are suppose to expire tomorrow. You can set the default value for  Presigned URL Reset Frequency for all new files using this option. --></help>
+    <label><!-- Default Presigned URL Reset Frequency --></label>
+    <name>NEILON__Default_Presigned_URL_Frequency__c</name>
+</CustomFieldTranslation>

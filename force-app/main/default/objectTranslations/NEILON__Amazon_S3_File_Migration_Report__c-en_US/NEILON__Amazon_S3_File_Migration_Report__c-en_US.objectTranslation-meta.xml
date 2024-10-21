@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <webLinks>
+        <label><!-- Migrate_All_Files --></label>
+        <name>NEILON__Migrate_All_Files</name>
+    </webLinks>
+</CustomObjectTranslation>

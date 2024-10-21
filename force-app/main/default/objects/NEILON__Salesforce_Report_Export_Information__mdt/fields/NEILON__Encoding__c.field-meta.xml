@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Encoding__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Encoding</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ISO-8859-1</fullName>
+                <default>false</default>
+                <label>ISO-8859-1 (General US &amp; Western European, ISO-LATIN-1)</label>
+            </value>
+            <value>
+                <fullName>UTF-8</fullName>
+                <default>true</default>
+                <label>Unicode (UTF-8)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

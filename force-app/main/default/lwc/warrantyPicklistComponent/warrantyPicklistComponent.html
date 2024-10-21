@@ -1,0 +1,38 @@
+<template>
+    <lightning-card title="Warranty Case Details">
+
+        <div  class=" slds-p-horizontal_small slds-grid slds-gutters slds-wrap">
+
+            <div class="slds-p-horizontal_small slds-size_12-of-12">
+                <lightning-combobox  name="MainCategory" onchange={handleMainCategoryChange} label="Main Category" disabled={mainCategoryDisabled} options={maincategoryOptions} value={mainCategoryValue} 
+                ></lightning-combobox>
+            </div>
+
+            <div class="slds-p-horizontal_small slds-size_12-of-12">
+                <lightning-combobox  name="AllegedIssue" onchange={handleAllegedIssueChange} label="Alleged Issue" disabled={allegedIssueDisabled} options={allegedIssueOptions} value={allegedIssueValue} 
+                ></lightning-combobox>
+            </div> 
+
+            <div class="slds-p-horizontal_small slds-size_12-of-12">
+                <lightning-combobox  name="Detail" onchange={handleDetailChange} label="Detail" disabled={detailDisabled} options={detailOptions} value={detailValue} 
+                ></lightning-combobox>
+            </div>
+
+            <div class="slds-p-horizontal_small slds-size_12-of-12 slds-m-bottom_xxx-small">
+                <lightning-combobox  name="Sub Detail" onchange={handleSubDetailChange} label="Sub Detail" disabled={subDetailDisabled} options={subDetailOptions} value={subDetailValue} 
+                ></lightning-combobox>
+            </div>
+            
+        </div>
+
+        <div slot="footer" class="slds-align_absolute-center">
+            <lightning-button variant="brand" data-id = "Edit" label="Edit" title="Edit" onclick={handleEdit}  class="slds-m-left_x-small"></lightning-button>
+            <lightning-button  label="Cancel" data-id = "Cancel" title="Cancel" onclick={handleCancel} class="slds-m-left_x-small hide"></lightning-button>
+            <lightning-button variant="brand" data-id = "Save" label="Save" title="Save" onclick={handleSave} class="slds-m-left_x-small hide"></lightning-button>
+            
+        </div>
+
+
+    </lightning-card>
+
+</template>

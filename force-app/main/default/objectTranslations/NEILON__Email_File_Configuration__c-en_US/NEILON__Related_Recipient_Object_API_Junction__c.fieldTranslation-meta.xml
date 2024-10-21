@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- API Name of an object which contains recipients and which has this record as the master field. --></help>
+    <label><!-- Related Recipient Object API (Junction) --></label>
+    <name>NEILON__Related_Recipient_Object_API_Junction__c</name>
+</CustomFieldTranslation>

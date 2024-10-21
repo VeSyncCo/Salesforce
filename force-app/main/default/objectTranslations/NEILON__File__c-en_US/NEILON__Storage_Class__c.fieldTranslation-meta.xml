@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Storage Class --></label>
+    <name>NEILON__Storage_Class__c</name>
+    <picklistValues>
+        <masterLabel>S3 Glacier Deep Archive</masterLabel>
+        <translation><!-- S3 Glacier Deep Archive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S3 Glacier Flexible Retrieval</masterLabel>
+        <translation><!-- S3 Glacier Flexible Retrieval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S3 Glacier Instant Retrieval</masterLabel>
+        <translation><!-- S3 Glacier Instant Retrieval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S3 Intelligent-Tiering</masterLabel>
+        <translation><!-- S3 Intelligent-Tiering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S3 Standard</masterLabel>
+        <translation><!-- S3 Standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S3 Standard-IA</masterLabel>
+        <translation><!-- S3 Standard-IA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

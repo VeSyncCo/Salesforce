@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Enable_Strict_Folder_Access__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If true, upload files and create folders will be enabled only if the user has edit access to the selected folder.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If true, upload files and create folders will be enabled only if the user has edit access to the selected folder.</inlineHelpText>
+    <label>Enable Strict Folder Access</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

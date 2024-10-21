@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Enable_File_Numbers__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, file number will be added in name if file with same name found. i.e if file.pdf alredy exist new file name will be file(1).pdf.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, file number will be added in name if file with same name found. i.e if file.pdf alredy exist new file name will be file(1).pdf.</inlineHelpText>
+    <label>Enable File Numbers</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

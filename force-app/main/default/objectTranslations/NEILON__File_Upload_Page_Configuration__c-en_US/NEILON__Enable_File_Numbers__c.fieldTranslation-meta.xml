@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, file number will be added in name if file with same name found. i.e if file.pdf alredy exist new file name will be file(1).pdf. --></help>
+    <label><!-- Enable File Numbers --></label>
+    <name>NEILON__Enable_File_Numbers__c</name>
+</CustomFieldTranslation>

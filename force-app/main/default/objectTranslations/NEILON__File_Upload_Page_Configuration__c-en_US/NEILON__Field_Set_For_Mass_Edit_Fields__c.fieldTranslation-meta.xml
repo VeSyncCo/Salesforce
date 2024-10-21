@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- In our multiple file upload component, users can select multiple files and set field values for those files and upload them in S3. But what if they want to set same field values for all selected files. They can do that using our Mass Edit option. This configuration allows you to configure a set of fields which users will be able to set using Mass Edit option. --></help>
+    <label><!-- Field Set For Mass Edit Fields --></label>
+    <name>NEILON__Field_Set_For_Mass_Edit_Fields__c</name>
+</CustomFieldTranslation>

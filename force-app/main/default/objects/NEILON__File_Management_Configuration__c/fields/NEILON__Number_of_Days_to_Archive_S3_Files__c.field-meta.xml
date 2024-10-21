@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Number_of_Days_to_Archive_S3_Files__c</fullName>
+    <deprecated>false</deprecated>
+    <description>S3-Files will be auto archived after these many days from CreatedDate.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>S3-Files will be auto archived after these many days from CreatedDate.</inlineHelpText>
+    <label>Number of Days to Archive S3-Files</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

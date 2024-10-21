@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, reports will be grouped by date. --></help>
+    <label><!-- Group Reports by Date? --></label>
+    <name>NEILON__Group_Reports_by_Date__c</name>
+</CustomFieldTranslation>

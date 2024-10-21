@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, Salesforce files will be created if S3-File does not have any reference Salesforce file or attachment. --></help>
+    <label><!-- Create Salesforce Files --></label>
+    <name>NEILON__Create_Salesforce_Files__c</name>
+</CustomFieldTranslation>

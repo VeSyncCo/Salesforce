@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Save_Image_Location__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>We have geo location field called Image Location in S3-File object. If this is enabled, we will get the metadata of image at the time of upload and if the location is available for the selected image, we store that location in the geo location field in S3-File record in Salesforce.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>We have geo location field called Image Location in S3-File object. If this is enabled, we will get the metadata of image at the time of upload and if the location is available for the selected image, we store that location in the geo location field in S3-File record in Salesforce.</inlineHelpText>
+    <label>Save Image Location</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If true, user will allow to select grouping node generated as a result of this tree node configuration. --></help>
+    <label><!-- Allow To Select Grouping Nodes --></label>
+    <name>NEILON__Allow_To_Select_Grouping_Nodes__c</name>
+</CustomFieldTranslation>

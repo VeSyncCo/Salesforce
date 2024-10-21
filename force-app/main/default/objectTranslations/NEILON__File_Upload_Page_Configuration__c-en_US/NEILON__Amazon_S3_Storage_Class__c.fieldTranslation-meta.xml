@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Amazon S3 offers a range of storage classes that you can choose from based on the data access, resiliency, and cost requirements of your workloads. Please visit https://aws.amazon.com/s3/storage-classes/ for more details. --></help>
+    <label><!-- Amazon S3 Storage Class --></label>
+    <name>NEILON__Amazon_S3_Storage_Class__c</name>
+</CustomFieldTranslation>

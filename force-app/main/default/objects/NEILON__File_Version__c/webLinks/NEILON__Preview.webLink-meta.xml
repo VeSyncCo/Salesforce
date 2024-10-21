@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Preview</fullName>
+    <availability>online</availability>
+    <description>Show preview of version</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Preview</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR(&quot;/apex/NEILON__edFilePreview&quot;,null,[&apos;id&apos;=NEILON__File_Version__c.NEILON__FileId__c,&apos;versionid&apos;=NEILON__File_Version__c.Id,&apos;retURL&apos;=&apos;/&apos;+NEILON__File_Version__c.Id])}</url>
+</WebLink>

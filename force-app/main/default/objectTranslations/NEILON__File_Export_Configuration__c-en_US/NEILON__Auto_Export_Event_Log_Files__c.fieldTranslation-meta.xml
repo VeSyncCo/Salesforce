@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, Event Log Files will be automatically backed up on Amazon S3 every day. To change the backup frequency, you can start schedule job from Setup &gt; Develope &gt; Apex Classes &gt; Schedule Apex &gt; Class edExportEventLogFilesSchedulable. --></help>
+    <label><!-- Auto Backup Event Log Files --></label>
+    <name>NEILON__Auto_Export_Event_Log_Files__c</name>
+</CustomFieldTranslation>

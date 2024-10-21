@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, show file extension icon. --></help>
+    <label><!-- Show File Extension Icon --></label>
+    <name>NEILON__Show_Extension_Icon__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dialpad__Disable_Dialpad_Triggers__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This disabled all Dialpad related triggers</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this if you want all the Dialpad triggers to be disabled</inlineHelpText>
+    <label>Disable Dialpad Triggers</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Tree where this node is displayed --></help>
+    <label><!-- Tree Configuration --></label>
+    <name>NEILON__Tree_Configuration__c</name>
+    <relationshipLabel><!-- S3-Link Tree Node Configurations --></relationshipLabel>
+</CustomFieldTranslation>

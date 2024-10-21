@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Its level to display number of parent nodes in node path. With this it can display top most root node and that many immediate parent e.g. /rootnode/…/P2/P1/Node when number of parent nodes in node path = 2. --></help>
+    <label><!-- Number of Node Path Levels --></label>
+    <name>NEILON__Number_of_Node_Path_Levels__c</name>
+</CustomFieldTranslation>

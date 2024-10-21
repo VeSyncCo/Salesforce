@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Folder_to_Export_Event_Log_Files__c</fullName>
+    <deprecated>false</deprecated>
+    <description>S3 Link Folder Id where all event log files will be exported.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>S3 Link Folder Id where all event log files will be exported.</inlineHelpText>
+    <label>Where to Export Event Log Files?</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

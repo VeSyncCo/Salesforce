@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- There are some validation on file name. There are some characters which are not allowed in file name and file name cannot go beyond 80 characters. If this option is enabled, we auto replace all invalid characters with &quot;_&quot; and trim file name if it is beyond 80 characters. --></help>
+    <label><!-- Auto Validate File Name --></label>
+    <name>NEILON__Auto_Validate_Name__c</name>
+</CustomFieldTranslation>

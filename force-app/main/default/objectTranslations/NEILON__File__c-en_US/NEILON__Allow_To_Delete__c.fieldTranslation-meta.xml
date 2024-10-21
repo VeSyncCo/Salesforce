@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If true, all users who have access for this file, can delete it from amazon. --></help>
+    <label><!-- Allow other users to Delete? --></label>
+    <name>NEILON__Allow_To_Delete__c</name>
+</CustomFieldTranslation>

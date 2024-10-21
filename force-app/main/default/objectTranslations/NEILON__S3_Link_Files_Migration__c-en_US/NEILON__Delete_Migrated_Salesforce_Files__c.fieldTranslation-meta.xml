@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, salesforce files / attachments will be deleted after migration --></help>
+    <label><!-- Delete Migrated Salesforce Files? --></label>
+    <name>NEILON__Delete_Migrated_Salesforce_Files__c</name>
+</CustomFieldTranslation>

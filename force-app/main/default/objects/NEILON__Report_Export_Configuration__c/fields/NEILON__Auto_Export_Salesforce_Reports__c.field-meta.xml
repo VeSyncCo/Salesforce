@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Auto_Export_Salesforce_Reports__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, Salesforce reports will be automatically exported to Amazon S3 every day.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, reports will be automatically backed up on Amazon S3 every day. To change the backup frequency, you can start schedule job from Setup &gt; Develop &gt; Apex Classes &gt; Schedule Apex &gt; Class edExportReportsSchedulable.</inlineHelpText>
+    <label>Auto Export Salesforce Reports</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

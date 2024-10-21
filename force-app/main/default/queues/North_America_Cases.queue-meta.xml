@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>North America Cases</name>
+    <queueMembers>
+        <users>
+            <user>deepakhegde1968@gmail.com</user>
+            <user>deepakhegde19637@gmail.com</user>
+            <user>deepakhegde1960@gmail.com</user>
+            <user>deepakhegde1965@gmail.com</user>
+            <user>deepakhegde1962@gmail.com</user>
+            <user>deepakhegde1964@gmail.com</user>
+            <user>deepakhegde19634@gmail.com</user>
+            <user>deepakhegde1969@gmail.com</user>
+            <user>deepakhegde1970@gmail.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>cases_Routing_config</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

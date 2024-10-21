@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, that means the report is created by users and not a standard Salesforce report. --></help>
+    <label><!-- Custom Report? --></label>
+    <name>NEILON__Custom__c</name>
+</CustomFieldTranslation>

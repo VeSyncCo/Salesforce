@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Id of Content Version or Salesforce Attachment for which file is created. --></help>
+    <label><!-- Salesforce File Id --></label>
+    <name>NEILON__Export_Attachment_Id__c</name>
+</CustomFieldTranslation>

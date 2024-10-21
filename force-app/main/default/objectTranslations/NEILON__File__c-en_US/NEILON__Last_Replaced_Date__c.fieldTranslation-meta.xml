@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Last date on which this file has been uploaded. --></help>
+    <label><!-- Last Uploaded Date --></label>
+    <name>NEILON__Last_Replaced_Date__c</name>
+</CustomFieldTranslation>

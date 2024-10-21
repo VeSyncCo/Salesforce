@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Other_File_Fields_For_Upload_Page</fullName>
+    <description>Other file fields which users can set while file upload.</description>
+    <label>Other File Fields For Upload Page</label>
+</FieldSet>

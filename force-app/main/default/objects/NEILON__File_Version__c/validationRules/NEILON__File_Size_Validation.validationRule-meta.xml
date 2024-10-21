@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__File_Size_Validation</fullName>
+    <active>true</active>
+    <description>File Size cannot be updated once file is created.</description>
+    <errorConditionFormula>AND(NOT(ISNEW()), ISCHANGED( NEILON__Size__c ))</errorConditionFormula>
+    <errorDisplayField>NEILON__Size__c</errorDisplayField>
+    <errorMessage>Size cannot be updated manually. It&apos;s a system generated field.</errorMessage>
+</ValidationRule>

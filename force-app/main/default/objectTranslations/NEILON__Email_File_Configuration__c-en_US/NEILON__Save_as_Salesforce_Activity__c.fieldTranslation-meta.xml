@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, each email will be saved as Salesforce activity for parent record. --></help>
+    <label><!-- Save as Salesforce Activity? --></label>
+    <name>NEILON__Save_as_Salesforce_Activity__c</name>
+</CustomFieldTranslation>

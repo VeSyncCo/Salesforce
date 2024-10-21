@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- List of Content Version field API names separated by &quot;;&quot; whose values needs to be stored as AWS Metadata --></help>
+    <label><!-- Content Version Fields for AWS Metadata --></label>
+    <name>NEILON__Salesforce_File_Fields_for_AWS_Metadata__c</name>
+</CustomFieldTranslation>

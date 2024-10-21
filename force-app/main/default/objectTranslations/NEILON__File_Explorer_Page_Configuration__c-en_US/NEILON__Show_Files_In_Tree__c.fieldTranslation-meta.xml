@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, show files in the tree. --></help>
+    <label><!-- Show Files in Tree --></label>
+    <name>NEILON__Show_Files_In_Tree__c</name>
+</CustomFieldTranslation>

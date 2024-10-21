@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Dual Blaze 6.8-Quart Smart Air Fryer</label>
+                <name>Dual_Blaze_6_8_Quart_Smart_Air_Fryer</name>
+            </dataCategory>
+            <dataCategory>
+                <label>TurboBlaze™ 6-Quart Air Fryer</label>
+                <name>TurboBlaze_6_Quart_Air_Fryer</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Premium II Plus 6.5-Quart Air Fryer</label>
+                <name>Premium_II_Plus_6_5_Quart_Air_Fryer</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pro LE 5.0-Quart Air Fryer</label>
+                <name>Pro_LE_5_0_Quart_Air_Fryer</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pro II Air Fryer - Premium 5.8-Quart Air</label>
+                <name>Pro_II_Air_Fryer_Premium_5_8_Quart_Air</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Lite 4.0-Quart Smart Air Fryer</label>
+                <name>Lite_4_0_Quart_Smart_Air_Fryer</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Lite 2.1-Quart Mini Air Fryer</label>
+                <name>Lite_2_1_Quart_Mini_Air_Fryer</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pro II 5.8-Quart Smart Air Fryer</label>
+                <name>Pro_II_5_8_Quart_Smart_Air_Fryer</name>
+            </dataCategory>
+            <label>Air Fryers</label>
+            <name>Air_Fryers</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>26-Quart Ceramic Air Fryer Oven</label>
+                <name>X26_Quart_Ceramic_Air_Fryer_Oven</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Smart Air Fryer Toaster Oven</label>
+                <name>Smart_Air_Fryer_Toaster_Oven</name>
+            </dataCategory>
+            <dataCategory>
+                <label>30 Liter Air Fryer Oven / 30 Liter Smart</label>
+                <name>X30_Liter_Air_Fryer_Oven_30_Liter_Smart</name>
+            </dataCategory>
+            <dataCategory>
+                <label>13-Quart Air Fryer Oven</label>
+                <name>X13_Quart_Air_Fryer_Oven</name>
+            </dataCategory>
+            <label>Ovens</label>
+            <name>Ovens</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Pioneer 5-Tray Food Dehydrator</label>
+                <name>Pioneer_5_Tray_Food_Dehydrator</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Premium Stainless Steel Food Dehydrator</label>
+                <name>Premium_Stainless_Steel_Food_Dehydrator</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Premium Pro 10-Tray Food Dehydrator</label>
+                <name>Premium_Pro_10_Tray_Food_Dehydrator</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Premium Mini 5-Tray Food Dehydrator</label>
+                <name>Premium_Mini_5_Tray_Food_Dehydrator</name>
+            </dataCategory>
+            <label>Dehydrators</label>
+            <name>Dehydrators</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>6.0-Quart Pressure Cooker</label>
+                <name>X6_0_Quart_Pressure_Cooker</name>
+            </dataCategory>
+            <dataCategory>
+                <label>5.0-Quart Rice Cooker</label>
+                <name>X5_0_Quart_Rice_Cooker</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Original Bread Maker</label>
+                <name>Original_Bread_Maker</name>
+            </dataCategory>
+            <label>Multi-Cookers</label>
+            <name>Multi_Cookers</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Pulse Coffee Grinder</label>
+                <name>Pulse_Coffee_Grinder</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Stainless Steel Electric Kettle</label>
+                <name>Stainless_Steel_Electric_Kettle</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Original Digital Glass Kettle</label>
+                <name>Original_Digital_Glass_Kettle</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Original Glass Gooseneck Teapot</label>
+                <name>Original_Glass_Gooseneck_Teapot</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Original Electric/Smart Gooseneck Kettle</label>
+                <name>Original_Electric_Smart_Gooseneck_Kettle</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Original Automatic Coffee Warmer</label>
+                <name>Original_Automatic_Coffee_Warmer</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Smart Meat Thermometer</label>
+                <name>Smart_Meat_Thermometer</name>
+            </dataCategory>
+            <label>Beverages/Miscellaneous</label>
+            <name>Beverages_Miscellaneous</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Frequently Asked Questions</label>
+            <name>Frequently_Asked_Questions</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Shipping &amp; Returns</label>
+            <name>Shipping_Returns</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Warranty</label>
+            <name>Warranty</name>
+        </dataCategory>
+        <label>Cosori Articles</label>
+        <name>Cosori_Articles</name>
+    </dataCategory>
+    <description>Housing Cosori Help Center Articles</description>
+    <label>Cosori</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+        <object>SvcCatalogItemDef</object>
+    </objectUsage>
+</DataCategoryGroup>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Dialpad Activity Type --></label>
+    <name>Dialpad__Dialpad_Activity_Type__c</name>
+    <picklistValues>
+        <masterLabel>Dialing</masterLabel>
+        <translation>拨号</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List Update</masterLabel>
+        <translation>列表更新</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Record(s) Added</masterLabel>
+        <translation>添加的记录</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Record(s) Removed</masterLabel>
+        <translation>记录已删除</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warning</masterLabel>
+        <translation>警告</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, S3-Files will not be immediately deleted from Salesforce. They will be moved to S3-Link Recycle Bin and stay there for a few days(configured here) and after that they will be auto deleted from Salesforce and Amazon S3 unless someone recovers them from S3-Link Recycle Bin. --></help>
+    <label><!-- Enable S3-Link Recycle Bin --></label>
+    <name>NEILON__Enable_S3_Link_Recycle_Bin__c</name>
+</CustomFieldTranslation>

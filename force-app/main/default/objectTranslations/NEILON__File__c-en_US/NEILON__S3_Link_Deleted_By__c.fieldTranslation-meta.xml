@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The user who moved the S3-File into S3-Link Recycle Bin. --></help>
+    <label><!-- S3-Link Deleted By --></label>
+    <name>NEILON__S3_Link_Deleted_By__c</name>
+    <relationshipLabel><!-- S3-Files (S3-Link Deleted By) --></relationshipLabel>
+</CustomFieldTranslation>

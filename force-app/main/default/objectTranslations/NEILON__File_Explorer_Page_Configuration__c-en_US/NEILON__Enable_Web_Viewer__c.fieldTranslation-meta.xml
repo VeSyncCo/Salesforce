@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If true, when user click file name link, it will open file in Web Viewer like PDFTron. This requires additional setup. Contact S3-Link Support team for this. --></help>
+    <label><!-- Enable Web Viewer --></label>
+    <name>NEILON__Enable_Web_Viewer__c</name>
+</CustomFieldTranslation>

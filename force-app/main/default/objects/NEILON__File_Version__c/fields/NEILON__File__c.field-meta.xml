@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__File__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>File</label>
+    <referenceTo>NEILON__File__c</referenceTo>
+    <relationshipLabel>S3-File Versions</relationshipLabel>
+    <relationshipName>S3_File_Versions</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

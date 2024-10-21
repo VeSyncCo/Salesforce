@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The user who has last uploaded this file content. --></help>
+    <label><!-- Last Uploaded By --></label>
+    <name>NEILON__Last_Replaced_By__c</name>
+    <relationshipLabel><!-- S3-Files (Last Uploaded By) --></relationshipLabel>
+</CustomFieldTranslation>

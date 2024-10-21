@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Standard Salesforce Document folder, whose files needs to be exported in Amazon S3. --></help>
+    <label><!-- Salesforce Document Folder to Export --></label>
+    <name>NEILON__Salesforce_Document_Folder_to_Export__c</name>
+</CustomFieldTranslation>

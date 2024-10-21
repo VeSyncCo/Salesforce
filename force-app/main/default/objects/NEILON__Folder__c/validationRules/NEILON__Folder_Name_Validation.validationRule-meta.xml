@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Folder_Name_Validation</fullName>
+    <active>true</active>
+    <description>The folder name cannot contain special characters  &quot;/&quot; and &quot;?&quot;.</description>
+    <errorConditionFormula>OR(CONTAINS( Name , &quot;/&quot;), CONTAINS( Name , &quot;?&quot;))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>The folder name cannot contain special characters  &quot;/&quot; and &quot;?&quot;.</errorMessage>
+</ValidationRule>

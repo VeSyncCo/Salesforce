@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, file and folder details will be displayed in card view. --></help>
+    <label><!-- Card View? --></label>
+    <name>NEILON__Card_View__c</name>
+</CustomFieldTranslation>

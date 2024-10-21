@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Field API Name of the lookup field for parent object whose folder structure needs to be displayed. --></help>
+    <label><!-- Parent Lookup Field --></label>
+    <name>NEILON__Parent_Lookup_Field__c</name>
+</CustomFieldTranslation>

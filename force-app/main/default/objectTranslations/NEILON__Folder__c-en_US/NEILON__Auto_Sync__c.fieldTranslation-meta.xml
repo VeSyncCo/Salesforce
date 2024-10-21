@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If true, missing AWS files/folders(first 2000 files) in the bucket will be imported automatically in Salesforce every day. --></help>
+    <label><!-- Auto Import? --></label>
+    <name>NEILON__Auto_Sync__c</name>
+</CustomFieldTranslation>

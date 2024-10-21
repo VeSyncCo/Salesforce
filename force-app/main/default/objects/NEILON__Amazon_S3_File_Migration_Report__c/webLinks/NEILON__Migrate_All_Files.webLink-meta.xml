@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Migrate_All_Files</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Migrate All Files</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>{!URLFOR(&apos;/lightning/cmp/NEILON__edLightningUploadSalesforceFiles&apos;, &apos;&apos;, [&apos;NEILON__uploadAllFilesInReports&apos;=&apos;true&apos;])}</url>
+</WebLink>

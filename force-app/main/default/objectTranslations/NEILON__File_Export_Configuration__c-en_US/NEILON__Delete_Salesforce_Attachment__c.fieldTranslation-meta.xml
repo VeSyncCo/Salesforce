@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, Salesforce attachments and files will be deleted once they are moved to Amazon S3. --></help>
+    <label><!-- Delete Salesforce Attachments &amp; Files? --></label>
+    <name>NEILON__Delete_Salesforce_Attachment__c</name>
+</CustomFieldTranslation>

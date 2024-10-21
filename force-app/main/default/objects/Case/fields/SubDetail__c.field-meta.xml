@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubDetail__c</fullName>
+    <externalId>false</externalId>
+    <label>SubDetail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Basket coating</fullName>
+                <default>false</default>
+                <label>Basket coating</label>
+            </value>
+            <value>
+                <fullName>Fryer coating</fullName>
+                <default>false</default>
+                <label>Fryer coating</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Inner basket</fullName>
+                <default>false</default>
+                <label>Inner basket</label>
+            </value>
+            <value>
+                <fullName>Basket</fullName>
+                <default>false</default>
+                <label>Basket</label>
+            </value>
+            <value>
+                <fullName>Outer basket</fullName>
+                <default>false</default>
+                <label>Outer basket</label>
+            </value>
+            <value>
+                <fullName>Crisper Plate</fullName>
+                <default>false</default>
+                <label>Crisper Plate</label>
+            </value>
+            <value>
+                <fullName>Screws</fullName>
+                <default>false</default>
+                <label>Screws</label>
+            </value>
+            <value>
+                <fullName>Frame</fullName>
+                <default>false</default>
+                <label>Frame</label>
+            </value>
+            <value>
+                <fullName>Screen/Panel</fullName>
+                <default>false</default>
+                <label>Screen/Panel</label>
+            </value>
+            <value>
+                <fullName>Fryer basket pops out</fullName>
+                <default>false</default>
+                <label>Fryer basket pops out</label>
+            </value>
+            <value>
+                <fullName>Coating bubbling</fullName>
+                <default>false</default>
+                <label>Coating bubbling</label>
+            </value>
+            <value>
+                <fullName>Tray coating bubbling</fullName>
+                <default>false</default>
+                <label>Tray coating bubbling</label>
+            </value>
+            <value>
+                <fullName>Back panel</fullName>
+                <default>false</default>
+                <label>Back panel</label>
+            </value>
+            <value>
+                <fullName>Crumb tray</fullName>
+                <default>false</default>
+                <label>Crumb tray</label>
+            </value>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <label>Product</label>
+            </value>
+            <value>
+                <fullName>Button/Touchscreen/Knob</fullName>
+                <default>false</default>
+                <label>Button/Touchscreen/Knob</label>
+            </value>
+            <value>
+                <fullName>Coating</fullName>
+                <default>false</default>
+                <label>Coating</label>
+            </value>
+            <value>
+                <fullName>Glass door</fullName>
+                <default>false</default>
+                <label>Glass door</label>
+            </value>
+            <value>
+                <fullName>Rubber feet</fullName>
+                <default>false</default>
+                <label>Rubber feet</label>
+            </value>
+            <value>
+                <fullName>Tray</fullName>
+                <default>false</default>
+                <label>Tray</label>
+            </value>
+            <value>
+                <fullName>Wire rack</fullName>
+                <default>false</default>
+                <label>Wire rack</label>
+            </value>
+            <value>
+                <fullName>Door</fullName>
+                <default>false</default>
+                <label>Door</label>
+            </value>
+            <value>
+                <fullName>Part</fullName>
+                <default>false</default>
+                <label>Part</label>
+            </value>
+            <value>
+                <fullName>Plastic part</fullName>
+                <default>false</default>
+                <label>Plastic part</label>
+            </value>
+            <value>
+                <fullName>Panel</fullName>
+                <default>false</default>
+                <label>Panel</label>
+            </value>
+            <value>
+                <fullName>Screen</fullName>
+                <default>false</default>
+                <label>Screen</label>
+            </value>
+            <value>
+                <fullName>Basket detaching during use</fullName>
+                <default>false</default>
+                <label>Basket detaching during use</label>
+            </value>
+            <value>
+                <fullName>Short Circuit/Trip</fullName>
+                <default>false</default>
+                <label>Short Circuit/Trip</label>
+            </value>
+            <value>
+                <fullName>Stops working with a bang</fullName>
+                <default>false</default>
+                <label>Stops working with a bang</label>
+            </value>
+            <value>
+                <fullName>Broken Glass</fullName>
+                <default>false</default>
+                <label>Broken Glass</label>
+            </value>
+            <value>
+                <fullName>Handle breakage</fullName>
+                <default>false</default>
+                <label>Handle breakage</label>
+            </value>
+            <value>
+                <fullName>Broken door latch</fullName>
+                <default>false</default>
+                <label>Broken door latch</label>
+            </value>
+            <value>
+                <fullName>Loose/detached basket screws</fullName>
+                <default>false</default>
+                <label>Loose/detached basket screws</label>
+            </value>
+            <value>
+                <fullName>Loose/detached handle screws</fullName>
+                <default>false</default>
+                <label>Loose/detached handle screws</label>
+            </value>
+            <value>
+                <fullName>Loose/detached heating element screws</fullName>
+                <default>false</default>
+                <label>Loose/detached heating element screws</label>
+            </value>
+            <value>
+                <fullName>Loose/detached fan screws</fullName>
+                <default>false</default>
+                <label>Loose/detached fan screws</label>
+            </value>
+            <value>
+                <fullName>Loose/detached NTC screws</fullName>
+                <default>false</default>
+                <label>Loose/detached NTC screws</label>
+            </value>
+            <value>
+                <fullName>Baking tray easily slides out</fullName>
+                <default>false</default>
+                <label>Baking tray easily slides out</label>
+            </value>
+            <value>
+                <fullName>Burnt Smell</fullName>
+                <default>false</default>
+                <label>Burnt Smell</label>
+            </value>
+            <value>
+                <fullName>Burn Marks</fullName>
+                <default>false</default>
+                <label>Burn Marks</label>
+            </value>
+            <value>
+                <fullName>Electrical Leakage</fullName>
+                <default>false</default>
+                <label>Electrical Leakage</label>
+            </value>
+            <value>
+                <fullName>Burnt heating element</fullName>
+                <default>false</default>
+                <label>Burnt heating element</label>
+            </value>
+            <value>
+                <fullName>Continuous heating</fullName>
+                <default>false</default>
+                <label>Continuous heating</label>
+            </value>
+            <value>
+                <fullName>Overheating plug</fullName>
+                <default>false</default>
+                <label>Overheating plug</label>
+            </value>
+            <value>
+                <fullName>Overheating power cord</fullName>
+                <default>false</default>
+                <label>Overheating power cord</label>
+            </value>
+            <value>
+                <fullName>Melted/burnt socket/plug</fullName>
+                <default>false</default>
+                <label>Melted/burnt socket/plug</label>
+            </value>
+            <value>
+                <fullName>Melted/burnt power cord</fullName>
+                <default>false</default>
+                <label>Melted/burnt power cord</label>
+            </value>
+            <value>
+                <fullName>Melted silicone feet on the baking tray</fullName>
+                <default>false</default>
+                <label>Melted silicone feet on the baking tray</label>
+            </value>
+            <value>
+                <fullName>Melted basket</fullName>
+                <default>false</default>
+                <label>Melted basket</label>
+            </value>
+            <value>
+                <fullName>Melted air fryer</fullName>
+                <default>false</default>
+                <label>Melted air fryer</label>
+            </value>
+            <value>
+                <fullName>Melted vent</fullName>
+                <default>false</default>
+                <label>Melted vent</label>
+            </value>
+            <value>
+                <fullName>Melted handle</fullName>
+                <default>false</default>
+                <label>Melted handle</label>
+            </value>
+            <value>
+                <fullName>Unusual smoke</fullName>
+                <default>false</default>
+                <label>Unusual smoke</label>
+            </value>
+            <value>
+                <fullName>False smoke alarm trigger</fullName>
+                <default>false</default>
+                <label>False smoke alarm trigger</label>
+            </value>
+            <value>
+                <fullName>Unusual sparks</fullName>
+                <default>false</default>
+                <label>Unusual sparks</label>
+            </value>
+            <value>
+                <fullName>Burnt power cord</fullName>
+                <default>false</default>
+                <label>Burnt power cord</label>
+            </value>
+            <value>
+                <fullName>Burnt plug</fullName>
+                <default>false</default>
+                <label>Burnt plug</label>
+            </value>
+            <value>
+                <fullName>Burnt adapter</fullName>
+                <default>false</default>
+                <label>Burnt adapter</label>
+            </value>
+            <value>
+                <fullName>Burnt socket</fullName>
+                <default>false</default>
+                <label>Burnt socket</label>
+            </value>
+            <value>
+                <fullName>Other melting issues</fullName>
+                <default>false</default>
+                <label>Other melting issues</label>
+            </value>
+            <value>
+                <fullName>Melted plastic</fullName>
+                <default>false</default>
+                <label>Melted plastic</label>
+            </value>
+            <value>
+                <fullName>Melted rubber</fullName>
+                <default>false</default>
+                <label>Melted rubber</label>
+            </value>
+            <value>
+                <fullName>Manual</fullName>
+                <default>false</default>
+                <label>Manual</label>
+            </value>
+            <value>
+                <fullName>Recipe Book</fullName>
+                <default>false</default>
+                <label>Recipe Book</label>
+            </value>
+            <value>
+                <fullName>Quick Start Guide</fullName>
+                <default>false</default>
+                <label>Quick Start Guide</label>
+            </value>
+            <value>
+                <fullName>Base</fullName>
+                <default>false</default>
+                <label>Base</label>
+            </value>
+            <value>
+                <fullName>Food container</fullName>
+                <default>false</default>
+                <label>Food container</label>
+            </value>
+            <value>
+                <fullName>Scale</fullName>
+                <default>false</default>
+                <label>Scale</label>
+            </value>
+            <value>
+                <fullName>Battery corrosion/rust</fullName>
+                <default>false</default>
+                <label>Battery corrosion/rust</label>
+            </value>
+            <value>
+                <fullName>Inside battery compartment</fullName>
+                <default>false</default>
+                <label>Inside battery compartment</label>
+            </value>
+            <value>
+                <fullName>Body</fullName>
+                <default>false</default>
+                <label>Body</label>
+            </value>
+            <value>
+                <fullName>Handle</fullName>
+                <default>false</default>
+                <label>Handle</label>
+            </value>
+            <value>
+                <fullName>Internal wall</fullName>
+                <default>false</default>
+                <label>Internal wall</label>
+            </value>
+            <value>
+                <fullName>Atomizer/Transducer</fullName>
+                <default>false</default>
+                <label>Atomizer/Transducer</label>
+            </value>
+            <value>
+                <fullName>Heating element</fullName>
+                <default>false</default>
+                <label>Heating element</label>
+            </value>
+            <value>
+                <fullName>Anti-Slip Pad</fullName>
+                <default>false</default>
+                <label>Anti-Slip Pad</label>
+            </value>
+            <value>
+                <fullName>Inner pot</fullName>
+                <default>false</default>
+                <label>Inner pot</label>
+            </value>
+            <value>
+                <fullName>Lid</fullName>
+                <default>false</default>
+                <label>Lid</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

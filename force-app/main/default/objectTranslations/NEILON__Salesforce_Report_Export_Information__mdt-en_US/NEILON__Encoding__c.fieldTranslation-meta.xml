@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Encoding --></label>
+    <name>NEILON__Encoding__c</name>
+    <picklistValues>
+        <masterLabel>ISO-8859-1 (General US &amp; Western European, ISO-LATIN-1)</masterLabel>
+        <translation><!-- ISO-8859-1 (General US &amp; Western European, ISO-LATIN-1) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unicode (UTF-8)</masterLabel>
+        <translation><!-- Unicode (UTF-8) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Presigned URL for file will be resetted as per this frequency. --></help>
+    <label><!-- Presigned URL Reset Frequency --></label>
+    <name>NEILON__Presigned_URL_Frequency__c</name>
+    <picklistValues>
+        <masterLabel>Every 2 Days</masterLabel>
+        <translation><!-- Every 2 Days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Every 3 Days</masterLabel>
+        <translation><!-- Every 3 Days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Every 4 Days</masterLabel>
+        <translation><!-- Every 4 Days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Every 5 Days</masterLabel>
+        <translation><!-- Every 5 Days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Every 6 Days</masterLabel>
+        <translation><!-- Every 6 Days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Every Day</masterLabel>
+        <translation><!-- Every Day --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Every Week</masterLabel>
+        <translation><!-- Every Week --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

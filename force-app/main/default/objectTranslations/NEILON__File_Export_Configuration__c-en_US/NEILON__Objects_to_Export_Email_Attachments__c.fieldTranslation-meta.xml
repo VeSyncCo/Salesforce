@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- List of object API names separated by &quot;;&quot; whose email attachments and files need to be exported to Amazon S3.
+If &quot;All&quot;, all email attachments will be moved to Amazon S3.
+If empty, no email attachments will be moved to Amazon S3. -->
+    </help>
+    <label><!-- Objects to Export Email Attachments --></label>
+    <name>NEILON__Objects_to_Export_Email_Attachments__c</name>
+</CustomFieldTranslation>

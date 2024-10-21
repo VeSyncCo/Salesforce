@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Export_View__c</fullName>
+    <deprecated>false</deprecated>
+    <description>1. Formatted Report: Export the report as it appears in Salesforce, including the report header, groupings, and filter details.
+2. Details Only: Export only the detail rows. Use this to do further calculations or for uploading to other systems.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>1. Formatted Report: Export the report as it appears in Salesforce, including the report header, groupings, and filter details.
+2. Details Only: Export only the detail rows. Use this to do further calculations or for uploading to other systems.</inlineHelpText>
+    <label>Export View</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Formatted Report</fullName>
+                <default>true</default>
+                <label>Formatted Report</label>
+            </value>
+            <value>
+                <fullName>Details Only</fullName>
+                <default>false</default>
+                <label>Details Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

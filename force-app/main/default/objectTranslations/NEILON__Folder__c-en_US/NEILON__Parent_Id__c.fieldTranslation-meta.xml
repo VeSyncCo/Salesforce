@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Id of the parent record (If folder is created for any record). --></help>
+    <label><!-- Parent Id --></label>
+    <name>NEILON__Parent_Id__c</name>
+</CustomFieldTranslation>

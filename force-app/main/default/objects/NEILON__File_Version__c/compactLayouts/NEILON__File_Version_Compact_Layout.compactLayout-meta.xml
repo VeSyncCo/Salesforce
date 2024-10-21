@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__File_Version_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>NEILON__File__c</fields>
+    <fields>NEILON__Size_Text__c</fields>
+    <fields>NEILON__Is_Latest__c</fields>
+    <fields>CreatedById</fields>
+    <label>File Version Compact Layout</label>
+</CompactLayout>

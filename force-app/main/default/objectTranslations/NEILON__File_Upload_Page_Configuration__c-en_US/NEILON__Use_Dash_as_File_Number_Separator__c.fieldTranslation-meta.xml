@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- AWS doesn&apos;t allow to have multiple files with the same name in same folder. So to avoid that, we add a index number at the end of the file name to make it unique across the folder. And we use this option to decide separator between file name and index number. If checked, a dash will be used as the file name and number separator(i.e. if file.pdf already exist new file name will be file-1.pdf). --></help>
+    <label><!-- Use Dash as File Number Separator --></label>
+    <name>NEILON__Use_Dash_as_File_Number_Separator__c</name>
+</CustomFieldTranslation>

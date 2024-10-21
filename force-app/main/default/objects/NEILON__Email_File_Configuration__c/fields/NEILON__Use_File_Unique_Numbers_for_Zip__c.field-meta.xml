@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Use_File_Unique_Numbers_for_Zip__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, Salesforce unique numbers of files will be passed in the URL to download the zip.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, Salesforce unique numbers of files will be passed in the URL to download the zip.</inlineHelpText>
+    <label>Use File Unique Numbers(for Zip)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

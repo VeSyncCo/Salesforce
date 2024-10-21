@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Comma separated file extensions which need to be blocked while file upload. --></help>
+    <label><!-- Block File Types --></label>
+    <name>NEILON__Block_File_Types__c</name>
+</CustomFieldTranslation>

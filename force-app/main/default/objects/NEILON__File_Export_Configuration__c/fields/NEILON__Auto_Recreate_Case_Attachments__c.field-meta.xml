@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Auto_Recreate_Case_Attachments__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, case attachments will be recreated in Salesforce when a case will be reopened.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, case attachments will be recreated in Salesforce when a case will be reopened.</inlineHelpText>
+    <label>Import Reopened Cases Attachments</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

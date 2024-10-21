@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- URL to export report. To get it, open your report. From URL https://ap1.salesforce.com/00O900000093p7s, &quot;/00O900000093p7s&quot; will be your URL.  If it&apos;s standard report, from URL https://ap1.salesforce.com/00O?rt=21, &quot;/00O?rt=21&quot; will be your URL. --></help>
+    <label><!-- Salesforce Report URL --></label>
+    <name>NEILON__Salesforce_Report_Id__c</name>
+</CustomFieldTranslation>

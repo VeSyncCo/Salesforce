@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_Of_Question__c</fullName>
+    <externalId>false</externalId>
+    <label>Type Of Question</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Temporary</fullName>
+                <default>false</default>
+                <label>Temporary</label>
+            </value>
+            <value>
+                <fullName>Collaboration</fullName>
+                <default>false</default>
+                <label>Collaboration</label>
+            </value>
+            <value>
+                <fullName>Donation</fullName>
+                <default>false</default>
+                <label>Donation</label>
+            </value>
+            <value>
+                <fullName>Pricing Issues (retailer)</fullName>
+                <default>false</default>
+                <label>Pricing Issues (retailer)</label>
+            </value>
+            <value>
+                <fullName>Product (pre-sale)</fullName>
+                <default>false</default>
+                <label>Product (pre-sale)</label>
+            </value>
+            <value>
+                <fullName>Upcoming promotions/discounts</fullName>
+                <default>false</default>
+                <label>Upcoming promotions/discounts</label>
+            </value>
+            <value>
+                <fullName>VeSync app</fullName>
+                <default>false</default>
+                <label>VeSync app</label>
+            </value>
+            <value>
+                <fullName>Warranty policy</fullName>
+                <default>false</default>
+                <label>Warranty policy</label>
+            </value>
+            <value>
+                <fullName>Warranty registration</fullName>
+                <default>false</default>
+                <label>Warranty registration</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>Wholesale</fullName>
+                <default>false</default>
+                <label>Wholesale</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

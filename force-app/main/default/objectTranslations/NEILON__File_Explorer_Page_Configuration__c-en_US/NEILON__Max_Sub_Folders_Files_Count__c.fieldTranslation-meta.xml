@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Maximum count for sub folders / files as folder information. Set it to 0, if you don&apos;t want to display count. --></help>
+    <label><!-- Max Sub folders / files Count --></label>
+    <name>NEILON__Max_Sub_Folders_Files_Count__c</name>
+</CustomFieldTranslation>

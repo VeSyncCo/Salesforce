@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Use_Tree_for_File_Selection__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, auto search for file selection will be disabled.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, auto search for file selection will be disabled.</inlineHelpText>
+    <label>Disable Auto Search for Files</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

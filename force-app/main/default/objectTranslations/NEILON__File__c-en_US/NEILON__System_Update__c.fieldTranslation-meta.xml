@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This flag will be set to true by the system when it is updating folder for file. It is mainly for System Use only. --></help>
+    <label><!-- System Update --></label>
+    <name>NEILON__System_Update__c</name>
+</CustomFieldTranslation>

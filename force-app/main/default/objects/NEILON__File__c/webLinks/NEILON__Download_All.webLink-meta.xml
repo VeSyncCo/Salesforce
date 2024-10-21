@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Download_All</fullName>
+    <availability>online</availability>
+    <description>This is used to download all related files.</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Download All</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>{!URLFOR(&quot;/apex/NEILON__edMassFileDownloads&quot;, null, [&apos;parentId&apos;=IF(NEILON__Folder__c.Id != null, NEILON__Folder__c.Id, IF(Lead.Id != null, Lead.Id, IF(Opportunity.Id != null, Opportunity.Id, IF( Case.Id != null, Case.Id, IF(Asset.Id != null, Asset.Id, IF(Campaign.Id != null, Campaign.Id, IF(Contract.Id != null, Contract.Id, IF(Product2.Id != null, Product2.Id, IF(Solution.Id != null, Solution.Id, IF(Contact.Id != null, Contact.Id, IF(Account.Id != null, Account.Id, null))))))))))), &apos;retURL&apos;=IF(NEILON__Folder__c.Id != null, &apos;/&apos;+NEILON__Folder__c.Id, IF(Lead.Id != null, &apos;/&apos;+Lead.Id, IF(Opportunity.Id != null, &apos;/&apos;+Opportunity.Id, IF( Case.Id != null, &apos;/&apos;+Case.Id, IF(Asset.Id != null, &apos;/&apos;+Asset.Id, IF(Campaign.Id != null, &apos;/&apos;+Campaign.Id, IF(Contract.Id != null, &apos;/&apos;+Contract.Id, IF(Product2.Id != null, &apos;/&apos;+Product2.Id, IF(Solution.Id != null, &apos;/&apos;+Solution.Id, IF(Contact.Id != null, &apos;/&apos;+Contact.Id, IF(Account.Id != null, &apos;/&apos;+Account.Id, null)))))))))))])}</url>
+</WebLink>

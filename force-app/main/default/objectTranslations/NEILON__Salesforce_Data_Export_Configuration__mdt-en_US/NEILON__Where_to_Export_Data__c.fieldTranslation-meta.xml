@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- S3-Link Folder Id where all Salesforce data will be exported. --></help>
+    <label><!-- Where to Export Data? --></label>
+    <name>NEILON__Where_to_Export_Data__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Europe Cases</name>
+    <queueMembers>
+        <users>
+            <user>deepak.hegde@caeliusconsulting.com</user>
+            <user>nikhil.elias.vesync@caeliusconsulting.com</user>
+            <user>raghav.sharma@caeliusconsulting.com.vesync</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>cases_Routing_config</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

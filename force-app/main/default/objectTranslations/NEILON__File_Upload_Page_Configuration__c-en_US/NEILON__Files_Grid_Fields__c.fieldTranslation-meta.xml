@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- File fields which need to be displayed in selected files grid in multiple file upload UI. --></help>
+    <label><!-- Files Grid Fields --></label>
+    <name>NEILON__Files_Grid_Fields__c</name>
+</CustomFieldTranslation>

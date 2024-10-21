@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If &apos;LINK&apos;, download links will be sent. If &apos;CONTENT&apos;, actual file contents will be sent. --></help>
+    <label><!-- Content Type --></label>
+    <name>NEILON__Content_Type__c</name>
+</CustomFieldTranslation>

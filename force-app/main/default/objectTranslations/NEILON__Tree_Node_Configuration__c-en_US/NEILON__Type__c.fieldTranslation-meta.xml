@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- o	NodeType_Root - node that can have static children only
+o	NodeType_Object - an object is displayed as tree node 
+o	NodeType_GroupByRoot - group nodes inside this using group by field 
+o	NodeType_Query - nodes inside this node comes from query result -->
+    </help>
+    <label><!-- Type --></label>
+    <name>NEILON__Type__c</name>
+    <picklistValues>
+        <masterLabel>NodeType_GroupByRoot</masterLabel>
+        <translation><!-- NodeType_GroupByRoot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NodeType_Object</masterLabel>
+        <translation><!-- NodeType_Object --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NodeType_Query</masterLabel>
+        <translation><!-- NodeType_Query --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NodeType_Root</masterLabel>
+        <translation><!-- NodeType_Root --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

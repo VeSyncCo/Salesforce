@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Show_Email_Attachments_in_S3_Files_List__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, Email Attachments will be displayed in S3-Files related list in parent records detail.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, Email Attachments will be displayed in S3-Files related list in parent records detail.</inlineHelpText>
+    <label>Show Email Attachments in S3-Files List</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

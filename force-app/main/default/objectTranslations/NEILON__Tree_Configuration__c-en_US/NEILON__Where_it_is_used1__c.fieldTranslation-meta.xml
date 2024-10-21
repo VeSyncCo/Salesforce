@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Describe pages and features where this tree will be used in applications. --></help>
+    <label><!-- Where it is used? --></label>
+    <name>NEILON__Where_it_is_used1__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel_Seller__c</fullName>
+    <externalId>false</externalId>
+    <label>Channel/Seller</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Amazon</fullName>
+                <default>false</default>
+                <label>Amazon</label>
+            </value>
+            <value>
+                <fullName>App (VeSync)</fullName>
+                <default>false</default>
+                <label>App (VeSync)</label>
+            </value>
+            <value>
+                <fullName>Bed Bath &amp; Beyond</fullName>
+                <default>false</default>
+                <label>Bed Bath &amp; Beyond</label>
+            </value>
+            <value>
+                <fullName>Best Buy</fullName>
+                <default>false</default>
+                <label>Best Buy</label>
+            </value>
+            <value>
+                <fullName>Chewy</fullName>
+                <default>false</default>
+                <label>Chewy</label>
+            </value>
+            <value>
+                <fullName>Costco</fullName>
+                <default>false</default>
+                <label>Costco</label>
+            </value>
+            <value>
+                <fullName>Gift/courtesy</fullName>
+                <default>false</default>
+                <label>Gift/courtesy</label>
+            </value>
+            <value>
+                <fullName>Home Depot</fullName>
+                <default>false</default>
+                <label>Home Depot</label>
+            </value>
+            <value>
+                <fullName>Kohl&apos;s</fullName>
+                <default>false</default>
+                <label>Kohl&apos;s</label>
+            </value>
+            <value>
+                <fullName>Lowe&apos;s</fullName>
+                <default>false</default>
+                <label>Lowe&apos;s</label>
+            </value>
+            <value>
+                <fullName>Macy&apos;s</fullName>
+                <default>false</default>
+                <label>Macy&apos;s</label>
+            </value>
+            <value>
+                <fullName>Other seller (leave note)</fullName>
+                <default>false</default>
+                <label>Other seller (leave note)</label>
+            </value>
+            <value>
+                <fullName>Recall</fullName>
+                <default>false</default>
+                <label>Recall</label>
+            </value>
+            <value>
+                <fullName>Shopify</fullName>
+                <default>false</default>
+                <label>Shopify</label>
+            </value>
+            <value>
+                <fullName>Staples</fullName>
+                <default>false</default>
+                <label>Staples</label>
+            </value>
+            <value>
+                <fullName>Target</fullName>
+                <default>false</default>
+                <label>Target</label>
+            </value>
+            <value>
+                <fullName>TikTok</fullName>
+                <default>false</default>
+                <label>TikTok</label>
+            </value>
+            <value>
+                <fullName>Walmart</fullName>
+                <default>false</default>
+                <label>Walmart</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

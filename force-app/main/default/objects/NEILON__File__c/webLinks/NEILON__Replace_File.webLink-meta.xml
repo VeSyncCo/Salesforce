@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Replace_File</fullName>
+    <availability>online</availability>
+    <description>Used to replace file or add new version in Amazon S3.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Version</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR(&quot;/apex/NEILON__edReplaceFile&quot;,null,[&apos;id&apos;=NEILON__File__c.Id,&apos;retURL&apos;=&apos;/&apos;+NEILON__File__c.Id])}</url>
+</WebLink>

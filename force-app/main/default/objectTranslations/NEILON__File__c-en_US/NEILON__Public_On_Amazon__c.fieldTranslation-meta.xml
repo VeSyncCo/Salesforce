@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If true, any one can access or download the file just using the Amazon URL. --></help>
+    <label><!-- Public on Amazon? --></label>
+    <name>NEILON__Public_On_Amazon__c</name>
+</CustomFieldTranslation>

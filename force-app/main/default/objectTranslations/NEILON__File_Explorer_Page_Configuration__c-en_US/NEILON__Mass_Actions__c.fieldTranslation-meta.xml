@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Mass actions which needs to be displayed on page. --></help>
+    <label><!-- Mass Actions --></label>
+    <name>NEILON__Mass_Actions__c</name>
+</CustomFieldTranslation>

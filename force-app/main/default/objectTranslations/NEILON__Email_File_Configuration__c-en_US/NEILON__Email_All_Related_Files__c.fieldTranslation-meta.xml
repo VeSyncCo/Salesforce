@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, all files related to record will be the default selected on email files page. --></help>
+    <label><!-- Email All Related Files --></label>
+    <name>NEILON__Email_All_Related_Files__c</name>
+</CustomFieldTranslation>

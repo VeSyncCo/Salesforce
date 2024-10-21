@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked shows children objects as tree nodes. --></help>
+    <label><!-- Show Children as tree nodes --></label>
+    <name>NEILON__Show_Children_as_tree_nodes__c</name>
+</CustomFieldTranslation>

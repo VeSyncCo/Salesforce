@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Landing folder for explorer. If empty default home folder will be used. --></help>
+    <label><!-- Home Folder --></label>
+    <name>NEILON__Home_Folder__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Download</fullName>
+    <availability>online</availability>
+    <description>This is used to download version of the file.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Download</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR(&quot;/apex/NEILON__edFileDetail&quot;,null,[&apos;cleanid&apos;=NEILON__File_Version__c.NEILON__FileId__c,&apos;versionid&apos;=NEILON__File_Version__c.Id,&apos;retURL&apos;=&apos;/&apos;+NEILON__File_Version__c.Id])}</url>
+</WebLink>

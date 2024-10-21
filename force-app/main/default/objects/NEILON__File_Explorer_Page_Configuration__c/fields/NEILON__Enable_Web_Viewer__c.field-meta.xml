@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Enable_Web_Viewer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If true, when user click file name link, it will open file in Web Viewer like PDFTron. This requires additional setup. Contact S3-Link Support team for this.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If true, when user click file name link, it will open file in Web Viewer like PDFTron. This requires additional setup. Contact S3-Link Support team for this.</inlineHelpText>
+    <label>Enable Web Viewer</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Field name to use to retrieve node caption/title. Note that this field will be used as &apos;group by&apos; field for the group by nodes. This field is required for group by and query type of nodes. --></help>
+    <label><!-- Caption Field Name --></label>
+    <name>NEILON__Caption_Field_Name__c</name>
+</CustomFieldTranslation>

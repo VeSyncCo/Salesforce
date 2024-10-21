@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- 1. Formatted Report: Export the report as it appears in Salesforce, including the report header, groupings, and filter details.
+2. Details Only: Export only the detail rows. Use this to do further calculations or for uploading to other systems. -->
+    </help>
+    <label><!-- Export View --></label>
+    <name>NEILON__Export_View__c</name>
+    <picklistValues>
+        <masterLabel>Details Only</masterLabel>
+        <translation><!-- Details Only --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Formatted Report</masterLabel>
+        <translation><!-- Formatted Report --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

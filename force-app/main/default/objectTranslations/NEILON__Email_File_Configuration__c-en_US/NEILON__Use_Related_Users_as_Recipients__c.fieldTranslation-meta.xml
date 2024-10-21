@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, all related users, contacts, and leads to record will be allowed as recipients. --></help>
+    <label><!-- Use Related Users as Recipients? --></label>
+    <name>NEILON__Use_Related_Users_as_Recipients__c</name>
+</CustomFieldTranslation>

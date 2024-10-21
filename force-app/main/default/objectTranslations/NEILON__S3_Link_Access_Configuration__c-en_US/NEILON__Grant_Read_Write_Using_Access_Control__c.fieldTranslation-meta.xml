@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, &quot;Read/Write&quot; access for files will be granted through S3-File Access Controls for private files. --></help>
+    <label><!-- Grant Read/Write using Access Control? --></label>
+    <name>NEILON__Grant_Read_Write_Using_Access_Control__c</name>
+</CustomFieldTranslation>

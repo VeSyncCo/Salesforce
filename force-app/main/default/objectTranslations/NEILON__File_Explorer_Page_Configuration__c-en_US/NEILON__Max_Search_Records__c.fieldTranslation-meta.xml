@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Maximum number of records to display as search result. --></help>
+    <label><!-- Max Search Records --></label>
+    <name>NEILON__Max_Search_Records__c</name>
+</CustomFieldTranslation>

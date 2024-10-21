@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, show section for hierarchical file. --></help>
+    <label><!-- Show Hierarchical File UI --></label>
+    <name>NEILON__Show_Hierarchical_File_UI__c</name>
+</CustomFieldTranslation>

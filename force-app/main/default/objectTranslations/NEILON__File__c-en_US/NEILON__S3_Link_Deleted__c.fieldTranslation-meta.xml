@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked means S3-File has been moved to S3-Link Recycle Bin --></help>
+    <label><!-- S3-Link Deleted --></label>
+    <name>NEILON__S3_Link_Deleted__c</name>
+</CustomFieldTranslation>

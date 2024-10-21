@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__List_50MB_File_Size_400MB</fullName>
+    <columns>NAME</columns>
+    <columns>NEILON__Salesforce_File_Title__c</columns>
+    <columns>NEILON__Salesforce_File_Size__c</columns>
+    <columns>NEILON__Salesforce_File_Id__c</columns>
+    <columns>NEILON__Manual_File_Migration_Link__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NEILON__Salesforce_File_Size__c</field>
+        <operation>lessOrEqual</operation>
+        <value>403967604</value>
+    </filters>
+    <filters>
+        <field>NEILON__S3_File__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>NEILON__Salesforce_File_Size__c</field>
+        <operation>greaterThan</operation>
+        <value>52428800</value>
+    </filters>
+    <label>50MB &lt; File Size &lt; 400MB</label>
+</ListView>

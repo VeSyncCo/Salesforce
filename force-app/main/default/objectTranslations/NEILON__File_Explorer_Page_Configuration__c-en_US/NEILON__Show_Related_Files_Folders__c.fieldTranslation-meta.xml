@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, files and folders related to any record of any object will also be displayed in the file system. --></help>
+    <label><!-- Show related files / folders --></label>
+    <name>NEILON__Show_Related_Files_Folders__c</name>
+</CustomFieldTranslation>

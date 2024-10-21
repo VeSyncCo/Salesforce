@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- File Fields For Email --></label>
+        <name>NEILON__File_Fields_For_Email</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- File Fields For Mass Edit --></label>
+        <name>NEILON__File_Fields_For_Mass_Edit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- File Fields For Upload Page --></label>
+        <name>NEILON__File_Fields_For_Upload_Page</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Other File Fields For Upload Page --></label>
+        <name>NEILON__Other_File_Fields_For_Upload_Page</name>
+    </fieldSets>
+    <sharingReasons>
+        <label><!-- File Access Grantee --></label>
+        <name>NEILON__File_Access_Grantee</name>
+    </sharingReasons>
+    <validationRules>
+        <errorMessage><!-- Extension cannot be updated manually. Its a system generated field. --></errorMessage>
+        <name>NEILON__File_Extension_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The file name cannot contain special characters  &quot;/&quot; and &quot;?&quot;. --></errorMessage>
+        <name>NEILON__File_Name_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Size cannot be updated manually. It&apos;s a system generated field. --></errorMessage>
+        <name>NEILON__File_Size_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Folder cannot be updated manually. Its a system generated field. --></errorMessage>
+        <name>NEILON__Folder_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Copy_Files --></label>
+        <name>NEILON__Copy_Files</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Download --></label>
+        <name>NEILON__Download</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Download_All --></label>
+        <name>NEILON__Download_All</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_File --></label>
+        <name>NEILON__Email_File</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- File_Administration --></label>
+        <name>NEILON__File_Administration</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- File_Download_History --></label>
+        <name>NEILON__File_Download_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- File_Explorer --></label>
+        <name>NEILON__File_Explorer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- File_Preview --></label>
+        <name>NEILON__File_Preview</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- File_Sharing_Settings --></label>
+        <name>NEILON__File_Sharing_Settings</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Import_Files --></label>
+        <name>NEILON__Import_Files</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_File --></label>
+        <name>NEILON__New_File</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Preview_All --></label>
+        <name>NEILON__Preview_All</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Replace_File --></label>
+        <name>NEILON__Replace_File</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Salesforce_Files_Migration --></label>
+        <name>NEILON__Salesforce_Files_Migration</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Email --></label>
+        <name>NEILON__Send_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

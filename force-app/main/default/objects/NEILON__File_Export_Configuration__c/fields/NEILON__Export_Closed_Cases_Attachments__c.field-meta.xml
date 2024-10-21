@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Export_Closed_Cases_Attachments__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, case attachments will be moved to Amazon S3 only when case will be closed. Reopen of that case will import S3 files back to Salesforce.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, case attachments will be moved to Amazon S3 only when case will be closed. Reopen of that case will import S3 files back to Salesforce.</inlineHelpText>
+    <label>Export Closed Cases Attachments</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

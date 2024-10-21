@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Default_Public_on_Amazon__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>We have a check box field called Public on Amazon in our S3-File object. This field is being used to make file public on Amazon S3 and provide an AWS link for the file which never expires. By default &quot;Public on Amazon&quot; will be false for all files uploaded by S3-Link. But if you want to change it to true, you can check this checkbox.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>We have a check box field called Public on Amazon in our S3-File object. This field is being used to make file public on Amazon S3 and provide an AWS link for the file which never expires. By default &quot;Public on Amazon&quot; will be false for all files uploaded by S3-Link. But if you want to change it to true, you can check this checkbox.</inlineHelpText>
+    <label>Default Public on Amazon</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

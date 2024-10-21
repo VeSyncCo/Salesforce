@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Number_of_Days_for_Recycle_Bin__c</fullName>
+    <deprecated>false</deprecated>
+    <description>S3-Files moved in S3-Link Recycle Bin will be available for recovery for these many days. After these many days S3-Files will be auto deleted from Salesforce and Amazon S3 unless someone recovers them from S3-Link Recycle Bin.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>S3-Files moved in S3-Link Recycle Bin will be available for recovery for these many days. After these many days S3-Files will be auto deleted from Salesforce and Amazon S3 unless someone recovers them from S3-Link Recycle Bin.</inlineHelpText>
+    <label>Number of Days for Recycle Bin</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

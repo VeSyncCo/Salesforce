@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If File Download / View Type is &quot;Private&quot;, only file owner, users with Modify All access on S3-File or users added in &quot;Grantees&quot; section will be able to view / download the file. So this section will allow you to configure users who will be default &quot;Grantees&quot; for files with File Download / View Type is Private. --></help>
+    <label><!-- Default Grantees for Private Files --></label>
+    <name>NEILON__Default_Grantees_for_Private_Files__c</name>
+</CustomFieldTranslation>

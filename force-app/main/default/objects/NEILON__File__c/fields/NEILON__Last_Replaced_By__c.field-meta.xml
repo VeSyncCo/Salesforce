@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Last_Replaced_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The user who has last uploaded this file content.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The user who has last uploaded this file content.</inlineHelpText>
+    <label>Last Uploaded By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Files</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

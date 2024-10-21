@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEILON__Grant_Read_Write_Using_Access_Control__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, &quot;Read/Write&quot; access for files will be granted through S3-File Access Controls for private files.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, &quot;Read/Write&quot; access for files will be granted through S3-File Access Controls for private files.</inlineHelpText>
+    <label>Grant Read/Write using Access Control?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Duration to expire the upload link in the email. If empty, the link will never expire. --></help>
+    <label><!-- Upload Link Expiry Duration (hours) --></label>
+    <name>NEILON__Upload_Link_Expiry_Duration__c</name>
+</CustomFieldTranslation>

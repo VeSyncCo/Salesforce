@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Allow Download by Presigned URL Only? --></label>
+    <name>NEILON__Allow_to_Download_by_Presigned_URL__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- We have a Category picklist field in S3-File object. You can set the default value for that picklist field for all new files using this option. --></help>
+    <label><!-- Default Category --></label>
+    <name>NEILON__Default_Category__c</name>
+</CustomFieldTranslation>

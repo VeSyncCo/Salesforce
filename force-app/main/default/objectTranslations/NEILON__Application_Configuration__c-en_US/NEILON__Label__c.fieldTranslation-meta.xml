@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This will be displayed as Name on System Configuration Page. --></help>
+    <label><!-- Label --></label>
+    <name>NEILON__Label__c</name>
+</CustomFieldTranslation>

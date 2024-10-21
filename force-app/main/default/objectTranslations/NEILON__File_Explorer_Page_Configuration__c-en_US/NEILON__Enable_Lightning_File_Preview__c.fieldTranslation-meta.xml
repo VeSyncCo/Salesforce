@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If true, lightning file preview will be open from file explorer. --></help>
+    <label><!-- Enable Lightning File Preview --></label>
+    <name>NEILON__Enable_Lightning_File_Preview__c</name>
+</CustomFieldTranslation>

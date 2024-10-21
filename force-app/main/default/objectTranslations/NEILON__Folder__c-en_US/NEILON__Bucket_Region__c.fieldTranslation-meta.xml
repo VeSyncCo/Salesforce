@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Bucket Region --></label>
+    <name>NEILON__Bucket_Region__c</name>
+    <picklistValues>
+        <masterLabel>af-south-1</masterLabel>
+        <translation><!-- af-south-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ap-east-1</masterLabel>
+        <translation><!-- ap-east-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ap-northeast-1</masterLabel>
+        <translation><!-- ap-northeast-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ap-northeast-2</masterLabel>
+        <translation><!-- ap-northeast-2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ap-northeast-3</masterLabel>
+        <translation><!-- ap-northeast-3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ap-south-1</masterLabel>
+        <translation><!-- ap-south-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ap-south-2</masterLabel>
+        <translation><!-- ap-south-2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ap-southeast-1</masterLabel>
+        <translation><!-- ap-southeast-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ap-southeast-2</masterLabel>
+        <translation><!-- ap-southeast-2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ap-southeast-3</masterLabel>
+        <translation><!-- ap-southeast-3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ap-southeast-4</masterLabel>
+        <translation><!-- ap-southeast-4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ca-central-1</masterLabel>
+        <translation><!-- ca-central-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>cn-north-1</masterLabel>
+        <translation><!-- cn-north-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>cn-northwest-1</masterLabel>
+        <translation><!-- cn-northwest-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>eu-central-1</masterLabel>
+        <translation><!-- eu-central-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>eu-central-2</masterLabel>
+        <translation><!-- eu-central-2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>eu-north-1</masterLabel>
+        <translation><!-- eu-north-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>eu-south-1</masterLabel>
+        <translation><!-- eu-south-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>eu-south-2</masterLabel>
+        <translation><!-- eu-south-2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>eu-west-1</masterLabel>
+        <translation><!-- eu-west-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>eu-west-2</masterLabel>
+        <translation><!-- eu-west-2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>eu-west-3</masterLabel>
+        <translation><!-- eu-west-3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>me-central-1</masterLabel>
+        <translation><!-- me-central-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>me-south-1</masterLabel>
+        <translation><!-- me-south-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>sa-east-1</masterLabel>
+        <translation><!-- sa-east-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>us-east-1</masterLabel>
+        <translation><!-- us-east-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>us-east-2</masterLabel>
+        <translation><!-- us-east-2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>us-gov-east-1</masterLabel>
+        <translation><!-- us-gov-east-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>us-gov-west-1</masterLabel>
+        <translation><!-- us-gov-west-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>us-west-1</masterLabel>
+        <translation><!-- us-west-1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>us-west-2</masterLabel>
+        <translation><!-- us-west-2 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
