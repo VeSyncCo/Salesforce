@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dialpad__Object__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;/&quot; + Dialpad__Parent_Object_Id__c  , Dialpad__Object_Name__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

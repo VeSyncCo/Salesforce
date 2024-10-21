@@ -1,0 +1,19 @@
+"Salve {!Contact.Name},
+
+QUESTA È UN'E-MAIL AUTOMATICA.
+
+Grazie per aver contattato il {!Case.Brand__c} Assistenza. Abbiamo ricevuto la tua e-mail e un rappresentante di {!Case.Brand__c} ti risponderà a breve. Se non ricevi una risposta entro 2-3 giorni lavorativi, controlla la cartella spam!
+
+Il nostro normale orario di lavoro è dal lunedì al venerdì, dalle 9:00 alle 17:00 PST/PDT.
+
+L'ID del ticket è: {!Case.CaseNumber} e riceverete e-mail da ""Zendesk"" sullo stato del vostro ticket.
+
+In the meantime, you’re welcome to browse all our available manuals "Link Inserted later". Se acquistato nuovo di zecca da un venditore verificato, il prodotto viene fornito con la garanzia del produttore di due anni! Sebbene non sia necessario, è comunque possibile registrare il prodotto "Link inserted later" qui.
+
+Non rispondete a questa e-mail: vi ringraziamo per la vostra pazienza e non vediamo l'ora di chiacchierare con voi!
+
+Cordiali saluti,
+Supporto {!Case.Brand__c}
+
+
+{!Case.Thread_Token}

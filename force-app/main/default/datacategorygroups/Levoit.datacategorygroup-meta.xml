@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Core Mini</label>
+                <name>Core_Mini</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Core 200S</label>
+                <name>Core_200S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Core 300</label>
+                <name>Core_300</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Core 300S</label>
+                <name>Core_300S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>PlasmaPro 300S</label>
+                <name>PlasmaPro_300S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Core P3550</label>
+                <name>Core_P3550</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Core 400S</label>
+                <name>Core_400S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>PlasmaPro 400S</label>
+                <name>PlasmaPro_400S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Core 600S</label>
+                <name>Core_600S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>PlasmaPro 600S</label>
+                <name>PlasmaPro_600S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Everest Air</label>
+                <name>Everest_Air</name>
+            </dataCategory>
+            <dataCategory>
+                <label>LV-H126</label>
+                <name>LV_H126</name>
+            </dataCategory>
+            <dataCategory>
+                <label>LV-H132</label>
+                <name>LV_H132</name>
+            </dataCategory>
+            <dataCategory>
+                <label>LV-H133</label>
+                <name>LV_H133</name>
+            </dataCategory>
+            <dataCategory>
+                <label>LV-H128</label>
+                <name>LV_H128</name>
+            </dataCategory>
+            <dataCategory>
+                <label>LV-H134</label>
+                <name>LV_H134</name>
+            </dataCategory>
+            <dataCategory>
+                <label>LV-H135</label>
+                <name>LV_H135</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Vital 100</label>
+                <name>Vital_100</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Vital 100S</label>
+                <name>Vital_100S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Vital 200S</label>
+                <name>Vital_200S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>LV-PUR131S</label>
+                <name>LV_PUR131S</name>
+            </dataCategory>
+            <label>Air Purifiers</label>
+            <name>Air_Purifiers</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Dual 100</label>
+                <name>Dual_100</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Dual 150</label>
+                <name>Dual_150</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Dual 200S</label>
+                <name>Dual_200S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Classic 200</label>
+                <name>Classic_200</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Classic 150</label>
+                <name>Classic_150</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Classic 160</label>
+                <name>Classic_160</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Classic 100</label>
+                <name>Classic_100</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Classic 200S</label>
+                <name>Classic_200S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Classic 300</label>
+                <name>Classic_300</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Classic 300S</label>
+                <name>Classic_300S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>LV600HH</label>
+                <name>LV600HH</name>
+            </dataCategory>
+            <dataCategory>
+                <label>LV600S</label>
+                <name>LV600S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>OasisMist</label>
+                <name>OasisMist</name>
+            </dataCategory>
+            <dataCategory>
+                <label>OasisMist 600S</label>
+                <name>OasisMist_600S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>OasisMist 1000S</label>
+                <name>OasisMist_1000S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Superior 6000S</label>
+                <name>Superior_6000S</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Premier 100</label>
+                <name>Premier_100</name>
+            </dataCategory>
+            <label>Humidifiers</label>
+            <name>Humidifiers</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>LVAC-200</label>
+                <name>LVAC_200</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Vortex IQ 40</label>
+                <name>Vortex_IQ_40</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Vortex IQ 40 (Flex Stick)</label>
+                <name>Vortex_IQ_40_Flex_Stick</name>
+            </dataCategory>
+            <label>Vacuums</label>
+            <name>Vacuums</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>LTF-F361-WUS</label>
+                <name>LTF_F361_WUS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>LTF-F422-WUS</label>
+                <name>LTF_F422_WUS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>LTF-F422S-WUS</label>
+                <name>LTF_F422S_WUS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>LPF-R432-WUS</label>
+                <name>LPF_R432_WUS</name>
+            </dataCategory>
+            <label>Tower Fans</label>
+            <name>Tower_Fans</name>
+        </dataCategory>
+        <label>Levoit Articles</label>
+        <name>Levoit_Articles</name>
+    </dataCategory>
+    <description>Levoit Articles</description>
+    <label>Levoit</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+        <object>SvcCatalogItemDef</object>
+    </objectUsage>
+</DataCategoryGroup>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dialpad__Disable_Record_Assignment_Batch__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This disables the DialpadRecordAssignmentBatch which is responsible for record re-evaluation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this to disable the DialpadRecordAssignmentBatch which is responsible for record re-evaluation</inlineHelpText>
+    <label>Disable Record Assignment Batch</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Main_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Main Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Appearance Issues</fullName>
+                <default>false</default>
+                <label>Appearance Issues</label>
+            </value>
+            <value>
+                <fullName>Hardware Issues</fullName>
+                <default>false</default>
+                <label>Hardware Issues</label>
+            </value>
+            <value>
+                <fullName>High Priority Issues</fullName>
+                <default>false</default>
+                <label>High Priority Issues</label>
+            </value>
+            <value>
+                <fullName>Production Issues</fullName>
+                <default>false</default>
+                <label>Production Issues</label>
+            </value>
+            <value>
+                <fullName>Software Issues</fullName>
+                <default>false</default>
+                <label>Software Issues</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

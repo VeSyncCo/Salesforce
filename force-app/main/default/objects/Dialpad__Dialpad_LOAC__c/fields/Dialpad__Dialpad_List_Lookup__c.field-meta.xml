@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dialpad__Dialpad_List_Lookup__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Dialpad List Lookup</label>
+    <referenceTo>Dialpad__Dialpad_List__c</referenceTo>
+    <relationshipLabel>Dialpad LOAC (Dialpad List Lookup)</relationshipLabel>
+    <relationshipName>Dialpad_LOAC1</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
