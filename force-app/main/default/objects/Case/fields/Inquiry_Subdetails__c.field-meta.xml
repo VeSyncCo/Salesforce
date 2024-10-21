@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inquiry_Subdetails__c</fullName>
+    <externalId>false</externalId>
+    <label>Inquiry Subdetails</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Inquiry_Details__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bad Customer Support</fullName>
+                <default>false</default>
+                <label>Bad Customer Support</label>
+            </value>
+            <value>
+                <fullName>Changed Mind/Buyer&apos;s Remorse</fullName>
+                <default>false</default>
+                <label>Changed Mind/Buyer&apos;s Remorse</label>
+            </value>
+            <value>
+                <fullName>Delivery Delays</fullName>
+                <default>false</default>
+                <label>Delivery Delays</label>
+            </value>
+            <value>
+                <fullName>Falls short of Expectations</fullName>
+                <default>false</default>
+                <label>Falls short of Expectations</label>
+            </value>
+            <value>
+                <fullName>Item not as Described</fullName>
+                <default>false</default>
+                <label>Item not as Described</label>
+            </value>
+            <value>
+                <fullName>No Longer Needed</fullName>
+                <default>false</default>
+                <label>No Longer Needed</label>
+            </value>
+            <value>
+                <fullName>No Reason Provided</fullName>
+                <default>false</default>
+                <label>No Reason Provided</label>
+            </value>
+            <value>
+                <fullName>Ordered Wrong Item</fullName>
+                <default>false</default>
+                <label>Ordered Wrong Item</label>
+            </value>
+            <value>
+                <fullName>Product Quality</fullName>
+                <default>false</default>
+                <label>Product Quality</label>
+            </value>
+            <value>
+                <fullName>Too Large</fullName>
+                <default>false</default>
+                <label>Too Large</label>
+            </value>
+            <value>
+                <fullName>Too Small</fullName>
+                <default>false</default>
+                <label>Too Small</label>
+            </value>
+            <value>
+                <fullName>Unable to Deliver</fullName>
+                <default>false</default>
+                <label>Unable to Deliver</label>
+            </value>
+            <value>
+                <fullName>Unauthorised</fullName>
+                <default>false</default>
+                <label>Unauthorised</label>
+            </value>
+            <value>
+                <fullName>Wrong Address Submitted (New Orders)</fullName>
+                <default>false</default>
+                <label>Wrong Address Submitted (New Orders)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Return to Sender (Claim)</controllingFieldValue>
+            <valueName>Wrong Address Submitted (New Orders)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return to Sender (Status)</controllingFieldValue>
+            <valueName>Unable to Deliver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return</controllingFieldValue>
+            <valueName>Bad Customer Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return</controllingFieldValue>
+            <valueName>Changed Mind/Buyer&apos;s Remorse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return</controllingFieldValue>
+            <valueName>Delivery Delays</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return</controllingFieldValue>
+            <valueName>Falls short of Expectations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return</controllingFieldValue>
+            <valueName>Item not as Described</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return</controllingFieldValue>
+            <valueName>No Longer Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return</controllingFieldValue>
+            <valueName>No Reason Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return</controllingFieldValue>
+            <valueName>Ordered Wrong Item</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return</controllingFieldValue>
+            <valueName>Product Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return</controllingFieldValue>
+            <valueName>Too Large</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return</controllingFieldValue>
+            <valueName>Too Small</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return</controllingFieldValue>
+            <valueName>Unauthorised</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

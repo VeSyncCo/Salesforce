@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alleged_Issue__c</fullName>
+    <externalId>false</externalId>
+    <label>Alleged Issue</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alignment</fullName>
+                <default>false</default>
+                <label>Alignment</label>
+            </value>
+            <value>
+                <fullName>App</fullName>
+                <default>false</default>
+                <label>App</label>
+            </value>
+            <value>
+                <fullName>Bluetooth</fullName>
+                <default>false</default>
+                <label>Bluetooth</label>
+            </value>
+            <value>
+                <fullName>Burr/rough edges</fullName>
+                <default>false</default>
+                <label>Burr/rough edges</label>
+            </value>
+            <value>
+                <fullName>Button/Touchscreen/Knob</fullName>
+                <default>false</default>
+                <label>Button/Touchscreen/Knob</label>
+            </value>
+            <value>
+                <fullName>Coating</fullName>
+                <default>false</default>
+                <label>Coating</label>
+            </value>
+            <value>
+                <fullName>Damaged</fullName>
+                <default>false</default>
+                <label>Damaged</label>
+            </value>
+            <value>
+                <fullName>Deformed</fullName>
+                <default>false</default>
+                <label>Deformed</label>
+            </value>
+            <value>
+                <fullName>Dirty</fullName>
+                <default>false</default>
+                <label>Dirty</label>
+            </value>
+            <value>
+                <fullName>Display</fullName>
+                <default>false</default>
+                <label>Display</label>
+            </value>
+            <value>
+                <fullName>Error Codes</fullName>
+                <default>false</default>
+                <label>Error Codes</label>
+            </value>
+            <value>
+                <fullName>Fan</fullName>
+                <default>false</default>
+                <label>Fan</label>
+            </value>
+            <value>
+                <fullName>Firmware</fullName>
+                <default>false</default>
+                <label>Firmware</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Heat</fullName>
+                <default>false</default>
+                <label>Heat</label>
+            </value>
+            <value>
+                <fullName>Incorrectly assembled parts</fullName>
+                <default>false</default>
+                <label>Incorrectly assembled parts</label>
+            </value>
+            <value>
+                <fullName>Injection molding process</fullName>
+                <default>false</default>
+                <label>Injection molding process</label>
+            </value>
+            <value>
+                <fullName>Leaking</fullName>
+                <default>false</default>
+                <label>Leaking</label>
+            </value>
+            <value>
+                <fullName>Measurement</fullName>
+                <default>false</default>
+                <label>Measurement</label>
+            </value>
+            <value>
+                <fullName>Mechanical</fullName>
+                <default>false</default>
+                <label>Mechanical</label>
+            </value>
+            <value>
+                <fullName>Network</fullName>
+                <default>false</default>
+                <label>Network</label>
+            </value>
+            <value>
+                <fullName>Noise</fullName>
+                <default>false</default>
+                <label>Noise</label>
+            </value>
+            <value>
+                <fullName>Odor</fullName>
+                <default>false</default>
+                <label>Odor</label>
+            </value>
+            <value>
+                <fullName>Power</fullName>
+                <default>false</default>
+                <label>Power</label>
+            </value>
+            <value>
+                <fullName>Shrinkage marks visible</fullName>
+                <default>false</default>
+                <label>Shrinkage marks visible</label>
+            </value>
+            <value>
+                <fullName>Third-party</fullName>
+                <default>false</default>
+                <label>Third-party</label>
+            </value>
+            <value>
+                <fullName>Stability</fullName>
+                <default>false</default>
+                <label>Stability</label>
+            </value>
+            <value>
+                <fullName>Poor welding</fullName>
+                <default>false</default>
+                <label>Poor welding</label>
+            </value>
+            <value>
+                <fullName>Uneven side gaps</fullName>
+                <default>false</default>
+                <label>Uneven side gaps</label>
+            </value>
+            <value>
+                <fullName>Data</fullName>
+                <default>false</default>
+                <label>Data</label>
+            </value>
+            <value>
+                <fullName>Product does not match box label</fullName>
+                <default>false</default>
+                <label>Product does not match box label</label>
+            </value>
+            <value>
+                <fullName>Schedule</fullName>
+                <default>false</default>
+                <label>Schedule</label>
+            </value>
+            <value>
+                <fullName>Filter too small</fullName>
+                <default>false</default>
+                <label>Filter too small</label>
+            </value>
+            <value>
+                <fullName>Agency</fullName>
+                <default>false</default>
+                <label>Agency</label>
+            </value>
+            <value>
+                <fullName>Injury</fullName>
+                <default>false</default>
+                <label>Injury</label>
+            </value>
+            <value>
+                <fullName>Missing/Damaged Parts</fullName>
+                <default>false</default>
+                <label>Missing/Damaged Parts</label>
+            </value>
+            <value>
+                <fullName>Property Damage</fullName>
+                <default>false</default>
+                <label>Property Damage</label>
+            </value>
+            <value>
+                <fullName>Thermal</fullName>
+                <default>false</default>
+                <label>Thermal</label>
+            </value>
+            <value>
+                <fullName>Color box color difference</fullName>
+                <default>false</default>
+                <label>Color box color difference</label>
+            </value>
+            <value>
+                <fullName>Extra Accessories</fullName>
+                <default>false</default>
+                <label>Extra Accessories</label>
+            </value>
+            <value>
+                <fullName>Incorrect assembly</fullName>
+                <default>false</default>
+                <label>Incorrect assembly</label>
+            </value>
+            <value>
+                <fullName>Incorrect label placement</fullName>
+                <default>false</default>
+                <label>Incorrect label placement</label>
+            </value>
+            <value>
+                <fullName>Incorrect voltage on cord</fullName>
+                <default>false</default>
+                <label>Incorrect voltage on cord</label>
+            </value>
+            <value>
+                <fullName>Wrong manual</fullName>
+                <default>false</default>
+                <label>Wrong manual</label>
+            </value>
+            <value>
+                <fullName>Excess glue</fullName>
+                <default>false</default>
+                <label>Excess glue</label>
+            </value>
+            <value>
+                <fullName>Large gaps in seams</fullName>
+                <default>false</default>
+                <label>Large gaps in seams</label>
+            </value>
+            <value>
+                <fullName>Mist</fullName>
+                <default>false</default>
+                <label>Mist</label>
+            </value>
+            <value>
+                <fullName>Wrong adapter</fullName>
+                <default>false</default>
+                <label>Wrong adapter</label>
+            </value>
+            <value>
+                <fullName>Temporary</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Temporary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dialpad__Call_Disposition_Picklist__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Call Disposition (Picklist)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Busy</fullName>
+                <default>false</default>
+                <label>Busy</label>
+            </value>
+            <value>
+                <fullName>Left message</fullName>
+                <default>false</default>
+                <label>Left message</label>
+            </value>
+            <value>
+                <fullName>Left voicemail</fullName>
+                <default>false</default>
+                <label>Left voicemail</label>
+            </value>
+            <value>
+                <fullName>No answer</fullName>
+                <default>false</default>
+                <label>No answer</label>
+            </value>
+            <value>
+                <fullName>Wrong number</fullName>
+                <default>false</default>
+                <label>Wrong number</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

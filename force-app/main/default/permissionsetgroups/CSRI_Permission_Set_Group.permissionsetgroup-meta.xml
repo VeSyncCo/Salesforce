@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CSRI Permission Set Group</label>
+    <permissionSets>CSRI</permissionSets>
+    <permissionSets>Staff</permissionSets>
+    <permissionSets>Staff_Modify_All</permissionSets>
+    <permissionSets>Staff_View_All</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

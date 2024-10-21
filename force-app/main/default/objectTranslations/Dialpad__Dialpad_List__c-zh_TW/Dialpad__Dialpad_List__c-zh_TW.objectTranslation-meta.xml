@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Dialpad List --></value>
+    </caseValues>
+    <nameFieldLabel><!-- List Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- The status of the new list cannot be Active --></errorMessage>
+        <name>Dialpad__Active_list_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status of Archived list cannot be changed --></errorMessage>
+        <name>Dialpad__ArchiveRule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Can Not Edit List Type --></errorMessage>
+        <name>Dialpad__ReadOnlyListType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Can Not Edit Object Name --></errorMessage>
+        <name>Dialpad__ReadOnlyObjectName</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill a valid Name --></errorMessage>
+        <name>Dialpad__RegexCheck</name>
+    </validationRules>
+</CustomObjectTranslation>

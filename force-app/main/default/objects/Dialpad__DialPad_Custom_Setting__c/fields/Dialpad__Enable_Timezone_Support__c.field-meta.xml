@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dialpad__Enable_Timezone_Support__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is used for considering timezone of Customers while making a powerdialer call.</inlineHelpText>
+    <label>Enable Timezone Support</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

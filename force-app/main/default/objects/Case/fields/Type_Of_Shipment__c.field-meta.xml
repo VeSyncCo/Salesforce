@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_Of_Shipment__c</fullName>
+    <externalId>false</externalId>
+    <label>Type Of Shipment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AAA Cooper (AACT)</fullName>
+                <default>false</default>
+                <label>AAA Cooper (AACT)</label>
+            </value>
+            <value>
+                <fullName>AAA Cooper (XALS)</fullName>
+                <default>false</default>
+                <label>AAA Cooper (XALS)</label>
+            </value>
+            <value>
+                <fullName>AAA Cooper (XAMS)</fullName>
+                <default>false</default>
+                <label>AAA Cooper (XAMS)</label>
+            </value>
+            <value>
+                <fullName>AAA Cooper (XATS)</fullName>
+                <default>false</default>
+                <label>AAA Cooper (XATS)</label>
+            </value>
+            <value>
+                <fullName>ABF FREIGHT SYSTEM INC (ABFS)</fullName>
+                <default>false</default>
+                <label>ABF FREIGHT SYSTEM INC (ABFS)</label>
+            </value>
+            <value>
+                <fullName>ABN TRANSIT INC (ABNT)</fullName>
+                <default>false</default>
+                <label>ABN TRANSIT INC (ABNT)</label>
+            </value>
+            <value>
+                <fullName>AZNG</fullName>
+                <default>false</default>
+                <label>AZNG</label>
+            </value>
+            <value>
+                <fullName>Airborne</fullName>
+                <default>false</default>
+                <label>Airborne</label>
+            </value>
+            <value>
+                <fullName>Airgroup</fullName>
+                <default>false</default>
+                <label>Airgroup</label>
+            </value>
+            <value>
+                <fullName>Amazon Freight LTL (AMZX)</fullName>
+                <default>false</default>
+                <label>Amazon Freight LTL (AMZX)</label>
+            </value>
+            <value>
+                <fullName>Amazon Logistics-Vendor DS</fullName>
+                <default>false</default>
+                <label>Amazon Logistics-Vendor DS</label>
+            </value>
+            <value>
+                <fullName>Amazon-DF  (UAMDF)</fullName>
+                <default>false</default>
+                <label>Amazon-DF  (UAMDF)</label>
+            </value>
+            <value>
+                <fullName>Arrive Logistics (ARVY)</fullName>
+                <default>false</default>
+                <label>Arrive Logistics (ARVY)</label>
+            </value>
+            <value>
+                <fullName>By Air-ETEKCITY株式会社</fullName>
+                <default>false</default>
+                <label>By Air-ETEKCITY株式会社</label>
+            </value>
+            <value>
+                <fullName>By Air-Etekcity GmbH</fullName>
+                <default>false</default>
+                <label>By Air-Etekcity GmbH</label>
+            </value>
+            <value>
+                <fullName>By Air-VESYNC (UK) LIMITED</fullName>
+                <default>false</default>
+                <label>By Air-VESYNC (UK) LIMITED</label>
+            </value>
+            <value>
+                <fullName>By Express-ETEKCITY株式会社</fullName>
+                <default>false</default>
+                <label>By Express-ETEKCITY株式会社</label>
+            </value>
+            <value>
+                <fullName>By Express-Etekcity GmbH</fullName>
+                <default>false</default>
+                <label>By Express-Etekcity GmbH</label>
+            </value>
+            <value>
+                <fullName>By Express-VESYNC (UK) LIMITED</fullName>
+                <default>false</default>
+                <label>By Express-VESYNC (UK) LIMITED</label>
+            </value>
+            <value>
+                <fullName>By Train-ETEKCITY株式会社</fullName>
+                <default>false</default>
+                <label>By Train-ETEKCITY株式会社</label>
+            </value>
+            <value>
+                <fullName>By Train-Etekcity GmbH</fullName>
+                <default>false</default>
+                <label>By Train-Etekcity GmbH</label>
+            </value>
+            <value>
+                <fullName>By Train-VESYNC (UK) LIMITED</fullName>
+                <default>false</default>
+                <label>By Train-VESYNC (UK) LIMITED</label>
+            </value>
+            <value>
+                <fullName>By Truck-ETEKCITY株式会社</fullName>
+                <default>false</default>
+                <label>By Truck-ETEKCITY株式会社</label>
+            </value>
+            <value>
+                <fullName>By Truck-Etekcity GmbH</fullName>
+                <default>false</default>
+                <label>By Truck-Etekcity GmbH</label>
+            </value>
+            <value>
+                <fullName>By Truck-VESYNC (UK) LIMITED</fullName>
+                <default>false</default>
+                <label>By Truck-VESYNC (UK) LIMITED</label>
+            </value>
+            <value>
+                <fullName>CAI Logistics (CAIQ) - LTL</fullName>
+                <default>false</default>
+                <label>CAI Logistics (CAIQ) - LTL</label>
+            </value>
+            <value>
+                <fullName>CENTRAL TRANSPORT INTERNATIONAL INC (CTII)</fullName>
+                <default>false</default>
+                <label>CENTRAL TRANSPORT INTERNATIONAL INC (CTII)</label>
+            </value>
+            <value>
+                <fullName>CEVA CARRIER (CEVA)</fullName>
+                <default>false</default>
+                <label>CEVA CARRIER (CEVA)</label>
+            </value>
+            <value>
+                <fullName>CH Robinson (RBCG) - LTL</fullName>
+                <default>false</default>
+                <label>CH Robinson (RBCG) - LTL</label>
+            </value>
+            <value>
+                <fullName>CH Robinson (RBIN) - FTL</fullName>
+                <default>false</default>
+                <label>CH Robinson (RBIN) - FTL</label>
+            </value>
+            <value>
+                <fullName>CH Robinson (RBRL) - LTL</fullName>
+                <default>false</default>
+                <label>CH Robinson (RBRL) - LTL</label>
+            </value>
+            <value>
+                <fullName>CH Robinson (RBTW) - FTL</fullName>
+                <default>false</default>
+                <label>CH Robinson (RBTW) - FTL</label>
+            </value>
+            <value>
+                <fullName>CH Robinson (RBWR) - FTL</fullName>
+                <default>false</default>
+                <label>CH Robinson (RBWR) - FTL</label>
+            </value>
+            <value>
+                <fullName>CH Robinson (RFLB) - FTL</fullName>
+                <default>false</default>
+                <label>CH Robinson (RFLB) - FTL</label>
+            </value>
+            <value>
+                <fullName>Canada Post EXPEDITED</fullName>
+                <default>false</default>
+                <label>Canada Post EXPEDITED</label>
+            </value>
+            <value>
+                <fullName>Canada Post XPRESSPOST</fullName>
+                <default>false</default>
+                <label>Canada Post XPRESSPOST</label>
+            </value>
+            <value>
+                <fullName>Celtic International Inc (CELC)</fullName>
+                <default>false</default>
+                <label>Celtic International Inc (CELC)</label>
+            </value>
+            <value>
+                <fullName>Circle Logistics Inc (CLIM) - LTL</fullName>
+                <default>false</default>
+                <label>Circle Logistics Inc (CLIM) - LTL</label>
+            </value>
+            <value>
+                <fullName>Circle Logistics Inc (CLNC) - FTL</fullName>
+                <default>false</default>
+                <label>Circle Logistics Inc (CLNC) - FTL</label>
+            </value>
+            <value>
+                <fullName>Contract Freighters, Inc (CTRQ)</fullName>
+                <default>false</default>
+                <label>Contract Freighters, Inc (CTRQ)</label>
+            </value>
+            <value>
+                <fullName>Coyote (CLLQ)</fullName>
+                <default>false</default>
+                <label>Coyote (CLLQ)</label>
+            </value>
+            <value>
+                <fullName>DART INTERNATIONAL A CORP (DINL)</fullName>
+                <default>false</default>
+                <label>DART INTERNATIONAL A CORP (DINL)</label>
+            </value>
+            <value>
+                <fullName>DHL Express - WORLDWIDE EXPRESS (DHLE)</fullName>
+                <default>false</default>
+                <label>DHL Express - WORLDWIDE EXPRESS (DHLE)</label>
+            </value>
+            <value>
+                <fullName>ESTES EXPRESS LINES (EXLA)</fullName>
+                <default>false</default>
+                <label>ESTES EXPRESS LINES (EXLA)</label>
+            </value>
+            <value>
+                <fullName>England Logistics (ENGL)</fullName>
+                <default>false</default>
+                <label>England Logistics (ENGL)</label>
+            </value>
+            <value>
+                <fullName>Estenson Logistics (ESNL)</fullName>
+                <default>false</default>
+                <label>Estenson Logistics (ESNL)</label>
+            </value>
+            <value>
+                <fullName>Expeditors (ENAT)</fullName>
+                <default>false</default>
+                <label>Expeditors (ENAT)</label>
+            </value>
+            <value>
+                <fullName>FedEx 1Day® Freight</fullName>
+                <default>false</default>
+                <label>FedEx 1Day® Freight</label>
+            </value>
+            <value>
+                <fullName>FedEx 2Day</fullName>
+                <default>false</default>
+                <label>FedEx 2Day</label>
+            </value>
+            <value>
+                <fullName>FedEx 2Day A.M.</fullName>
+                <default>false</default>
+                <label>FedEx 2Day A.M.</label>
+            </value>
+            <value>
+                <fullName>FedEx 2Day Freight</fullName>
+                <default>false</default>
+                <label>FedEx 2Day Freight</label>
+            </value>
+            <value>
+                <fullName>FedEx Express Saver</fullName>
+                <default>false</default>
+                <label>FedEx Express Saver</label>
+            </value>
+            <value>
+                <fullName>FedEx Express Saver - Vesync</fullName>
+                <default>false</default>
+                <label>FedEx Express Saver - Vesync</label>
+            </value>
+            <value>
+                <fullName>FedEx First Overnight</fullName>
+                <default>false</default>
+                <label>FedEx First Overnight</label>
+            </value>
+            <value>
+                <fullName>FedEx Freight (FEXF)</fullName>
+                <default>false</default>
+                <label>FedEx Freight (FEXF)</label>
+            </value>
+            <value>
+                <fullName>FedEx Ground</fullName>
+                <default>false</default>
+                <label>FedEx Ground</label>
+            </value>
+            <value>
+                <fullName>FedEx Ground VeSync</fullName>
+                <default>false</default>
+                <label>FedEx Ground VeSync</label>
+            </value>
+            <value>
+                <fullName>FedEx Ground® Etekcity</fullName>
+                <default>false</default>
+                <label>FedEx Ground® Etekcity</label>
+            </value>
+            <value>
+                <fullName>FedEx Home Delivery</fullName>
+                <default>false</default>
+                <label>FedEx Home Delivery</label>
+            </value>
+            <value>
+                <fullName>FedEx Home Delivery VeSync</fullName>
+                <default>false</default>
+                <label>FedEx Home Delivery VeSync</label>
+            </value>
+            <value>
+                <fullName>FedEx International Economy</fullName>
+                <default>false</default>
+                <label>FedEx International Economy</label>
+            </value>
+            <value>
+                <fullName>FedEx International Priority</fullName>
+                <default>false</default>
+                <label>FedEx International Priority</label>
+            </value>
+            <value>
+                <fullName>FedEx Priority Overnight</fullName>
+                <default>false</default>
+                <label>FedEx Priority Overnight</label>
+            </value>
+            <value>
+                <fullName>FedEx SmartPost parcel select</fullName>
+                <default>false</default>
+                <label>FedEx SmartPost parcel select</label>
+            </value>
+            <value>
+                <fullName>FedEx SmartPost parcel select - VeSync</fullName>
+                <default>false</default>
+                <label>FedEx SmartPost parcel select - VeSync</label>
+            </value>
+            <value>
+                <fullName>FedEx Standard Overnight®</fullName>
+                <default>false</default>
+                <label>FedEx Standard Overnight®</label>
+            </value>
+            <value>
+                <fullName>FedEx-Vendor DS</fullName>
+                <default>false</default>
+                <label>FedEx-Vendor DS</label>
+            </value>
+            <value>
+                <fullName>Gale Triangle Inc (GLTN)</fullName>
+                <default>false</default>
+                <label>Gale Triangle Inc (GLTN)</label>
+            </value>
+            <value>
+                <fullName>Gilbert (GBWS)</fullName>
+                <default>false</default>
+                <label>Gilbert (GBWS)</label>
+            </value>
+            <value>
+                <fullName>Greypoint Inc dba Convoy(CVYI)</fullName>
+                <default>false</default>
+                <label>Greypoint Inc dba Convoy(CVYI)</label>
+            </value>
+            <value>
+                <fullName>HUNT, J B TRANSPORT INC (INTERMODAL DIVISION) (HJBI) - FTL</fullName>
+                <default>false</default>
+                <label>HUNT, J B TRANSPORT INC (INTERMODAL DIVISION) (HJBI) - FTL</label>
+            </value>
+            <value>
+                <fullName>Holland (HMES)</fullName>
+                <default>false</default>
+                <label>Holland (HMES)</label>
+            </value>
+            <value>
+                <fullName>Hub Group / Unyson (UYBB)</fullName>
+                <default>false</default>
+                <label>Hub Group / Unyson (UYBB)</label>
+            </value>
+            <value>
+                <fullName>Hub Group IMDL (HUBG)</fullName>
+                <default>false</default>
+                <label>Hub Group IMDL (HUBG)</label>
+            </value>
+            <value>
+                <fullName>JB Hunt (HJBB) - FTL</fullName>
+                <default>false</default>
+                <label>JB Hunt (HJBB) - FTL</label>
+            </value>
+            <value>
+                <fullName>JB Hunt (HJBM) - FTL</fullName>
+                <default>false</default>
+                <label>JB Hunt (HJBM) - FTL</label>
+            </value>
+            <value>
+                <fullName>JB Hunt Transport (XJLN) - LTL</fullName>
+                <default>false</default>
+                <label>JB Hunt Transport (XJLN) - LTL</label>
+            </value>
+            <value>
+                <fullName>JB Hunt Transport (XJLW) - LTL</fullName>
+                <default>false</default>
+                <label>JB Hunt Transport (XJLW) - LTL</label>
+            </value>
+            <value>
+                <fullName>JB Hunt Transport (XJMN) - LTL</fullName>
+                <default>false</default>
+                <label>JB Hunt Transport (XJMN) - LTL</label>
+            </value>
+            <value>
+                <fullName>JB Hunt Transport (XJMW) - LTL</fullName>
+                <default>false</default>
+                <label>JB Hunt Transport (XJMW) - LTL</label>
+            </value>
+            <value>
+                <fullName>JB Hunt Transport (XJTN) - LTL</fullName>
+                <default>false</default>
+                <label>JB Hunt Transport (XJTN) - LTL</label>
+            </value>
+            <value>
+                <fullName>JB Hunt Transport (XJTW) - LTL</fullName>
+                <default>false</default>
+                <label>JB Hunt Transport (XJTW) - LTL</label>
+            </value>
+            <value>
+                <fullName>Kenco Transportation (KTML)</fullName>
+                <default>false</default>
+                <label>Kenco Transportation (KTML)</label>
+            </value>
+            <value>
+                <fullName>Knight (Intermodal) (KNIM)</fullName>
+                <default>false</default>
+                <label>Knight (Intermodal) (KNIM)</label>
+            </value>
+            <value>
+                <fullName>LEGEND TRANSPORTATION (LEGS)</fullName>
+                <default>false</default>
+                <label>LEGEND TRANSPORTATION (LEGS)</label>
+            </value>
+            <value>
+                <fullName>LOADSMART - TL DYNAMIC (LIBA)</fullName>
+                <default>false</default>
+                <label>LOADSMART - TL DYNAMIC (LIBA)</label>
+            </value>
+            <value>
+                <fullName>MAGELLAN TRANSPORT LOGISTICS INC (MGXB)</fullName>
+                <default>false</default>
+                <label>MAGELLAN TRANSPORT LOGISTICS INC (MGXB)</label>
+            </value>
+            <value>
+                <fullName>Molo (DJML)</fullName>
+                <default>false</default>
+                <label>Molo (DJML)</label>
+            </value>
+            <value>
+                <fullName>National Retail Transportation NRT / NRS (NLRT)</fullName>
+                <default>false</default>
+                <label>National Retail Transportation NRT / NRS (NLRT)</label>
+            </value>
+            <value>
+                <fullName>National Retail Transportation NRT / NRS (NRCL)</fullName>
+                <default>false</default>
+                <label>National Retail Transportation NRT / NRS (NRCL)</label>
+            </value>
+            <value>
+                <fullName>Nationwide Trans, Inc (NDTJ)</fullName>
+                <default>false</default>
+                <label>Nationwide Trans, Inc (NDTJ)</label>
+            </value>
+            <value>
+                <fullName>Old Dominion (ODFL)</fullName>
+                <default>false</default>
+                <label>Old Dominion (ODFL)</label>
+            </value>
+            <value>
+                <fullName>Product Testing &amp; Engineering(PTE)</fullName>
+                <default>false</default>
+                <label>Product Testing &amp; Engineering(PTE)</label>
+            </value>
+            <value>
+                <fullName>Purolator</fullName>
+                <default>false</default>
+                <label>Purolator</label>
+            </value>
+            <value>
+                <fullName>QUANTUM PREMIUM TRANSPORT / A JB Hunt Company (QPMT)</fullName>
+                <default>false</default>
+                <label>QUANTUM PREMIUM TRANSPORT / A JB Hunt Company (QPMT)</label>
+            </value>
+            <value>
+                <fullName>ROADRUNNER FREIGHT SYSTEMS INC (RDFS)</fullName>
+                <default>false</default>
+                <label>ROADRUNNER FREIGHT SYSTEMS INC (RDFS)</label>
+            </value>
+            <value>
+                <fullName>ROADRUNNER FREIGHT SYSTEMS INC (RRDS)</fullName>
+                <default>false</default>
+                <label>ROADRUNNER FREIGHT SYSTEMS INC (RRDS)</label>
+            </value>
+            <value>
+                <fullName>SCHNEIDER NATIONAL CARRIERS, INC. (SLCY)</fullName>
+                <default>false</default>
+                <label>SCHNEIDER NATIONAL CARRIERS, INC. (SLCY)</label>
+            </value>
+            <value>
+                <fullName>SCHNEIDER NATIONAL CARRIERS, INC. (SNCK)</fullName>
+                <default>false</default>
+                <label>SCHNEIDER NATIONAL CARRIERS, INC. (SNCK)</label>
+            </value>
+            <value>
+                <fullName>STG Logistics (XPOG)</fullName>
+                <default>false</default>
+                <label>STG Logistics (XPOG)</label>
+            </value>
+            <value>
+                <fullName>Saia Motor Freight (SAIA)</fullName>
+                <default>false</default>
+                <label>Saia Motor Freight (SAIA)</label>
+            </value>
+            <value>
+                <fullName>ShipStation</fullName>
+                <default>false</default>
+                <label>ShipStation</label>
+            </value>
+            <value>
+                <fullName>TRAFFIX, ONTARIO LTD (TFXE)</fullName>
+                <default>false</default>
+                <label>TRAFFIX, ONTARIO LTD (TFXE)</label>
+            </value>
+            <value>
+                <fullName>Transfix (TSED)</fullName>
+                <default>false</default>
+                <label>Transfix (TSED)</label>
+            </value>
+            <value>
+                <fullName>UBER Freight (UBER)</fullName>
+                <default>false</default>
+                <label>UBER Freight (UBER)</label>
+            </value>
+            <value>
+                <fullName>UBER Freight (UFLB)</fullName>
+                <default>false</default>
+                <label>UBER Freight (UFLB)</label>
+            </value>
+            <value>
+                <fullName>UNISRS - Arovast</fullName>
+                <default>false</default>
+                <label>UNISRS - Arovast</label>
+            </value>
+            <value>
+                <fullName>UNISRS - VeSync</fullName>
+                <default>false</default>
+                <label>UNISRS - VeSync</label>
+            </value>
+            <value>
+                <fullName>UPS Domestic Three Day Select Residential AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Domestic Three Day Select Residential AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Domestic Three Day Select Residential ETEKCITY</fullName>
+                <default>false</default>
+                <label>UPS Domestic Three Day Select Residential ETEKCITY</label>
+            </value>
+            <value>
+                <fullName>UPS Expedited Canada</fullName>
+                <default>false</default>
+                <label>UPS Expedited Canada</label>
+            </value>
+            <value>
+                <fullName>UPS Expedited Canada - SINGAPORE Entity</fullName>
+                <default>false</default>
+                <label>UPS Expedited Canada - SINGAPORE Entity</label>
+            </value>
+            <value>
+                <fullName>UPS Express Saver Canada - SINGAPORE Entity</fullName>
+                <default>false</default>
+                <label>UPS Express Saver Canada - SINGAPORE Entity</label>
+            </value>
+            <value>
+                <fullName>UPS Freight (OVNT) / TForce Freight</fullName>
+                <default>false</default>
+                <label>UPS Freight (OVNT) / TForce Freight</label>
+            </value>
+            <value>
+                <fullName>UPS Freight / TForce Freight (UPGF)</fullName>
+                <default>false</default>
+                <label>UPS Freight / TForce Freight (UPGF)</label>
+            </value>
+            <value>
+                <fullName>UPS Ground Commercial AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Ground Commercial AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Ground Commercial ETEKCITY</fullName>
+                <default>false</default>
+                <label>UPS Ground Commercial ETEKCITY</label>
+            </value>
+            <value>
+                <fullName>UPS Ground Commercial Signature AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Ground Commercial Signature AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Ground Commercial Signature ETEKCITY</fullName>
+                <default>false</default>
+                <label>UPS Ground Commercial Signature ETEKCITY</label>
+            </value>
+            <value>
+                <fullName>UPS Ground Residential - VeSync</fullName>
+                <default>false</default>
+                <label>UPS Ground Residential - VeSync</label>
+            </value>
+            <value>
+                <fullName>UPS Ground Residential AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Ground Residential AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Ground Residential ETEKCITY</fullName>
+                <default>false</default>
+                <label>UPS Ground Residential ETEKCITY</label>
+            </value>
+            <value>
+                <fullName>UPS Ground Residential Signature AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Ground Residential Signature AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Ground Residential Signature ETEKCITY</fullName>
+                <default>false</default>
+                <label>UPS Ground Residential Signature ETEKCITY</label>
+            </value>
+            <value>
+                <fullName>UPS Next Day Air AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Next Day Air AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Next Day Air ETEKCITY</fullName>
+                <default>false</default>
+                <label>UPS Next Day Air ETEKCITY</label>
+            </value>
+            <value>
+                <fullName>UPS Next Day Air Early AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Next Day Air Early AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Next Day Air Saver AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Next Day Air Saver AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Next Day Air Saver Commercial AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Next Day Air Saver Commercial AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Next Day Air Saver Commercial ETEKCITY</fullName>
+                <default>false</default>
+                <label>UPS Next Day Air Saver Commercial ETEKCITY</label>
+            </value>
+            <value>
+                <fullName>UPS Next Day Air Saver ETEKCITY</fullName>
+                <default>false</default>
+                <label>UPS Next Day Air Saver ETEKCITY</label>
+            </value>
+            <value>
+                <fullName>UPS Second Day Air A.M. AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Second Day Air A.M. AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Second Day Air AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Second Day Air AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Second Day Air Commercial AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Second Day Air Commercial AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Second Day Air Commercial ETEKCITY</fullName>
+                <default>false</default>
+                <label>UPS Second Day Air Commercial ETEKCITY</label>
+            </value>
+            <value>
+                <fullName>UPS Second Day Air ETEKCITY</fullName>
+                <default>false</default>
+                <label>UPS Second Day Air ETEKCITY</label>
+            </value>
+            <value>
+                <fullName>UPS Second Day Air Signature AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Second Day Air Signature AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Second Day Air Signature ETEKCITY</fullName>
+                <default>false</default>
+                <label>UPS Second Day Air Signature ETEKCITY</label>
+            </value>
+            <value>
+                <fullName>UPS Standard Ground Business Canada - SINGAPORE Entity</fullName>
+                <default>false</default>
+                <label>UPS Standard Ground Business Canada - SINGAPORE Entity</label>
+            </value>
+            <value>
+                <fullName>UPS Standard Ground Residential Canada - SINGAPORE Entity</fullName>
+                <default>false</default>
+                <label>UPS Standard Ground Residential Canada - SINGAPORE Entity</label>
+            </value>
+            <value>
+                <fullName>UPS Surepost GRD Parcel AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Surepost GRD Parcel AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Surepost GRD Parcel ETEKCITY</fullName>
+                <default>false</default>
+                <label>UPS Surepost GRD Parcel ETEKCITY</label>
+            </value>
+            <value>
+                <fullName>UPS Surepost GRD Standard AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Surepost GRD Standard AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS Surepost GRD Standard ETEKCITY</fullName>
+                <default>false</default>
+                <label>UPS Surepost GRD Standard ETEKCITY</label>
+            </value>
+            <value>
+                <fullName>UPS Surepost Less Than 1 lb. GRD Standard AROVAST</fullName>
+                <default>false</default>
+                <label>UPS Surepost Less Than 1 lb. GRD Standard AROVAST</label>
+            </value>
+            <value>
+                <fullName>UPS-Vendor DS</fullName>
+                <default>false</default>
+                <label>UPS-Vendor DS</label>
+            </value>
+            <value>
+                <fullName>US Express Enterprises, Inc (XRID)</fullName>
+                <default>false</default>
+                <label>US Express Enterprises, Inc (XRID)</label>
+            </value>
+            <value>
+                <fullName>USF Reddaway Truck Line Inc (RETL)</fullName>
+                <default>false</default>
+                <label>USF Reddaway Truck Line Inc (RETL)</label>
+            </value>
+            <value>
+                <fullName>USPS First-Class Mail®</fullName>
+                <default>false</default>
+                <label>USPS First-Class Mail®</label>
+            </value>
+            <value>
+                <fullName>USPS First-Class Mail®- VeSync</fullName>
+                <default>false</default>
+                <label>USPS First-Class Mail®- VeSync</label>
+            </value>
+            <value>
+                <fullName>USPS Ground Advantage - Package</fullName>
+                <default>false</default>
+                <label>USPS Ground Advantage - Package</label>
+            </value>
+            <value>
+                <fullName>USPS Parcel Select - VeSync</fullName>
+                <default>false</default>
+                <label>USPS Parcel Select - VeSync</label>
+            </value>
+            <value>
+                <fullName>USPS Priority Mail®</fullName>
+                <default>false</default>
+                <label>USPS Priority Mail®</label>
+            </value>
+            <value>
+                <fullName>USPS Priority Mail® - VeSync</fullName>
+                <default>false</default>
+                <label>USPS Priority Mail® - VeSync</label>
+            </value>
+            <value>
+                <fullName>USPS Priority Mail® International</fullName>
+                <default>false</default>
+                <label>USPS Priority Mail® International</label>
+            </value>
+            <value>
+                <fullName>USPS Retail Ground - VeSync</fullName>
+                <default>false</default>
+                <label>USPS Retail Ground - VeSync</label>
+            </value>
+            <value>
+                <fullName>USPS-Vendor DS</fullName>
+                <default>false</default>
+                <label>USPS-Vendor DS</label>
+            </value>
+            <value>
+                <fullName>Unsyon/HUB (XHLC)</fullName>
+                <default>false</default>
+                <label>Unsyon/HUB (XHLC)</label>
+            </value>
+            <value>
+                <fullName>Unsyon/HUB (XHLE)</fullName>
+                <default>false</default>
+                <label>Unsyon/HUB (XHLE)</label>
+            </value>
+            <value>
+                <fullName>Unsyon/HUB (XHLM)</fullName>
+                <default>false</default>
+                <label>Unsyon/HUB (XHLM)</label>
+            </value>
+            <value>
+                <fullName>Unsyon/HUB (XHMC)</fullName>
+                <default>false</default>
+                <label>Unsyon/HUB (XHMC)</label>
+            </value>
+            <value>
+                <fullName>Unsyon/HUB (XHME)</fullName>
+                <default>false</default>
+                <label>Unsyon/HUB (XHME)</label>
+            </value>
+            <value>
+                <fullName>Unsyon/HUB (XHMM)</fullName>
+                <default>false</default>
+                <label>Unsyon/HUB (XHMM)</label>
+            </value>
+            <value>
+                <fullName>Unsyon/HUB (XHTC)</fullName>
+                <default>false</default>
+                <label>Unsyon/HUB (XHTC)</label>
+            </value>
+            <value>
+                <fullName>Unsyon/HUB (XHTE)</fullName>
+                <default>false</default>
+                <label>Unsyon/HUB (XHTE)</label>
+            </value>
+            <value>
+                <fullName>Unsyon/HUB (XHTM)</fullName>
+                <default>false</default>
+                <label>Unsyon/HUB (XHTM)</label>
+            </value>
+            <value>
+                <fullName>VENDOR_PORTAL</fullName>
+                <default>false</default>
+                <label>VENDOR_PORTAL</label>
+            </value>
+            <value>
+                <fullName>WAL-MART DISP 7847 (W-7847) - Walmart Fleet</fullName>
+                <default>false</default>
+                <label>WAL-MART DISP 7847 (W-7847) - Walmart Fleet</label>
+            </value>
+            <value>
+                <fullName>Walmart Fleet</fullName>
+                <default>false</default>
+                <label>Walmart Fleet</label>
+            </value>
+            <value>
+                <fullName>Western Express (WSXI)</fullName>
+                <default>false</default>
+                <label>Western Express (WSXI)</label>
+            </value>
+            <value>
+                <fullName>Will Call</fullName>
+                <default>false</default>
+                <label>Will Call</label>
+            </value>
+            <value>
+                <fullName>XPO Logistics (XPOL)</fullName>
+                <default>false</default>
+                <label>XPO Logistics (XPOL)</label>
+            </value>
+            <value>
+                <fullName>YRC Freight / ROADWAY EXPRESS (RDWY)</fullName>
+                <default>false</default>
+                <label>YRC Freight / ROADWAY EXPRESS (RDWY)</label>
+            </value>
+            <value>
+                <fullName>佐川sagawa</fullName>
+                <default>false</default>
+                <label>佐川sagawa</label>
+            </value>
+            <value>
+                <fullName>黒猫Yamato</fullName>
+                <default>false</default>
+                <label>黒猫Yamato</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

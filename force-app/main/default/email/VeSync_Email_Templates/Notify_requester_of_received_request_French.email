@@ -1,0 +1,19 @@
+Bonjour {!Contact.Name},
+
+IL S'AGIT D'UN E-MAIL ENVOYÉ AUTOMATIQUEMENT.
+
+Merci d'avoir contacté l'assistance {!Case.Brand__c}. Nous avons reçu votre e-mail et un représentant de {!Case.Brand__c} vous répondra sous peu. Si vous n'avez pas de réponse de notre part dans les 2-3 jours ouvrables, veuillez vérifier votre dossier spam !
+
+Nos heures normales d'ouverture sont du lundi au vendredi, de 9:00 a. m. à 5:00 p. m PST/PDT.
+
+Votre identifiant de ticket est : {!Case.CaseNumber} et vous recevrez un e-mail de "Zendesk" concernant le statut de votre ticket.
+
+En attendant, vous êtes invités à parcourir tous nos manuels disponibles "Link inserted later" ici. Votre produit est également couvert par une garantie du fabricant pouvant aller jusqu'à deux ans lorsqu'il est acheté neuf auprès d'un vendeur vérifié ! Bien que cela ne soit pas obligatoire, vous pouvez toujours enregistrer votre produit "Link inserted later" ici.
+
+Veuillez ne pas répondre à cet e-mail ; nous apprécions votre patience et nous nous réjouissons de discuter avec vous !
+
+Sincèrement,
+Sponsor {!Case.Brand__c}
+
+
+{!Case.Thread_Token}

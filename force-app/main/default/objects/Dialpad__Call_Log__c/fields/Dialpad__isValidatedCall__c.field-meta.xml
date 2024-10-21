@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dialpad__isValidatedCall__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The flag can be used to check the if the call is valid or invalid.</description>
+    <externalId>false</externalId>
+    <label>Validated Call</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

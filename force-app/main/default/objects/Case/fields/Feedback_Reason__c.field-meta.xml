@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feedback_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Feedback Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>After-Sales Service</fullName>
+                <default>false</default>
+                <label>After-Sales Service</label>
+            </value>
+            <value>
+                <fullName>Customer Review</fullName>
+                <default>false</default>
+                <label>Customer Review</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>General Appearance</fullName>
+                <default>false</default>
+                <label>General Appearance</label>
+            </value>
+            <value>
+                <fullName>General Feedback</fullName>
+                <default>false</default>
+                <label>General Feedback</label>
+            </value>
+            <value>
+                <fullName>Literature</fullName>
+                <default>false</default>
+                <label>Literature</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>Marketing/UX/Sales</fullName>
+                <default>false</default>
+                <label>Marketing/UX/Sales</label>
+            </value>
+            <value>
+                <fullName>Operational</fullName>
+                <default>false</default>
+                <label>Operational</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Parts</fullName>
+                <default>false</default>
+                <label>Parts</label>
+            </value>
+            <value>
+                <fullName>Physical Sensitivities</fullName>
+                <default>false</default>
+                <label>Physical Sensitivities</label>
+            </value>
+            <value>
+                <fullName>Quality</fullName>
+                <default>false</default>
+                <label>Quality</label>
+            </value>
+            <value>
+                <fullName>Size</fullName>
+                <default>false</default>
+                <label>Size</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Demo Value</fullName>
+                <default>false</default>
+                <label>Demo Value</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
