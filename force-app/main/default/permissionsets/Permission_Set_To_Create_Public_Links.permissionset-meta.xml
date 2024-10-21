@@ -2,12 +2,17 @@
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <fieldPermissions>
         <editable>true</editable>
-        <field>Case.Dialpad_Call_Log__c</field>
+        <field>Dialpad__Call_Log__c.Related_Case__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Dialpad__Call_Log__c.Related_Case__c</field>
+        <field>Dialpad__Dialpad_Activity_Log__c.Case__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SurveyInvitation.Case__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>

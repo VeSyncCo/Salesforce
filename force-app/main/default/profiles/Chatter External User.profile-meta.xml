@@ -1197,11 +1197,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Case.Dialpad_Call_Log__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Case.EntitlementId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2768,6 +2763,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Dialpad__Call_Log__c.Related_Case__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Dialpad__Dialpad_Activity_Log__c.Case__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -5662,7 +5662,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>SurveyInvitation.Case_Number__c</field>
+        <field>SurveyInvitation.Case__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

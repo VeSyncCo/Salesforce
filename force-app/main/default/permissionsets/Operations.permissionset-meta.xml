@@ -242,11 +242,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Case.Dialpad_Call_Log__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Case.EntitlementId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1118,11 +1113,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Subsidiary__c.State__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SurveyInvitation.Case_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>

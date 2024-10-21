@@ -144,7 +144,7 @@
     <description>Housing Cosori Help Center Articles</description>
     <label>Cosori</label>
     <objectUsage>
-        <object>KnowledgeArticleVersion</object>
         <object>SvcCatalogItemDef</object>
+        <object>KnowledgeArticleVersion</object>
     </objectUsage>
 </DataCategoryGroup>

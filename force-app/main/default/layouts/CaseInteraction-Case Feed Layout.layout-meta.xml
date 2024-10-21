@@ -362,10 +362,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Dialpad_Call_Log__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Survey_Invitation__c</field>
             </layoutItems>
         </layoutColumns>
