@@ -6860,30 +6860,12 @@
         <tab>standard-Customer</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DataAction</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DataActionTarget</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DataGraph</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DataLakeObjectInstance</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DataQueryWorkspace</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DataStream</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
+    
+    
+    
+    
+    
+    
     <tabVisibilities>
         <tab>standard-DataUseLegalBasis</tab>
         <visibility>DefaultOn</visibility>
@@ -6924,14 +6906,8 @@
         <tab>standard-ExpressionSet</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ExtDataShare</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ExtDataShareTarget</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
+    
+    
     <tabVisibilities>
         <tab>standard-FlowOrchestrationInstance</tab>
         <visibility>DefaultOn</visibility>
@@ -6944,10 +6920,7 @@
         <tab>standard-Idea</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-IdentityResolution</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
+    
     <tabVisibilities>
         <tab>standard-Image</tab>
         <visibility>Hidden</visibility>
@@ -6988,14 +6961,8 @@
         <tab>standard-Macro</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-MktCalculatedInsight</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-MktDataTransform</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
+    
+    
     <tabVisibilities>
         <tab>standard-Opportunity</tab>
         <visibility>Hidden</visibility>
