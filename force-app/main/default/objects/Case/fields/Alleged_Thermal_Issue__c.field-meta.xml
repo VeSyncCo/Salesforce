@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Alleged_Thermal_Issue__c</fullName>
     <defaultValue>false</defaultValue>
-    <externalId>false</externalId>
     <label>Alleged Thermal Issue</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
