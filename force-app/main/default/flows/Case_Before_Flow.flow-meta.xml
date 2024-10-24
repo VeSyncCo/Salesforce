@@ -5,7 +5,7 @@
         <name>Assign_Cosori_as_Brand</name>
         <label>Assign Cosori as Brand</label>
         <locationX>314</locationX>
-        <locationY>1619</locationY>
+        <locationY>1319</locationY>
         <assignmentItems>
             <assignToReference>$Record.Brand__c</assignToReference>
             <operator>Assign</operator>
@@ -21,7 +21,7 @@
         <name>Assign_Etaekcity_as_Brand</name>
         <label>Assign Etaekcity as Brand</label>
         <locationX>578</locationX>
-        <locationY>1619</locationY>
+        <locationY>1319</locationY>
         <assignmentItems>
             <assignToReference>$Record.Brand__c</assignToReference>
             <operator>Assign</operator>
@@ -37,7 +37,7 @@
         <name>Assign_Levoit_as_Brand</name>
         <label>Assign Levoit as Brand</label>
         <locationX>50</locationX>
-        <locationY>1619</locationY>
+        <locationY>1319</locationY>
         <assignmentItems>
             <assignToReference>$Record.Brand__c</assignToReference>
             <operator>Assign</operator>
@@ -53,7 +53,7 @@
         <name>Assign_PawSync_as_Brand</name>
         <label>Assign PawSync as Brand</label>
         <locationX>842</locationX>
-        <locationY>1619</locationY>
+        <locationY>1319</locationY>
         <assignmentItems>
             <assignToReference>$Record.Brand__c</assignToReference>
             <operator>Assign</operator>
@@ -66,15 +66,15 @@
         </connector>
     </assignments>
     <assignments>
-        <name>Assign_Region_to_Case</name>
-        <label>Assign Region to Case</label>
+        <name>Assign_Region_Country_to_Case</name>
+        <label>Assign Region, Country to Case</label>
         <locationX>446</locationX>
-        <locationY>1319</locationY>
+        <locationY>1019</locationY>
         <assignmentItems>
-            <assignToReference>$Record.Region__c</assignToReference>
+            <assignToReference>$Record.Country__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>RegionCodes</elementReference>
+                <elementReference>Custom_Metadata_Fetch.Country__c</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -149,7 +149,7 @@
         <name>Assign_Value_Initially_Assigned_At</name>
         <label>Assign Value - Initially Assigned At</label>
         <locationX>446</locationX>
-        <locationY>2219</locationY>
+        <locationY>1919</locationY>
         <assignmentItems>
             <assignToReference>$Record.Initially_Assigned_At__c</assignToReference>
             <operator>Assign</operator>
@@ -194,7 +194,7 @@
         <name>Assign_Value_to_Assigned_At</name>
         <label>Assign Value to &quot;Assigned At&quot;</label>
         <locationX>446</locationX>
-        <locationY>1919</locationY>
+        <locationY>1619</locationY>
         <assignmentItems>
             <assignToReference>$Record.Assigned_At__c</assignToReference>
             <operator>Assign</operator>
@@ -220,22 +220,6 @@
         </assignmentItems>
         <connector>
             <targetReference>Check_for_First_Resolution_Time_Minutes</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>Collect_the_Region_Codes</name>
-        <label>Collect the Region Codes</label>
-        <locationX>534</locationX>
-        <locationY>1127</locationY>
-        <assignmentItems>
-            <assignToReference>RegionCodes</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <elementReference>MetaData_Loop.Country_Code__c</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>MetaData_Loop</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -467,7 +451,7 @@
         <name>Brand_Check_for_Case</name>
         <label>Brand Check for Case</label>
         <locationX>578</locationX>
-        <locationY>1511</locationY>
+        <locationY>1211</locationY>
         <defaultConnector>
             <targetReference>Case_Owner_Decision_Creation</targetReference>
         </defaultConnector>
@@ -658,7 +642,7 @@
         <name>Case_Owner_Decision_Creation</name>
         <label>Case Owner Decision - Creation</label>
         <locationX>578</locationX>
-        <locationY>1811</locationY>
+        <locationY>1511</locationY>
         <defaultConnector>
             <targetReference>Prior_Owner_Check</targetReference>
         </defaultConnector>
@@ -741,14 +725,14 @@
                 <leftValueReference>$Record.Status</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Closed</stringValue>
+                    <stringValue>Closed - Resolved</stringValue>
                 </rightValue>
             </conditions>
             <conditions>
                 <leftValueReference>$Record__Prior.Status</leftValueReference>
                 <operator>NotEqualTo</operator>
                 <rightValue>
-                    <stringValue>Closed</stringValue>
+                    <stringValue>Closed - Resolved</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -865,7 +849,7 @@
         <name>Prior_Owner_Check</name>
         <label>Prior Owner Check</label>
         <locationX>578</locationX>
-        <locationY>2111</locationY>
+        <locationY>1811</locationY>
         <defaultConnectorLabel>Prior Value Present</defaultConnectorLabel>
         <rules>
             <name>Prior_Owner_NULL</name>
@@ -956,14 +940,14 @@
                 <leftValueReference>$Record__Prior.Status</leftValueReference>
                 <operator>NotEqualTo</operator>
                 <rightValue>
-                    <stringValue>Closed</stringValue>
+                    <stringValue>Closed - Resolved</stringValue>
                 </rightValue>
             </conditions>
             <conditions>
                 <leftValueReference>$Record.Status</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Closed</stringValue>
+                    <stringValue>Closed - Resolved</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -1007,20 +991,6 @@
     </formulas>
     <interviewLabel>Case Before Flow {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Case Before Flow</label>
-    <loops>
-        <name>MetaData_Loop</name>
-        <label>MetaData Loop</label>
-        <locationX>446</locationX>
-        <locationY>1019</locationY>
-        <collectionReference>Custom_Metadata_Fetch</collectionReference>
-        <iterationOrder>Asc</iterationOrder>
-        <nextValueConnector>
-            <targetReference>Collect_the_Region_Codes</targetReference>
-        </nextValueConnector>
-        <noMoreValuesConnector>
-            <targetReference>Assign_Region_to_Case</targetReference>
-        </noMoreValuesConnector>
-    </loops>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -1068,7 +1038,7 @@
         <locationY>911</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>MetaData_Loop</targetReference>
+            <targetReference>Assign_Region_Country_to_Case</targetReference>
         </connector>
         <filterLogic>or</filterLogic>
         <filters>
@@ -1078,14 +1048,7 @@
                 <elementReference>$Record.Source:EmailMessage.ToAddress</elementReference>
             </value>
         </filters>
-        <filters>
-            <field>Email__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>$Record.SuppliedEmail</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>Email_mapping__mdt</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>

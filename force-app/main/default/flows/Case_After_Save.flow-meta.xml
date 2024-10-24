@@ -39,6 +39,7 @@
             </value>
         </inputParameters>
         <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
         <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
@@ -80,6 +81,7 @@
             </value>
         </inputParameters>
         <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
         <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
@@ -121,6 +123,7 @@
             </value>
         </inputParameters>
         <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
         <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
@@ -162,6 +165,7 @@
             </value>
         </inputParameters>
         <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
         <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
@@ -203,6 +207,7 @@
             </value>
         </inputParameters>
         <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
         <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
@@ -244,6 +249,7 @@
             </value>
         </inputParameters>
         <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
         <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
@@ -285,6 +291,7 @@
             </value>
         </inputParameters>
         <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
         <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
@@ -298,7 +305,7 @@
         <inputParameters>
             <name>surveyName</name>
             <value>
-                <stringValue>vesync_survey</stringValue>
+                <stringValue>active_survey_vesync</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -332,6 +339,7 @@
             </value>
         </inputParameters>
         <nameSegment>sendSurveyInvitation</nameSegment>
+        <offset>0</offset>
         <storeOutputAutomatically>true</storeOutputAutomatically>
         <versionSegment>1</versionSegment>
     </actionCalls>
@@ -371,14 +379,14 @@
                 <leftValueReference>$Record.Status</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Closed</stringValue>
+                    <stringValue>Closed - Resolved</stringValue>
                 </rightValue>
             </conditions>
             <conditions>
                 <leftValueReference>$Record__Prior.Status</leftValueReference>
                 <operator>NotEqualTo</operator>
                 <rightValue>
-                    <stringValue>Closed</stringValue>
+                    <stringValue>Closed - Resolved</stringValue>
                 </rightValue>
             </conditions>
             <conditions>
@@ -407,10 +415,10 @@
             <name>Germany</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>$Record.Region__c</leftValueReference>
+                <leftValueReference>$Record.Country__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>DE</stringValue>
+                    <stringValue>Germany</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -422,10 +430,10 @@
             <name>Spain</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>$Record.Region__c</leftValueReference>
+                <leftValueReference>$Record.Country__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>ES</stringValue>
+                    <stringValue>Spain</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -437,10 +445,10 @@
             <name>France</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>$Record.Region__c</leftValueReference>
+                <leftValueReference>$Record.Country__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>FR</stringValue>
+                    <stringValue>France</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -452,10 +460,10 @@
             <name>Italy</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>$Record.Region__c</leftValueReference>
+                <leftValueReference>$Record.Country__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>IT</stringValue>
+                    <stringValue>Italy</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -467,17 +475,17 @@
             <name>United_Kingdoms_and_Northern_America</name>
             <conditionLogic>or</conditionLogic>
             <conditions>
-                <leftValueReference>$Record.Region__c</leftValueReference>
+                <leftValueReference>$Record.Country__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>UK</stringValue>
+                    <stringValue>United Kingdom of Great Britain and Northern Ireland</stringValue>
                 </rightValue>
             </conditions>
             <conditions>
-                <leftValueReference>$Record.Region__c</leftValueReference>
+                <leftValueReference>$Record.Country__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>NA</stringValue>
+                    <stringValue>United States of America,Canada</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -531,8 +539,8 @@
         </rules>
     </decisions>
     <decisions>
-        <name>Manual_Creation_Check</name>
-        <label>Manual Creation Check</label>
+        <name>Origin_Check</name>
+        <label>Origin Check</label>
         <locationX>1106</locationX>
         <locationY>1139</locationY>
         <defaultConnectorLabel>Default Path</defaultConnectorLabel>
@@ -594,7 +602,7 @@
         <locationX>1106</locationX>
         <locationY>539</locationY>
         <defaultConnector>
-            <targetReference>Manual_Creation_Check</targetReference>
+            <targetReference>Origin_Check</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Only Requester Present</defaultConnectorLabel>
         <rules>
@@ -676,7 +684,7 @@
         <locationX>1150</locationX>
         <locationY>647</locationY>
         <defaultConnector>
-            <targetReference>Manual_Creation_Check</targetReference>
+            <targetReference>Origin_Check</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Key Fields Missing</defaultConnectorLabel>
         <rules>
@@ -788,7 +796,7 @@
         <locationX>754</locationX>
         <locationY>647</locationY>
         <connector>
-            <targetReference>Manual_Creation_Check</targetReference>
+            <targetReference>Origin_Check</targetReference>
         </connector>
         <inputAssignments>
             <field>Requester__c</field>
@@ -804,7 +812,7 @@
         <locationX>1018</locationX>
         <locationY>863</locationY>
         <connector>
-            <targetReference>Manual_Creation_Check</targetReference>
+            <targetReference>Origin_Check</targetReference>
         </connector>
         <inputAssignments>
             <field>Requester__c</field>
