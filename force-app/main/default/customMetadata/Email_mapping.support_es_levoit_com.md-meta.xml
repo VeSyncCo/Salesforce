@@ -7,6 +7,10 @@
         <value xsi:type="xsd:string">ES</value>
     </values>
     <values>
+        <field>Country__c</field>
+        <value xsi:type="xsd:string">Spain</value>
+    </values>
+    <values>
         <field>Email__c</field>
         <value xsi:type="xsd:string">support.es@levoit.com</value>
     </values>

@@ -4,7 +4,11 @@
     <protected>false</protected>
     <values>
         <field>Country_Code__c</field>
-        <value xsi:type="xsd:string">NA</value>
+        <value xsi:type="xsd:string">UK</value>
+    </values>
+    <values>
+        <field>Country__c</field>
+        <value xsi:type="xsd:string">United Kingdom of Great Britain and Northern Ireland</value>
     </values>
     <values>
         <field>Email__c</field>
