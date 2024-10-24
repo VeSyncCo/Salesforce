@@ -26,9 +26,15 @@
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Closed</fullName>
+        <fullName>Closed - Unresolved</fullName>
         <default>false</default>
-        <label>Closed</label>
+        <label>Closed - Unresolved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Resolved</fullName>
+        <default>false</default>
+        <label>Closed - Resolved</label>
         <closed>true</closed>
     </standardValue>
 </StandardValueSet>
