@@ -7,6 +7,10 @@
         <value xsi:type="xsd:string">JP</value>
     </values>
     <values>
+        <field>Country__c</field>
+        <value xsi:type="xsd:string">Japan</value>
+    </values>
+    <values>
         <field>Email__c</field>
         <value xsi:type="xsd:string">support.jp@vesync.com</value>
     </values>

@@ -7,6 +7,10 @@
         <value xsi:type="xsd:string">EU</value>
     </values>
     <values>
+        <field>Country__c</field>
+        <value xsi:type="xsd:string">European Union</value>
+    </values>
+    <values>
         <field>Email__c</field>
         <value xsi:type="xsd:string">support.eu@vesync.com</value>
     </values>

@@ -56,9 +56,9 @@
         <label>Camping Lantern</label>
     </customValue>
     <customValue>
-        <fullName>Coffe Grinder</fullName>
+        <fullName>Coffee Grinder</fullName>
         <default>false</default>
-        <label>Coffe Grinder</label>
+        <label>Coffee Grinder</label>
     </customValue>
     <customValue>
         <fullName>Coffee Maker</fullName>
@@ -201,9 +201,9 @@
         <label>Thermometer</label>
     </customValue>
     <customValue>
-        <fullName>Toaster Over</fullName>
+        <fullName>Toaster Oven</fullName>
         <default>false</default>
-        <label>Toaster Over</label>
+        <label>Toaster Oven</label>
     </customValue>
     <customValue>
         <fullName>Tower Fans</fullName>

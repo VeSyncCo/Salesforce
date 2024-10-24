@@ -7,6 +7,10 @@
         <value xsi:type="xsd:string">NA</value>
     </values>
     <values>
+        <field>Country__c</field>
+        <value xsi:type="xsd:string">United States of America,Canada</value>
+    </values>
+    <values>
         <field>Email__c</field>
         <value xsi:type="xsd:string">support@pawsync.com</value>
     </values>
