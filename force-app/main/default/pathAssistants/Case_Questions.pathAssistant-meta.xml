@@ -3,9 +3,6 @@
     <active>true</active>
     <entityName>Case</entityName>
     <fieldName>Status</fieldName>
-    <masterLabel>Case - DSRR</masterLabel>
-    <pathAssistantSteps>
-        <picklistValueName>New</picklistValueName>
-    </pathAssistantSteps>
-    <recordTypeName>DSRR</recordTypeName>
+    <masterLabel>Case - Questions</masterLabel>
+    <recordTypeName>Questions</recordTypeName>
 </PathAssistant>
