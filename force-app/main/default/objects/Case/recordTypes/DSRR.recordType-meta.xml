@@ -305,6 +305,89 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>American Samoa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Austrilia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eastern Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>European Union</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>India</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Italy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Korean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mainland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nauru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tailand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The United Arab Emirates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Kingdom of Great Britain and Northern Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United States of America%2CCanada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vietnam</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>DSRR_Request_Details__c</picklist>
         <values>
             <fullName>App</fullName>
@@ -4462,7 +4545,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Coffe Grinder</fullName>
+            <fullName>Coffee Grinder</fullName>
             <default>false</default>
         </values>
         <values>
@@ -4578,7 +4661,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Toaster Over</fullName>
+            <fullName>Toaster Oven</fullName>
             <default>false</default>
         </values>
         <values>

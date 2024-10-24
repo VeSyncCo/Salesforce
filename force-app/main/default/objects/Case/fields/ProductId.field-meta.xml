@@ -13,6 +13,21 @@
             <operation>equals</operation>
             <valueField>Product2.Product_Category__c</valueField>
         </filterItems>
+        <filterItems>
+            <field>$Source.Country__c</field>
+            <operation>contains</operation>
+            <valueField>Product2.Country_Code__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>Product2.Is_Deleted__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </filterItems>
+        <filterItems>
+            <field>Product2.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
         <infoMessage>Products are filtered on the basis of Brand and Category</infoMessage>
         <isOptional>false</isOptional>
     </lookupFilter>

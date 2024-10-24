@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Product_Category__c</fullName>
+    <externalId>false</externalId>
     <label>Product Category</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
@@ -21,7 +22,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Cosori</controllingFieldValue>
-            <valueName>Coffe Grinder</valueName>
+            <valueName>Coffee Grinder</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Cosori</controllingFieldValue>
@@ -61,7 +62,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Cosori</controllingFieldValue>
-            <valueName>Toaster Over</valueName>
+            <valueName>Toaster Oven</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Cosori</controllingFieldValue>
