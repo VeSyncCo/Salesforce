@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Need_Technical_Support__c</fullName>
     <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
     <label>Need Technical Support?</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

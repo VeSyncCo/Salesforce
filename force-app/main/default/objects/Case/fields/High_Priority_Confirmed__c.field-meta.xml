@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>High_Priority_Confirmed__c</fullName>
     <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
     <label>High Priority Confirmed</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

@@ -3,7 +3,11 @@
     <fullName>Standard Support Process</fullName>
     <isActive>true</isActive>
     <values>
-        <fullName>Closed</fullName>
+        <fullName>Closed - Resolved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Unresolved</fullName>
         <default>false</default>
     </values>
     <values>

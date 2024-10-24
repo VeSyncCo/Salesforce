@@ -1079,6 +1079,11 @@
         <field>Case.Agent_Wait_Time_Business_Hours__c</field>
         <readable>true</readable>
     </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Country__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Agent_Wait_Time_Minutes__c</field>
