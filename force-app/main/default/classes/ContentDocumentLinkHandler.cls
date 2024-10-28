@@ -32,14 +32,17 @@ public class ContentDocumentLinkHandler extends TriggerHandlerBase {
         List<ContentVersion > versionDataList = new List<ContentVersion>();
         Set<Id> caseDocumentIdSet = new Set<Id>();
         Set<Id> caseLinkIdSet = new Set<Id>();
+        Set<Id> caseIdSet = new Set<Id>();
         for(ContentDocumentLink contentLink : newMap.Values()){
             if(String.valueOf(contentLink.LinkedEntityId.getSobjectType()) == 'Case'){
                 caseDocumentIdSet.add(contentLink.ContentDocumentId);
                 caseLinkIdSet.add(contentLink.Id);
+                caseIdSet.add(contentLink.LinkedEntityId);
             }
         }
+        system.debug(caseLinkIdSet);
         Map<Id, ContentDocument> contentDocumentMap = new Map<Id, ContentDocument>([SELECT Id,title,LatestPublishedVersionId FROM ContentDocument WHERE Id in: caseDocumentIdSet ]);
-        Map<Id, Case> caseMap =new Map<Id, Case>([SELECT Id, CaseNumber FROM case WHERE ID in: caseDocumentIdSet]);
+        Map<Id, Case> caseMap =new Map<Id, Case>([SELECT Id, CaseNumber FROM case WHERE ID in: caseIdSet]);
         List<ContentDistribution > distributionLinkList = new List<ContentDistribution >();
     
         
