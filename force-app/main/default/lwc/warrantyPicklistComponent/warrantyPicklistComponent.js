@@ -17,11 +17,16 @@ export default class WarrantyPicklistComponent extends LightningElement {
     allegedIssueOptions;
     detailOptions;
     subDetailOptions;
+    allegedInjuryValue;
+    allegedPropertyValue;
+    allegedHardwareValue;
+    allegedThermalValue;
 
     mainCategoryDisabled;
     allegedIssueDisabled;
     detailDisabled;
     subDetailDisabled;
+    disableCheckboxes;
 
     connectedCallback(){
 
@@ -29,6 +34,7 @@ export default class WarrantyPicklistComponent extends LightningElement {
         this.allegedIssueDisabled = true;
         this.detailDisabled = true;
         this.subDetailDisabled = true;
+        this.disableCheckboxes = true;
         this.setCaseValues();
     }
 
@@ -73,6 +79,26 @@ export default class WarrantyPicklistComponent extends LightningElement {
         this.subDetailValue = event.detail.value;
     }
 
+    handleCheckBoxChange(event){
+        console.log(event.target.checked);
+
+        if(event.target.name == 'AllegedInjury'){
+            this.allegedInjuryValue = event.target.checked;
+        }
+        else if(event.target.name == 'AllegedPropertyDamage'){
+            this.allegedPropertyValue = event.target.checked;
+        }
+        else if(event.target.name == 'AllegedHardwareIssue'){
+            this.allegedHardwareValue = event.target.checked;
+        }
+        else if(event.target.name == 'AllegedThermalIssue'){ 
+            this.allegedThermalValue = event.target.checked;
+        }
+
+    }
+    
+
+
     handleEdit(event){
 
         let recid = 'Edit';
@@ -95,14 +121,17 @@ export default class WarrantyPicklistComponent extends LightningElement {
             this.subDetailDisabled = false;
         }
 
+        this.disableCheckboxes = false;
+
         this.handlePicklistFieldsValues();
 
     }
 
     setCaseValues(){
         getcaseDetails({recordId: this.recordId}).then(result=>{
+            console.log(result);
             if(result != null){
-                
+                console.log(result.Alleged_Property_Damage__c);
                 this.mainCategoryValue = result.Main_Category__c == undefined? '' : result.Main_Category__c;
                 this.allegedIssueValue = result.Alleged_Issue__c == undefined? '' : result.Alleged_Issue__c;
                 this.detailValue = result.Detail__c == undefined? '' : result.Detail__c;
@@ -113,6 +142,10 @@ export default class WarrantyPicklistComponent extends LightningElement {
                 this.detailOptions = this.detailValue != ''? [{label: this.detailValue, value: this.detailValue}] : null;
                 this.subDetailOptions = this.subDetailValue != ''? [{label: this.subDetailValue, value: this.subDetailValue}] : null;
                 
+                this.allegedInjuryValue = result.Alleged_Injury__c == undefined? false : result.Alleged_Injury__c;
+                this.allegedPropertyValue = result.Alleged_Property_Damage__c == undefined? false : result.Alleged_Property_Damage__c;
+                this.allegedHardwareValue = result.Alleged_Hardware_Issue__c == undefined? false : result.Alleged_Hardware_Issue__c;
+                this.allegedThermalValue = result.Alleged_Thermal_Issue__c == undefined? false : result.Alleged_Thermal_Issue__c;
             }
         });
     }
@@ -195,7 +228,7 @@ export default class WarrantyPicklistComponent extends LightningElement {
         this.allegedIssueDisabled = true;
         this.detailDisabled = true;
         this.subDetailDisabled = true;
-
+        this.disableCheckboxes = true;
         this.setCaseValues();
     }
 
@@ -213,17 +246,18 @@ export default class WarrantyPicklistComponent extends LightningElement {
         this.allegedIssueDisabled = true;
         this.detailDisabled = true;
         this.subDetailDisabled = true;
+        this.disableCheckboxes = true;
 
-
-        saveCaseRecord({recordId: this.recordId, mainCategory: this.mainCategoryValue, allegedIssue: this.allegedIssueValue, detail: this.detailValue, subDetail: this.subDetailValue}).then(result=>{
+        saveCaseRecord({recordId: this.recordId,allegedInjury: this.allegedInjuryValue,allegedProperty: this.allegedPropertyValue,allegedHardware: this.allegedHardwareValue,allegedThermal: this.allegedThermalValue ,mainCategory: this.mainCategoryValue, allegedIssue: this.allegedIssueValue, detail: this.detailValue, subDetail: this.subDetailValue}).then(result=>{
             if(result == 'Updated'){
 
                 const event = new ShowToastEvent({
                     title: 'Success',
-                    message:'Feedback saved successfully',
+                    message:'Warranty Details saved successfully',
                     variant: 'success'
                 });
                 this.dispatchEvent(event);
+                this.setCaseValues();
             }
             else{
                 const event = new ShowToastEvent({
