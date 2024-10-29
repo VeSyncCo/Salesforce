@@ -4,7 +4,7 @@ public class WarrantyPicklistController {
     public Static case getCaseDetails(Id recordId){
         
         try{
-            Case caseRecord = [Select Id,Main_Category__c, Alleged_Issue__c, Detail__c, SubDetail__c from case where Id =: recordId];
+            Case caseRecord = [Select Id,Alleged_Injury__c,Alleged_Hardware_Issue__c,Alleged_Property_Damage__c,Alleged_Thermal_Issue__c,Main_Category__c, Alleged_Issue__c, Detail__c, SubDetail__c from case where Id =: recordId];
             
             return caseRecord;
         }
@@ -87,7 +87,7 @@ public class WarrantyPicklistController {
     }
     
     @AuraEnabled
-    public static String saveCaseRecord(Id recordId, String mainCategory, String allegedIssue, String detail, String subDetail ){
+    public static String saveCaseRecord(Id recordId, String mainCategory, String allegedIssue, String detail, String subDetail,Boolean allegedInjury, Boolean allegedProperty, Boolean allegedHardware, Boolean allegedThermal ){
         
         try{
             Case caseRecord = [Select Id,Main_Category__c, Alleged_Issue__c, Detail__c, SubDetail__c from case where Id =: recordId];
@@ -96,7 +96,11 @@ public class WarrantyPicklistController {
             caseRecord.Alleged_Issue__c =  caseRecord.Alleged_Issue__c != allegedIssue ? (allegedIssue == '' ? null : allegedIssue) : caseRecord.Alleged_Issue__c;
             caseRecord.Detail__c =  caseRecord.Detail__c != detail ? (detail == '' ? null: detail) : caseRecord.Detail__c;
             caseRecord.SubDetail__c =  caseRecord.SubDetail__c != subDetail ? (subDetail == ''? null: subDetail) : caseRecord.SubDetail__c;
-            
+            caseRecord.Alleged_Injury__c = allegedInjury;
+            caseRecord.Alleged_Hardware_Issue__c = allegedHardware;
+            caseRecord.Alleged_Property_Damage__c = allegedProperty;
+            caseRecord.Alleged_Thermal_Issue__c = allegedThermal;
+            system.debug(caseRecord);
             update caseRecord;
         }
         catch(Exception e){
