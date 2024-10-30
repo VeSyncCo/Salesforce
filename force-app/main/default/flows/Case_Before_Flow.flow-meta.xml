@@ -18,6 +18,49 @@
         </connector>
     </assignments>
     <assignments>
+        <name>Assign_Customer_to_Case</name>
+        <label>Assign Customer to Case</label>
+        <locationX>248</locationX>
+        <locationY>2327</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.ContactId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Order__r.Customer__r.PersonContactId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Requester__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Order__r.Customer__r.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.AccountId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Order__r.Customer__r.Id</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Escalated_Date</name>
+        <label>Assign Escalated Date</label>
+        <locationX>2096</locationX>
+        <locationY>3227</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Escalated_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CurrentTime</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Brand_Based_Assignment</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
         <name>Assign_Etaekcity_as_Brand</name>
         <label>Assign Etaekcity as Brand</label>
         <locationX>578</locationX>
@@ -47,6 +90,66 @@
         </assignmentItems>
         <connector>
             <targetReference>Case_Owner_Decision_Creation</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Metric_Value</name>
+        <label>Assign Metric Value</label>
+        <locationX>2635</locationX>
+        <locationY>2111</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Full_Resolution_Time_Minutes__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>FirstResolutionTime</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Solved_At__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CurrentTime</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Resolution_Time__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>UpdateResolutionTime</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Record_Type_Check</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Order_Customer_to_Case</name>
+        <label>Assign Order Customer to Case</label>
+        <locationX>2635</locationX>
+        <locationY>611</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Requester__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Order__r.Customer__r.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.ContactId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Order__r.Customer__r.PersonContactId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.AccountId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Order__r.Customer__r.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Case_Opening_Check</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -84,8 +187,8 @@
     <assignments>
         <name>Assign_Value_Assigned_At</name>
         <label>Assign Value - Assigned At</label>
-        <locationX>2074</locationX>
-        <locationY>911</locationY>
+        <locationX>2635</locationX>
+        <locationY>1211</locationY>
         <assignmentItems>
             <assignToReference>$Record.Assigned_At__c</assignToReference>
             <operator>Assign</operator>
@@ -100,8 +203,8 @@
     <assignments>
         <name>Assign_value_Case_Opened_At</name>
         <label>Assign value - Case Opened At</label>
-        <locationX>2074</locationX>
-        <locationY>611</locationY>
+        <locationX>2635</locationX>
+        <locationY>911</locationY>
         <assignmentItems>
             <assignToReference>$Record.Case_Opened_At__c</assignToReference>
             <operator>Assign</operator>
@@ -116,8 +219,8 @@
     <assignments>
         <name>Assign_Value_First_Resolution_Time_Minutes</name>
         <label>Assign Value - &quot;First Resolution Time - Minutes&quot;</label>
-        <locationX>2074</locationX>
-        <locationY>1511</locationY>
+        <locationX>2635</locationX>
+        <locationY>1811</locationY>
         <assignmentItems>
             <assignToReference>$Record.First_Resolution_Time_Minutes__c</assignToReference>
             <operator>Assign</operator>
@@ -127,22 +230,6 @@
         </assignmentItems>
         <connector>
             <targetReference>Status_Check</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>Assign_Value_Full_Resolution_Time_Minutes</name>
-        <label>Assign Value - &quot;Full Resolution Time - Minutes&quot;</label>
-        <locationX>2074</locationX>
-        <locationY>1811</locationY>
-        <assignmentItems>
-            <assignToReference>$Record.Full_Resolution_Time_Minutes__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>FirstResolutionTime</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Assign_Value_Solved_At</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -157,37 +244,8 @@
                 <elementReference>CurrentTime</elementReference>
             </value>
         </assignmentItems>
-    </assignments>
-    <assignments>
-        <name>Assign_Value_Resolution_Time</name>
-        <label>Assign Value - Resolution Time</label>
-        <locationX>2074</locationX>
-        <locationY>2027</locationY>
-        <assignmentItems>
-            <assignToReference>$Record.Resolution_Time__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>UpdateResolutionTime</elementReference>
-            </value>
-        </assignmentItems>
         <connector>
-            <targetReference>Record_Type_Check</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>Assign_Value_Solved_At</name>
-        <label>Assign Value - Solved At</label>
-        <locationX>2074</locationX>
-        <locationY>1919</locationY>
-        <assignmentItems>
-            <assignToReference>$Record.Solved_At__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>CurrentTime</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Assign_Value_Resolution_Time</targetReference>
+            <targetReference>Order_Check</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -209,8 +267,8 @@
     <assignments>
         <name>Assign_Value_to_Initially_Assigned_At</name>
         <label>Assign Value to &quot;Initially Assigned At&quot;</label>
-        <locationX>2074</locationX>
-        <locationY>1211</locationY>
+        <locationX>2635</locationX>
+        <locationY>1511</locationY>
         <assignmentItems>
             <assignToReference>$Record.Initially_Assigned_At__c</assignToReference>
             <operator>Assign</operator>
@@ -225,8 +283,8 @@
     <assignments>
         <name>Feedback_Picklists_NULL</name>
         <label>Feedback Picklists - NULL</label>
-        <locationX>2074</locationX>
-        <locationY>2627</locationY>
+        <locationX>2635</locationX>
+        <locationY>2711</locationY>
         <assignmentItems>
             <assignToReference>$Record.Feedback_Type__c</assignToReference>
             <operator>Assign</operator>
@@ -262,26 +320,26 @@
     <assignments>
         <name>Onwer_Laura</name>
         <label>Onwer - Laura</label>
-        <locationX>1546</locationX>
-        <locationY>3251</locationY>
+        <locationX>1722</locationX>
+        <locationY>3851</locationY>
         <assignmentItems>
             <assignToReference>$Record.OwnerId</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Cosori_Escalation.Escalation_Representative__c</elementReference>
+                <elementReference>Get_Escalation_Representative_Cosori.Id</elementReference>
             </value>
         </assignmentItems>
     </assignments>
     <assignments>
         <name>Owner_Elijah</name>
         <label>Owner - Elijah</label>
-        <locationX>1810</locationX>
-        <locationY>3251</locationY>
+        <locationX>2162</locationX>
+        <locationY>3851</locationY>
         <assignmentItems>
             <assignToReference>$Record.OwnerId</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Etekcity_Escalation.Escalation_Representative__c</elementReference>
+                <elementReference>Get_Escalation_Representative_Etekcity.Id</elementReference>
             </value>
         </assignmentItems>
     </assignments>
@@ -289,25 +347,25 @@
         <name>Owner_Pauline</name>
         <label>Owner - Pauline</label>
         <locationX>1282</locationX>
-        <locationY>3251</locationY>
+        <locationY>3851</locationY>
         <assignmentItems>
             <assignToReference>$Record.OwnerId</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Levoit_Escalation.Escalation_Representative__c</elementReference>
+                <elementReference>Get_Escalation_Representative_Levoit.Id</elementReference>
             </value>
         </assignmentItems>
     </assignments>
     <assignments>
         <name>Owner_Todd</name>
         <label>Owner - Todd</label>
-        <locationX>2074</locationX>
-        <locationY>3251</locationY>
+        <locationX>2602</locationX>
+        <locationY>3851</locationY>
         <assignmentItems>
             <assignToReference>$Record.OwnerId</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>PawSync_Escalation.Escalation_Representative__c</elementReference>
+                <elementReference>Get_Escalation_Representative_PawSync.Id</elementReference>
             </value>
         </assignmentItems>
     </assignments>
@@ -330,8 +388,8 @@
     <assignments>
         <name>Set_Priority</name>
         <label>Set Priority</label>
-        <locationX>1810</locationX>
-        <locationY>2927</locationY>
+        <locationX>2228</locationX>
+        <locationY>3011</locationY>
         <assignmentItems>
             <assignToReference>$Record.Priority</assignToReference>
             <operator>Assign</operator>
@@ -340,14 +398,14 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Brand_Based_Assignment</targetReference>
+            <targetReference>Main_Category_Change_Check</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>Warranty_Picklists_NULL</name>
         <label>Warranty Picklists - NULL</label>
-        <locationX>2074</locationX>
-        <locationY>2327</locationY>
+        <locationX>2635</locationX>
+        <locationY>2411</locationY>
         <assignmentItems>
             <assignToReference>$Record.Alleged_Issue__c</assignToReference>
             <operator>Assign</operator>
@@ -376,6 +434,34 @@
                 <stringValue></stringValue>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Alleged_Injury__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Alleged_Hardware_Issue__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Alleged_Property_Damage__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Alleged_Thermal_Issue__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
         <connector>
             <targetReference>Feedback_Checkbox_Value</targetReference>
         </connector>
@@ -383,8 +469,8 @@
     <decisions>
         <name>Brand_Based_Assignment</name>
         <label>Brand Based Assignment</label>
-        <locationX>1810</locationX>
-        <locationY>3035</locationY>
+        <locationX>2228</locationX>
+        <locationY>3419</locationY>
         <defaultConnectorLabel>No Brand</defaultConnectorLabel>
         <rules>
             <name>Levoit_Based</name>
@@ -562,7 +648,7 @@
     <decisions>
         <name>ByPass_check</name>
         <label>ByPass check</label>
-        <locationX>2129</locationX>
+        <locationX>2621</locationX>
         <locationY>287</locationY>
         <defaultConnectorLabel>Bypass Required</defaultConnectorLabel>
         <rules>
@@ -584,8 +670,8 @@
     <decisions>
         <name>Case_Opening_Check</name>
         <label>Case Opening Check</label>
-        <locationX>2206</locationX>
-        <locationY>503</locationY>
+        <locationX>2767</locationX>
+        <locationY>803</locationY>
         <defaultConnector>
             <targetReference>Case_Owner_Decision_Updation</targetReference>
         </defaultConnector>
@@ -611,6 +697,52 @@
                 <targetReference>Assign_value_Case_Opened_At</targetReference>
             </connector>
             <label>Case Opened</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Case_Order_Check</name>
+        <label>Case Order Check</label>
+        <locationX>2767</locationX>
+        <locationY>503</locationY>
+        <defaultConnector>
+            <targetReference>Case_Opening_Check</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Case Order Not Present</defaultConnectorLabel>
+        <rules>
+            <name>Case_Order_Present</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Order__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Order__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Requester__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Order__r.Customer__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Order_Customer_to_Case</targetReference>
+            </connector>
+            <label>Case Order Present</label>
         </rules>
     </decisions>
     <decisions>
@@ -666,8 +798,8 @@
     <decisions>
         <name>Case_Owner_Decision_Updation</name>
         <label>Case Owner Decision - Updation</label>
-        <locationX>2206</locationX>
-        <locationY>803</locationY>
+        <locationX>2767</locationX>
+        <locationY>1103</locationY>
         <defaultConnector>
             <targetReference>Prior_Owner_Check_Updation</targetReference>
         </defaultConnector>
@@ -705,8 +837,8 @@
     <decisions>
         <name>Check_for_First_Resolution_Time_Minutes</name>
         <label>Check for &quot;First Resolution Time - Minutes&quot;</label>
-        <locationX>2206</locationX>
-        <locationY>1403</locationY>
+        <locationX>2767</locationX>
+        <locationY>1703</locationY>
         <defaultConnector>
             <targetReference>Status_Check</targetReference>
         </defaultConnector>
@@ -776,10 +908,10 @@
     <decisions>
         <name>Context_Decision</name>
         <label>Context Decision</label>
-        <locationX>1392</locationX>
+        <locationX>1672</locationX>
         <locationY>395</locationY>
         <defaultConnector>
-            <targetReference>Case_Opening_Check</targetReference>
+            <targetReference>Case_Order_Check</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Record is Updated</defaultConnectorLabel>
         <rules>
@@ -799,19 +931,121 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Empty_Check_Cosori</name>
+        <label>Empty Check - Cosori</label>
+        <locationX>1854</locationX>
+        <locationY>3743</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Representative_Found_Cosori</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Escalation_Representative_Cosori</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Onwer_Laura</targetReference>
+            </connector>
+            <label>Representative Found - Cosori</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Empty_Check_Etekcity</name>
+        <label>Empty Check - Etekcity</label>
+        <locationX>2294</locationX>
+        <locationY>3743</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Representative_Found_Etekcity</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Escalation_Representative_Etekcity</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Owner_Elijah</targetReference>
+            </connector>
+            <label>Representative Found - Etekcity</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Empty_Check_Levoit</name>
+        <label>Empty Check - Levoit</label>
+        <locationX>1414</locationX>
+        <locationY>3743</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Representative_Found_Levoit</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Escalation_Representative_Levoit</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Owner_Pauline</targetReference>
+            </connector>
+            <label>Representative Found - Levoit</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Empty_Check_PawSync</name>
+        <label>Empty Check - PawSync</label>
+        <locationX>2734</locationX>
+        <locationY>3743</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Representative_Found_PawSync</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Escalation_Representative_PawSync</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Owner_Todd</targetReference>
+            </connector>
+            <label>Representative Found - PawSync</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Escalation_Check</name>
         <label>Escalation Check</label>
-        <locationX>2206</locationX>
-        <locationY>2819</locationY>
+        <locationX>2767</locationX>
+        <locationY>2903</locationY>
         <defaultConnectorLabel>Main Category - Other Value</defaultConnectorLabel>
         <rules>
             <name>Main_Category_High_Priority_Issue</name>
-            <conditionLogic>and</conditionLogic>
+            <conditionLogic>1 AND (2 OR 3)</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Main_Category__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>High Priority Issues</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Brand__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Main_Category__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -823,8 +1057,8 @@
     <decisions>
         <name>Feedback_Checkbox_Value</name>
         <label>Feedback Checkbox Value</label>
-        <locationX>2206</locationX>
-        <locationY>2519</locationY>
+        <locationX>2767</locationX>
+        <locationY>2603</locationY>
         <defaultConnector>
             <targetReference>Escalation_Check</targetReference>
         </defaultConnector>
@@ -846,10 +1080,96 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Main_Category_Change_Check</name>
+        <label>Main Category Change Check</label>
+        <locationX>2228</locationX>
+        <locationY>3119</locationY>
+        <defaultConnector>
+            <targetReference>Brand_Based_Assignment</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Main_Category_Is_Changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Main_Category__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Escalated_Date</targetReference>
+            </connector>
+            <label>Main Category Is Changed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Order_Check</name>
+        <label>Order Check</label>
+        <locationX>578</locationX>
+        <locationY>2111</locationY>
+        <defaultConnectorLabel>Order Not Present</defaultConnectorLabel>
+        <rules>
+            <name>Order_Present</name>
+            <conditionLogic>(1 OR 2) AND 3</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Order__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Order__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Requester__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Order_Customer_Check</targetReference>
+            </connector>
+            <label>Order Present</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Order_Customer_Check</name>
+        <label>Order Customer Check</label>
+        <locationX>380</locationX>
+        <locationY>2219</locationY>
+        <defaultConnectorLabel>Customer Record not Present</defaultConnectorLabel>
+        <rules>
+            <name>Customer_Record_Present</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Order__r.Customer__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Customer_to_Case</targetReference>
+            </connector>
+            <label>Customer Record Present</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Prior_Owner_Check</name>
         <label>Prior Owner Check</label>
         <locationX>578</locationX>
         <locationY>1811</locationY>
+        <defaultConnector>
+            <targetReference>Order_Check</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>Prior Value Present</defaultConnectorLabel>
         <rules>
             <name>Prior_Owner_NULL</name>
@@ -870,8 +1190,8 @@
     <decisions>
         <name>Prior_Owner_Check_Updation</name>
         <label>Prior Owner Check - Updation</label>
-        <locationX>2206</locationX>
-        <locationY>1103</locationY>
+        <locationX>2767</locationX>
+        <locationY>1403</locationY>
         <defaultConnector>
             <targetReference>Check_for_First_Resolution_Time_Minutes</targetReference>
         </defaultConnector>
@@ -902,8 +1222,8 @@
     <decisions>
         <name>Record_Type_Check</name>
         <label>Record Type Check</label>
-        <locationX>2206</locationX>
-        <locationY>2219</locationY>
+        <locationX>2767</locationX>
+        <locationY>2303</locationY>
         <defaultConnector>
             <targetReference>Feedback_Checkbox_Value</targetReference>
         </defaultConnector>
@@ -927,8 +1247,8 @@
     <decisions>
         <name>Status_Check</name>
         <label>Status Check</label>
-        <locationX>2206</locationX>
-        <locationY>1703</locationY>
+        <locationX>2767</locationX>
+        <locationY>2003</locationY>
         <defaultConnector>
             <targetReference>Record_Type_Check</targetReference>
         </defaultConnector>
@@ -951,7 +1271,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Assign_Value_Full_Resolution_Time_Minutes</targetReference>
+                <targetReference>Assign_Metric_Value</targetReference>
             </connector>
             <label>Case Status - Closed</label>
         </rules>
@@ -1013,11 +1333,11 @@
     <recordLookups>
         <name>Cosori_Escalation</name>
         <label>Cosori Escalation</label>
-        <locationX>1546</locationX>
-        <locationY>3143</locationY>
+        <locationX>1854</locationX>
+        <locationY>3527</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Onwer_Laura</targetReference>
+            <targetReference>Get_Escalation_Representative_Cosori</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -1055,11 +1375,11 @@
     <recordLookups>
         <name>Etekcity_Escalation</name>
         <label>Etekcity Escalation</label>
-        <locationX>1810</locationX>
-        <locationY>3143</locationY>
+        <locationX>2294</locationX>
+        <locationY>3527</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Owner_Elijah</targetReference>
+            <targetReference>Get_Escalation_Representative_Etekcity</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -1074,13 +1394,97 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
-        <name>Levoit_Escalation</name>
-        <label>Levoit Escalation</label>
-        <locationX>1282</locationX>
-        <locationY>3143</locationY>
+        <name>Get_Escalation_Representative_Cosori</name>
+        <label>Get Escalation Representative - Cosori</label>
+        <locationX>1854</locationX>
+        <locationY>3635</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Owner_Pauline</targetReference>
+            <targetReference>Empty_Check_Cosori</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Email</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Cosori_Escalation.Escalation_Representative__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Escalation_Representative_Etekcity</name>
+        <label>Get Escalation Representative - Etekcity</label>
+        <locationX>2294</locationX>
+        <locationY>3635</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Empty_Check_Etekcity</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Email</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Etekcity_Escalation.Escalation_Representative__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Escalation_Representative_Levoit</name>
+        <label>Get Escalation Representative - Levoit</label>
+        <locationX>1414</locationX>
+        <locationY>3635</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Empty_Check_Levoit</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Email</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Levoit_Escalation.Escalation_Representative__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Escalation_Representative_PawSync</name>
+        <label>Get Escalation Representative - PawSync</label>
+        <locationX>2734</locationX>
+        <locationY>3635</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Empty_Check_PawSync</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Email</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>PawSync_Escalation.Escalation_Representative__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Levoit_Escalation</name>
+        <label>Levoit Escalation</label>
+        <locationX>1414</locationX>
+        <locationY>3527</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Escalation_Representative_Levoit</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -1097,11 +1501,11 @@
     <recordLookups>
         <name>PawSync_Escalation</name>
         <label>PawSync Escalation</label>
-        <locationX>2074</locationX>
-        <locationY>3143</locationY>
+        <locationX>2734</locationX>
+        <locationY>3527</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Owner_Todd</targetReference>
+            <targetReference>Get_Escalation_Representative_PawSync</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -1116,7 +1520,7 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <start>
-        <locationX>2003</locationX>
+        <locationX>2495</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>ByPass_check</targetReference>
