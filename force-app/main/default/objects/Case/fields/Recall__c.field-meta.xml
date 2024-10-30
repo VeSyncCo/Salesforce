@@ -3,7 +3,7 @@
     <fullName>Recall__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>Recall ?</label>
+    <label>RTC?</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

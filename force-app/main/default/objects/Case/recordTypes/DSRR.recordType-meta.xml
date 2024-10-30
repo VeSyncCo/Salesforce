@@ -4459,20 +4459,12 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Facebook</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Phone</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>Salesforce</fullName>
             <default>true</default>
-        </values>
-        <values>
-            <fullName>Twitter</fullName>
-            <default>false</default>
         </values>
         <values>
             <fullName>Web</fullName>
@@ -4704,6 +4696,52 @@
         </values>
         <values>
             <fullName>Hardware Issue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Refund_Method__c</picklist>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cosori%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Etekcity%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Levoit%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PayPal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venmo Refund email%2Fusername</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vesync app</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wal-mart-direct refund</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Refund_Status__c</picklist>
+        <values>
+            <fullName>Pending Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refunded</fullName>
             <default>false</default>
         </values>
     </picklistValues>
