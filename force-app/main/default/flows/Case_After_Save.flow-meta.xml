@@ -301,6 +301,9 @@
         <locationY>647</locationY>
         <actionName>sendSurveyInvitation</actionName>
         <actionType>sendSurveyInvitation</actionType>
+        <connector>
+            <targetReference>Update_Survey_Invitation_Time</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>surveyName</name>
@@ -374,7 +377,7 @@
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Case_is_Closed</name>
-            <conditionLogic>and</conditionLogic>
+            <conditionLogic>1 AND 2 AND 3 AND 4 AND (5 OR 6)</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Status</leftValueReference>
                 <operator>EqualTo</operator>
@@ -394,6 +397,27 @@
                 <operator>IsBlank</operator>
                 <rightValue>
                     <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Requester__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Requester__r.Survey_Invitation_Date__pc</leftValueReference>
+                <operator>GreaterThanOrEqualTo</operator>
+                <rightValue>
+                    <elementReference>TwoWeeksAhead</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Requester__r.Survey_Invitation_Date__pc</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -714,6 +738,16 @@
         <dataType>Boolean</dataType>
         <expression>ISNEW()</expression>
     </formulas>
+    <formulas>
+        <name>Current_Time</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW()</expression>
+    </formulas>
+    <formulas>
+        <name>TwoWeeksAhead</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW() + 14</expression>
+    </formulas>
     <interviewLabel>Case After Save {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Case After Save</label>
     <processMetadataValues>
@@ -821,6 +855,27 @@
             </value>
         </inputAssignments>
         <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Survey_Invitation_Time</name>
+        <label>Update Survey Invitation Time</label>
+        <locationX>2426</locationX>
+        <locationY>755</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Requester__r.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Survey_Invitation_Date__pc</field>
+            <value>
+                <elementReference>Current_Time</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
     </recordUpdates>
     <start>
         <locationX>2267</locationX>
