@@ -129,7 +129,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Location_Record_Page</content>
+        <content>ERP_Replacement_Order_Line_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -137,7 +137,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Location_Record_Page</content>
+        <content>ERP_Replacement_Order_Line_Page</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -158,14 +158,21 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
-    <label>ERP Location</label>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>ERP Replacement Order Line</label>
     <nameField>
-        <label>Location Name</label>
-        <type>Text</type>
+        <displayFormat>SF-ROL-{0000000000}</displayFormat>
+        <label>ERP Replacement Order Line Name</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Locations</pluralLabel>
+    <pluralLabel>ERP Replacement Order Lines</pluralLabel>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>Product__c</fields>
+        <fields>Quantity__c</fields>
+        <profileName>System Administrator</profileName>
+    </profileSearchLayouts>
     <searchLayouts></searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
