@@ -3,10 +3,13 @@
     <actionCalls>
         <name>Email_on_Case_Creation_Default</name>
         <label>Email on Case Creation - Default</label>
-        <locationX>1898</locationX>
+        <locationX>1810</locationX>
         <locationY>1463</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Check_Origin</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>senderType</name>
@@ -49,6 +52,9 @@
         <locationY>1463</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Check_Origin</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>senderType</name>
@@ -91,6 +97,9 @@
         <locationY>1463</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Check_Origin</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>senderType</name>
@@ -133,6 +142,9 @@
         <locationY>1463</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Check_Origin</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>senderType</name>
@@ -175,6 +187,9 @@
         <locationY>1463</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Check_Origin</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>senderType</name>
@@ -217,6 +232,9 @@
         <locationY>1463</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Check_Origin</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>senderType</name>
@@ -297,8 +315,8 @@
     <actionCalls>
         <name>Send_Survey_on_Case_Closure</name>
         <label>Send Survey on Case Closure</label>
-        <locationX>2426</locationX>
-        <locationY>647</locationY>
+        <locationX>2382</locationX>
+        <locationY>995</locationY>
         <actionName>sendSurveyInvitation</actionName>
         <actionType>sendSurveyInvitation</actionType>
         <connector>
@@ -350,7 +368,7 @@
     <decisions>
         <name>Bypass_Check</name>
         <label>Bypass Check</label>
-        <locationX>2393</locationX>
+        <locationX>2371</locationX>
         <locationY>323</locationY>
         <defaultConnectorLabel>Bypass Required</defaultConnectorLabel>
         <rules>
@@ -372,8 +390,8 @@
     <decisions>
         <name>Case_Close_Check</name>
         <label>Case Close Check</label>
-        <locationX>2558</locationX>
-        <locationY>539</locationY>
+        <locationX>2514</locationX>
+        <locationY>887</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Case_is_Closed</name>
@@ -427,9 +445,38 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Check_Origin</name>
+        <label>Check Origin</label>
+        <locationX>1062</locationX>
+        <locationY>1739</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Email_or_Web</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Web</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Email</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Route_Case</targetReference>
+            </connector>
+            <label>Email or Web</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Country_Check</name>
         <label>Country Check</label>
-        <locationX>1106</locationX>
+        <locationX>1062</locationX>
         <locationY>1355</locationY>
         <defaultConnector>
             <targetReference>Email_on_Case_Creation_Default</targetReference>
@@ -534,16 +581,19 @@
                     <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
+            <connector>
+                <targetReference>Check_Origin</targetReference>
+            </connector>
             <label>No Recipients</label>
         </rules>
     </decisions>
     <decisions>
         <name>Creation_Check</name>
         <label>Creation Check</label>
-        <locationX>1832</locationX>
+        <locationX>1788</locationX>
         <locationY>431</locationY>
         <defaultConnector>
-            <targetReference>Case_Close_Check</targetReference>
+            <targetReference>Owner_Changed</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Record is Updated</defaultConnectorLabel>
         <rules>
@@ -565,8 +615,11 @@
     <decisions>
         <name>Origin_Check</name>
         <label>Origin Check</label>
-        <locationX>1106</locationX>
+        <locationX>1062</locationX>
         <locationY>1139</locationY>
+        <defaultConnector>
+            <targetReference>Check_Origin</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>Default Path</defaultConnectorLabel>
         <rules>
             <name>Record_Manually_Created</name>
@@ -621,9 +674,34 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Owner_Changed</name>
+        <label>Owner Changed</label>
+        <locationX>2514</locationX>
+        <locationY>539</locationY>
+        <defaultConnector>
+            <targetReference>Case_Close_Check</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_Changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Delete_PSR</targetReference>
+            </connector>
+            <label>Is Changed</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Requester_Check</name>
         <label>Requester Check</label>
-        <locationX>1106</locationX>
+        <locationX>1062</locationX>
         <locationY>539</locationY>
         <defaultConnector>
             <targetReference>Origin_Check</targetReference>
@@ -705,7 +783,7 @@
     <decisions>
         <name>Value_Check</name>
         <label>Value Check</label>
-        <locationX>1150</locationX>
+        <locationX>1106</locationX>
         <locationY>647</locationY>
         <defaultConnector>
             <targetReference>Origin_Check</targetReference>
@@ -772,7 +850,7 @@
     <recordCreates>
         <name>Create_a_Customer_Account</name>
         <label>Create a Customer Account</label>
-        <locationX>1018</locationX>
+        <locationX>974</locationX>
         <locationY>755</locationY>
         <connector>
             <targetReference>Update_Requester_Field</targetReference>
@@ -798,6 +876,28 @@
         <object>Account</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordCreates>
+    <recordDeletes>
+        <name>Delete_PSR</name>
+        <label>Delete PSR</label>
+        <locationX>2250</locationX>
+        <locationY>647</locationY>
+        <connector>
+            <targetReference>Case_Close_Check</targetReference>
+        </connector>
+        <faultConnector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Case_Close_Check</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>WorkItemId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <object>PendingServiceRouting</object>
+    </recordDeletes>
     <recordLookups>
         <name>Get_Org_Default_Email_Address</name>
         <label>Get Org Default Email Address</label>
@@ -814,7 +914,7 @@
     <recordLookups>
         <name>Get_Org_Default_Email_Address_2</name>
         <label>Get Org Default Email Address - 2</label>
-        <locationX>1106</locationX>
+        <locationX>1062</locationX>
         <locationY>1247</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -827,7 +927,7 @@
     <recordUpdates>
         <name>Assign_Requester</name>
         <label>Assign Requester</label>
-        <locationX>754</locationX>
+        <locationX>710</locationX>
         <locationY>647</locationY>
         <connector>
             <targetReference>Origin_Check</targetReference>
@@ -843,7 +943,7 @@
     <recordUpdates>
         <name>Update_Requester_Field</name>
         <label>Update &quot;Requester&quot; Field</label>
-        <locationX>1018</locationX>
+        <locationX>974</locationX>
         <locationY>863</locationY>
         <connector>
             <targetReference>Origin_Check</targetReference>
@@ -859,8 +959,8 @@
     <recordUpdates>
         <name>Update_Survey_Invitation_Time</name>
         <label>Update Survey Invitation Time</label>
-        <locationX>2426</locationX>
-        <locationY>755</locationY>
+        <locationX>2382</locationX>
+        <locationY>1103</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -878,7 +978,7 @@
         <object>Account</object>
     </recordUpdates>
     <start>
-        <locationX>2267</locationX>
+        <locationX>2245</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Bypass_Check</targetReference>
@@ -888,6 +988,25 @@
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
+    <subflows>
+        <name>Route_Case</name>
+        <label>Route Case</label>
+        <locationX>930</locationX>
+        <locationY>1847</locationY>
+        <flowName>Case_Omnichannel_Routing</flowName>
+        <inputAssignments>
+            <name>Context</name>
+            <value>
+                <elementReference>Creation</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
     <variables>
         <name>ID</name>
         <dataType>String</dataType>
