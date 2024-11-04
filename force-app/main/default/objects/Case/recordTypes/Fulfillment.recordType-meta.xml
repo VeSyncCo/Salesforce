@@ -4789,10 +4789,6 @@
             <fullName>RF</fullName>
             <default>false</default>
         </values>
-        <values>
-            <fullName>Temporary</fullName>
-            <default>false</default>
-        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Shipping_Status__c</picklist>

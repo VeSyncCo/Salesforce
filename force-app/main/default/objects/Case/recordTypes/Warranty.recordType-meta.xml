@@ -4770,7 +4770,23 @@
     <picklistValues>
         <picklist>Return_Memo__c</picklist>
         <values>
-            <fullName>Temporary</fullName>
+            <fullName>CC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTE-E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RF</fullName>
             <default>false</default>
         </values>
     </picklistValues>
