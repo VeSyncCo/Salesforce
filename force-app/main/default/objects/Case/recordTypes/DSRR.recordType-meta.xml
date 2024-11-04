@@ -2488,10 +2488,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Temporary</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Terminal Issues</fullName>
             <default>false</default>
         </values>
@@ -4448,6 +4444,18 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Hardware Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Priority Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Software Issues</fullName>
             <default>false</default>
         </values>
@@ -4468,6 +4476,10 @@
         </values>
         <values>
             <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>api</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -5189,7 +5201,43 @@
     <picklistValues>
         <picklist>Type_Of_Question__c</picklist>
         <values>
-            <fullName>Temporary</fullName>
+            <fullName>Collaboration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing Issues %28retailer%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product %28pre-sale%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upcoming promotions%2Fdiscounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VeSync app</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wholesale</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -5898,6 +5946,10 @@
     </picklistValues>
     <picklistValues>
         <picklist>Warranty_Resolution__c</picklist>
+        <values>
+            <fullName>Claim Denied</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>Customer Revoked Claim</fullName>
             <default>false</default>
