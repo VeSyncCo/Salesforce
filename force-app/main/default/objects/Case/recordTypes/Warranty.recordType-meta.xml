@@ -390,7 +390,47 @@
     <picklistValues>
         <picklist>DSRR_Request_Details__c</picklist>
         <values>
-            <fullName>Temporary</fullName>
+            <fullName>App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arbitration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Discrimination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opt-out of Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opt-out of sharing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsubscribe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -2444,10 +2484,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Temporary</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Terminal Issues</fullName>
             <default>false</default>
         </values>
@@ -4408,6 +4444,18 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Hardware Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Priority Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Software Issues</fullName>
             <default>false</default>
         </values>
@@ -4428,6 +4476,10 @@
         </values>
         <values>
             <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>api</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -5149,7 +5201,43 @@
     <picklistValues>
         <picklist>Type_Of_Question__c</picklist>
         <values>
-            <fullName>Temporary</fullName>
+            <fullName>Collaboration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing Issues %28retailer%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product %28pre-sale%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upcoming promotions%2Fdiscounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VeSync app</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wholesale</fullName>
             <default>false</default>
         </values>
     </picklistValues>
