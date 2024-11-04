@@ -4840,7 +4840,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Order__c.Discount_Percentage__c</field>
         <readable>true</readable>
     </fieldPermissions>
