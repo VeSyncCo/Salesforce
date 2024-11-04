@@ -1,0 +1,28 @@
+<div style="font-size: 12px; font-family: Arial, Helvetica, sans-serif;">
+    <p >Dear {!Case.OwnerFullName},</p>
+
+    <p>This is a reminder regarding the high-priority case {!Case.CaseNumber}, which was escalated on {!Case.Escalated_Date__c}. Please review and address any outstanding actions on this case as soon as possible to ensure a prompt resolution.</p>
+
+    <ul>
+        <li>
+            <b>Customer Name</b> : {!Case.Requester__c}
+        </li>
+        <li>
+            <b>Case Number</b> : {!Case.CaseNumber}
+        </li>
+        <li>
+            <b>Case Age</b> : Escalated Since {!Case.Escalated_Date__c}
+        </li>
+        <li>
+            <b>Priority Level</b> : {!Case.Priority}
+        </li>
+        <li>
+            <b>Case Link</b> : {!CaseLink}
+     </li>
+    </ul>
+
+    <p>Your timely attention to this case is essential to meet our service commitments. Thank you for your dedication and prompt action.</p>
+
+    <p>Best regards,</p>
+    <p>VeSync Team</p>
+</div>
