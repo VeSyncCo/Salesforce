@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inquiry_Details__c</fullName>
+    <externalId>false</externalId>
+    <label>Inquiry Details</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Inquiry_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Address Change</fullName>
+                <default>false</default>
+                <label>Address Change</label>
+            </value>
+            <value>
+                <fullName>Cancel Order</fullName>
+                <default>false</default>
+                <label>Cancel Order</label>
+            </value>
+            <value>
+                <fullName>Discount Not Applied</fullName>
+                <default>false</default>
+                <label>Discount Not Applied</label>
+            </value>
+            <value>
+                <fullName>Lost/Stolen Package (Delivered)</fullName>
+                <default>false</default>
+                <label>Lost/Stolen Package (Delivered)</label>
+            </value>
+            <value>
+                <fullName>Missing Parts (Upon Receipt)</fullName>
+                <default>false</default>
+                <label>Missing Parts (Upon Receipt)</label>
+            </value>
+            <value>
+                <fullName>Package Contains Foreign Objects</fullName>
+                <default>false</default>
+                <label>Package Contains Foreign Objects</label>
+            </value>
+            <value>
+                <fullName>Packaging/product damaged in transit</fullName>
+                <default>false</default>
+                <label>Packaging/product damaged in transit</label>
+            </value>
+            <value>
+                <fullName>Price Match</fullName>
+                <default>false</default>
+                <label>Price Match</label>
+            </value>
+            <value>
+                <fullName>Received Used Product</fullName>
+                <default>false</default>
+                <label>Received Used Product</label>
+            </value>
+            <value>
+                <fullName>Return</fullName>
+                <default>false</default>
+                <label>Return</label>
+            </value>
+            <value>
+                <fullName>Return to Sender (Claim)</fullName>
+                <default>false</default>
+                <label>Return to Sender (Claim)</label>
+            </value>
+            <value>
+                <fullName>Return to Sender (Status)</fullName>
+                <default>false</default>
+                <label>Return to Sender (Status)</label>
+            </value>
+            <value>
+                <fullName>Shipment Status/Tracking Information</fullName>
+                <default>false</default>
+                <label>Shipment Status/Tracking Information</label>
+            </value>
+            <value>
+                <fullName>Stuck in Transit</fullName>
+                <default>false</default>
+                <label>Stuck in Transit</label>
+            </value>
+            <value>
+                <fullName>Unable to receive Package</fullName>
+                <default>false</default>
+                <label>Unable to receive Package</label>
+            </value>
+            <value>
+                <fullName>Wrong Item Shipped</fullName>
+                <default>false</default>
+                <label>Wrong Item Shipped</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Order Inquiry</controllingFieldValue>
+            <valueName>Address Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Inquiry</controllingFieldValue>
+            <valueName>Cancel Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Inquiry</controllingFieldValue>
+            <valueName>Discount Not Applied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Inquiry</controllingFieldValue>
+            <valueName>Price Match</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>Lost/Stolen Package (Delivered)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>Missing Parts (Upon Receipt)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>Package Contains Foreign Objects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>Packaging/product damaged in transit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>Received Used Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>Return</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>Return to Sender (Claim)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>Return to Sender (Status)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>Shipment Status/Tracking Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>Stuck in Transit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>Unable to receive Package</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipment Inquiry</controllingFieldValue>
+            <valueName>Wrong Item Shipped</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

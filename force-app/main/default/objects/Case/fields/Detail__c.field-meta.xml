@@ -1,0 +1,2862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Detail__c</fullName>
+    <externalId>false</externalId>
+    <label>Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Temporary</fullName>
+                <default>false</default>
+                <label>Temporary</label>
+            </value>
+            <value>
+                <fullName>Fry basket does not close properly</fullName>
+                <default>false</default>
+                <label>Fry basket does not close properly</label>
+            </value>
+            <value>
+                <fullName>Fry basket inconvenient to assemble/disassemble</fullName>
+                <default>false</default>
+                <label>Fry basket inconvenient to assemble/disassemble</label>
+            </value>
+            <value>
+                <fullName>Gap/offset too large</fullName>
+                <default>false</default>
+                <label>Gap/offset too large</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>App crashes</fullName>
+                <default>false</default>
+                <label>App crashes</label>
+            </value>
+            <value>
+                <fullName>Push notifications delay</fullName>
+                <default>false</default>
+                <label>Push notifications delay</label>
+            </value>
+            <value>
+                <fullName>Registration/login issues</fullName>
+                <default>false</default>
+                <label>Registration/login issues</label>
+            </value>
+            <value>
+                <fullName>Bluetooth Pairing Issues</fullName>
+                <default>false</default>
+                <label>Bluetooth Pairing Issues</label>
+            </value>
+            <value>
+                <fullName>Bluetooth Scanning Failure</fullName>
+                <default>false</default>
+                <label>Bluetooth Scanning Failure</label>
+            </value>
+            <value>
+                <fullName>Auto-press button issues</fullName>
+                <default>false</default>
+                <label>Auto-press button issues</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Bubbling</fullName>
+                <default>false</default>
+                <label>Bubbling</label>
+            </value>
+            <value>
+                <fullName>Peeling</fullName>
+                <default>false</default>
+                <label>Peeling</label>
+            </value>
+            <value>
+                <fullName>Rust</fullName>
+                <default>false</default>
+                <label>Rust</label>
+            </value>
+            <value>
+                <fullName>Scratches</fullName>
+                <default>false</default>
+                <label>Scratches</label>
+            </value>
+            <value>
+                <fullName>Button/Touchscreen/Knob Damaged</fullName>
+                <default>false</default>
+                <label>Button/Touchscreen/Knob Damaged</label>
+            </value>
+            <value>
+                <fullName>Door latch/hinge broken</fullName>
+                <default>false</default>
+                <label>Door latch/hinge broken</label>
+            </value>
+            <value>
+                <fullName>Fry bucket decorative panel cracked</fullName>
+                <default>false</default>
+                <label>Fry bucket decorative panel cracked</label>
+            </value>
+            <value>
+                <fullName>Fry bucket front panel falling off</fullName>
+                <default>false</default>
+                <label>Fry bucket front panel falling off</label>
+            </value>
+            <value>
+                <fullName>Fry bucket rubber plug falling off</fullName>
+                <default>false</default>
+                <label>Fry bucket rubber plug falling off</label>
+            </value>
+            <value>
+                <fullName>Handle dent</fullName>
+                <default>false</default>
+                <label>Handle dent</label>
+            </value>
+            <value>
+                <fullName>Housing dent</fullName>
+                <default>false</default>
+                <label>Housing dent</label>
+            </value>
+            <value>
+                <fullName>Screen dent</fullName>
+                <default>false</default>
+                <label>Screen dent</label>
+            </value>
+            <value>
+                <fullName>Top cover lifting up</fullName>
+                <default>false</default>
+                <label>Top cover lifting up</label>
+            </value>
+            <value>
+                <fullName>Fry basket deformation</fullName>
+                <default>false</default>
+                <label>Fry basket deformation</label>
+            </value>
+            <value>
+                <fullName>Plug Deformation</fullName>
+                <default>false</default>
+                <label>Plug Deformation</label>
+            </value>
+            <value>
+                <fullName>Housing deformation</fullName>
+                <default>false</default>
+                <label>Housing deformation</label>
+            </value>
+            <value>
+                <fullName>Air bubbles</fullName>
+                <default>false</default>
+                <label>Air bubbles</label>
+            </value>
+            <value>
+                <fullName>Basket/outer basket body</fullName>
+                <default>false</default>
+                <label>Basket/outer basket body</label>
+            </value>
+            <value>
+                <fullName>Screen</fullName>
+                <default>false</default>
+                <label>Screen</label>
+            </value>
+            <value>
+                <fullName>Screen no display</fullName>
+                <default>false</default>
+                <label>Screen no display</label>
+            </value>
+            <value>
+                <fullName>Screen dim</fullName>
+                <default>false</default>
+                <label>Screen dim</label>
+            </value>
+            <value>
+                <fullName>Screen Display Unclear</fullName>
+                <default>false</default>
+                <label>Screen Display Unclear</label>
+            </value>
+            <value>
+                <fullName>Screen flickers</fullName>
+                <default>false</default>
+                <label>Screen flickers</label>
+            </value>
+            <value>
+                <fullName>Screen Numbers Fluctuate</fullName>
+                <default>false</default>
+                <label>Screen Numbers Fluctuate</label>
+            </value>
+            <value>
+                <fullName>Screen numbers/letters not fully displayed</fullName>
+                <default>false</default>
+                <label>Screen numbers/letters not fully displayed</label>
+            </value>
+            <value>
+                <fullName>Wi-Fi light not working</fullName>
+                <default>false</default>
+                <label>Wi-Fi light not working</label>
+            </value>
+            <value>
+                <fullName>E1 Error code</fullName>
+                <default>false</default>
+                <label>E1 Error code</label>
+            </value>
+            <value>
+                <fullName>E12 Error code</fullName>
+                <default>false</default>
+                <label>E12 Error code</label>
+            </value>
+            <value>
+                <fullName>E2 Error code</fullName>
+                <default>false</default>
+                <label>E2 Error code</label>
+            </value>
+            <value>
+                <fullName>E21 Error code</fullName>
+                <default>false</default>
+                <label>E21 Error code</label>
+            </value>
+            <value>
+                <fullName>E3 Error code</fullName>
+                <default>false</default>
+                <label>E3 Error code</label>
+            </value>
+            <value>
+                <fullName>E4 Error code</fullName>
+                <default>false</default>
+                <label>E4 Error code</label>
+            </value>
+            <value>
+                <fullName>Fan not working</fullName>
+                <default>false</default>
+                <label>Fan not working</label>
+            </value>
+            <value>
+                <fullName>Fan works intermittently</fullName>
+                <default>false</default>
+                <label>Fan works intermittently</label>
+            </value>
+            <value>
+                <fullName>Firmware update failure</fullName>
+                <default>false</default>
+                <label>Firmware update failure</label>
+            </value>
+            <value>
+                <fullName>Basket Issue</fullName>
+                <default>false</default>
+                <label>Basket Issue</label>
+            </value>
+            <value>
+                <fullName>Bottom heating element not working</fullName>
+                <default>false</default>
+                <label>Bottom heating element not working</label>
+            </value>
+            <value>
+                <fullName>Cannot reach set temperature</fullName>
+                <default>false</default>
+                <label>Cannot reach set temperature</label>
+            </value>
+            <value>
+                <fullName>Heating stops</fullName>
+                <default>false</default>
+                <label>Heating stops</label>
+            </value>
+            <value>
+                <fullName>Not heating</fullName>
+                <default>false</default>
+                <label>Not heating</label>
+            </value>
+            <value>
+                <fullName>Slow to heat</fullName>
+                <default>false</default>
+                <label>Slow to heat</label>
+            </value>
+            <value>
+                <fullName>Top heating element not working</fullName>
+                <default>false</default>
+                <label>Top heating element not working</label>
+            </value>
+            <value>
+                <fullName>Uneven heating</fullName>
+                <default>false</default>
+                <label>Uneven heating</label>
+            </value>
+            <value>
+                <fullName>Oil</fullName>
+                <default>false</default>
+                <label>Oil</label>
+            </value>
+            <value>
+                <fullName>Steam</fullName>
+                <default>false</default>
+                <label>Steam</label>
+            </value>
+            <value>
+                <fullName>Water Leakage</fullName>
+                <default>false</default>
+                <label>Water Leakage</label>
+            </value>
+            <value>
+                <fullName>Preset time inaccurate</fullName>
+                <default>false</default>
+                <label>Preset time inaccurate</label>
+            </value>
+            <value>
+                <fullName>Bulb stays off</fullName>
+                <default>false</default>
+                <label>Bulb stays off</label>
+            </value>
+            <value>
+                <fullName>Does not work immediately upon power on</fullName>
+                <default>false</default>
+                <label>Does not work immediately upon power on</label>
+            </value>
+            <value>
+                <fullName>Intermittent operation</fullName>
+                <default>false</default>
+                <label>Intermittent operation</label>
+            </value>
+            <value>
+                <fullName>Memory Function Issues</fullName>
+                <default>false</default>
+                <label>Memory Function Issues</label>
+            </value>
+            <value>
+                <fullName>Rotisserie Not Working</fullName>
+                <default>false</default>
+                <label>Rotisserie Not Working</label>
+            </value>
+            <value>
+                <fullName>No Network Logs</fullName>
+                <default>false</default>
+                <label>No Network Logs</label>
+            </value>
+            <value>
+                <fullName>Public Network Issues</fullName>
+                <default>false</default>
+                <label>Public Network Issues</label>
+            </value>
+            <value>
+                <fullName>Unable to find Wi-Fi</fullName>
+                <default>false</default>
+                <label>Unable to find Wi-Fi</label>
+            </value>
+            <value>
+                <fullName>Wi-Fi Connection Failure</fullName>
+                <default>false</default>
+                <label>Wi-Fi Connection Failure</label>
+            </value>
+            <value>
+                <fullName>Abnormal</fullName>
+                <default>false</default>
+                <label>Abnormal</label>
+            </value>
+            <value>
+                <fullName>Fan</fullName>
+                <default>false</default>
+                <label>Fan</label>
+            </value>
+            <value>
+                <fullName>Heating tube rattling</fullName>
+                <default>false</default>
+                <label>Heating tube rattling</label>
+            </value>
+            <value>
+                <fullName>No Beep Sound</fullName>
+                <default>false</default>
+                <label>No Beep Sound</label>
+            </value>
+            <value>
+                <fullName>Chemical Odor</fullName>
+                <default>false</default>
+                <label>Chemical Odor</label>
+            </value>
+            <value>
+                <fullName>Plastic odor</fullName>
+                <default>false</default>
+                <label>Plastic odor</label>
+            </value>
+            <value>
+                <fullName>Immediately powers down</fullName>
+                <default>false</default>
+                <label>Immediately powers down</label>
+            </value>
+            <value>
+                <fullName>Cannot Automatically Power Off</fullName>
+                <default>false</default>
+                <label>Cannot Automatically Power Off</label>
+            </value>
+            <value>
+                <fullName>Cannot Power On</fullName>
+                <default>false</default>
+                <label>Cannot Power On</label>
+            </value>
+            <value>
+                <fullName>Cannot turn off</fullName>
+                <default>false</default>
+                <label>Cannot turn off</label>
+            </value>
+            <value>
+                <fullName>Stops working (micro switch issue)</fullName>
+                <default>false</default>
+                <label>Stops working (micro switch issue)</label>
+            </value>
+            <value>
+                <fullName>Alexa Setup Issues</fullName>
+                <default>false</default>
+                <label>Alexa Setup Issues</label>
+            </value>
+            <value>
+                <fullName>Alexa voice commands not recognized</fullName>
+                <default>false</default>
+                <label>Alexa voice commands not recognized</label>
+            </value>
+            <value>
+                <fullName>Google Home setup issues</fullName>
+                <default>false</default>
+                <label>Google Home setup issues</label>
+            </value>
+            <value>
+                <fullName>Turns off during operation</fullName>
+                <default>false</default>
+                <label>Turns off during operation</label>
+            </value>
+            <value>
+                <fullName>Crisper Plate</fullName>
+                <default>false</default>
+                <label>Crisper Plate</label>
+            </value>
+            <value>
+                <fullName>Handle cover damaged</fullName>
+                <default>false</default>
+                <label>Handle cover damaged</label>
+            </value>
+            <value>
+                <fullName>Handle loose</fullName>
+                <default>false</default>
+                <label>Handle loose</label>
+            </value>
+            <value>
+                <fullName>Heating element damaged</fullName>
+                <default>false</default>
+                <label>Heating element damaged</label>
+            </value>
+            <value>
+                <fullName>Large hole in the middle of the tray</fullName>
+                <default>false</default>
+                <label>Large hole in the middle of the tray</label>
+            </value>
+            <value>
+                <fullName>Micro switch rod damaged</fullName>
+                <default>false</default>
+                <label>Micro switch rod damaged</label>
+            </value>
+            <value>
+                <fullName>Outer Shell Cracked</fullName>
+                <default>false</default>
+                <label>Outer Shell Cracked</label>
+            </value>
+            <value>
+                <fullName>Power cord damage</fullName>
+                <default>false</default>
+                <label>Power cord damage</label>
+            </value>
+            <value>
+                <fullName>Rubber feet falling off</fullName>
+                <default>false</default>
+                <label>Rubber feet falling off</label>
+            </value>
+            <value>
+                <fullName>Rubber feet plastic broken</fullName>
+                <default>false</default>
+                <label>Rubber feet plastic broken</label>
+            </value>
+            <value>
+                <fullName>Screen Damaged</fullName>
+                <default>false</default>
+                <label>Screen Damaged</label>
+            </value>
+            <value>
+                <fullName>Discoloration</fullName>
+                <default>false</default>
+                <label>Discoloration</label>
+            </value>
+            <value>
+                <fullName>Light bulb broken</fullName>
+                <default>false</default>
+                <label>Light bulb broken</label>
+            </value>
+            <value>
+                <fullName>Oven door detached</fullName>
+                <default>false</default>
+                <label>Oven door detached</label>
+            </value>
+            <value>
+                <fullName>Shell Cracked</fullName>
+                <default>false</default>
+                <label>Shell Cracked</label>
+            </value>
+            <value>
+                <fullName>Splash guard bolts detached</fullName>
+                <default>false</default>
+                <label>Splash guard bolts detached</label>
+            </value>
+            <value>
+                <fullName>WiFi antenna box damaged</fullName>
+                <default>false</default>
+                <label>WiFi antenna box damaged</label>
+            </value>
+            <value>
+                <fullName>Frying basket dented</fullName>
+                <default>false</default>
+                <label>Frying basket dented</label>
+            </value>
+            <value>
+                <fullName>Handle dented</fullName>
+                <default>false</default>
+                <label>Handle dented</label>
+            </value>
+            <value>
+                <fullName>Shell dented</fullName>
+                <default>false</default>
+                <label>Shell dented</label>
+            </value>
+            <value>
+                <fullName>Tray edge flattened</fullName>
+                <default>false</default>
+                <label>Tray edge flattened</label>
+            </value>
+            <value>
+                <fullName>Crumb tray deformed</fullName>
+                <default>false</default>
+                <label>Crumb tray deformed</label>
+            </value>
+            <value>
+                <fullName>Food tray deformation</fullName>
+                <default>false</default>
+                <label>Food tray deformation</label>
+            </value>
+            <value>
+                <fullName>Frying basket deformation</fullName>
+                <default>false</default>
+                <label>Frying basket deformation</label>
+            </value>
+            <value>
+                <fullName>Rack deformation</fullName>
+                <default>false</default>
+                <label>Rack deformation</label>
+            </value>
+            <value>
+                <fullName>Shell Deformation</fullName>
+                <default>false</default>
+                <label>Shell Deformation</label>
+            </value>
+            <value>
+                <fullName>Tray handle protruding</fullName>
+                <default>false</default>
+                <label>Tray handle protruding</label>
+            </value>
+            <value>
+                <fullName>Door does not close</fullName>
+                <default>false</default>
+                <label>Door does not close</label>
+            </value>
+            <value>
+                <fullName>Large gaps in seams</fullName>
+                <default>false</default>
+                <label>Large gaps in seams</label>
+            </value>
+            <value>
+                <fullName>Collapsing</fullName>
+                <default>false</default>
+                <label>Collapsing</label>
+            </value>
+            <value>
+                <fullName>Hard to power on/off</fullName>
+                <default>false</default>
+                <label>Hard to power on/off</label>
+            </value>
+            <value>
+                <fullName>Sticking</fullName>
+                <default>false</default>
+                <label>Sticking</label>
+            </value>
+            <value>
+                <fullName>Too sensitive</fullName>
+                <default>false</default>
+                <label>Too sensitive</label>
+            </value>
+            <value>
+                <fullName>Turns on/off on its own</fullName>
+                <default>false</default>
+                <label>Turns on/off on its own</label>
+            </value>
+            <value>
+                <fullName>Dim Screen</fullName>
+                <default>false</default>
+                <label>Dim Screen</label>
+            </value>
+            <value>
+                <fullName>Light flickers</fullName>
+                <default>false</default>
+                <label>Light flickers</label>
+            </value>
+            <value>
+                <fullName>Screen digits/letters not fully displayed</fullName>
+                <default>false</default>
+                <label>Screen digits/letters not fully displayed</label>
+            </value>
+            <value>
+                <fullName>E13 Error code</fullName>
+                <default>false</default>
+                <label>E13 Error code</label>
+            </value>
+            <value>
+                <fullName>E14 Error code</fullName>
+                <default>false</default>
+                <label>E14 Error code</label>
+            </value>
+            <value>
+                <fullName>E15 Error code</fullName>
+                <default>false</default>
+                <label>E15 Error code</label>
+            </value>
+            <value>
+                <fullName>E7 Error code</fullName>
+                <default>false</default>
+                <label>E7 Error code</label>
+            </value>
+            <value>
+                <fullName>Poor Seal</fullName>
+                <default>false</default>
+                <label>Poor Seal</label>
+            </value>
+            <value>
+                <fullName>Steam leakage</fullName>
+                <default>false</default>
+                <label>Steam leakage</label>
+            </value>
+            <value>
+                <fullName>Timer Malfunction</fullName>
+                <default>false</default>
+                <label>Timer Malfunction</label>
+            </value>
+            <value>
+                <fullName>Bulb flickering</fullName>
+                <default>false</default>
+                <label>Bulb flickering</label>
+            </value>
+            <value>
+                <fullName>Cannot detect if door is closed</fullName>
+                <default>false</default>
+                <label>Cannot detect if door is closed</label>
+            </value>
+            <value>
+                <fullName>Cannot set time/temperature</fullName>
+                <default>false</default>
+                <label>Cannot set time/temperature</label>
+            </value>
+            <value>
+                <fullName>Default temperature unit error</fullName>
+                <default>false</default>
+                <label>Default temperature unit error</label>
+            </value>
+            <value>
+                <fullName>Automatically starts cooking after preheating</fullName>
+                <default>false</default>
+                <label>Automatically starts cooking after preheating</label>
+            </value>
+            <value>
+                <fullName>Motor Not Turning</fullName>
+                <default>false</default>
+                <label>Motor Not Turning</label>
+            </value>
+            <value>
+                <fullName>Probe not working</fullName>
+                <default>false</default>
+                <label>Probe not working</label>
+            </value>
+            <value>
+                <fullName>Rotisserie fork not turning</fullName>
+                <default>false</default>
+                <label>Rotisserie fork not turning</label>
+            </value>
+            <value>
+                <fullName>Setting changes on its own</fullName>
+                <default>false</default>
+                <label>Setting changes on its own</label>
+            </value>
+            <value>
+                <fullName>Timer not working</fullName>
+                <default>false</default>
+                <label>Timer not working</label>
+            </value>
+            <value>
+                <fullName>Metal cracking sound</fullName>
+                <default>false</default>
+                <label>Metal cracking sound</label>
+            </value>
+            <value>
+                <fullName>On Air Fry Function</fullName>
+                <default>false</default>
+                <label>On Air Fry Function</label>
+            </value>
+            <value>
+                <fullName>When opening/closing door</fullName>
+                <default>false</default>
+                <label>When opening/closing door</label>
+            </value>
+            <value>
+                <fullName>While heating or cooling</fullName>
+                <default>false</default>
+                <label>While heating or cooling</label>
+            </value>
+            <value>
+                <fullName>Metallic Smell</fullName>
+                <default>false</default>
+                <label>Metallic Smell</label>
+            </value>
+            <value>
+                <fullName>Odor upon unboxing</fullName>
+                <default>false</default>
+                <label>Odor upon unboxing</label>
+            </value>
+            <value>
+                <fullName>Auto shut down after power on</fullName>
+                <default>false</default>
+                <label>Auto shut down after power on</label>
+            </value>
+            <value>
+                <fullName>Sudden shutdown during operation</fullName>
+                <default>false</default>
+                <label>Sudden shutdown during operation</label>
+            </value>
+            <value>
+                <fullName>Rack sliding off</fullName>
+                <default>false</default>
+                <label>Rack sliding off</label>
+            </value>
+            <value>
+                <fullName>App Security Issues</fullName>
+                <default>false</default>
+                <label>App Security Issues</label>
+            </value>
+            <value>
+                <fullName>Unstable Bluetooth Connection</fullName>
+                <default>false</default>
+                <label>Unstable Bluetooth Connection</label>
+            </value>
+            <value>
+                <fullName>Siri Control Issues</fullName>
+                <default>false</default>
+                <label>Siri Control Issues</label>
+            </value>
+            <value>
+                <fullName>Hole/tear</fullName>
+                <default>false</default>
+                <label>Hole/tear</label>
+            </value>
+            <value>
+                <fullName>Nozzle size does not fit perfectly</fullName>
+                <default>false</default>
+                <label>Nozzle size does not fit perfectly</label>
+            </value>
+            <value>
+                <fullName>Overheats during operation</fullName>
+                <default>false</default>
+                <label>Overheats during operation</label>
+            </value>
+            <value>
+                <fullName>Doesn&apos;t work after replacing batteries</fullName>
+                <default>false</default>
+                <label>Doesn&apos;t work after replacing batteries</label>
+            </value>
+            <value>
+                <fullName>Filter Cover Too Tight</fullName>
+                <default>false</default>
+                <label>Filter Cover Too Tight</label>
+            </value>
+            <value>
+                <fullName>Filter wrong size</fullName>
+                <default>false</default>
+                <label>Filter wrong size</label>
+            </value>
+            <value>
+                <fullName>Misaligned Assembly</fullName>
+                <default>false</default>
+                <label>Misaligned Assembly</label>
+            </value>
+            <value>
+                <fullName>Unable to Open Bottom Cover</fullName>
+                <default>false</default>
+                <label>Unable to Open Bottom Cover</label>
+            </value>
+            <value>
+                <fullName>App freezes</fullName>
+                <default>false</default>
+                <label>App freezes</label>
+            </value>
+            <value>
+                <fullName>Location issues</fullName>
+                <default>false</default>
+                <label>Location issues</label>
+            </value>
+            <value>
+                <fullName>Migration Issues</fullName>
+                <default>false</default>
+                <label>Migration Issues</label>
+            </value>
+            <value>
+                <fullName>Permission Issues</fullName>
+                <default>false</default>
+                <label>Permission Issues</label>
+            </value>
+            <value>
+                <fullName>Plant recognition error</fullName>
+                <default>false</default>
+                <label>Plant recognition error</label>
+            </value>
+            <value>
+                <fullName>Scenes Issues</fullName>
+                <default>false</default>
+                <label>Scenes Issues</label>
+            </value>
+            <value>
+                <fullName>Registration email not delivered</fullName>
+                <default>false</default>
+                <label>Registration email not delivered</label>
+            </value>
+            <value>
+                <fullName>Inaccurate</fullName>
+                <default>false</default>
+                <label>Inaccurate</label>
+            </value>
+            <value>
+                <fullName>Light Flickering</fullName>
+                <default>false</default>
+                <label>Light Flickering</label>
+            </value>
+            <value>
+                <fullName>Lights All On</fullName>
+                <default>false</default>
+                <label>Lights All On</label>
+            </value>
+            <value>
+                <fullName>Display off does not work</fullName>
+                <default>false</default>
+                <label>Display off does not work</label>
+            </value>
+            <value>
+                <fullName>Child Lock Cannot Turn Off</fullName>
+                <default>false</default>
+                <label>Child Lock Cannot Turn Off</label>
+            </value>
+            <value>
+                <fullName>Long Press Fails to Wake WiFi Light</fullName>
+                <default>false</default>
+                <label>Long Press Fails to Wake WiFi Light</label>
+            </value>
+            <value>
+                <fullName>Data Sync Issues</fullName>
+                <default>false</default>
+                <label>Data Sync Issues</label>
+            </value>
+            <value>
+                <fullName>Lid Deformation</fullName>
+                <default>false</default>
+                <label>Lid Deformation</label>
+            </value>
+            <value>
+                <fullName>Filter Dirty</fullName>
+                <default>false</default>
+                <label>Filter Dirty</label>
+            </value>
+            <value>
+                <fullName>Filter Light Abnormal</fullName>
+                <default>false</default>
+                <label>Filter Light Abnormal</label>
+            </value>
+            <value>
+                <fullName>Filter Light Cannot Turn Off</fullName>
+                <default>false</default>
+                <label>Filter Light Cannot Turn Off</label>
+            </value>
+            <value>
+                <fullName>Abnormal PM2.5 Display</fullName>
+                <default>false</default>
+                <label>Abnormal PM2.5 Display</label>
+            </value>
+            <value>
+                <fullName>Fixed PM2.5 Reading</fullName>
+                <default>false</default>
+                <label>Fixed PM2.5 Reading</label>
+            </value>
+            <value>
+                <fullName>High PM2.5 Reading</fullName>
+                <default>false</default>
+                <label>High PM2.5 Reading</label>
+            </value>
+            <value>
+                <fullName>Inaccurate PM2.5 Reading</fullName>
+                <default>false</default>
+                <label>Inaccurate PM2.5 Reading</label>
+            </value>
+            <value>
+                <fullName>Low PM2.5 Reading</fullName>
+                <default>false</default>
+                <label>Low PM2.5 Reading</label>
+            </value>
+            <value>
+                <fullName>Incomplete Screen Digits/Letters</fullName>
+                <default>false</default>
+                <label>Incomplete Screen Digits/Letters</label>
+            </value>
+            <value>
+                <fullName>Screen Shows &quot;---&quot;</fullName>
+                <default>false</default>
+                <label>Screen Shows &quot;---&quot;</label>
+            </value>
+            <value>
+                <fullName>No Air Intake</fullName>
+                <default>false</default>
+                <label>No Air Intake</label>
+            </value>
+            <value>
+                <fullName>No Air Output</fullName>
+                <default>false</default>
+                <label>No Air Output</label>
+            </value>
+            <value>
+                <fullName>Uneven Airflow</fullName>
+                <default>false</default>
+                <label>Uneven Airflow</label>
+            </value>
+            <value>
+                <fullName>Weak Air Intake</fullName>
+                <default>false</default>
+                <label>Weak Air Intake</label>
+            </value>
+            <value>
+                <fullName>Low Airflow</fullName>
+                <default>false</default>
+                <label>Low Airflow</label>
+            </value>
+            <value>
+                <fullName>High Fan Speed No Airflow</fullName>
+                <default>false</default>
+                <label>High Fan Speed No Airflow</label>
+            </value>
+            <value>
+                <fullName>Auto Mode Not Working</fullName>
+                <default>false</default>
+                <label>Auto Mode Not Working</label>
+            </value>
+            <value>
+                <fullName>Automatic Gear Change</fullName>
+                <default>false</default>
+                <label>Automatic Gear Change</label>
+            </value>
+            <value>
+                <fullName>Third Fan Speed Not Working</fullName>
+                <default>false</default>
+                <label>Third Fan Speed Not Working</label>
+            </value>
+            <value>
+                <fullName>Arris Router Issue</fullName>
+                <default>false</default>
+                <label>Arris Router Issue</label>
+            </value>
+            <value>
+                <fullName>DNS Resolution Failure</fullName>
+                <default>false</default>
+                <label>DNS Resolution Failure</label>
+            </value>
+            <value>
+                <fullName>Eero Router Issue</fullName>
+                <default>false</default>
+                <label>Eero Router Issue</label>
+            </value>
+            <value>
+                <fullName>Incorrect Password</fullName>
+                <default>false</default>
+                <label>Incorrect Password</label>
+            </value>
+            <value>
+                <fullName>IP Acquisition Failure</fullName>
+                <default>false</default>
+                <label>IP Acquisition Failure</label>
+            </value>
+            <value>
+                <fullName>Offline</fullName>
+                <default>false</default>
+                <label>Offline</label>
+            </value>
+            <value>
+                <fullName>Poor Signal Strength</fullName>
+                <default>false</default>
+                <label>Poor Signal Strength</label>
+            </value>
+            <value>
+                <fullName>Technicolor Router</fullName>
+                <default>false</default>
+                <label>Technicolor Router</label>
+            </value>
+            <value>
+                <fullName>Wi-Fi Connection Timeout</fullName>
+                <default>false</default>
+                <label>Wi-Fi Connection Timeout</label>
+            </value>
+            <value>
+                <fullName>Device Hotspot Connection Failure</fullName>
+                <default>false</default>
+                <label>Device Hotspot Connection Failure</label>
+            </value>
+            <value>
+                <fullName>Router Compatibility Issues</fullName>
+                <default>false</default>
+                <label>Router Compatibility Issues</label>
+            </value>
+            <value>
+                <fullName>Server Connection Failure</fullName>
+                <default>false</default>
+                <label>Server Connection Failure</label>
+            </value>
+            <value>
+                <fullName>Adapter</fullName>
+                <default>false</default>
+                <label>Adapter</label>
+            </value>
+            <value>
+                <fullName>At High Speed</fullName>
+                <default>false</default>
+                <label>At High Speed</label>
+            </value>
+            <value>
+                <fullName>At Low Speed</fullName>
+                <default>false</default>
+                <label>At Low Speed</label>
+            </value>
+            <value>
+                <fullName>Sensor</fullName>
+                <default>false</default>
+                <label>Sensor</label>
+            </value>
+            <value>
+                <fullName>Whistling</fullName>
+                <default>false</default>
+                <label>Whistling</label>
+            </value>
+            <value>
+                <fullName>FIlter Odor</fullName>
+                <default>false</default>
+                <label>FIlter Odor</label>
+            </value>
+            <value>
+                <fullName>Moldy odor</fullName>
+                <default>false</default>
+                <label>Moldy odor</label>
+            </value>
+            <value>
+                <fullName>Unable to Auto Start</fullName>
+                <default>false</default>
+                <label>Unable to Auto Start</label>
+            </value>
+            <value>
+                <fullName>Unable to Start</fullName>
+                <default>false</default>
+                <label>Unable to Start</label>
+            </value>
+            <value>
+                <fullName>High Power Consumption</fullName>
+                <default>false</default>
+                <label>High Power Consumption</label>
+            </value>
+            <value>
+                <fullName>Schedule Execution Error</fullName>
+                <default>false</default>
+                <label>Schedule Execution Error</label>
+            </value>
+            <value>
+                <fullName>Schedule Issues</fullName>
+                <default>false</default>
+                <label>Schedule Issues</label>
+            </value>
+            <value>
+                <fullName>Schedule Time Zone Issue</fullName>
+                <default>false</default>
+                <label>Schedule Time Zone Issue</label>
+            </value>
+            <value>
+                <fullName>SmartScene causes power cycling</fullName>
+                <default>false</default>
+                <label>SmartScene causes power cycling</label>
+            </value>
+            <value>
+                <fullName>SmartScene Execution Error</fullName>
+                <default>false</default>
+                <label>SmartScene Execution Error</label>
+            </value>
+            <value>
+                <fullName>IFTTT Issues</fullName>
+                <default>false</default>
+                <label>IFTTT Issues</label>
+            </value>
+            <value>
+                <fullName>Alexa Device Search Failure</fullName>
+                <default>false</default>
+                <label>Alexa Device Search Failure</label>
+            </value>
+            <value>
+                <fullName>Power Cord Damaged</fullName>
+                <default>false</default>
+                <label>Power Cord Damaged</label>
+            </value>
+            <value>
+                <fullName>Red light remains on after filter replacement</fullName>
+                <default>false</default>
+                <label>Red light remains on after filter replacement</label>
+            </value>
+            <value>
+                <fullName>Odor after some time</fullName>
+                <default>false</default>
+                <label>Odor after some time</label>
+            </value>
+            <value>
+                <fullName>Mentions - Better Business Bureau - BBB</fullName>
+                <default>false</default>
+                <label>Mentions - Better Business Bureau - BBB</label>
+            </value>
+            <value>
+                <fullName>Mentions - CPSC</fullName>
+                <default>false</default>
+                <label>Mentions - CPSC</label>
+            </value>
+            <value>
+                <fullName>Mentions - Health Canada</fullName>
+                <default>false</default>
+                <label>Mentions - Health Canada</label>
+            </value>
+            <value>
+                <fullName>Attorney General</fullName>
+                <default>false</default>
+                <label>Attorney General</label>
+            </value>
+            <value>
+                <fullName>Circuit Issues</fullName>
+                <default>false</default>
+                <label>Circuit Issues</label>
+            </value>
+            <value>
+                <fullName>Explosive sound</fullName>
+                <default>false</default>
+                <label>Explosive sound</label>
+            </value>
+            <value>
+                <fullName>Glass Issue</fullName>
+                <default>false</default>
+                <label>Glass Issue</label>
+            </value>
+            <value>
+                <fullName>Handle Issue</fullName>
+                <default>false</default>
+                <label>Handle Issue</label>
+            </value>
+            <value>
+                <fullName>Heating element ruptured</fullName>
+                <default>false</default>
+                <label>Heating element ruptured</label>
+            </value>
+            <value>
+                <fullName>Leaking</fullName>
+                <default>false</default>
+                <label>Leaking</label>
+            </value>
+            <value>
+                <fullName>Screw Issue</fullName>
+                <default>false</default>
+                <label>Screw Issue</label>
+            </value>
+            <value>
+                <fullName>Spout Issue</fullName>
+                <default>false</default>
+                <label>Spout Issue</label>
+            </value>
+            <value>
+                <fullName>Starts automatically</fullName>
+                <default>false</default>
+                <label>Starts automatically</label>
+            </value>
+            <value>
+                <fullName>Tray Issue</fullName>
+                <default>false</default>
+                <label>Tray Issue</label>
+            </value>
+            <value>
+                <fullName>Wi-Fi</fullName>
+                <default>false</default>
+                <label>Wi-Fi</label>
+            </value>
+            <value>
+                <fullName>Amputation</fullName>
+                <default>false</default>
+                <label>Amputation</label>
+            </value>
+            <value>
+                <fullName>Burned/Burnt</fullName>
+                <default>false</default>
+                <label>Burned/Burnt</label>
+            </value>
+            <value>
+                <fullName>Choked</fullName>
+                <default>false</default>
+                <label>Choked</label>
+            </value>
+            <value>
+                <fullName>Disfigurement</fullName>
+                <default>false</default>
+                <label>Disfigurement</label>
+            </value>
+            <value>
+                <fullName>Dismemberment</fullName>
+                <default>false</default>
+                <label>Dismemberment</label>
+            </value>
+            <value>
+                <fullName>Ear injury</fullName>
+                <default>false</default>
+                <label>Ear injury</label>
+            </value>
+            <value>
+                <fullName>Eye injury</fullName>
+                <default>false</default>
+                <label>Eye injury</label>
+            </value>
+            <value>
+                <fullName>Hospitalization</fullName>
+                <default>false</default>
+                <label>Hospitalization</label>
+            </value>
+            <value>
+                <fullName>Internal organ injury</fullName>
+                <default>false</default>
+                <label>Internal organ injury</label>
+            </value>
+            <value>
+                <fullName>Laceration</fullName>
+                <default>false</default>
+                <label>Laceration</label>
+            </value>
+            <value>
+                <fullName>Loss of bodily function</fullName>
+                <default>false</default>
+                <label>Loss of bodily function</label>
+            </value>
+            <value>
+                <fullName>Missed school/work 1+ day</fullName>
+                <default>false</default>
+                <label>Missed school/work 1+ day</label>
+            </value>
+            <value>
+                <fullName>Mouth injury</fullName>
+                <default>false</default>
+                <label>Mouth injury</label>
+            </value>
+            <value>
+                <fullName>Mutilation</fullName>
+                <default>false</default>
+                <label>Mutilation</label>
+            </value>
+            <value>
+                <fullName>Shocked</fullName>
+                <default>false</default>
+                <label>Shocked</label>
+            </value>
+            <value>
+                <fullName>Stiches</fullName>
+                <default>false</default>
+                <label>Stiches</label>
+            </value>
+            <value>
+                <fullName>Teeth injury</fullName>
+                <default>false</default>
+                <label>Teeth injury</label>
+            </value>
+            <value>
+                <fullName>Burn Damage</fullName>
+                <default>false</default>
+                <label>Burn Damage</label>
+            </value>
+            <value>
+                <fullName>Electrical Damage</fullName>
+                <default>false</default>
+                <label>Electrical Damage</label>
+            </value>
+            <value>
+                <fullName>Smoke Damage</fullName>
+                <default>false</default>
+                <label>Smoke Damage</label>
+            </value>
+            <value>
+                <fullName>Water Damage</fullName>
+                <default>false</default>
+                <label>Water Damage</label>
+            </value>
+            <value>
+                <fullName>Burning</fullName>
+                <default>false</default>
+                <label>Burning</label>
+            </value>
+            <value>
+                <fullName>Burnt</fullName>
+                <default>false</default>
+                <label>Burnt</label>
+            </value>
+            <value>
+                <fullName>Electrical Issue</fullName>
+                <default>false</default>
+                <label>Electrical Issue</label>
+            </value>
+            <value>
+                <fullName>High Temperature</fullName>
+                <default>false</default>
+                <label>High Temperature</label>
+            </value>
+            <value>
+                <fullName>Hot Plug/Power Cord</fullName>
+                <default>false</default>
+                <label>Hot Plug/Power Cord</label>
+            </value>
+            <value>
+                <fullName>Melting Issue</fullName>
+                <default>false</default>
+                <label>Melting Issue</label>
+            </value>
+            <value>
+                <fullName>Smoke Issue</fullName>
+                <default>false</default>
+                <label>Smoke Issue</label>
+            </value>
+            <value>
+                <fullName>Sparks</fullName>
+                <default>false</default>
+                <label>Sparks</label>
+            </value>
+            <value>
+                <fullName>Burn Marks</fullName>
+                <default>false</default>
+                <label>Burn Marks</label>
+            </value>
+            <value>
+                <fullName>Fire</fullName>
+                <default>false</default>
+                <label>Fire</label>
+            </value>
+            <value>
+                <fullName>Melted</fullName>
+                <default>false</default>
+                <label>Melted</label>
+            </value>
+            <value>
+                <fullName>Smoke</fullName>
+                <default>false</default>
+                <label>Smoke</label>
+            </value>
+            <value>
+                <fullName>Warm Plug</fullName>
+                <default>false</default>
+                <label>Warm Plug</label>
+            </value>
+            <value>
+                <fullName>Literature</fullName>
+                <default>false</default>
+                <label>Literature</label>
+            </value>
+            <value>
+                <fullName>Tight Food Container Lid</fullName>
+                <default>false</default>
+                <label>Tight Food Container Lid</label>
+            </value>
+            <value>
+                <fullName>Sleep Mode Indicator Light Cannot Be Turned Off</fullName>
+                <default>false</default>
+                <label>Sleep Mode Indicator Light Cannot Be Turned Off</label>
+            </value>
+            <value>
+                <fullName>Raised Component</fullName>
+                <default>false</default>
+                <label>Raised Component</label>
+            </value>
+            <value>
+                <fullName>Deformed Lid</fullName>
+                <default>false</default>
+                <label>Deformed Lid</label>
+            </value>
+            <value>
+                <fullName>Deformed Plug</fullName>
+                <default>false</default>
+                <label>Deformed Plug</label>
+            </value>
+            <value>
+                <fullName>Deformed Shell</fullName>
+                <default>false</default>
+                <label>Deformed Shell</label>
+            </value>
+            <value>
+                <fullName>Mold</fullName>
+                <default>false</default>
+                <label>Mold</label>
+            </value>
+            <value>
+                <fullName>Feed Indicator Light Not On</fullName>
+                <default>false</default>
+                <label>Feed Indicator Light Not On</label>
+            </value>
+            <value>
+                <fullName>Light Stays On</fullName>
+                <default>false</default>
+                <label>Light Stays On</label>
+            </value>
+            <value>
+                <fullName>Battery Leakage</fullName>
+                <default>false</default>
+                <label>Battery Leakage</label>
+            </value>
+            <value>
+                <fullName>Calibration Issues</fullName>
+                <default>false</default>
+                <label>Calibration Issues</label>
+            </value>
+            <value>
+                <fullName>Excessive Dispensing</fullName>
+                <default>false</default>
+                <label>Excessive Dispensing</label>
+            </value>
+            <value>
+                <fullName>Inaccurate Portioning</fullName>
+                <default>false</default>
+                <label>Inaccurate Portioning</label>
+            </value>
+            <value>
+                <fullName>Inaccurate Weight</fullName>
+                <default>false</default>
+                <label>Inaccurate Weight</label>
+            </value>
+            <value>
+                <fullName>Incorrect Number of Portions</fullName>
+                <default>false</default>
+                <label>Incorrect Number of Portions</label>
+            </value>
+            <value>
+                <fullName>Insufficient Dispensing</fullName>
+                <default>false</default>
+                <label>Insufficient Dispensing</label>
+            </value>
+            <value>
+                <fullName>Low Food Indicator</fullName>
+                <default>false</default>
+                <label>Low Food Indicator</label>
+            </value>
+            <value>
+                <fullName>Food Container Lid Won&apos;t Open</fullName>
+                <default>false</default>
+                <label>Food Container Lid Won&apos;t Open</label>
+            </value>
+            <value>
+                <fullName>Not Dispensing</fullName>
+                <default>false</default>
+                <label>Not Dispensing</label>
+            </value>
+            <value>
+                <fullName>Unable to Reset</fullName>
+                <default>false</default>
+                <label>Unable to Reset</label>
+            </value>
+            <value>
+                <fullName>Unapproved Flow Out</fullName>
+                <default>false</default>
+                <label>Unapproved Flow Out</label>
+            </value>
+            <value>
+                <fullName>Motor Noise</fullName>
+                <default>false</default>
+                <label>Motor Noise</label>
+            </value>
+            <value>
+                <fullName>Cannot Automatically Power On</fullName>
+                <default>false</default>
+                <label>Cannot Automatically Power On</label>
+            </value>
+            <value>
+                <fullName>Won&apos;t turn off</fullName>
+                <default>false</default>
+                <label>Won&apos;t turn off</label>
+            </value>
+            <value>
+                <fullName>Won&apos;t turn on</fullName>
+                <default>false</default>
+                <label>Won&apos;t turn on</label>
+            </value>
+            <value>
+                <fullName>Next Meal Execution Error</fullName>
+                <default>false</default>
+                <label>Next Meal Execution Error</label>
+            </value>
+            <value>
+                <fullName>Schedule Creation Issues</fullName>
+                <default>false</default>
+                <label>Schedule Creation Issues</label>
+            </value>
+            <value>
+                <fullName>Damaged Base</fullName>
+                <default>false</default>
+                <label>Damaged Base</label>
+            </value>
+            <value>
+                <fullName>Damaged Label</fullName>
+                <default>false</default>
+                <label>Damaged Label</label>
+            </value>
+            <value>
+                <fullName>Damaged Screen</fullName>
+                <default>false</default>
+                <label>Damaged Screen</label>
+            </value>
+            <value>
+                <fullName>Dented Shell</fullName>
+                <default>false</default>
+                <label>Dented Shell</label>
+            </value>
+            <value>
+                <fullName>Bluetooth Connection Failure</fullName>
+                <default>false</default>
+                <label>Bluetooth Connection Failure</label>
+            </value>
+            <value>
+                <fullName>E01 Error code</fullName>
+                <default>false</default>
+                <label>E01 Error code</label>
+            </value>
+            <value>
+                <fullName>E03 Error code</fullName>
+                <default>false</default>
+                <label>E03 Error code</label>
+            </value>
+            <value>
+                <fullName>Blood pressure measurement high value &lt;10 mmHg</fullName>
+                <default>false</default>
+                <label>Blood pressure measurement high value &lt;10 mmHg</label>
+            </value>
+            <value>
+                <fullName>Blood pressure measurement high value &gt;20 mmHg</fullName>
+                <default>false</default>
+                <label>Blood pressure measurement high value &gt;20 mmHg</label>
+            </value>
+            <value>
+                <fullName>Blood pressure measurement high value 10-20 mmHg</fullName>
+                <default>false</default>
+                <label>Blood pressure measurement high value 10-20 mmHg</label>
+            </value>
+            <value>
+                <fullName>Blood pressure measurement high, unspecified value</fullName>
+                <default>false</default>
+                <label>Blood pressure measurement high, unspecified value</label>
+            </value>
+            <value>
+                <fullName>Blood pressure measurement inaccurate, unspecified value</fullName>
+                <default>false</default>
+                <label>Blood pressure measurement inaccurate, unspecified value</label>
+            </value>
+            <value>
+                <fullName>Blood pressure measurement low value &gt;20 mmHg</fullName>
+                <default>false</default>
+                <label>Blood pressure measurement low value &gt;20 mmHg</label>
+            </value>
+            <value>
+                <fullName>Blood pressure measurement low value 10-20 mmHg</fullName>
+                <default>false</default>
+                <label>Blood pressure measurement low value 10-20 mmHg</label>
+            </value>
+            <value>
+                <fullName>Blood pressure measurement low, unspecified value</fullName>
+                <default>false</default>
+                <label>Blood pressure measurement low, unspecified value</label>
+            </value>
+            <value>
+                <fullName>Does Not Deflate After Measurement</fullName>
+                <default>false</default>
+                <label>Does Not Deflate After Measurement</label>
+            </value>
+            <value>
+                <fullName>Battery Cannot Be Charged</fullName>
+                <default>false</default>
+                <label>Battery Cannot Be Charged</label>
+            </value>
+            <value>
+                <fullName>Apple Health Data Not Syncing</fullName>
+                <default>false</default>
+                <label>Apple Health Data Not Syncing</label>
+            </value>
+            <value>
+                <fullName>Battery clip damaged</fullName>
+                <default>false</default>
+                <label>Battery clip damaged</label>
+            </value>
+            <value>
+                <fullName>Scale feet loose</fullName>
+                <default>false</default>
+                <label>Scale feet loose</label>
+            </value>
+            <value>
+                <fullName>Repeated Push Notifications</fullName>
+                <default>false</default>
+                <label>Repeated Push Notifications</label>
+            </value>
+            <value>
+                <fullName>UI Issues</fullName>
+                <default>false</default>
+                <label>UI Issues</label>
+            </value>
+            <value>
+                <fullName>App Only Syncs Primary Account Data to Third Parties</fullName>
+                <default>false</default>
+                <label>App Only Syncs Primary Account Data to Third Parties</label>
+            </value>
+            <value>
+                <fullName>Weather issues</fullName>
+                <default>false</default>
+                <label>Weather issues</label>
+            </value>
+            <value>
+                <fullName>Cannot Sync Heart Rate</fullName>
+                <default>false</default>
+                <label>Cannot Sync Heart Rate</label>
+            </value>
+            <value>
+                <fullName>Data allocation error</fullName>
+                <default>false</default>
+                <label>Data allocation error</label>
+            </value>
+            <value>
+                <fullName>Data Loss</fullName>
+                <default>false</default>
+                <label>Data Loss</label>
+            </value>
+            <value>
+                <fullName>Unable to Delete Data</fullName>
+                <default>false</default>
+                <label>Unable to Delete Data</label>
+            </value>
+            <value>
+                <fullName>Weight Data Date Error</fullName>
+                <default>false</default>
+                <label>Weight Data Date Error</label>
+            </value>
+            <value>
+                <fullName>Incorrect Data Date/Time</fullName>
+                <default>false</default>
+                <label>Incorrect Data Date/Time</label>
+            </value>
+            <value>
+                <fullName>New Algorithm Data Discrepancy</fullName>
+                <default>false</default>
+                <label>New Algorithm Data Discrepancy</label>
+            </value>
+            <value>
+                <fullName>User Information Anomalies</fullName>
+                <default>false</default>
+                <label>User Information Anomalies</label>
+            </value>
+            <value>
+                <fullName>Charging port loose/deformed</fullName>
+                <default>false</default>
+                <label>Charging port loose/deformed</label>
+            </value>
+            <value>
+                <fullName>Backlight On, No Numbers</fullName>
+                <default>false</default>
+                <label>Backlight On, No Numbers</label>
+            </value>
+            <value>
+                <fullName>Screen backlight not working</fullName>
+                <default>false</default>
+                <label>Screen backlight not working</label>
+            </value>
+            <value>
+                <fullName>8888 Error code</fullName>
+                <default>false</default>
+                <label>8888 Error code</label>
+            </value>
+            <value>
+                <fullName>CAL Error code</fullName>
+                <default>false</default>
+                <label>CAL Error code</label>
+            </value>
+            <value>
+                <fullName>Err Error code</fullName>
+                <default>false</default>
+                <label>Err Error code</label>
+            </value>
+            <value>
+                <fullName>Lo Error code</fullName>
+                <default>false</default>
+                <label>Lo Error code</label>
+            </value>
+            <value>
+                <fullName>Cannot detect heart rate</fullName>
+                <default>false</default>
+                <label>Cannot detect heart rate</label>
+            </value>
+            <value>
+                <fullName>Cannot Switch Units</fullName>
+                <default>false</default>
+                <label>Cannot Switch Units</label>
+            </value>
+            <value>
+                <fullName>Cannot Auto-Zero</fullName>
+                <default>false</default>
+                <label>Cannot Auto-Zero</label>
+            </value>
+            <value>
+                <fullName>Reading always 0</fullName>
+                <default>false</default>
+                <label>Reading always 0</label>
+            </value>
+            <value>
+                <fullName>Reading Stuck</fullName>
+                <default>false</default>
+                <label>Reading Stuck</label>
+            </value>
+            <value>
+                <fullName>Body Composition Measurement Inaccurate</fullName>
+                <default>false</default>
+                <label>Body Composition Measurement Inaccurate</label>
+            </value>
+            <value>
+                <fullName>Body Fat Measurement Inaccurate</fullName>
+                <default>false</default>
+                <label>Body Fat Measurement Inaccurate</label>
+            </value>
+            <value>
+                <fullName>Cannot Measure Body Fat</fullName>
+                <default>false</default>
+                <label>Cannot Measure Body Fat</label>
+            </value>
+            <value>
+                <fullName>Heart rate measurement inaccurate</fullName>
+                <default>false</default>
+                <label>Heart rate measurement inaccurate</label>
+            </value>
+            <value>
+                <fullName>Increment Discrepancies</fullName>
+                <default>false</default>
+                <label>Increment Discrepancies</label>
+            </value>
+            <value>
+                <fullName>Long Time to Lock Final Weight</fullName>
+                <default>false</default>
+                <label>Long Time to Lock Final Weight</label>
+            </value>
+            <value>
+                <fullName>Measurement Data Cannot Be Locked</fullName>
+                <default>false</default>
+                <label>Measurement Data Cannot Be Locked</label>
+            </value>
+            <value>
+                <fullName>Measurement Unresponsive</fullName>
+                <default>false</default>
+                <label>Measurement Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Displays weight without items</fullName>
+                <default>false</default>
+                <label>Displays weight without items</label>
+            </value>
+            <value>
+                <fullName>Inaccurate error &gt; 5 lbs</fullName>
+                <default>false</default>
+                <label>Inaccurate error &gt; 5 lbs</label>
+            </value>
+            <value>
+                <fullName>Inaccurate error ? 5 lbs</fullName>
+                <default>false</default>
+                <label>Inaccurate error ? 5 lbs</label>
+            </value>
+            <value>
+                <fullName>Received defective item</fullName>
+                <default>false</default>
+                <label>Received defective item</label>
+            </value>
+            <value>
+                <fullName>Difficult to switch units</fullName>
+                <default>false</default>
+                <label>Difficult to switch units</label>
+            </value>
+            <value>
+                <fullName>Error 52 - WiFi Not Found</fullName>
+                <default>false</default>
+                <label>Error 52 - WiFi Not Found</label>
+            </value>
+            <value>
+                <fullName>Error 53 - Incorrect Password</fullName>
+                <default>false</default>
+                <label>Error 53 - Incorrect Password</label>
+            </value>
+            <value>
+                <fullName>Error 54 - WiFi Connection Failure</fullName>
+                <default>false</default>
+                <label>Error 54 - WiFi Connection Failure</label>
+            </value>
+            <value>
+                <fullName>Error 67 - IP Acquisition Failure</fullName>
+                <default>false</default>
+                <label>Error 67 - IP Acquisition Failure</label>
+            </value>
+            <value>
+                <fullName>Error 85 - Public Network Issues</fullName>
+                <default>false</default>
+                <label>Error 85 - Public Network Issues</label>
+            </value>
+            <value>
+                <fullName>Network configuration failed</fullName>
+                <default>false</default>
+                <label>Network configuration failed</label>
+            </value>
+            <value>
+                <fullName>Auto Power On</fullName>
+                <default>false</default>
+                <label>Auto Power On</label>
+            </value>
+            <value>
+                <fullName>Battery dead upon arrival</fullName>
+                <default>false</default>
+                <label>Battery dead upon arrival</label>
+            </value>
+            <value>
+                <fullName>Cannot work after replacing battery</fullName>
+                <default>false</default>
+                <label>Cannot work after replacing battery</label>
+            </value>
+            <value>
+                <fullName>Uneven Feet</fullName>
+                <default>false</default>
+                <label>Uneven Feet</label>
+            </value>
+            <value>
+                <fullName>Fitbit Not Syncing</fullName>
+                <default>false</default>
+                <label>Fitbit Not Syncing</label>
+            </value>
+            <value>
+                <fullName>GoogleFit Data Not Syncing</fullName>
+                <default>false</default>
+                <label>GoogleFit Data Not Syncing</label>
+            </value>
+            <value>
+                <fullName>MyfitnessPal Data Not Syncing</fullName>
+                <default>false</default>
+                <label>MyfitnessPal Data Not Syncing</label>
+            </value>
+            <value>
+                <fullName>SamsungHealth data synchronization issue</fullName>
+                <default>false</default>
+                <label>SamsungHealth data synchronization issue</label>
+            </value>
+            <value>
+                <fullName>Anti-slip pad loose</fullName>
+                <default>false</default>
+                <label>Anti-slip pad loose</label>
+            </value>
+            <value>
+                <fullName>Battery cover damaged</fullName>
+                <default>false</default>
+                <label>Battery cover damaged</label>
+            </value>
+            <value>
+                <fullName>Battery spring falling off</fullName>
+                <default>false</default>
+                <label>Battery spring falling off</label>
+            </value>
+            <value>
+                <fullName>Casing Cracked</fullName>
+                <default>false</default>
+                <label>Casing Cracked</label>
+            </value>
+            <value>
+                <fullName>Non-slip pad detached</fullName>
+                <default>false</default>
+                <label>Non-slip pad detached</label>
+            </value>
+            <value>
+                <fullName>Panel Cracked</fullName>
+                <default>false</default>
+                <label>Panel Cracked</label>
+            </value>
+            <value>
+                <fullName>Scale Body Detached</fullName>
+                <default>false</default>
+                <label>Scale Body Detached</label>
+            </value>
+            <value>
+                <fullName>Battery cover hard to open</fullName>
+                <default>false</default>
+                <label>Battery cover hard to open</label>
+            </value>
+            <value>
+                <fullName>Sports data not synced</fullName>
+                <default>false</default>
+                <label>Sports data not synced</label>
+            </value>
+            <value>
+                <fullName>C error</fullName>
+                <default>false</default>
+                <label>C error</label>
+            </value>
+            <value>
+                <fullName>Increment mismatch</fullName>
+                <default>false</default>
+                <label>Increment mismatch</label>
+            </value>
+            <value>
+                <fullName>Last digit reading fixed at 0</fullName>
+                <default>false</default>
+                <label>Last digit reading fixed at 0</label>
+            </value>
+            <value>
+                <fullName>Pounds and Kilograms Nearly the Same</fullName>
+                <default>false</default>
+                <label>Pounds and Kilograms Nearly the Same</label>
+            </value>
+            <value>
+                <fullName>Auto unit switching</fullName>
+                <default>false</default>
+                <label>Auto unit switching</label>
+            </value>
+            <value>
+                <fullName>Bottom uneven</fullName>
+                <default>false</default>
+                <label>Bottom uneven</label>
+            </value>
+            <value>
+                <fullName>Battery compartment damaged</fullName>
+                <default>false</default>
+                <label>Battery compartment damaged</label>
+            </value>
+            <value>
+                <fullName>Loose screw(s)</fullName>
+                <default>false</default>
+                <label>Loose screw(s)</label>
+            </value>
+            <value>
+                <fullName>Scale edge damaged</fullName>
+                <default>false</default>
+                <label>Scale edge damaged</label>
+            </value>
+            <value>
+                <fullName>Battery</fullName>
+                <default>false</default>
+                <label>Battery</label>
+            </value>
+            <value>
+                <fullName>Bulb not lighting</fullName>
+                <default>false</default>
+                <label>Bulb not lighting</label>
+            </value>
+            <value>
+                <fullName>Light cannot be turned off</fullName>
+                <default>false</default>
+                <label>Light cannot be turned off</label>
+            </value>
+            <value>
+                <fullName>Bulb shattered</fullName>
+                <default>false</default>
+                <label>Bulb shattered</label>
+            </value>
+            <value>
+                <fullName>Loose handle</fullName>
+                <default>false</default>
+                <label>Loose handle</label>
+            </value>
+            <value>
+                <fullName>Insulation Not Working</fullName>
+                <default>false</default>
+                <label>Insulation Not Working</label>
+            </value>
+            <value>
+                <fullName>Filter Damaged</fullName>
+                <default>false</default>
+                <label>Filter Damaged</label>
+            </value>
+            <value>
+                <fullName>Lid cracked</fullName>
+                <default>false</default>
+                <label>Lid cracked</label>
+            </value>
+            <value>
+                <fullName>Lid loose</fullName>
+                <default>false</default>
+                <label>Lid loose</label>
+            </value>
+            <value>
+                <fullName>Lid screw detached</fullName>
+                <default>false</default>
+                <label>Lid screw detached</label>
+            </value>
+            <value>
+                <fullName>Lid cannot close properly</fullName>
+                <default>false</default>
+                <label>Lid cannot close properly</label>
+            </value>
+            <value>
+                <fullName>Key Input Problem</fullName>
+                <default>false</default>
+                <label>Key Input Problem</label>
+            </value>
+            <value>
+                <fullName>Indicator Light Turns Off Immediately</fullName>
+                <default>false</default>
+                <label>Indicator Light Turns Off Immediately</label>
+            </value>
+            <value>
+                <fullName>On/off switch does not stay down</fullName>
+                <default>false</default>
+                <label>On/off switch does not stay down</label>
+            </value>
+            <value>
+                <fullName>On/off switch turns off earlier</fullName>
+                <default>false</default>
+                <label>On/off switch turns off earlier</label>
+            </value>
+            <value>
+                <fullName>Base contact points deformed/bent</fullName>
+                <default>false</default>
+                <label>Base contact points deformed/bent</label>
+            </value>
+            <value>
+                <fullName>Heating plate dirty</fullName>
+                <default>false</default>
+                <label>Heating plate dirty</label>
+            </value>
+            <value>
+                <fullName>Light off</fullName>
+                <default>false</default>
+                <label>Light off</label>
+            </value>
+            <value>
+                <fullName>Stays on</fullName>
+                <default>false</default>
+                <label>Stays on</label>
+            </value>
+            <value>
+                <fullName>Keeps warm function not working</fullName>
+                <default>false</default>
+                <label>Keeps warm function not working</label>
+            </value>
+            <value>
+                <fullName>Dry burn protection error despite water</fullName>
+                <default>false</default>
+                <label>Dry burn protection error despite water</label>
+            </value>
+            <value>
+                <fullName>Doesn&apos;t stop heating</fullName>
+                <default>false</default>
+                <label>Doesn&apos;t stop heating</label>
+            </value>
+            <value>
+                <fullName>Water does not boil</fullName>
+                <default>false</default>
+                <label>Water does not boil</label>
+            </value>
+            <value>
+                <fullName>Lid popping up</fullName>
+                <default>false</default>
+                <label>Lid popping up</label>
+            </value>
+            <value>
+                <fullName>Lid won&apos;t open</fullName>
+                <default>false</default>
+                <label>Lid won&apos;t open</label>
+            </value>
+            <value>
+                <fullName>Stops Working</fullName>
+                <default>false</default>
+                <label>Stops Working</label>
+            </value>
+            <value>
+                <fullName>Automatically Turns On</fullName>
+                <default>false</default>
+                <label>Automatically Turns On</label>
+            </value>
+            <value>
+                <fullName>Kettle unstable</fullName>
+                <default>false</default>
+                <label>Kettle unstable</label>
+            </value>
+            <value>
+                <fullName>Brush Head Cover Not Compatible</fullName>
+                <default>false</default>
+                <label>Brush Head Cover Not Compatible</label>
+            </value>
+            <value>
+                <fullName>Battery Not Charging</fullName>
+                <default>false</default>
+                <label>Battery Not Charging</label>
+            </value>
+            <value>
+                <fullName>Short battery life</fullName>
+                <default>false</default>
+                <label>Short battery life</label>
+            </value>
+            <value>
+                <fullName>Fan nuts detached</fullName>
+                <default>false</default>
+                <label>Fan nuts detached</label>
+            </value>
+            <value>
+                <fullName>Fan screws detached</fullName>
+                <default>false</default>
+                <label>Fan screws detached</label>
+            </value>
+            <value>
+                <fullName>Glass door adhesive detached</fullName>
+                <default>false</default>
+                <label>Glass door adhesive detached</label>
+            </value>
+            <value>
+                <fullName>Loose Glass Door</fullName>
+                <default>false</default>
+                <label>Loose Glass Door</label>
+            </value>
+            <value>
+                <fullName>Display not showing all numbers/letters</fullName>
+                <default>false</default>
+                <label>Display not showing all numbers/letters</label>
+            </value>
+            <value>
+                <fullName>Long dehydration time</fullName>
+                <default>false</default>
+                <label>Long dehydration time</label>
+            </value>
+            <value>
+                <fullName>Uneven dehydration</fullName>
+                <default>false</default>
+                <label>Uneven dehydration</label>
+            </value>
+            <value>
+                <fullName>Lubricant leakage</fullName>
+                <default>false</default>
+                <label>Lubricant leakage</label>
+            </value>
+            <value>
+                <fullName>Trays easily slide out</fullName>
+                <default>false</default>
+                <label>Trays easily slide out</label>
+            </value>
+            <value>
+                <fullName>Button turns off earlier</fullName>
+                <default>false</default>
+                <label>Button turns off earlier</label>
+            </value>
+            <value>
+                <fullName>Lid stuck</fullName>
+                <default>false</default>
+                <label>Lid stuck</label>
+            </value>
+            <value>
+                <fullName>Tank Lid Too Tight</fullName>
+                <default>false</default>
+                <label>Tank Lid Too Tight</label>
+            </value>
+            <value>
+                <fullName>Product Assembly Misaligned</fullName>
+                <default>false</default>
+                <label>Product Assembly Misaligned</label>
+            </value>
+            <value>
+                <fullName>Top Lid Easily Falls Off When Adding Water</fullName>
+                <default>false</default>
+                <label>Top Lid Easily Falls Off When Adding Water</label>
+            </value>
+            <value>
+                <fullName>No/Low Water Warning</fullName>
+                <default>false</default>
+                <label>No/Low Water Warning</label>
+            </value>
+            <value>
+                <fullName>Night Light Does Not Turn Off</fullName>
+                <default>false</default>
+                <label>Night Light Does Not Turn Off</label>
+            </value>
+            <value>
+                <fullName>Night Light Not Lit</fullName>
+                <default>false</default>
+                <label>Night Light Not Lit</label>
+            </value>
+            <value>
+                <fullName>Humidity Display Not Changing</fullName>
+                <default>false</default>
+                <label>Humidity Display Not Changing</label>
+            </value>
+            <value>
+                <fullName>Red Light Flashing</fullName>
+                <default>false</default>
+                <label>Red Light Flashing</label>
+            </value>
+            <value>
+                <fullName>Screen Cannot Stay On</fullName>
+                <default>false</default>
+                <label>Screen Cannot Stay On</label>
+            </value>
+            <value>
+                <fullName>E5 Error code</fullName>
+                <default>false</default>
+                <label>E5 Error code</label>
+            </value>
+            <value>
+                <fullName>E6 Error code</fullName>
+                <default>false</default>
+                <label>E6 Error code</label>
+            </value>
+            <value>
+                <fullName>Inaccurate Humidity</fullName>
+                <default>false</default>
+                <label>Inaccurate Humidity</label>
+            </value>
+            <value>
+                <fullName>Tank has Water but Shows Low Water</fullName>
+                <default>false</default>
+                <label>Tank has Water but Shows Low Water</label>
+            </value>
+            <value>
+                <fullName>Remote Not Working</fullName>
+                <default>false</default>
+                <label>Remote Not Working</label>
+            </value>
+            <value>
+                <fullName>Auto mode humidity abnormal</fullName>
+                <default>false</default>
+                <label>Auto mode humidity abnormal</label>
+            </value>
+            <value>
+                <fullName>Humidity Sensor Not Working</fullName>
+                <default>false</default>
+                <label>Humidity Sensor Not Working</label>
+            </value>
+            <value>
+                <fullName>Humidity Value Does Not Reach Set Value</fullName>
+                <default>false</default>
+                <label>Humidity Value Does Not Reach Set Value</label>
+            </value>
+            <value>
+                <fullName>Base Leaks Mist</fullName>
+                <default>false</default>
+                <label>Base Leaks Mist</label>
+            </value>
+            <value>
+                <fullName>Mist Has White Dust</fullName>
+                <default>false</default>
+                <label>Mist Has White Dust</label>
+            </value>
+            <value>
+                <fullName>Mist Too Strong</fullName>
+                <default>false</default>
+                <label>Mist Too Strong</label>
+            </value>
+            <value>
+                <fullName>Mist Too Weak</fullName>
+                <default>false</default>
+                <label>Mist Too Weak</label>
+            </value>
+            <value>
+                <fullName>No Mist</fullName>
+                <default>false</default>
+                <label>No Mist</label>
+            </value>
+            <value>
+                <fullName>Warm Mist Issues</fullName>
+                <default>false</default>
+                <label>Warm Mist Issues</label>
+            </value>
+            <value>
+                <fullName>Water Accumulation at Nozzle</fullName>
+                <default>false</default>
+                <label>Water Accumulation at Nozzle</label>
+            </value>
+            <value>
+                <fullName>Unsupported Encryption</fullName>
+                <default>false</default>
+                <label>Unsupported Encryption</label>
+            </value>
+            <value>
+                <fullName>On Warm Mist Setting</fullName>
+                <default>false</default>
+                <label>On Warm Mist Setting</label>
+            </value>
+            <value>
+                <fullName>Water Drop Sounds</fullName>
+                <default>false</default>
+                <label>Water Drop Sounds</label>
+            </value>
+            <value>
+                <fullName>Does Not Shut Down When Humidity Reached</fullName>
+                <default>false</default>
+                <label>Does Not Shut Down When Humidity Reached</label>
+            </value>
+            <value>
+                <fullName>Daylight Saving Time Issue</fullName>
+                <default>false</default>
+                <label>Daylight Saving Time Issue</label>
+            </value>
+            <value>
+                <fullName>Atomizer Plate Damaged</fullName>
+                <default>false</default>
+                <label>Atomizer Plate Damaged</label>
+            </value>
+            <value>
+                <fullName>Mute cover damage</fullName>
+                <default>false</default>
+                <label>Mute cover damage</label>
+            </value>
+            <value>
+                <fullName>Wheels detached</fullName>
+                <default>false</default>
+                <label>Wheels detached</label>
+            </value>
+            <value>
+                <fullName>Chart Issue</fullName>
+                <default>false</default>
+                <label>Chart Issue</label>
+            </value>
+            <value>
+                <fullName>Battery cover detached</fullName>
+                <default>false</default>
+                <label>Battery cover detached</label>
+            </value>
+            <value>
+                <fullName>Causes weight changes and does not auto-reset</fullName>
+                <default>false</default>
+                <label>Causes weight changes and does not auto-reset</label>
+            </value>
+            <value>
+                <fullName>Scale surface dented</fullName>
+                <default>false</default>
+                <label>Scale surface dented</label>
+            </value>
+            <value>
+                <fullName>#NAME?</fullName>
+                <default>false</default>
+                <label>#NAME?</label>
+            </value>
+            <value>
+                <fullName>C-15 Error code</fullName>
+                <default>false</default>
+                <label>C-15 Error code</label>
+            </value>
+            <value>
+                <fullName>EEEE Error code</fullName>
+                <default>false</default>
+                <label>EEEE Error code</label>
+            </value>
+            <value>
+                <fullName>UNST Unstable error code</fullName>
+                <default>false</default>
+                <label>UNST Unstable error code</label>
+            </value>
+            <value>
+                <fullName>Adding Weight Causes Decrease</fullName>
+                <default>false</default>
+                <label>Adding Weight Causes Decrease</label>
+            </value>
+            <value>
+                <fullName>Becomes negative after removing weighing item</fullName>
+                <default>false</default>
+                <label>Becomes negative after removing weighing item</label>
+            </value>
+            <value>
+                <fullName>Locking final weight takes too long</fullName>
+                <default>false</default>
+                <label>Locking final weight takes too long</label>
+            </value>
+            <value>
+                <fullName>Measurement is not sensitive</fullName>
+                <default>false</default>
+                <label>Measurement is not sensitive</label>
+            </value>
+            <value>
+                <fullName>Inaccurate Error &gt; 30g</fullName>
+                <default>false</default>
+                <label>Inaccurate Error &gt; 30g</label>
+            </value>
+            <value>
+                <fullName>Inaccurate Error ? 30g</fullName>
+                <default>false</default>
+                <label>Inaccurate Error ? 30g</label>
+            </value>
+            <value>
+                <fullName>Scale minimum measurement mismatch</fullName>
+                <default>false</default>
+                <label>Scale minimum measurement mismatch</label>
+            </value>
+            <value>
+                <fullName>Weight increases after removing items</fullName>
+                <default>false</default>
+                <label>Weight increases after removing items</label>
+            </value>
+            <value>
+                <fullName>Auto-resetting</fullName>
+                <default>false</default>
+                <label>Auto-resetting</label>
+            </value>
+            <value>
+                <fullName>Cannot auto power off</fullName>
+                <default>false</default>
+                <label>Cannot auto power off</label>
+            </value>
+            <value>
+                <fullName>Frequent battery replacement needed</fullName>
+                <default>false</default>
+                <label>Frequent battery replacement needed</label>
+            </value>
+            <value>
+                <fullName>Uneven foot pads</fullName>
+                <default>false</default>
+                <label>Uneven foot pads</label>
+            </value>
+            <value>
+                <fullName>Loose Battery Cover</fullName>
+                <default>false</default>
+                <label>Loose Battery Cover</label>
+            </value>
+            <value>
+                <fullName>Panel detached</fullName>
+                <default>false</default>
+                <label>Panel detached</label>
+            </value>
+            <value>
+                <fullName>Battery contact plate damaged</fullName>
+                <default>false</default>
+                <label>Battery contact plate damaged</label>
+            </value>
+            <value>
+                <fullName>Battery detached</fullName>
+                <default>false</default>
+                <label>Battery detached</label>
+            </value>
+            <value>
+                <fullName>Difficult to insert/remove battery</fullName>
+                <default>false</default>
+                <label>Difficult to insert/remove battery</label>
+            </value>
+            <value>
+                <fullName>Metal triangular ring broken/fallen</fullName>
+                <default>false</default>
+                <label>Metal triangular ring broken/fallen</label>
+            </value>
+            <value>
+                <fullName>Measurement range insufficient</fullName>
+                <default>false</default>
+                <label>Measurement range insufficient</label>
+            </value>
+            <value>
+                <fullName>Auto Shutoff Too Quick</fullName>
+                <default>false</default>
+                <label>Auto Shutoff Too Quick</label>
+            </value>
+            <value>
+                <fullName>Battery Contact Issues</fullName>
+                <default>false</default>
+                <label>Battery Contact Issues</label>
+            </value>
+            <value>
+                <fullName>Cracked shell</fullName>
+                <default>false</default>
+                <label>Cracked shell</label>
+            </value>
+            <value>
+                <fullName>Massage roller fabric damaged</fullName>
+                <default>false</default>
+                <label>Massage roller fabric damaged</label>
+            </value>
+            <value>
+                <fullName>Rollers not working</fullName>
+                <default>false</default>
+                <label>Rollers not working</label>
+            </value>
+            <value>
+                <fullName>Adapter broken, cannot charge</fullName>
+                <default>false</default>
+                <label>Adapter broken, cannot charge</label>
+            </value>
+            <value>
+                <fullName>Screen cannot display readings</fullName>
+                <default>false</default>
+                <label>Screen cannot display readings</label>
+            </value>
+            <value>
+                <fullName>Voltage inaccurate</fullName>
+                <default>false</default>
+                <label>Voltage inaccurate</label>
+            </value>
+            <value>
+                <fullName>Multimeter readings inaccurate</fullName>
+                <default>false</default>
+                <label>Multimeter readings inaccurate</label>
+            </value>
+            <value>
+                <fullName>Cannot scan/search for required food</fullName>
+                <default>false</default>
+                <label>Cannot scan/search for required food</label>
+            </value>
+            <value>
+                <fullName>Weighing Surface Depressed</fullName>
+                <default>false</default>
+                <label>Weighing Surface Depressed</label>
+            </value>
+            <value>
+                <fullName>Inaccurate Food Nutrition Values</fullName>
+                <default>false</default>
+                <label>Inaccurate Food Nutrition Values</label>
+            </value>
+            <value>
+                <fullName>Minimum Measurement Inaccurate</fullName>
+                <default>false</default>
+                <label>Minimum Measurement Inaccurate</label>
+            </value>
+            <value>
+                <fullName>Weight increases after peeling</fullName>
+                <default>false</default>
+                <label>Weight increases after peeling</label>
+            </value>
+            <value>
+                <fullName>Stopped Working Midway</fullName>
+                <default>false</default>
+                <label>Stopped Working Midway</label>
+            </value>
+            <value>
+                <fullName>Lid Shell Cracked</fullName>
+                <default>false</default>
+                <label>Lid Shell Cracked</label>
+            </value>
+            <value>
+                <fullName>Water Box Detached</fullName>
+                <default>false</default>
+                <label>Water Box Detached</label>
+            </value>
+            <value>
+                <fullName>Outer Shell Dent</fullName>
+                <default>false</default>
+                <label>Outer Shell Dent</label>
+            </value>
+            <value>
+                <fullName>Inner Pot Deformed</fullName>
+                <default>false</default>
+                <label>Inner Pot Deformed</label>
+            </value>
+            <value>
+                <fullName>C6H Error code</fullName>
+                <default>false</default>
+                <label>C6H Error code</label>
+            </value>
+            <value>
+                <fullName>C6L Error code</fullName>
+                <default>false</default>
+                <label>C6L Error code</label>
+            </value>
+            <value>
+                <fullName>C7 Error code</fullName>
+                <default>false</default>
+                <label>C7 Error code</label>
+            </value>
+            <value>
+                <fullName>Food Burn Error Code</fullName>
+                <default>false</default>
+                <label>Food Burn Error Code</label>
+            </value>
+            <value>
+                <fullName>Lid Error code</fullName>
+                <default>false</default>
+                <label>Lid Error code</label>
+            </value>
+            <value>
+                <fullName>No Pressure</fullName>
+                <default>false</default>
+                <label>No Pressure</label>
+            </value>
+            <value>
+                <fullName>Foot Pad Detached</fullName>
+                <default>false</default>
+                <label>Foot Pad Detached</label>
+            </value>
+            <value>
+                <fullName>Steam VentLeaks Water</fullName>
+                <default>false</default>
+                <label>Steam VentLeaks Water</label>
+            </value>
+            <value>
+                <fullName>Alexa Control Failures</fullName>
+                <default>false</default>
+                <label>Alexa Control Failures</label>
+            </value>
+            <value>
+                <fullName>Chart Data Not Displaying</fullName>
+                <default>false</default>
+                <label>Chart Data Not Displaying</label>
+            </value>
+            <value>
+                <fullName>Fan Function Anomaly</fullName>
+                <default>false</default>
+                <label>Fan Function Anomaly</label>
+            </value>
+            <value>
+                <fullName>Inaccurate Temperature</fullName>
+                <default>false</default>
+                <label>Inaccurate Temperature</label>
+            </value>
+            <value>
+                <fullName>Auxiliary Heat Activation</fullName>
+                <default>false</default>
+                <label>Auxiliary Heat Activation</label>
+            </value>
+            <value>
+                <fullName>Cooling not working</fullName>
+                <default>false</default>
+                <label>Cooling not working</label>
+            </value>
+            <value>
+                <fullName>Terminal Issues</fullName>
+                <default>false</default>
+                <label>Terminal Issues</label>
+            </value>
+            <value>
+                <fullName>Cooling cannot be turned off</fullName>
+                <default>false</default>
+                <label>Cooling cannot be turned off</label>
+            </value>
+            <value>
+                <fullName>MyRoutines/Schedule Settings</fullName>
+                <default>false</default>
+                <label>MyRoutines/Schedule Settings</label>
+            </value>
+            <value>
+                <fullName>Wires Damaged</fullName>
+                <default>false</default>
+                <label>Wires Damaged</label>
+            </value>
+            <value>
+                <fullName>Time Display Shows 8888</fullName>
+                <default>false</default>
+                <label>Time Display Shows 8888</label>
+            </value>
+            <value>
+                <fullName>Cannot Adjust Intensity</fullName>
+                <default>false</default>
+                <label>Cannot Adjust Intensity</label>
+            </value>
+            <value>
+                <fullName>Cannot Change Modes</fullName>
+                <default>false</default>
+                <label>Cannot Change Modes</label>
+            </value>
+            <value>
+                <fullName>Electrodes Not Working</fullName>
+                <default>false</default>
+                <label>Electrodes Not Working</label>
+            </value>
+            <value>
+                <fullName>Port Damage</fullName>
+                <default>false</default>
+                <label>Port Damage</label>
+            </value>
+            <value>
+                <fullName>Wire Fault</fullName>
+                <default>false</default>
+                <label>Wire Fault</label>
+            </value>
+            <value>
+                <fullName>A Output Port Not Working</fullName>
+                <default>false</default>
+                <label>A Output Port Not Working</label>
+            </value>
+            <value>
+                <fullName>Acupoint Therapy Device Not Working</fullName>
+                <default>false</default>
+                <label>Acupoint Therapy Device Not Working</label>
+            </value>
+            <value>
+                <fullName>Not Working After Charging</fullName>
+                <default>false</default>
+                <label>Not Working After Charging</label>
+            </value>
+            <value>
+                <fullName>No display screen</fullName>
+                <default>false</default>
+                <label>No display screen</label>
+            </value>
+            <value>
+                <fullName>Screen Freezes</fullName>
+                <default>false</default>
+                <label>Screen Freezes</label>
+            </value>
+            <value>
+                <fullName>AH Error code</fullName>
+                <default>false</default>
+                <label>AH Error code</label>
+            </value>
+            <value>
+                <fullName>AL Error code</fullName>
+                <default>false</default>
+                <label>AL Error code</label>
+            </value>
+            <value>
+                <fullName>HI Error code</fullName>
+                <default>false</default>
+                <label>HI Error code</label>
+            </value>
+            <value>
+                <fullName>Inaccurate liquid measurement</fullName>
+                <default>false</default>
+                <label>Inaccurate liquid measurement</label>
+            </value>
+            <value>
+                <fullName>Inaccurate error &gt; 2°</fullName>
+                <default>false</default>
+                <label>Inaccurate error &gt; 2°</label>
+            </value>
+            <value>
+                <fullName>Inaccurate error ? 2°</fullName>
+                <default>false</default>
+                <label>Inaccurate error ? 2°</label>
+            </value>
+            <value>
+                <fullName>Laser not working</fullName>
+                <default>false</default>
+                <label>Laser not working</label>
+            </value>
+            <value>
+                <fullName>Temperature Unchanged</fullName>
+                <default>false</default>
+                <label>Temperature Unchanged</label>
+            </value>
+            <value>
+                <fullName>Difficult Base Installation</fullName>
+                <default>false</default>
+                <label>Difficult Base Installation</label>
+            </value>
+            <value>
+                <fullName>Remote Battery Cover Hard to Open</fullName>
+                <default>false</default>
+                <label>Remote Battery Cover Hard to Open</label>
+            </value>
+            <value>
+                <fullName>Fan speed unchanged</fullName>
+                <default>false</default>
+                <label>Fan speed unchanged</label>
+            </value>
+            <value>
+                <fullName>No Airflow</fullName>
+                <default>false</default>
+                <label>No Airflow</label>
+            </value>
+            <value>
+                <fullName>Not Oscillating</fullName>
+                <default>false</default>
+                <label>Not Oscillating</label>
+            </value>
+            <value>
+                <fullName>Loud</fullName>
+                <default>false</default>
+                <label>Loud</label>
+            </value>
+            <value>
+                <fullName>During Oscillation</fullName>
+                <default>false</default>
+                <label>During Oscillation</label>
+            </value>
+            <value>
+                <fullName>Unstable Base</fullName>
+                <default>false</default>
+                <label>Unstable Base</label>
+            </value>
+            <value>
+                <fullName>Dust cup button stuck</fullName>
+                <default>false</default>
+                <label>Dust cup button stuck</label>
+            </value>
+            <value>
+                <fullName>Blockage Indicator Light On</fullName>
+                <default>false</default>
+                <label>Blockage Indicator Light On</label>
+            </value>
+            <value>
+                <fullName>Dust Level Indicator Always Red</fullName>
+                <default>false</default>
+                <label>Dust Level Indicator Always Red</label>
+            </value>
+            <value>
+                <fullName>Insufficient Suction</fullName>
+                <default>false</default>
+                <label>Insufficient Suction</label>
+            </value>
+            <value>
+                <fullName>Other Suction</fullName>
+                <default>false</default>
+                <label>Other Suction</label>
+            </value>
+            <value>
+                <fullName>Reduced Suction</fullName>
+                <default>false</default>
+                <label>Reduced Suction</label>
+            </value>
+            <value>
+                <fullName>Brush Jammed</fullName>
+                <default>false</default>
+                <label>Brush Jammed</label>
+            </value>
+            <value>
+                <fullName>Brush light not working</fullName>
+                <default>false</default>
+                <label>Brush light not working</label>
+            </value>
+            <value>
+                <fullName>Cannot stand upright</fullName>
+                <default>false</default>
+                <label>Cannot stand upright</label>
+            </value>
+            <value>
+                <fullName>2-in-1 flat suction brush head not fixed</fullName>
+                <default>false</default>
+                <label>2-in-1 flat suction brush head not fixed</label>
+            </value>
+            <value>
+                <fullName>Battery Not Fully Charged</fullName>
+                <default>false</default>
+                <label>Battery Not Fully Charged</label>
+            </value>
+            <value>
+                <fullName>Brush Not Spinning but Motor Running</fullName>
+                <default>false</default>
+                <label>Brush Not Spinning but Motor Running</label>
+            </value>
+            <value>
+                <fullName>Foreign objects blocking the pipe</fullName>
+                <default>false</default>
+                <label>Foreign objects blocking the pipe</label>
+            </value>
+            <value>
+                <fullName>Battery showing red light</fullName>
+                <default>false</default>
+                <label>Battery showing red light</label>
+            </value>
+            <value>
+                <fullName>Battery charging indicator not lit</fullName>
+                <default>false</default>
+                <label>Battery charging indicator not lit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
