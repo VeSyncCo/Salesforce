@@ -4,7 +4,7 @@
         <name>Email_on_Case_Creation_Default</name>
         <label>Email on Case Creation - Default</label>
         <locationX>1810</locationX>
-        <locationY>1463</locationY>
+        <locationY>1763</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -20,7 +20,7 @@
         <inputParameters>
             <name>senderAddress</name>
             <value>
-                <elementReference>Get_Org_Default_Email_Address_2.Address</elementReference>
+                <elementReference>Get_OrgWideEmail_Automation.Address</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -49,7 +49,7 @@
         <name>Email_on_Case_Creation_English</name>
         <label>Email on Case Creation - English</label>
         <locationX>1370</locationX>
-        <locationY>1463</locationY>
+        <locationY>1763</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -65,7 +65,7 @@
         <inputParameters>
             <name>senderAddress</name>
             <value>
-                <elementReference>Get_Org_Default_Email_Address_2.Address</elementReference>
+                <elementReference>Get_OrgWideEmail_Automation.Address</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -94,7 +94,7 @@
         <name>Email_on_Case_Creation_French</name>
         <label>Email on Case Creation - French</label>
         <locationX>842</locationX>
-        <locationY>1463</locationY>
+        <locationY>1763</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -110,7 +110,7 @@
         <inputParameters>
             <name>senderAddress</name>
             <value>
-                <elementReference>Get_Org_Default_Email_Address_2.Address</elementReference>
+                <elementReference>Get_OrgWideEmail_Automation.Address</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -139,7 +139,7 @@
         <name>Email_on_Case_Creation_German</name>
         <label>Email on Case Creation - German</label>
         <locationX>314</locationX>
-        <locationY>1463</locationY>
+        <locationY>1763</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -155,7 +155,7 @@
         <inputParameters>
             <name>senderAddress</name>
             <value>
-                <elementReference>Get_Org_Default_Email_Address_2.Address</elementReference>
+                <elementReference>Get_OrgWideEmail_Automation.Address</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -184,7 +184,7 @@
         <name>Email_on_Case_Creation_Italian</name>
         <label>Email on Case Creation - Italian</label>
         <locationX>1106</locationX>
-        <locationY>1463</locationY>
+        <locationY>1763</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -200,7 +200,7 @@
         <inputParameters>
             <name>senderAddress</name>
             <value>
-                <elementReference>Get_Org_Default_Email_Address_2.Address</elementReference>
+                <elementReference>Get_OrgWideEmail_Automation.Address</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -229,7 +229,7 @@
         <name>Email_on_Case_Creation_Spanish</name>
         <label>Email on Case Creation - Spanish</label>
         <locationX>578</locationX>
-        <locationY>1463</locationY>
+        <locationY>1763</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -245,7 +245,7 @@
         <inputParameters>
             <name>senderAddress</name>
             <value>
-                <elementReference>Get_Org_Default_Email_Address_2.Address</elementReference>
+                <elementReference>Get_OrgWideEmail_Automation.Address</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -274,7 +274,7 @@
         <name>Manual_Case_Creation_Email</name>
         <label>Manual Case Creation Email</label>
         <locationX>50</locationX>
-        <locationY>1355</locationY>
+        <locationY>1655</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -287,7 +287,7 @@
         <inputParameters>
             <name>senderAddress</name>
             <value>
-                <elementReference>Get_Org_Default_Email_Address.Address</elementReference>
+                <elementReference>Get_OrgWideEmail_Manual.Address</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -315,8 +315,8 @@
     <actionCalls>
         <name>Send_Survey_on_Case_Closure</name>
         <label>Send Survey on Case Closure</label>
-        <locationX>2382</locationX>
-        <locationY>995</locationY>
+        <locationX>2404</locationX>
+        <locationY>1247</locationY>
         <actionName>sendSurveyInvitation</actionName>
         <actionType>sendSurveyInvitation</actionType>
         <connector>
@@ -365,10 +365,144 @@
         <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>62.0</apiVersion>
+    <assignments>
+        <name>Org_Wide_Email_Cosori</name>
+        <label>Org Wide Email - Cosori</label>
+        <locationX>798</locationX>
+        <locationY>1247</locationY>
+        <assignmentItems>
+            <assignToReference>OrgWideEmail</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>support@cosori.com</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Origin_Check</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Org_Wide_Email_Etekcity</name>
+        <label>Org Wide Email - Etekcity</label>
+        <locationX>1062</locationX>
+        <locationY>1247</locationY>
+        <assignmentItems>
+            <assignToReference>OrgWideEmail</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>support@etekcity.com</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Origin_Check</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Org_Wide_Email_Levoit</name>
+        <label>Org Wide Email - Levoit</label>
+        <locationX>534</locationX>
+        <locationY>1247</locationY>
+        <assignmentItems>
+            <assignToReference>OrgWideEmail</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>support@levoit.com</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Origin_Check</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Org_Wide_Email_PawSync</name>
+        <label>Org Wide Email - PawSync</label>
+        <locationX>1326</locationX>
+        <locationY>1247</locationY>
+        <assignmentItems>
+            <assignToReference>OrgWideEmail</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>support@pawsync.com</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Origin_Check</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Brand_Check</name>
+        <label>Brand Check</label>
+        <locationX>1062</locationX>
+        <locationY>1139</locationY>
+        <defaultConnector>
+            <targetReference>Origin_Check</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Brand_Levoit</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Brand__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Levoit</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Org_Wide_Email_Levoit</targetReference>
+            </connector>
+            <label>Brand - Levoit</label>
+        </rules>
+        <rules>
+            <name>Brand_Cosori</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Brand__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cosori</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Org_Wide_Email_Cosori</targetReference>
+            </connector>
+            <label>Brand - Cosori</label>
+        </rules>
+        <rules>
+            <name>Brand_Etekcity</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Brand__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Etekcity</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Org_Wide_Email_Etekcity</targetReference>
+            </connector>
+            <label>Brand - Etekcity</label>
+        </rules>
+        <rules>
+            <name>Brand_PawSync</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Brand__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>PawSync</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Org_Wide_Email_PawSync</targetReference>
+            </connector>
+            <label>Brand - PawSync</label>
+        </rules>
+    </decisions>
     <decisions>
         <name>Bypass_Check</name>
         <label>Bypass Check</label>
-        <locationX>2371</locationX>
+        <locationX>2365</locationX>
         <locationY>323</locationY>
         <defaultConnectorLabel>Bypass Required</defaultConnectorLabel>
         <rules>
@@ -390,8 +524,8 @@
     <decisions>
         <name>Case_Close_Check</name>
         <label>Case Close Check</label>
-        <locationX>2514</locationX>
-        <locationY>887</locationY>
+        <locationX>2536</locationX>
+        <locationY>1139</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Case_is_Closed</name>
@@ -448,7 +582,7 @@
         <name>Check_Origin</name>
         <label>Check Origin</label>
         <locationX>1062</locationX>
-        <locationY>1739</locationY>
+        <locationY>2039</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Email_or_Web</name>
@@ -477,7 +611,7 @@
         <name>Country_Check</name>
         <label>Country Check</label>
         <locationX>1062</locationX>
-        <locationY>1355</locationY>
+        <locationY>1655</locationY>
         <defaultConnector>
             <targetReference>Email_on_Case_Creation_Default</targetReference>
         </defaultConnector>
@@ -590,7 +724,7 @@
     <decisions>
         <name>Creation_Check</name>
         <label>Creation Check</label>
-        <locationX>1788</locationX>
+        <locationX>1799</locationX>
         <locationY>431</locationY>
         <defaultConnector>
             <targetReference>Owner_Changed</targetReference>
@@ -613,10 +747,35 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Null_Check_PSR</name>
+        <label>Null Check - PSR</label>
+        <locationX>2382</locationX>
+        <locationY>755</locationY>
+        <defaultConnector>
+            <targetReference>Case_Close_Check</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>PSR Resource NULL</defaultConnectorLabel>
+        <rules>
+            <name>PSR_Resource_not_NULL</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_PSR_Record</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Delete_PSR</targetReference>
+            </connector>
+            <label>PSR Resource not NULL</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Origin_Check</name>
         <label>Origin Check</label>
         <locationX>1062</locationX>
-        <locationY>1139</locationY>
+        <locationY>1439</locationY>
         <defaultConnector>
             <targetReference>Check_Origin</targetReference>
         </defaultConnector>
@@ -639,7 +798,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Get_Org_Default_Email_Address</targetReference>
+                <targetReference>Get_OrgWideEmail_Manual</targetReference>
             </connector>
             <label>Record Manually Created</label>
         </rules>
@@ -668,7 +827,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Get_Org_Default_Email_Address_2</targetReference>
+                <targetReference>Get_OrgWideEmail_Automation</targetReference>
             </connector>
             <label>Automation Used</label>
         </rules>
@@ -676,7 +835,7 @@
     <decisions>
         <name>Owner_Changed</name>
         <label>Owner Changed</label>
-        <locationX>2514</locationX>
+        <locationX>2536</locationX>
         <locationY>539</locationY>
         <defaultConnector>
             <targetReference>Case_Close_Check</targetReference>
@@ -693,7 +852,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Delete_PSR</targetReference>
+                <targetReference>Get_PSR_Record</targetReference>
             </connector>
             <label>Is Changed</label>
         </rules>
@@ -704,7 +863,7 @@
         <locationX>1062</locationX>
         <locationY>539</locationY>
         <defaultConnector>
-            <targetReference>Origin_Check</targetReference>
+            <targetReference>Brand_Check</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Only Requester Present</defaultConnectorLabel>
         <rules>
@@ -786,7 +945,7 @@
         <locationX>1106</locationX>
         <locationY>647</locationY>
         <defaultConnector>
-            <targetReference>Origin_Check</targetReference>
+            <targetReference>Brand_Check</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Key Fields Missing</defaultConnectorLabel>
         <rules>
@@ -880,14 +1039,63 @@
         <name>Delete_PSR</name>
         <label>Delete PSR</label>
         <locationX>2250</locationX>
-        <locationY>647</locationY>
+        <locationY>863</locationY>
         <connector>
             <targetReference>Case_Close_Check</targetReference>
         </connector>
-        <faultConnector>
-            <isGoTo>true</isGoTo>
-            <targetReference>Case_Close_Check</targetReference>
-        </faultConnector>
+        <inputReference>Get_PSR_Record</inputReference>
+    </recordDeletes>
+    <recordLookups>
+        <name>Get_OrgWideEmail_Automation</name>
+        <label>Get OrgWideEmail - Automation</label>
+        <locationX>1062</locationX>
+        <locationY>1547</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Country_Check</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Address</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>OrgWideEmail</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>OrgWideEmailAddress</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_OrgWideEmail_Manual</name>
+        <label>Get OrgWideEmail - Manual</label>
+        <locationX>50</locationX>
+        <locationY>1547</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Manual_Case_Creation_Email</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Address</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>OrgWideEmail</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>OrgWideEmailAddress</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_PSR_Record</name>
+        <label>Get PSR Record</label>
+        <locationX>2382</locationX>
+        <locationY>647</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Null_Check_PSR</targetReference>
+        </connector>
         <filterLogic>and</filterLogic>
         <filters>
             <field>WorkItemId</field>
@@ -896,32 +1104,8 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>PendingServiceRouting</object>
-    </recordDeletes>
-    <recordLookups>
-        <name>Get_Org_Default_Email_Address</name>
-        <label>Get Org Default Email Address</label>
-        <locationX>50</locationX>
-        <locationY>1247</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Manual_Case_Creation_Email</targetReference>
-        </connector>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>OrgWideEmailAddress</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordLookups>
-        <name>Get_Org_Default_Email_Address_2</name>
-        <label>Get Org Default Email Address - 2</label>
-        <locationX>1062</locationX>
-        <locationY>1247</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Country_Check</targetReference>
-        </connector>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>OrgWideEmailAddress</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
@@ -930,7 +1114,7 @@
         <locationX>710</locationX>
         <locationY>647</locationY>
         <connector>
-            <targetReference>Origin_Check</targetReference>
+            <targetReference>Brand_Check</targetReference>
         </connector>
         <inputAssignments>
             <field>Requester__c</field>
@@ -946,7 +1130,7 @@
         <locationX>974</locationX>
         <locationY>863</locationY>
         <connector>
-            <targetReference>Origin_Check</targetReference>
+            <targetReference>Brand_Check</targetReference>
         </connector>
         <inputAssignments>
             <field>Requester__c</field>
@@ -959,8 +1143,8 @@
     <recordUpdates>
         <name>Update_Survey_Invitation_Time</name>
         <label>Update Survey Invitation Time</label>
-        <locationX>2382</locationX>
-        <locationY>1103</locationY>
+        <locationX>2404</locationX>
+        <locationY>1355</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -978,7 +1162,7 @@
         <object>Account</object>
     </recordUpdates>
     <start>
-        <locationX>2245</locationX>
+        <locationX>2239</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Bypass_Check</targetReference>
@@ -992,7 +1176,7 @@
         <name>Route_Case</name>
         <label>Route Case</label>
         <locationX>930</locationX>
-        <locationY>1847</locationY>
+        <locationY>2147</locationY>
         <flowName>Case_Omnichannel_Routing</flowName>
         <inputAssignments>
             <name>Context</name>
@@ -1009,6 +1193,13 @@
     </subflows>
     <variables>
         <name>ID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>OrgWideEmail</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>
