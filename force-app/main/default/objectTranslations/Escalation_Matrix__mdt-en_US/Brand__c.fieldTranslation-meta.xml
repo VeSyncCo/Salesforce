@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Brand --></label>
+    <name>Brand__c</name>
+    <picklistValues>
+        <masterLabel>Cosori</masterLabel>
+        <translation><!-- Cosori --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Etekcity</masterLabel>
+        <translation><!-- Etekcity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Levoit</masterLabel>
+        <translation><!-- Levoit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PawSync</masterLabel>
+        <translation><!-- PawSync --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

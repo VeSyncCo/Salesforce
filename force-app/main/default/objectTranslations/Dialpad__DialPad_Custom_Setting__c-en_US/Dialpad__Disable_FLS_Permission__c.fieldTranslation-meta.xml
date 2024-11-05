@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- On Checking this dialpad doesn&amp;apos;t consider user field level access while making any DML. --></help>
+    <label><!-- Disable FLS Permission --></label>
+    <name>Dialpad__Disable_FLS_Permission__c</name>
+</CustomFieldTranslation>

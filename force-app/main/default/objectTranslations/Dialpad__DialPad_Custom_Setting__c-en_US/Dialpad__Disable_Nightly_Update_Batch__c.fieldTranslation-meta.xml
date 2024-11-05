@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Check this to disable the Dialpad_NightlyUpdateBatch which is responsible for record re-evaluation for the lists with reference date filters --></help>
+    <label><!-- Disable Nightly Update Batch --></label>
+    <name>Dialpad__Disable_Nightly_Update_Batch__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,41 @@
+<template>
+
+    <lightning-card >
+
+        
+
+        <div  class=" slds-p-horizontal_small slds-grid slds-gutters slds-wrap">
+
+            <div class="slds-p-horizontal_small slds-size_12-of-12">
+                <lightning-combobox  name="FeedBackType" onchange={handleTypeChange} label="Feedback Type" disabled={typeDisabled} options={typeOptions} value={feedbackTypeValue} 
+                ></lightning-combobox>
+            </div>
+
+            <div class="slds-p-horizontal_small slds-size_12-of-12">
+                <lightning-combobox  name="FeedBackReason" onchange={handleReasonChange} label="FeedBack Reason" disabled={reasonDisabled} options={reasonOptions} value={feedbackReasonValue} 
+                ></lightning-combobox>
+            </div> 
+
+            <div class="slds-p-horizontal_small slds-size_12-of-12">
+                <lightning-combobox  name="SubReason" onchange={handleSubReasonChange} label="FeedBack Sub-Reason" disabled={subReasonDisabled} options={subReasonOptions} value={feedbackSubReasonValue} 
+                ></lightning-combobox>
+            </div>
+
+            <div class="slds-p-horizontal_small slds-size_12-of-12 slds-m-bottom_xxx-small">
+                <lightning-combobox  name="Detail" onchange={handleDetailChange} label="FeedBack Detail" disabled={detaildisabled} options={detailOptions} value={feedbackDetailValue} 
+                ></lightning-combobox>
+            </div>
+            
+            
+        </div>
+
+        <div slot="footer" class="slds-align_absolute-center">
+            <lightning-button variant="brand" data-id = "Edit" label="Edit" title="Edit" onclick={handleEdit}  class="slds-m-left_x-small"></lightning-button>
+            <lightning-button  label="Cancel" data-id = "Cancel" title="Cancel" onclick={handleCancel} class="slds-m-left_x-small hide"></lightning-button>
+            <lightning-button variant="brand" data-id = "Save" label="Save" title="Save" onclick={handleSave} class="slds-m-left_x-small hide"></lightning-button>
+            
+        </div>
+        
+    </lightning-card>
+
+</template>

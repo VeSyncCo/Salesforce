@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to be sent to customers on case creation (German Users)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Notify requester of received request (German)</name>
+    <style>none</style>
+    <subject>Request Received</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,19 @@
+"Hola {{ticket.requester.first_name}},
+
+ESTE ES UN CORREO ELECTRÓNICO AUTOMATIZADO.
+
+Gracias por comunicarse con {{ticket.brand.name}} COSORI Support. Hemos recibido su correo electrónico y un representante de {{ticket.brand.name}} le responderá en breve. Si no recibe noticias nuestras dentro de 2-3 días hábiles, ¡verifique su carpeta de correo no deseado!
+
+Nuestro horario comercial habitual es de lunes a viernes, de 9:00 a. m. a 5:00 p. m. PST/PDT.
+
+Su ID de ticket es: {{ticket.id}} y recibirá correos electrónicos de ""Zendesk"" con respecto al estado de su ticket.
+
+Mientras tanto, le invitamos a navegar por todos nuestros manuales disponibles <a href=https://cosori.com/user-manuals>aquí</a>. Si lo compró nuevo de un vendedor verificado, ¡su producto también viene con la garantía máxima del fabricante de dos años! Aunque no es obligatorio, aún puede registrar su producto <a href=https://www.cosori.com/warranty>aquí</a>.(Esto no afecta a su derecho al número mínimo de años de garantía exigido por la ley.）
+
+No responda a este correo electrónico; le agradecemos su paciencia y esperamos conversar con usted.
+
+Sinceramente,
+Soporte de {!Case.Brand__c}
+
+
+{!Case.Thread_Token}

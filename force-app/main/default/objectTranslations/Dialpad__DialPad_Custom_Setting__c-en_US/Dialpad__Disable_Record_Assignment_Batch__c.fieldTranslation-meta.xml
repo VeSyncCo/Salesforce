@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Check this to disable the DialpadRecordAssignmentBatch which is responsible for record re-evaluation --></help>
+    <label><!-- Disable Record Assignment Batch --></label>
+    <name>Dialpad__Disable_Record_Assignment_Batch__c</name>
+</CustomFieldTranslation>
