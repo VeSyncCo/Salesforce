@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Email_Template_ID_English</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Template ID - English</shortDescription>
+        <value>00XD2000000HZKeMAO</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_ID_French</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Template ID - French</shortDescription>
+        <value>00XD2000000ciPRMAY</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_ID_German</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Template ID - German</shortDescription>
+        <value>00XD2000000ciPHMAY</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_ID_Italian</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Template ID - Italian</shortDescription>
+        <value>00XD2000000ciPWMAY</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_ID_Manual</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Template ID - Manual</shortDescription>
+        <value>00XD2000000ciQKMAY</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_ID_Spanish</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Template ID - Spanish</shortDescription>
+        <value>00XD2000000ciPMMAY</value>
+    </labels>
+    <labels>
+        <fullName>Label_Survey_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label - Survey Name</shortDescription>
+        <value>demo_survey_raghav</value>
+    </labels>
+    <labels>
+        <fullName>Notify_Requester_Email_Template</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Notify Requester Email Template</shortDescription>
+        <value>Hi {!Contact.Name},
+
+THIS IS AN AUTOMATED EMAIL. Do not reply to this message.
+
+Thank you for contacting {!Case.Brand__c} Support. We received your message, and a representative will reach out to you. Your Ticket ID is: {!Case.CaseNumber}.
+
+If you do not hear from us within 2-3 business days, please check your spam folder.
+
+Please note that there may be a delay after weekends and holidays. Our hours are Monday through Friday, 9:00 AM - 5:00 PM Pacific Time.
+
+In the meantime, you’re welcome to browse all our available manuals &quot;Link to be inserted Later&quot;. If purchased brand-new from a verified seller, your product also comes with the maximum manufacturer&apos;s warranty of two years!
+
+Thank you for your patience. We look forward to chatting with you!
+
+Sincerely,
+{!Case.Brand__c} Support.</value>
+    </labels>
+    <labels>
+        <fullName>Person_Account_Record_Type_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Person Account Record Type ID</shortDescription>
+        <value>012D2000000BtawIAC</value>
+    </labels>
+    <labels>
+        <fullName>Survey_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Survey Name</shortDescription>
+        <value>demo_survey_raghav</value>
+    </labels>
+    <labels>
+        <fullName>Survey_Template</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Survey Template</shortDescription>
+        <value>00XD2000000cieqMAA</value>
+    </labels>
+</CustomLabels>

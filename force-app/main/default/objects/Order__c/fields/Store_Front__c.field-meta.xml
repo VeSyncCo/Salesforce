@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Store_Front__c</fullName>
+    <externalId>false</externalId>
+    <label>Store Front</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cosori</fullName>
+                <default>false</default>
+                <label>Cosori</label>
+            </value>
+            <value>
+                <fullName>Etekcity</fullName>
+                <default>false</default>
+                <label>Etekcity</label>
+            </value>
+            <value>
+                <fullName>Levoit</fullName>
+                <default>false</default>
+                <label>Levoit</label>
+            </value>
+            <value>
+                <fullName>Pawsync</fullName>
+                <default>false</default>
+                <label>Pawsync</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

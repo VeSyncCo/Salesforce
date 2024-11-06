@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feedback_Validation_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(
+        OR(
+            $Setup.VeSync_Bypass_Setting__c.Bypass_All_Validations__c,
+            REGEX($Setup.VeSync_Bypass_Setting__c.Bypass_Object_Validations__c , &apos;.*\\bCase\\b.*&apos;),
+            CONTAINS($Setup.VeSync_Bypass_Setting__c.Bypass_Validation_Rules__c , &apos;Case_Subject_Validaion&apos;)
+        )
+    ),
+
+    AND(
+        Provided_Feedback__c = TRUE,
+        ISCHANGED(Status),
+         ISPICKVAL(Status, &apos;Closed&apos;), 
+        OR(
+            ISBLANK(TEXT(Feedback_Type__c)),
+            ISBLANK(TEXT(Feedback_Reason__c))
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>Please ensure that you fill in the Feedback Type and the Feedback Reason.</errorMessage>
+</ValidationRule>

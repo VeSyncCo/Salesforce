@@ -1,0 +1,5986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warranty</fullName>
+    <active>true</active>
+    <businessProcess>Standard Support Process</businessProcess>
+    <label>Warranty</label>
+    <picklistValues>
+        <picklist>Alleged_Issue__c</picklist>
+        <values>
+            <fullName>Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alignment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bluetooth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burr%2Frough edges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Button%2FTouchscreen%2FKnob</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Color box color difference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deformed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dirty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Display</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error Codes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excess glue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extra Accessories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filter too small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Firmware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect assembly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect label placement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect voltage on cord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrectly assembled parts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Injection molding process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large gaps in seams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leaking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measurement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mechanical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing%2FDamaged Parts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Noise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Odor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor welding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product does not match box label</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shrinkage marks visible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thermal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third-party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uneven side gaps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong adapter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong manual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Brand__c</picklist>
+        <values>
+            <fullName>Cosori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Etekcity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Levoit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PawSync</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Handling_Method__c</picklist>
+        <values>
+            <fullName>Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Replacement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Channel_Seller__c</picklist>
+        <values>
+            <fullName>Amazon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App %28VeSync%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bed Bath %26 Beyond</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Best Buy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chewy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Costco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gift%2Fcourtesy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kohl%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lowe%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macy%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other seller %28leave note%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shopify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staples</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Target</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TikTok</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walmart</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>American Samoa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Austrilia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eastern Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>European Union</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>India</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Italy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Korean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mainland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nauru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tailand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The United Arab Emirates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Kingdom of Great Britain and Northern Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United States of America%2CCanada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vietnam</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DSRR_Request_Details__c</picklist>
+        <values>
+            <fullName>App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arbitration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Discrimination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opt-out of Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opt-out of sharing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsubscribe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DSRR_Request_Type__c</picklist>
+        <values>
+            <fullName>Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freeze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Object</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restrict</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Detail__c</picklist>
+        <values>
+            <fullName>%23NAME%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-in-1 flat suction brush head not fixed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8888 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A Output Port Not Working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AH Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abnormal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abnormal PM2%2E5 Display</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acupoint Therapy Device Not Working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adapter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adapter broken%2C cannot charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adding Weight Causes Decrease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air bubbles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alexa Control Failures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alexa Device Search Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alexa Setup Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alexa voice commands not recognized</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amputation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-slip pad loose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App Only Syncs Primary Account Data to Third Parties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App Security Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App crashes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App freezes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apple Health Data Not Syncing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arris Router Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>At High Speed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>At Low Speed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atomizer Plate Damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attorney General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto Mode Not Working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto Power On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto Shutoff Too Quick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto mode humidity abnormal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto shut down after power on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto unit switching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto-press button issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto-resetting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automatic Gear Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automatically Turns On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automatically starts cooking after preheating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auxiliary Heat Activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Backlight On%2C No Numbers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Base Leaks Mist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Base contact points deformed%2Fbent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basket Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basket%2Fouter basket body</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery Cannot Be Charged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery Contact Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery Leakage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery Not Charging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery Not Fully Charged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery charging indicator not lit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery clip damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery compartment damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery contact plate damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery cover damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery cover detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery cover hard to open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery dead upon arrival</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery showing red light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery spring falling off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Becomes negative after removing weighing item</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blockage Indicator Light On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood pressure measurement high value %3C10 mmHg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood pressure measurement high value %3E20 mmHg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood pressure measurement high value 10-20 mmHg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood pressure measurement high%2C unspecified value</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood pressure measurement inaccurate%2C unspecified value</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood pressure measurement low value %3E20 mmHg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood pressure measurement low value 10-20 mmHg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood pressure measurement low%2C unspecified value</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bluetooth Connection Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bluetooth Pairing Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bluetooth Scanning Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Body Composition Measurement Inaccurate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Body Fat Measurement Inaccurate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bottom heating element not working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bottom uneven</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brush Head Cover Not Compatible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brush Jammed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brush Not Spinning but Motor Running</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brush light not working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bubbling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bulb flickering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bulb not lighting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bulb shattered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bulb stays off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burn Damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burn Marks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burned%2FBurnt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burnt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Button turns off earlier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Button%2FTouchscreen%2FKnob Damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C-15 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C6H Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C6L Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C7 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAL Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calibration Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Adjust Intensity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Auto-Zero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Automatically Power Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Automatically Power On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Change Modes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Measure Body Fat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Power On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Switch Units</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Sync Heart Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot auto power off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot detect heart rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot detect if door is closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot reach set temperature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot scan%2Fsearch for required food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot set time%2Ftemperature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot stand upright</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot turn off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot work after replacing battery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casing Cracked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Causes weight changes and does not auto-reset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charging port loose%2Fdeformed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chart Data Not Displaying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chart Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemical Odor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Child Lock Cannot Turn Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Choked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Circuit Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collapsing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cooling cannot be turned off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cooling not working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cracked shell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crisper Plate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crumb tray deformed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DNS Resolution Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damaged Base</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damaged Label</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damaged Screen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Loss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Sync Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data allocation error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daylight Saving Time Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Default temperature unit error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deformed Lid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deformed Plug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deformed Shell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dented Shell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Device Hotspot Connection Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficult Base Installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficult to insert%2Fremove battery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficult to switch units</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dim Screen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discoloration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disfigurement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dismemberment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Display not showing all numbers%2Fletters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Display off does not work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Displays weight without items</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Does Not Deflate After Measurement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Does Not Shut Down When Humidity Reached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Does not work immediately upon power on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doesn%27t stop heating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doesn%27t work after replacing batteries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Door does not close</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Door latch%2Fhinge broken</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dry burn protection error despite water</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>During Oscillation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dust Level Indicator Always Red</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dust cup button stuck</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E01 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E03 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E12 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E13 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E14 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E15 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E2 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E21 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E3 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E4 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E5 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E6 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E7 Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EEEE Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ear injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eero Router Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrodes Not Working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Err Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error 52 - WiFi Not Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error 53 - Incorrect Password</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error 54 - WiFi Connection Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error 67 - IP Acquisition Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error 85 - Public Network Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excessive Dispensing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Explosive sound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eye injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FIlter Odor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fan Function Anomaly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fan not working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fan nuts detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fan screws detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fan speed unchanged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fan works intermittently</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feed Indicator Light Not On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filter Cover Too Tight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filter Damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filter Dirty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filter Light Abnormal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filter Light Cannot Turn Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filter wrong size</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Firmware update failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fitbit Not Syncing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed PM2%2E5 Reading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food Burn Error Code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food Container Lid Won%27t Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food tray deformation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foot Pad Detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign objects blocking the pipe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frequent battery replacement needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fry basket deformation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fry basket does not close properly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fry basket inconvenient to assemble%2Fdisassemble</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fry bucket decorative panel cracked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fry bucket front panel falling off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fry bucket rubber plug falling off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frying basket deformation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frying basket dented</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gap%2Foffset too large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glass Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glass door adhesive detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Home setup issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GoogleFit Data Not Syncing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HI Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handle Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handle cover damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handle dent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handle dented</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handle loose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hard to power on%2Foff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heart rate measurement inaccurate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heating element damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heating element ruptured</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heating plate dirty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heating stops</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heating tube rattling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Fan Speed No Airflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High PM2%2E5 Reading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Power Consumption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Temperature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hole%2Ftear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitalization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot Plug%2FPower Cord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housing deformation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housing dent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Humidity Display Not Changing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Humidity Sensor Not Working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Humidity Value Does Not Reach Set Value</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IFTTT Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IP Acquisition Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immediately powers down</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate Error %3E 30g</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate Error %3F 30g</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate Food Nutrition Values</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate Humidity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate PM2%2E5 Reading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate Portioning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate Temperature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate Weight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate error %3E 2%C2%B0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate error %3E 5 lbs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate error %3F 2%C2%B0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate error %3F 5 lbs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate liquid measurement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomplete Screen Digits%2FLetters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Data Date%2FTime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Number of Portions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Password</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increment Discrepancies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increment mismatch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indicator Light Turns Off Immediately</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inner Pot Deformed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient Dispensing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient Suction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insulation Not Working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intermittent operation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal organ injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keeps warm function not working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kettle unstable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Key Input Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laceration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large gaps in seams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large hole in the middle of the tray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laser not working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Last digit reading fixed at 0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leaking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lid Deformation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lid Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lid Shell Cracked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lid cannot close properly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lid cracked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lid loose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lid popping up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lid screw detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lid stuck</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lid won%27t open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Light Flickering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Light Stays On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Light bulb broken</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Light cannot be turned off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Light flickers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Light off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lights All On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Literature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lo Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Location issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Locking final weight takes too long</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Press Fails to Wake WiFi Light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Time to Lock Final Weight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long dehydration time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loose Battery Cover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loose Glass Door</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loose handle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loose screw%28s%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loss of bodily function</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Airflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Food Indicator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low PM2%2E5 Reading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lubricant leakage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massage roller fabric damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measurement Data Cannot Be Locked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measurement Unresponsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measurement is not sensitive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measurement range insufficient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melting Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memory Function Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mentions - Better Business Bureau - BBB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mentions - CPSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mentions - Health Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal cracking sound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal triangular ring broken%2Ffallen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metallic Smell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micro switch rod damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migration Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minimum Measurement Inaccurate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misaligned Assembly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missed school%2Fwork 1%2B day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mist Has White Dust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mist Too Strong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mist Too Weak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moldy odor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motor Noise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motor Not Turning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mouth injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multimeter readings inaccurate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mute cover damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mutilation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MyRoutines%2FSchedule Settings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MyfitnessPal Data Not Syncing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network configuration failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Algorithm Data Discrepancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Next Meal Execution Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Night Light Does Not Turn Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Night Light Not Lit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Air Intake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Air Output</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Airflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Beep Sound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Mist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Network Logs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Pressure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No display screen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No%2FLow Water Warning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-slip pad detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Dispensing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Oscillating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Working After Charging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not heating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nozzle size does not fit perfectly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Odor after some time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Odor upon unboxing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Air Fry Function</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Warm Mist Setting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On%2Foff switch does not stay down</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On%2Foff switch turns off earlier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Suction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outer Shell Cracked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outer Shell Dent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oven door detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overheats during operation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panel Cracked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panel detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peeling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permission Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plant recognition error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plastic odor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plug Deformation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Seal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Signal Strength</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Port Damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pounds and Kilograms Nearly the Same</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Cord Damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power cord damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preset time inaccurate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Probe not working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Assembly Misaligned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Network Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Push notifications delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rack deformation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rack sliding off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raised Component</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reading Stuck</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reading always 0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received defective item</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red Light Flashing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red light remains on after filter replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reduced Suction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registration email not delivered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registration%2Flogin issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remote Battery Cover Hard to Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remote Not Working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repeated Push Notifications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rollers not working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rotisserie Not Working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rotisserie fork not turning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Router Compatibility Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rubber feet falling off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rubber feet plastic broken</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SamsungHealth data synchronization issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scale Body Detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scale edge damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scale feet loose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scale minimum measurement mismatch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scale surface dented</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scenes Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule Creation Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule Execution Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule Time Zone Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scratches</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen Cannot Stay On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen Damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen Display Unclear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen Freezes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen Numbers Fluctuate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen Shows %22---%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen backlight not working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen cannot display readings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen dent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen digits%2Fletters not fully displayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen dim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen flickers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen no display</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen numbers%2Fletters not fully displayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screw Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server Connection Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Setting changes on its own</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shell Cracked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shell Deformation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shell dented</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shocked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short battery life</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siri Control Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sleep Mode Indicator Light Cannot Be Turned Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slow to heat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartScene Execution Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartScene causes power cycling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smoke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smoke Damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smoke Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sparks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Splash guard bolts detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports data not synced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spout Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starts automatically</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stays on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steam VentLeaks Water</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steam leakage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stiches</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sticking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stopped Working Midway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stops Working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stops working %28micro switch issue%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sudden shutdown during operation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tank Lid Too Tight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tank has Water but Shows Low Water</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technicolor Router</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teeth injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temperature Unchanged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminal Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third Fan Speed Not Working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tight Food Container Lid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time Display Shows 8888</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timer Malfunction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timer not working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Too sensitive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top Lid Easily Falls Off When Adding Water</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top cover lifting up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top heating element not working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tray Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tray edge flattened</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tray handle protruding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trays easily slide out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turns off during operation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turns on%2Foff on its own</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UI Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNST Unstable error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to Auto Start</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to Delete Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to Open Bottom Cover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to Reset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to Start</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to find Wi-Fi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unapproved Flow Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uneven Airflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uneven Feet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uneven dehydration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uneven foot pads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uneven heating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unresponsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unstable Base</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unstable Bluetooth Connection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsupported Encryption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Information Anomalies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voltage inaccurate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm Mist Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm Plug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Accumulation at Nozzle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Box Detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Drop Sounds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Leakage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water does not boil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weak Air Intake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weather issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weighing Surface Depressed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weight Data Date Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weight increases after peeling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weight increases after removing items</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wheels detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>When opening%2Fclosing door</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>While heating or cooling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Whistling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wi-Fi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wi-Fi Connection Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wi-Fi Connection Timeout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wi-Fi light not working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WiFi antenna box damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire Fault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wires Damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Won%27t turn off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Won%27t turn on</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Feedback_Detail__c</picklist>
+        <values>
+            <fullName>Difficulty filling out registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulty finding batch %23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulty finding model %23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QR code issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short warranty period</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slow Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsatisfactory customer service</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Feedback_Reason__c</picklist>
+        <values>
+            <fullName>After-Sales Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demo Value</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Appearance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Literature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing%2FUX%2FSales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical Sensitivities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Size</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Feedback_SubReason__c</picklist>
+        <values>
+            <fullName>Ability to turn off some bulbs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accessories hard to use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add Chinese option in app</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add Desktop Shortcut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add Pregnancy Mode</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add Product Warning Information to Listing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add backlight feature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add calibration function</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add decimal places to %22g%22 unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add magnetic feature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add switch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Additional language</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air Output Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air hose too short</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alert Sound Too Loud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alert Sound Too Quiet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All settings feel the same</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allergic to Gel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App Surveys Users Too Early</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App cannot find product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App features limited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App forces logout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arm strap size not suitable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto-off occurs too quickly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto-shutoff time needs adjustment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bag too short for easy covering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basket hard to insert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basket size issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beep sound too loud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beep sound too soft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Body fat calibration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bristle Quality Not Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bristles Not Rotating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bristles too soft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brush Heads in Different Colors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Built-in battery non-replaceable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bulk delete data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buttons feel cheap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buttons%2Ftouchscreen%2Fknob affect readings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cabinet Dimensions Not Specified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calculate Total Calories Combined with Exercise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calibration certification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Can only charge when lying flat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Can%27t smell essential oils</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Adjust Screen Brightness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Adjust Target Humidity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Monitor Air Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Remove Food Odors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Remove Kitchen Odors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Remove Moldy Odors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Remove Pet Odors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Remove Smoke Odors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Remove VOCs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Set Screen Off in Sleep Mode</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot use while charging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot work at extreme temperatures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carrying Case Too Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Causes discomfort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charging port is non-standard USB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheap quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clear mode definitions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complex operation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complex operation %28app%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confusing Official Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convert kilocalories to calories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cool light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Create Ketomeal Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crumb tray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuff inconvenient to use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customizable Home Page Nutritional Info Display</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficult to Add Water</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficult to Handle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficult to Power On%2FOff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficult to Retrieve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficult to lift due to weight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficult to read measurements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficult to read numbers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficult to switch units</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulty cleaning base</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulty cleaning basket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulty cleaning dust bin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulty cleaning fan blades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulty cleaning food container</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulty cleaning heating tube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulty cleaning inner pot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulty cleaning mist nozzle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulty cleaning product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Difficulty cleaning tank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discomfort During Massage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dislike %C2%B15%25 for On%2FOff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dislike mechanical buttons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dislikes Sharp Corners on Scale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dislikes button batteries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Display Brown Fat Measurement Value</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Display Multiple Data Points Without App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Display Specific Fat Weight and Changes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Display net carbs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distrust in Chinese Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Does not like the backlight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doesn%27t like the product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easily Dirtied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easy to Tip Over%2FUnstable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edit Scanned Food Quantity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronic Manual Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enhance Food Search Matching Accuracy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excessive Power Consumption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excessive Steam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excessive ads in app</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Experiencing Allergies%2FAsthma%2FHeadaches</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Experiencing Physical Discomfort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fast Water Consumption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filter Installation%2FReplacement Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flexible Weight Reminder Settings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food Burns Easily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food falls from steam rack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foot tap to switch users unresponsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>For Indoor Use Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fragile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frequent Filter Replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fruit rolls deformation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glass Fragile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hard to read</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harsh%2FUncomfortable light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Have to use a specific charging cable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heating not noticeable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High intensity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High recipe learning curve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hook Too Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hose Difficult to Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot Shell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot exterior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate Food Nutrition Values</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate recipe content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incompatible with Other Brand Heads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomplete Food Images in Database</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inconvenient storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect Voltage Usage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase Weight Unit Selection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increases PM2%2E5 index</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increases Pain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ineffective Sleep Mode</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inferior to Competitors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inner Lid Difficult to Remove%2FInstall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inner Pot Water Level</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient brushing force</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient massage intensity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrate with Apple Watch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrate with Cronometer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrate with Garmin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrate with Google Fit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrate with Loseit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrate with MyFitnessPal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrate with MyNetDiet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrate with Noom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrate with Samsung Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrate with Strava</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrate with Zepp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intensity Adjustment is Abrupt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intensity too high</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issues with color</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large container obstructs scale screen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Larger temperature range</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laser harmful to eyes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leaves Marks on Carpet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Length adjustment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lid Difficult to Align</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lid won%27t fully open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Light not bright enough</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Light too bright</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited Unit Selection for Scanned Food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lo followed by quick shutdown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long charging time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long cooking time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long preheat time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long toasting time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long venting time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loud Button%2FTouchscreen%2FKnob Sounds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loud Dispensing Noise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loud buttons%2Ftouchscreen%2Fknob sounds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loud operating noise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Humidity Value</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low power</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lower minimum weight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual discrepancies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massage not comfortable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meal Unit Selection Limited to g</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measurement Results with 2%2B Decimal Places</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measurement in Cups%2FSpoons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measurement speed too fast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measuring Cup Not Accurate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mesh screen request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modes feel identical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>More recipes%2Fcategories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need in-app operation instructions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need more font sizes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs Inner Pot Handle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs Stainless Steel Inner Pot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negative review - no content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Night Light Not Bright Enough</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Night Light Too Bright</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No 5G Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Air Quality Display</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Belt Clip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Essential Oil Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Handle%2C Difficult to Move</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Humidity Display</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Network Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Sensation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No backlight design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No keep warm function</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Detachable Power Cord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Recyclable Filter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Cooling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Hot Enough</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Quiet Enough in Sleep Mode</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not as expected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not entirely stainless steel%2Ftoo much plastic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not suitable for oven temperature measurement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not waterproof</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nozzle size does not fit perfectly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nutritional Info with 2%2B Decimal Places</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil splatter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One-touch start</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Only Measures Water and Milk Volume</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Optimize data comparison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outer shell hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pain Sensation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permanently Disable Baby Mode Shortcut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pet Food Becomes Damp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pet Food Becomes Dry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pet Food Spoilage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical manual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical recipe book</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Air Circulation Effect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Allergy Effect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Battery Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Cleaning Effectiveness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Dust Removal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Hair%2FDander Removal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Humidifying Effect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Switch Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Translation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Unlock Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor air frying effect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor animal hair cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor button placement design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor carpet cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor cooking results</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor human hair cleaning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor insulation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor keep warm function</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor packaging material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor purification effect %28general%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor quality - electrode adhesive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor quality - handle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor toast effect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poorly Printed Labels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Cord Too Long</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Cord Too Short</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power button</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product too heavy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product too light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prone to blockage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing Parts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purification effect not as good as device%27s own filter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rapid Power Consumption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Removing Packaging Paper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repeated Notifications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requesting additional gifts with purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requires phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requires too many permissions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resets to Zero When Restarted During Weighing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resume at 5%25 difference issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rotisserie fork size issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scale bowl does not fit well when inverted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scale does not display weather data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scale easy to leave fingerprints</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scale surface is slippery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scale unstable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan Food to Directly Read Weight Result</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen Cannot Stay On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen Not Always On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen is small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seal Ring Smells Bad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensitive Mode Not Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Set specific dates for weight reminders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short Power Cord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short Wires</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short battery life</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short charging cable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short lifespan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Side Buttons Hard to Press</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skip preheat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sleep mode auto oscillation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slight Itching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slow Blood Pressure Measurement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slow deflation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slow inflation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Humidifying Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Purification Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small applicable area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small dust box capacity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small illumination range</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small outlet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specific recipe type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stainless Steel Bowl Too Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steam Release</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suitable only for hard floors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Data Sharing Between Different Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Vitamin Selection in mcg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspected Weight Memory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switch units on App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switching to Sensitive Mode is Troublesome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temperature too high</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temperature too low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temperature variance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test leads too short</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Too large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Too small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Total weight change widget</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tray easily falls off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tray size issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trickle charging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Two-Wire Heating Not Supported</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UI Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USB charging is inconvenient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to Adjust Screen Brightness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to Detect Odors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to adjust time%2Ftemperature while cooking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to dehydrate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to extend cooking time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to locate recipe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to open door fully</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to switch temperature units</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unattractive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unclear Water Level Mark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unclear manual instructions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uncomfortable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unresponsive startup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsatisfactory cooking results</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unstable Base</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unwilling to download VeSync app</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vesync App Can%27t Find Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>View Nutritional Analysis of Diet Plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty Registration Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Accumulation in Base</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Boils but Doesn%27t Turn Off Immediately</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water damage may occur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water residue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weaker lower heating element</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zeroing time too long</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Feedback_Type__c</picklist>
+        <values>
+            <fullName>User Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Inquiry_Details__c</picklist>
+        <values>
+            <fullName>Address Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancel Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discount Not Applied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost%2FStolen Package %28Delivered%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing Parts %28Upon Receipt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Package Contains Foreign Objects</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packaging%2Fproduct damaged in transit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received Used Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Return</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Return to Sender %28Claim%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Return to Sender %28Status%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipment Status%2FTracking Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stuck in Transit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to receive Package</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Item Shipped</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Inquiry_Subdetails__c</picklist>
+        <values>
+            <fullName>Bad Customer Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Changed Mind%2FBuyer%27s Remorse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery Delays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falls short of Expectations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Item not as Described</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Longer Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Reason Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ordered Wrong Item</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Too Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Too Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to Deliver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unauthorised</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Address Submitted %28New Orders%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Inquiry_Type__c</picklist>
+        <values>
+            <fullName>Order Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipment Inquiry</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Main_Category__c</picklist>
+        <values>
+            <fullName>Appearance Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Priority Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software Issues</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>api</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High Priority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Category__c</picklist>
+        <values>
+            <fullName>Air Fryer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air Fryer Toaster Oven</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air Mattress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air Pump</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air Purifier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air Purifier Filter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automatic Pets Feeders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blood Pressure Monitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Body Fat Scale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Body Weight Scale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camping Lantern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coffee Grinder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coffee Maker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coffee Warmer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electric Kettle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electric Toothbrush</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fitness Tracker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food Dehydrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foot Massager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gooseneck Kettle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Humidifier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hygrothermograph</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indoor Grill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kitchen Scale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luggage Scale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multimeter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nutrition Scales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor Remote Outlet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pressure Cooker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rice Cooker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart 3-way Light Switch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart Bulb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart Plug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart Single Pole Light Switch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart Switch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart Thermostat %26 Power Extended Kit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TENS Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teapot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thermometer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toaster Oven</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tower Fans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vaccum Cleaner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason__c</picklist>
+        <values>
+            <fullName>Appearance Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware Issue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Refund_Method__c</picklist>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cosori%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Etekcity%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Levoit%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PayPal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venmo Refund email%2Fusername</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vesync app</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wal-mart-direct refund</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Refund_Status__c</picklist>
+        <values>
+            <fullName>Pending Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refunded</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>DE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolution__c</picklist>
+        <values>
+            <fullName>Answered Questions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provided Tracking Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store Credit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Updated Address</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Return_Memo__c</picklist>
+        <values>
+            <fullName>CC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTE-E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RF</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shipping_Status__c</picklist>
+        <values>
+            <fullName>Pending Fulfillment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipped</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SubDetail__c</picklist>
+        <values>
+            <fullName>Anti-Slip Pad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atomizer%2FTransducer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Back panel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baking tray easily slides out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Base</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basket coating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basket detaching during use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery corrosion%2Frust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Body</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broken Glass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broken door latch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burn Marks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burnt Smell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burnt adapter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burnt heating element</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burnt plug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burnt power cord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burnt socket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Button%2FTouchscreen%2FKnob</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coating bubbling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Continuous heating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crisper Plate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crumb tray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Door</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Leakage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>False smoke alarm trigger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food container</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frame</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fryer basket pops out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fryer coating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glass door</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handle breakage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heating element</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inner basket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inner pot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inside battery compartment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal wall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loose%2Fdetached NTC screws</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loose%2Fdetached basket screws</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loose%2Fdetached fan screws</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loose%2Fdetached handle screws</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loose%2Fdetached heating element screws</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melted air fryer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melted basket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melted handle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melted plastic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melted rubber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melted silicone feet on the baking tray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melted vent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melted%2Fburnt power cord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Melted%2Fburnt socket%2Fplug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other melting issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outer basket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overheating plug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overheating power cord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plastic part</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quick Start Guide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recipe Book</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rubber feet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen%2FPanel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screws</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short Circuit%2FTrip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stops working with a bang</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tray coating bubbling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unusual smoke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unusual sparks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire rack</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tags__c</picklist>
+        <values>
+            <fullName>ha_attention</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>truehepa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_Of_Question__c</picklist>
+        <values>
+            <fullName>Collaboration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing Issues %28retailer%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product %28pre-sale%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upcoming promotions%2Fdiscounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VeSync app</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wholesale</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_Of_Shipment__c</picklist>
+        <values>
+            <fullName>AAA Cooper %28AACT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AAA Cooper %28XALS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AAA Cooper %28XAMS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AAA Cooper %28XATS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ABF FREIGHT SYSTEM INC %28ABFS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ABN TRANSIT INC %28ABNT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZNG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Airborne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Airgroup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amazon Freight LTL %28AMZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amazon Logistics-Vendor DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amazon-DF  %28UAMDF%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arrive Logistics %28ARVY%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Air-ETEKCITY株式会社</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Air-Etekcity GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Air-VESYNC %28UK%29 LIMITED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Express-ETEKCITY株式会社</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Express-Etekcity GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Express-VESYNC %28UK%29 LIMITED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Train-ETEKCITY株式会社</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Train-Etekcity GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Train-VESYNC %28UK%29 LIMITED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Truck-ETEKCITY株式会社</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Truck-Etekcity GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Truck-VESYNC %28UK%29 LIMITED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAI Logistics %28CAIQ%29 - LTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CENTRAL TRANSPORT INTERNATIONAL INC %28CTII%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CEVA CARRIER %28CEVA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CH Robinson %28RBCG%29 - LTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CH Robinson %28RBIN%29 - FTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CH Robinson %28RBRL%29 - LTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CH Robinson %28RBTW%29 - FTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CH Robinson %28RBWR%29 - FTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CH Robinson %28RFLB%29 - FTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada Post EXPEDITED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada Post XPRESSPOST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Celtic International Inc %28CELC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Circle Logistics Inc %28CLIM%29 - LTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Circle Logistics Inc %28CLNC%29 - FTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Freighters%2C Inc %28CTRQ%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coyote %28CLLQ%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DART INTERNATIONAL A CORP %28DINL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DHL Express - WORLDWIDE EXPRESS %28DHLE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTES EXPRESS LINES %28EXLA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>England Logistics %28ENGL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estenson Logistics %28ESNL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expeditors %28ENAT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx 1Day%C2%AE Freight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx 2Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx 2Day A%2EM%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx 2Day Freight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx Express Saver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx Express Saver - Vesync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx First Overnight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx Freight %28FEXF%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx Ground</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx Ground VeSync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx Ground%C2%AE Etekcity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx Home Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx Home Delivery VeSync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx International Economy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx International Priority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx Priority Overnight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx SmartPost parcel select</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx SmartPost parcel select - VeSync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx Standard Overnight%C2%AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx-Vendor DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gale Triangle Inc %28GLTN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gilbert %28GBWS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greypoint Inc dba Convoy%28CVYI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HUNT%2C J B TRANSPORT INC %28INTERMODAL DIVISION%29 %28HJBI%29 - FTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holland %28HMES%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hub Group %2F Unyson %28UYBB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hub Group IMDL %28HUBG%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB Hunt %28HJBB%29 - FTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB Hunt %28HJBM%29 - FTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB Hunt Transport %28XJLN%29 - LTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB Hunt Transport %28XJLW%29 - LTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB Hunt Transport %28XJMN%29 - LTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB Hunt Transport %28XJMW%29 - LTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB Hunt Transport %28XJTN%29 - LTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JB Hunt Transport %28XJTW%29 - LTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kenco Transportation %28KTML%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knight %28Intermodal%29 %28KNIM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEGEND TRANSPORTATION %28LEGS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOADSMART - TL DYNAMIC %28LIBA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAGELLAN TRANSPORT LOGISTICS INC %28MGXB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Molo %28DJML%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Retail Transportation NRT %2F NRS %28NLRT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Retail Transportation NRT %2F NRS %28NRCL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nationwide Trans%2C Inc %28NDTJ%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Old Dominion %28ODFL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Testing %26 Engineering%28PTE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purolator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUANTUM PREMIUM TRANSPORT %2F A JB Hunt Company %28QPMT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROADRUNNER FREIGHT SYSTEMS INC %28RDFS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROADRUNNER FREIGHT SYSTEMS INC %28RRDS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCHNEIDER NATIONAL CARRIERS%2C INC%2E %28SLCY%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCHNEIDER NATIONAL CARRIERS%2C INC%2E %28SNCK%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STG Logistics %28XPOG%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saia Motor Freight %28SAIA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ShipStation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRAFFIX%2C ONTARIO LTD %28TFXE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfix %28TSED%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UBER Freight %28UBER%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UBER Freight %28UFLB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNISRS - Arovast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNISRS - VeSync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Domestic Three Day Select Residential AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Domestic Three Day Select Residential ETEKCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Expedited Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Expedited Canada - SINGAPORE Entity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Express Saver Canada - SINGAPORE Entity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Freight %28OVNT%29 %2F TForce Freight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Freight %2F TForce Freight %28UPGF%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Ground Commercial AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Ground Commercial ETEKCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Ground Commercial Signature AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Ground Commercial Signature ETEKCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Ground Residential - VeSync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Ground Residential AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Ground Residential ETEKCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Ground Residential Signature AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Ground Residential Signature ETEKCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Next Day Air AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Next Day Air ETEKCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Next Day Air Early AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Next Day Air Saver AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Next Day Air Saver Commercial AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Next Day Air Saver Commercial ETEKCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Next Day Air Saver ETEKCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Second Day Air A%2EM%2E AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Second Day Air AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Second Day Air Commercial AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Second Day Air Commercial ETEKCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Second Day Air ETEKCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Second Day Air Signature AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Second Day Air Signature ETEKCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Standard Ground Business Canada - SINGAPORE Entity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Standard Ground Residential Canada - SINGAPORE Entity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Surepost GRD Parcel AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Surepost GRD Parcel ETEKCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Surepost GRD Standard AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Surepost GRD Standard ETEKCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS Surepost Less Than 1 lb%2E GRD Standard AROVAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS-Vendor DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Express Enterprises%2C Inc %28XRID%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USF Reddaway Truck Line Inc %28RETL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USPS First-Class Mail%C2%AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USPS First-Class Mail%C2%AE- VeSync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USPS Ground Advantage - Package</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USPS Parcel Select - VeSync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USPS Priority Mail%C2%AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USPS Priority Mail%C2%AE - VeSync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USPS Priority Mail%C2%AE International</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USPS Retail Ground - VeSync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USPS-Vendor DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsyon%2FHUB %28XHLC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsyon%2FHUB %28XHLE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsyon%2FHUB %28XHLM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsyon%2FHUB %28XHMC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsyon%2FHUB %28XHME%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsyon%2FHUB %28XHMM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsyon%2FHUB %28XHTC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsyon%2FHUB %28XHTE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsyon%2FHUB %28XHTM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VENDOR_PORTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAL-MART DISP 7847 %28W-7847%29 - Walmart Fleet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walmart Fleet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Express %28WSXI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Will Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XPO Logistics %28XPOL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YRC Freight %2F ROADWAY EXPRESS %28RDWY%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>佐川sagawa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>黒猫Yamato</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Warranty_Resolution__c</picklist>
+        <values>
+            <fullName>Claim Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Revoked Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part Replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part Replacement  %28courtesy%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Replacement %28courtesy%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provided Troubleshooting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store Credit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

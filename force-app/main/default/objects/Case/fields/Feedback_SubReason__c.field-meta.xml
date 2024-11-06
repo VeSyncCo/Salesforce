@@ -1,0 +1,1817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feedback_SubReason__c</fullName>
+    <externalId>false</externalId>
+    <label>Feedback SubReason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ability to turn off some bulbs</fullName>
+                <default>false</default>
+                <label>Ability to turn off some bulbs</label>
+            </value>
+            <value>
+                <fullName>Accessories hard to use</fullName>
+                <default>false</default>
+                <label>Accessories hard to use</label>
+            </value>
+            <value>
+                <fullName>Add backlight feature</fullName>
+                <default>false</default>
+                <label>Add backlight feature</label>
+            </value>
+            <value>
+                <fullName>Add calibration function</fullName>
+                <default>false</default>
+                <label>Add calibration function</label>
+            </value>
+            <value>
+                <fullName>Add Chinese option in app</fullName>
+                <default>false</default>
+                <label>Add Chinese option in app</label>
+            </value>
+            <value>
+                <fullName>Add decimal places to &quot;g&quot; unit</fullName>
+                <default>false</default>
+                <label>Add decimal places to &quot;g&quot; unit</label>
+            </value>
+            <value>
+                <fullName>Add Desktop Shortcut</fullName>
+                <default>false</default>
+                <label>Add Desktop Shortcut</label>
+            </value>
+            <value>
+                <fullName>Additional language</fullName>
+                <default>false</default>
+                <label>Additional language</label>
+            </value>
+            <value>
+                <fullName>Add magnetic feature</fullName>
+                <default>false</default>
+                <label>Add magnetic feature</label>
+            </value>
+            <value>
+                <fullName>Add Pregnancy Mode</fullName>
+                <default>false</default>
+                <label>Add Pregnancy Mode</label>
+            </value>
+            <value>
+                <fullName>Add Product Warning Information to Listing</fullName>
+                <default>false</default>
+                <label>Add Product Warning Information to Listing</label>
+            </value>
+            <value>
+                <fullName>Add switch</fullName>
+                <default>false</default>
+                <label>Add switch</label>
+            </value>
+            <value>
+                <fullName>Air hose too short</fullName>
+                <default>false</default>
+                <label>Air hose too short</label>
+            </value>
+            <value>
+                <fullName>Air Output Cold</fullName>
+                <default>false</default>
+                <label>Air Output Cold</label>
+            </value>
+            <value>
+                <fullName>Alert Sound Too Loud</fullName>
+                <default>false</default>
+                <label>Alert Sound Too Loud</label>
+            </value>
+            <value>
+                <fullName>Alert Sound Too Quiet</fullName>
+                <default>false</default>
+                <label>Alert Sound Too Quiet</label>
+            </value>
+            <value>
+                <fullName>Allergic to Gel</fullName>
+                <default>false</default>
+                <label>Allergic to Gel</label>
+            </value>
+            <value>
+                <fullName>All settings feel the same</fullName>
+                <default>false</default>
+                <label>All settings feel the same</label>
+            </value>
+            <value>
+                <fullName>App cannot find product</fullName>
+                <default>false</default>
+                <label>App cannot find product</label>
+            </value>
+            <value>
+                <fullName>App features limited</fullName>
+                <default>false</default>
+                <label>App features limited</label>
+            </value>
+            <value>
+                <fullName>App forces logout</fullName>
+                <default>false</default>
+                <label>App forces logout</label>
+            </value>
+            <value>
+                <fullName>App Surveys Users Too Early</fullName>
+                <default>false</default>
+                <label>App Surveys Users Too Early</label>
+            </value>
+            <value>
+                <fullName>Arm strap size not suitable</fullName>
+                <default>false</default>
+                <label>Arm strap size not suitable</label>
+            </value>
+            <value>
+                <fullName>Auto-off occurs too quickly</fullName>
+                <default>false</default>
+                <label>Auto-off occurs too quickly</label>
+            </value>
+            <value>
+                <fullName>Auto-shutoff time needs adjustment</fullName>
+                <default>false</default>
+                <label>Auto-shutoff time needs adjustment</label>
+            </value>
+            <value>
+                <fullName>Bag too short for easy covering</fullName>
+                <default>false</default>
+                <label>Bag too short for easy covering</label>
+            </value>
+            <value>
+                <fullName>Basket hard to insert</fullName>
+                <default>false</default>
+                <label>Basket hard to insert</label>
+            </value>
+            <value>
+                <fullName>Basket size issue</fullName>
+                <default>false</default>
+                <label>Basket size issue</label>
+            </value>
+            <value>
+                <fullName>Beep sound too loud</fullName>
+                <default>false</default>
+                <label>Beep sound too loud</label>
+            </value>
+            <value>
+                <fullName>Beep sound too soft</fullName>
+                <default>false</default>
+                <label>Beep sound too soft</label>
+            </value>
+            <value>
+                <fullName>Body fat calibration</fullName>
+                <default>false</default>
+                <label>Body fat calibration</label>
+            </value>
+            <value>
+                <fullName>Bristle Quality Not Good</fullName>
+                <default>false</default>
+                <label>Bristle Quality Not Good</label>
+            </value>
+            <value>
+                <fullName>Bristles Not Rotating</fullName>
+                <default>false</default>
+                <label>Bristles Not Rotating</label>
+            </value>
+            <value>
+                <fullName>Bristles too soft</fullName>
+                <default>false</default>
+                <label>Bristles too soft</label>
+            </value>
+            <value>
+                <fullName>Brush Heads in Different Colors</fullName>
+                <default>false</default>
+                <label>Brush Heads in Different Colors</label>
+            </value>
+            <value>
+                <fullName>Built-in battery non-replaceable</fullName>
+                <default>false</default>
+                <label>Built-in battery non-replaceable</label>
+            </value>
+            <value>
+                <fullName>Bulk delete data</fullName>
+                <default>false</default>
+                <label>Bulk delete data</label>
+            </value>
+            <value>
+                <fullName>Buttons/touchscreen/knob affect readings</fullName>
+                <default>false</default>
+                <label>Buttons/touchscreen/knob affect readings</label>
+            </value>
+            <value>
+                <fullName>Buttons feel cheap</fullName>
+                <default>false</default>
+                <label>Buttons feel cheap</label>
+            </value>
+            <value>
+                <fullName>Cabinet Dimensions Not Specified</fullName>
+                <default>false</default>
+                <label>Cabinet Dimensions Not Specified</label>
+            </value>
+            <value>
+                <fullName>Calculate Total Calories Combined with Exercise</fullName>
+                <default>false</default>
+                <label>Calculate Total Calories Combined with Exercise</label>
+            </value>
+            <value>
+                <fullName>Calibration certification</fullName>
+                <default>false</default>
+                <label>Calibration certification</label>
+            </value>
+            <value>
+                <fullName>Can&apos;t smell essential oils</fullName>
+                <default>false</default>
+                <label>Can&apos;t smell essential oils</label>
+            </value>
+            <value>
+                <fullName>Cannot Adjust Screen Brightness</fullName>
+                <default>false</default>
+                <label>Cannot Adjust Screen Brightness</label>
+            </value>
+            <value>
+                <fullName>Cannot Adjust Target Humidity</fullName>
+                <default>false</default>
+                <label>Cannot Adjust Target Humidity</label>
+            </value>
+            <value>
+                <fullName>Cannot Monitor Air Quality</fullName>
+                <default>false</default>
+                <label>Cannot Monitor Air Quality</label>
+            </value>
+            <value>
+                <fullName>Cannot Remove Food Odors</fullName>
+                <default>false</default>
+                <label>Cannot Remove Food Odors</label>
+            </value>
+            <value>
+                <fullName>Cannot Remove Kitchen Odors</fullName>
+                <default>false</default>
+                <label>Cannot Remove Kitchen Odors</label>
+            </value>
+            <value>
+                <fullName>Cannot Remove Moldy Odors</fullName>
+                <default>false</default>
+                <label>Cannot Remove Moldy Odors</label>
+            </value>
+            <value>
+                <fullName>Cannot Remove Pet Odors</fullName>
+                <default>false</default>
+                <label>Cannot Remove Pet Odors</label>
+            </value>
+            <value>
+                <fullName>Cannot Remove Smoke Odors</fullName>
+                <default>false</default>
+                <label>Cannot Remove Smoke Odors</label>
+            </value>
+            <value>
+                <fullName>Cannot Remove VOCs</fullName>
+                <default>false</default>
+                <label>Cannot Remove VOCs</label>
+            </value>
+            <value>
+                <fullName>Cannot Set Screen Off in Sleep Mode</fullName>
+                <default>false</default>
+                <label>Cannot Set Screen Off in Sleep Mode</label>
+            </value>
+            <value>
+                <fullName>Cannot use while charging</fullName>
+                <default>false</default>
+                <label>Cannot use while charging</label>
+            </value>
+            <value>
+                <fullName>Cannot work at extreme temperatures</fullName>
+                <default>false</default>
+                <label>Cannot work at extreme temperatures</label>
+            </value>
+            <value>
+                <fullName>Can only charge when lying flat</fullName>
+                <default>false</default>
+                <label>Can only charge when lying flat</label>
+            </value>
+            <value>
+                <fullName>Carrying Case Too Large</fullName>
+                <default>false</default>
+                <label>Carrying Case Too Large</label>
+            </value>
+            <value>
+                <fullName>Causes discomfort</fullName>
+                <default>false</default>
+                <label>Causes discomfort</label>
+            </value>
+            <value>
+                <fullName>Charging port is non-standard USB</fullName>
+                <default>false</default>
+                <label>Charging port is non-standard USB</label>
+            </value>
+            <value>
+                <fullName>Cheap quality</fullName>
+                <default>false</default>
+                <label>Cheap quality</label>
+            </value>
+            <value>
+                <fullName>Clear mode definitions</fullName>
+                <default>false</default>
+                <label>Clear mode definitions</label>
+            </value>
+            <value>
+                <fullName>Complex operation</fullName>
+                <default>false</default>
+                <label>Complex operation</label>
+            </value>
+            <value>
+                <fullName>Complex operation (app)</fullName>
+                <default>false</default>
+                <label>Complex operation (app)</label>
+            </value>
+            <value>
+                <fullName>Confusing Official Information</fullName>
+                <default>false</default>
+                <label>Confusing Official Information</label>
+            </value>
+            <value>
+                <fullName>Convert kilocalories to calories</fullName>
+                <default>false</default>
+                <label>Convert kilocalories to calories</label>
+            </value>
+            <value>
+                <fullName>Cool light</fullName>
+                <default>false</default>
+                <label>Cool light</label>
+            </value>
+            <value>
+                <fullName>Create Ketomeal Plan</fullName>
+                <default>false</default>
+                <label>Create Ketomeal Plan</label>
+            </value>
+            <value>
+                <fullName>Crumb tray</fullName>
+                <default>false</default>
+                <label>Crumb tray</label>
+            </value>
+            <value>
+                <fullName>CS Feedback</fullName>
+                <default>false</default>
+                <label>CS Feedback</label>
+            </value>
+            <value>
+                <fullName>Cuff inconvenient to use</fullName>
+                <default>false</default>
+                <label>Cuff inconvenient to use</label>
+            </value>
+            <value>
+                <fullName>Customizable Home Page Nutritional Info Display</fullName>
+                <default>false</default>
+                <label>Customizable Home Page Nutritional Info Display</label>
+            </value>
+            <value>
+                <fullName>Damaging</fullName>
+                <default>false</default>
+                <label>Damaging</label>
+            </value>
+            <value>
+                <fullName>Difficult to Add Water</fullName>
+                <default>false</default>
+                <label>Difficult to Add Water</label>
+            </value>
+            <value>
+                <fullName>Difficult to Handle</fullName>
+                <default>false</default>
+                <label>Difficult to Handle</label>
+            </value>
+            <value>
+                <fullName>Difficult to lift due to weight</fullName>
+                <default>false</default>
+                <label>Difficult to lift due to weight</label>
+            </value>
+            <value>
+                <fullName>Difficult to Power On/Off</fullName>
+                <default>false</default>
+                <label>Difficult to Power On/Off</label>
+            </value>
+            <value>
+                <fullName>Difficult to read measurements</fullName>
+                <default>false</default>
+                <label>Difficult to read measurements</label>
+            </value>
+            <value>
+                <fullName>Difficult to read numbers</fullName>
+                <default>false</default>
+                <label>Difficult to read numbers</label>
+            </value>
+            <value>
+                <fullName>Difficult to Retrieve</fullName>
+                <default>false</default>
+                <label>Difficult to Retrieve</label>
+            </value>
+            <value>
+                <fullName>Difficult to switch units</fullName>
+                <default>false</default>
+                <label>Difficult to switch units</label>
+            </value>
+            <value>
+                <fullName>Difficulty cleaning base</fullName>
+                <default>false</default>
+                <label>Difficulty cleaning base</label>
+            </value>
+            <value>
+                <fullName>Difficulty cleaning basket</fullName>
+                <default>false</default>
+                <label>Difficulty cleaning basket</label>
+            </value>
+            <value>
+                <fullName>Difficulty cleaning dust bin</fullName>
+                <default>false</default>
+                <label>Difficulty cleaning dust bin</label>
+            </value>
+            <value>
+                <fullName>Difficulty cleaning fan blades</fullName>
+                <default>false</default>
+                <label>Difficulty cleaning fan blades</label>
+            </value>
+            <value>
+                <fullName>Difficulty cleaning food container</fullName>
+                <default>false</default>
+                <label>Difficulty cleaning food container</label>
+            </value>
+            <value>
+                <fullName>Difficulty cleaning heating tube</fullName>
+                <default>false</default>
+                <label>Difficulty cleaning heating tube</label>
+            </value>
+            <value>
+                <fullName>Difficulty cleaning inner pot</fullName>
+                <default>false</default>
+                <label>Difficulty cleaning inner pot</label>
+            </value>
+            <value>
+                <fullName>Difficulty cleaning mist nozzle</fullName>
+                <default>false</default>
+                <label>Difficulty cleaning mist nozzle</label>
+            </value>
+            <value>
+                <fullName>Difficulty cleaning product</fullName>
+                <default>false</default>
+                <label>Difficulty cleaning product</label>
+            </value>
+            <value>
+                <fullName>Difficulty cleaning tank</fullName>
+                <default>false</default>
+                <label>Difficulty cleaning tank</label>
+            </value>
+            <value>
+                <fullName>Discomfort During Massage</fullName>
+                <default>false</default>
+                <label>Discomfort During Massage</label>
+            </value>
+            <value>
+                <fullName>Dislike ±5% for On/Off</fullName>
+                <default>false</default>
+                <label>Dislike ±5% for On/Off</label>
+            </value>
+            <value>
+                <fullName>Dislike mechanical buttons</fullName>
+                <default>false</default>
+                <label>Dislike mechanical buttons</label>
+            </value>
+            <value>
+                <fullName>Dislikes button batteries</fullName>
+                <default>false</default>
+                <label>Dislikes button batteries</label>
+            </value>
+            <value>
+                <fullName>Dislikes Sharp Corners on Scale</fullName>
+                <default>false</default>
+                <label>Dislikes Sharp Corners on Scale</label>
+            </value>
+            <value>
+                <fullName>Display Brown Fat Measurement Value</fullName>
+                <default>false</default>
+                <label>Display Brown Fat Measurement Value</label>
+            </value>
+            <value>
+                <fullName>Display Multiple Data Points Without App</fullName>
+                <default>false</default>
+                <label>Display Multiple Data Points Without App</label>
+            </value>
+            <value>
+                <fullName>Display net carbs</fullName>
+                <default>false</default>
+                <label>Display net carbs</label>
+            </value>
+            <value>
+                <fullName>Display Specific Fat Weight and Changes</fullName>
+                <default>false</default>
+                <label>Display Specific Fat Weight and Changes</label>
+            </value>
+            <value>
+                <fullName>Distrust in Chinese Manufacturing</fullName>
+                <default>false</default>
+                <label>Distrust in Chinese Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Doesn&apos;t like the product</fullName>
+                <default>false</default>
+                <label>Doesn&apos;t like the product</label>
+            </value>
+            <value>
+                <fullName>Does not like the backlight</fullName>
+                <default>false</default>
+                <label>Does not like the backlight</label>
+            </value>
+            <value>
+                <fullName>Easily Dirtied</fullName>
+                <default>false</default>
+                <label>Easily Dirtied</label>
+            </value>
+            <value>
+                <fullName>Easy to Tip Over/Unstable</fullName>
+                <default>false</default>
+                <label>Easy to Tip Over/Unstable</label>
+            </value>
+            <value>
+                <fullName>Edit Scanned Food Quantity</fullName>
+                <default>false</default>
+                <label>Edit Scanned Food Quantity</label>
+            </value>
+            <value>
+                <fullName>Electronic Manual Needed</fullName>
+                <default>false</default>
+                <label>Electronic Manual Needed</label>
+            </value>
+            <value>
+                <fullName>Enhance Food Search Matching Accuracy</fullName>
+                <default>false</default>
+                <label>Enhance Food Search Matching Accuracy</label>
+            </value>
+            <value>
+                <fullName>Error</fullName>
+                <default>false</default>
+                <label>Error</label>
+            </value>
+            <value>
+                <fullName>Excessive ads in app</fullName>
+                <default>false</default>
+                <label>Excessive ads in app</label>
+            </value>
+            <value>
+                <fullName>Excessive Power Consumption</fullName>
+                <default>false</default>
+                <label>Excessive Power Consumption</label>
+            </value>
+            <value>
+                <fullName>Excessive Steam</fullName>
+                <default>false</default>
+                <label>Excessive Steam</label>
+            </value>
+            <value>
+                <fullName>Experiencing Allergies/Asthma/Headaches</fullName>
+                <default>false</default>
+                <label>Experiencing Allergies/Asthma/Headaches</label>
+            </value>
+            <value>
+                <fullName>Experiencing Physical Discomfort</fullName>
+                <default>false</default>
+                <label>Experiencing Physical Discomfort</label>
+            </value>
+            <value>
+                <fullName>Fast Water Consumption</fullName>
+                <default>false</default>
+                <label>Fast Water Consumption</label>
+            </value>
+            <value>
+                <fullName>Filter Installation/Replacement Issues</fullName>
+                <default>false</default>
+                <label>Filter Installation/Replacement Issues</label>
+            </value>
+            <value>
+                <fullName>Flexible Weight Reminder Settings</fullName>
+                <default>false</default>
+                <label>Flexible Weight Reminder Settings</label>
+            </value>
+            <value>
+                <fullName>Food Burns Easily</fullName>
+                <default>false</default>
+                <label>Food Burns Easily</label>
+            </value>
+            <value>
+                <fullName>Food falls from steam rack</fullName>
+                <default>false</default>
+                <label>Food falls from steam rack</label>
+            </value>
+            <value>
+                <fullName>Foot tap to switch users unresponsive</fullName>
+                <default>false</default>
+                <label>Foot tap to switch users unresponsive</label>
+            </value>
+            <value>
+                <fullName>For Indoor Use Only</fullName>
+                <default>false</default>
+                <label>For Indoor Use Only</label>
+            </value>
+            <value>
+                <fullName>Fragile</fullName>
+                <default>false</default>
+                <label>Fragile</label>
+            </value>
+            <value>
+                <fullName>Frequent Filter Replacement</fullName>
+                <default>false</default>
+                <label>Frequent Filter Replacement</label>
+            </value>
+            <value>
+                <fullName>Fruit rolls deformation</fullName>
+                <default>false</default>
+                <label>Fruit rolls deformation</label>
+            </value>
+            <value>
+                <fullName>Glass Fragile</fullName>
+                <default>false</default>
+                <label>Glass Fragile</label>
+            </value>
+            <value>
+                <fullName>Hard to read</fullName>
+                <default>false</default>
+                <label>Hard to read</label>
+            </value>
+            <value>
+                <fullName>Harsh/Uncomfortable light</fullName>
+                <default>false</default>
+                <label>Harsh/Uncomfortable light</label>
+            </value>
+            <value>
+                <fullName>Have to use a specific charging cable</fullName>
+                <default>false</default>
+                <label>Have to use a specific charging cable</label>
+            </value>
+            <value>
+                <fullName>Heating not noticeable</fullName>
+                <default>false</default>
+                <label>Heating not noticeable</label>
+            </value>
+            <value>
+                <fullName>High intensity</fullName>
+                <default>false</default>
+                <label>High intensity</label>
+            </value>
+            <value>
+                <fullName>High recipe learning curve</fullName>
+                <default>false</default>
+                <label>High recipe learning curve</label>
+            </value>
+            <value>
+                <fullName>Hook Too Small</fullName>
+                <default>false</default>
+                <label>Hook Too Small</label>
+            </value>
+            <value>
+                <fullName>Hose Difficult to Control</fullName>
+                <default>false</default>
+                <label>Hose Difficult to Control</label>
+            </value>
+            <value>
+                <fullName>Hot exterior</fullName>
+                <default>false</default>
+                <label>Hot exterior</label>
+            </value>
+            <value>
+                <fullName>Hot Shell</fullName>
+                <default>false</default>
+                <label>Hot Shell</label>
+            </value>
+            <value>
+                <fullName>Inaccurate Food Nutrition Values</fullName>
+                <default>false</default>
+                <label>Inaccurate Food Nutrition Values</label>
+            </value>
+            <value>
+                <fullName>Inaccurate recipe content</fullName>
+                <default>false</default>
+                <label>Inaccurate recipe content</label>
+            </value>
+            <value>
+                <fullName>Incompatible with Other Brand Heads</fullName>
+                <default>false</default>
+                <label>Incompatible with Other Brand Heads</label>
+            </value>
+            <value>
+                <fullName>Incomplete Food Images in Database</fullName>
+                <default>false</default>
+                <label>Incomplete Food Images in Database</label>
+            </value>
+            <value>
+                <fullName>Inconvenient storage</fullName>
+                <default>false</default>
+                <label>Inconvenient storage</label>
+            </value>
+            <value>
+                <fullName>Incorrect Voltage Usage</fullName>
+                <default>false</default>
+                <label>Incorrect Voltage Usage</label>
+            </value>
+            <value>
+                <fullName>Increases Pain</fullName>
+                <default>false</default>
+                <label>Increases Pain</label>
+            </value>
+            <value>
+                <fullName>Increases PM2.5 index</fullName>
+                <default>false</default>
+                <label>Increases PM2.5 index</label>
+            </value>
+            <value>
+                <fullName>Increase Weight Unit Selection</fullName>
+                <default>false</default>
+                <label>Increase Weight Unit Selection</label>
+            </value>
+            <value>
+                <fullName>Ineffective Sleep Mode</fullName>
+                <default>false</default>
+                <label>Ineffective Sleep Mode</label>
+            </value>
+            <value>
+                <fullName>Inferior to Competitors</fullName>
+                <default>false</default>
+                <label>Inferior to Competitors</label>
+            </value>
+            <value>
+                <fullName>Inner Lid Difficult to Remove/Install</fullName>
+                <default>false</default>
+                <label>Inner Lid Difficult to Remove/Install</label>
+            </value>
+            <value>
+                <fullName>Inner Pot Water Level</fullName>
+                <default>false</default>
+                <label>Inner Pot Water Level</label>
+            </value>
+            <value>
+                <fullName>Insufficient brushing force</fullName>
+                <default>false</default>
+                <label>Insufficient brushing force</label>
+            </value>
+            <value>
+                <fullName>Insufficient massage intensity</fullName>
+                <default>false</default>
+                <label>Insufficient massage intensity</label>
+            </value>
+            <value>
+                <fullName>Integrate with Apple Watch</fullName>
+                <default>false</default>
+                <label>Integrate with Apple Watch</label>
+            </value>
+            <value>
+                <fullName>Integrate with Cronometer</fullName>
+                <default>false</default>
+                <label>Integrate with Cronometer</label>
+            </value>
+            <value>
+                <fullName>Integrate with Garmin</fullName>
+                <default>false</default>
+                <label>Integrate with Garmin</label>
+            </value>
+            <value>
+                <fullName>Integrate with Google Fit</fullName>
+                <default>false</default>
+                <label>Integrate with Google Fit</label>
+            </value>
+            <value>
+                <fullName>Integrate with Loseit</fullName>
+                <default>false</default>
+                <label>Integrate with Loseit</label>
+            </value>
+            <value>
+                <fullName>Integrate with MyFitnessPal</fullName>
+                <default>false</default>
+                <label>Integrate with MyFitnessPal</label>
+            </value>
+            <value>
+                <fullName>Integrate with MyNetDiet</fullName>
+                <default>false</default>
+                <label>Integrate with MyNetDiet</label>
+            </value>
+            <value>
+                <fullName>Integrate with Noom</fullName>
+                <default>false</default>
+                <label>Integrate with Noom</label>
+            </value>
+            <value>
+                <fullName>Integrate with Samsung Health</fullName>
+                <default>false</default>
+                <label>Integrate with Samsung Health</label>
+            </value>
+            <value>
+                <fullName>Integrate with Strava</fullName>
+                <default>false</default>
+                <label>Integrate with Strava</label>
+            </value>
+            <value>
+                <fullName>Integrate with Zepp</fullName>
+                <default>false</default>
+                <label>Integrate with Zepp</label>
+            </value>
+            <value>
+                <fullName>Intensity Adjustment is Abrupt</fullName>
+                <default>false</default>
+                <label>Intensity Adjustment is Abrupt</label>
+            </value>
+            <value>
+                <fullName>Intensity too high</fullName>
+                <default>false</default>
+                <label>Intensity too high</label>
+            </value>
+            <value>
+                <fullName>Issues with color</fullName>
+                <default>false</default>
+                <label>Issues with color</label>
+            </value>
+            <value>
+                <fullName>Large container obstructs scale screen</fullName>
+                <default>false</default>
+                <label>Large container obstructs scale screen</label>
+            </value>
+            <value>
+                <fullName>Larger temperature range</fullName>
+                <default>false</default>
+                <label>Larger temperature range</label>
+            </value>
+            <value>
+                <fullName>Laser harmful to eyes</fullName>
+                <default>false</default>
+                <label>Laser harmful to eyes</label>
+            </value>
+            <value>
+                <fullName>Leaves Marks on Carpet</fullName>
+                <default>false</default>
+                <label>Leaves Marks on Carpet</label>
+            </value>
+            <value>
+                <fullName>Length adjustment</fullName>
+                <default>false</default>
+                <label>Length adjustment</label>
+            </value>
+            <value>
+                <fullName>Lid Difficult to Align</fullName>
+                <default>false</default>
+                <label>Lid Difficult to Align</label>
+            </value>
+            <value>
+                <fullName>Lid won&apos;t fully open</fullName>
+                <default>false</default>
+                <label>Lid won&apos;t fully open</label>
+            </value>
+            <value>
+                <fullName>Light not bright enough</fullName>
+                <default>false</default>
+                <label>Light not bright enough</label>
+            </value>
+            <value>
+                <fullName>Light too bright</fullName>
+                <default>false</default>
+                <label>Light too bright</label>
+            </value>
+            <value>
+                <fullName>Limited Unit Selection for Scanned Food</fullName>
+                <default>false</default>
+                <label>Limited Unit Selection for Scanned Food</label>
+            </value>
+            <value>
+                <fullName>Lo followed by quick shutdown</fullName>
+                <default>false</default>
+                <label>Lo followed by quick shutdown</label>
+            </value>
+            <value>
+                <fullName>Long charging time</fullName>
+                <default>false</default>
+                <label>Long charging time</label>
+            </value>
+            <value>
+                <fullName>Long cooking time</fullName>
+                <default>false</default>
+                <label>Long cooking time</label>
+            </value>
+            <value>
+                <fullName>Long preheat time</fullName>
+                <default>false</default>
+                <label>Long preheat time</label>
+            </value>
+            <value>
+                <fullName>Long toasting time</fullName>
+                <default>false</default>
+                <label>Long toasting time</label>
+            </value>
+            <value>
+                <fullName>Long venting time</fullName>
+                <default>false</default>
+                <label>Long venting time</label>
+            </value>
+            <value>
+                <fullName>Loud Button/Touchscreen/Knob Sounds</fullName>
+                <default>false</default>
+                <label>Loud Button/Touchscreen/Knob Sounds</label>
+            </value>
+            <value>
+                <fullName>Loud buttons/touchscreen/knob sounds</fullName>
+                <default>false</default>
+                <label>Loud buttons/touchscreen/knob sounds</label>
+            </value>
+            <value>
+                <fullName>Loud Dispensing Noise</fullName>
+                <default>false</default>
+                <label>Loud Dispensing Noise</label>
+            </value>
+            <value>
+                <fullName>Loud operating noise</fullName>
+                <default>false</default>
+                <label>Loud operating noise</label>
+            </value>
+            <value>
+                <fullName>Lower minimum weight</fullName>
+                <default>false</default>
+                <label>Lower minimum weight</label>
+            </value>
+            <value>
+                <fullName>Low Humidity Value</fullName>
+                <default>false</default>
+                <label>Low Humidity Value</label>
+            </value>
+            <value>
+                <fullName>Low power</fullName>
+                <default>false</default>
+                <label>Low power</label>
+            </value>
+            <value>
+                <fullName>Manual discrepancies</fullName>
+                <default>false</default>
+                <label>Manual discrepancies</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Massage not comfortable</fullName>
+                <default>false</default>
+                <label>Massage not comfortable</label>
+            </value>
+            <value>
+                <fullName>Meal Unit Selection Limited to g</fullName>
+                <default>false</default>
+                <label>Meal Unit Selection Limited to g</label>
+            </value>
+            <value>
+                <fullName>Measurement in Cups/Spoons</fullName>
+                <default>false</default>
+                <label>Measurement in Cups/Spoons</label>
+            </value>
+            <value>
+                <fullName>Measurement Results with 2+ Decimal Places</fullName>
+                <default>false</default>
+                <label>Measurement Results with 2+ Decimal Places</label>
+            </value>
+            <value>
+                <fullName>Measurement speed too fast</fullName>
+                <default>false</default>
+                <label>Measurement speed too fast</label>
+            </value>
+            <value>
+                <fullName>Measuring Cup Not Accurate</fullName>
+                <default>false</default>
+                <label>Measuring Cup Not Accurate</label>
+            </value>
+            <value>
+                <fullName>Mesh screen request</fullName>
+                <default>false</default>
+                <label>Mesh screen request</label>
+            </value>
+            <value>
+                <fullName>Modes feel identical</fullName>
+                <default>false</default>
+                <label>Modes feel identical</label>
+            </value>
+            <value>
+                <fullName>More recipes/categories</fullName>
+                <default>false</default>
+                <label>More recipes/categories</label>
+            </value>
+            <value>
+                <fullName>Need in-app operation instructions</fullName>
+                <default>false</default>
+                <label>Need in-app operation instructions</label>
+            </value>
+            <value>
+                <fullName>Need more font sizes</fullName>
+                <default>false</default>
+                <label>Need more font sizes</label>
+            </value>
+            <value>
+                <fullName>Needs Inner Pot Handle</fullName>
+                <default>false</default>
+                <label>Needs Inner Pot Handle</label>
+            </value>
+            <value>
+                <fullName>Needs Stainless Steel Inner Pot</fullName>
+                <default>false</default>
+                <label>Needs Stainless Steel Inner Pot</label>
+            </value>
+            <value>
+                <fullName>Negative review - no content</fullName>
+                <default>false</default>
+                <label>Negative review - no content</label>
+            </value>
+            <value>
+                <fullName>Network support</fullName>
+                <default>false</default>
+                <label>Network support</label>
+            </value>
+            <value>
+                <fullName>Night Light Not Bright Enough</fullName>
+                <default>false</default>
+                <label>Night Light Not Bright Enough</label>
+            </value>
+            <value>
+                <fullName>Night Light Too Bright</fullName>
+                <default>false</default>
+                <label>Night Light Too Bright</label>
+            </value>
+            <value>
+                <fullName>No 5G Support</fullName>
+                <default>false</default>
+                <label>No 5G Support</label>
+            </value>
+            <value>
+                <fullName>No Air Quality Display</fullName>
+                <default>false</default>
+                <label>No Air Quality Display</label>
+            </value>
+            <value>
+                <fullName>No backlight design</fullName>
+                <default>false</default>
+                <label>No backlight design</label>
+            </value>
+            <value>
+                <fullName>No Belt Clip</fullName>
+                <default>false</default>
+                <label>No Belt Clip</label>
+            </value>
+            <value>
+                <fullName>No Essential Oil Support</fullName>
+                <default>false</default>
+                <label>No Essential Oil Support</label>
+            </value>
+            <value>
+                <fullName>No Handle, Difficult to Move</fullName>
+                <default>false</default>
+                <label>No Handle, Difficult to Move</label>
+            </value>
+            <value>
+                <fullName>No Humidity Display</fullName>
+                <default>false</default>
+                <label>No Humidity Display</label>
+            </value>
+            <value>
+                <fullName>No keep warm function</fullName>
+                <default>false</default>
+                <label>No keep warm function</label>
+            </value>
+            <value>
+                <fullName>Non-Detachable Power Cord</fullName>
+                <default>false</default>
+                <label>Non-Detachable Power Cord</label>
+            </value>
+            <value>
+                <fullName>No Network Support</fullName>
+                <default>false</default>
+                <label>No Network Support</label>
+            </value>
+            <value>
+                <fullName>Non-Recyclable Filter</fullName>
+                <default>false</default>
+                <label>Non-Recyclable Filter</label>
+            </value>
+            <value>
+                <fullName>No Sensation</fullName>
+                <default>false</default>
+                <label>No Sensation</label>
+            </value>
+            <value>
+                <fullName>Not as expected</fullName>
+                <default>false</default>
+                <label>Not as expected</label>
+            </value>
+            <value>
+                <fullName>Not Cooling</fullName>
+                <default>false</default>
+                <label>Not Cooling</label>
+            </value>
+            <value>
+                <fullName>Not entirely stainless steel/too much plastic</fullName>
+                <default>false</default>
+                <label>Not entirely stainless steel/too much plastic</label>
+            </value>
+            <value>
+                <fullName>Not Hot Enough</fullName>
+                <default>false</default>
+                <label>Not Hot Enough</label>
+            </value>
+            <value>
+                <fullName>Not Quiet Enough in Sleep Mode</fullName>
+                <default>false</default>
+                <label>Not Quiet Enough in Sleep Mode</label>
+            </value>
+            <value>
+                <fullName>Not suitable for oven temperature measurement</fullName>
+                <default>false</default>
+                <label>Not suitable for oven temperature measurement</label>
+            </value>
+            <value>
+                <fullName>Not waterproof</fullName>
+                <default>false</default>
+                <label>Not waterproof</label>
+            </value>
+            <value>
+                <fullName>Nozzle size does not fit perfectly</fullName>
+                <default>false</default>
+                <label>Nozzle size does not fit perfectly</label>
+            </value>
+            <value>
+                <fullName>Nutritional Info with 2+ Decimal Places</fullName>
+                <default>false</default>
+                <label>Nutritional Info with 2+ Decimal Places</label>
+            </value>
+            <value>
+                <fullName>Oil splatter</fullName>
+                <default>false</default>
+                <label>Oil splatter</label>
+            </value>
+            <value>
+                <fullName>One-touch start</fullName>
+                <default>false</default>
+                <label>One-touch start</label>
+            </value>
+            <value>
+                <fullName>Only Measures Water and Milk Volume</fullName>
+                <default>false</default>
+                <label>Only Measures Water and Milk Volume</label>
+            </value>
+            <value>
+                <fullName>Optimize data comparison</fullName>
+                <default>false</default>
+                <label>Optimize data comparison</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Outer shell hot</fullName>
+                <default>false</default>
+                <label>Outer shell hot</label>
+            </value>
+            <value>
+                <fullName>Pain Sensation</fullName>
+                <default>false</default>
+                <label>Pain Sensation</label>
+            </value>
+            <value>
+                <fullName>Permanently Disable Baby Mode Shortcut</fullName>
+                <default>false</default>
+                <label>Permanently Disable Baby Mode Shortcut</label>
+            </value>
+            <value>
+                <fullName>Pet Food Becomes Damp</fullName>
+                <default>false</default>
+                <label>Pet Food Becomes Damp</label>
+            </value>
+            <value>
+                <fullName>Pet Food Becomes Dry</fullName>
+                <default>false</default>
+                <label>Pet Food Becomes Dry</label>
+            </value>
+            <value>
+                <fullName>Pet Food Spoilage</fullName>
+                <default>false</default>
+                <label>Pet Food Spoilage</label>
+            </value>
+            <value>
+                <fullName>Physical manual</fullName>
+                <default>false</default>
+                <label>Physical manual</label>
+            </value>
+            <value>
+                <fullName>Physical recipe book</fullName>
+                <default>false</default>
+                <label>Physical recipe book</label>
+            </value>
+            <value>
+                <fullName>Poor Air Circulation Effect</fullName>
+                <default>false</default>
+                <label>Poor Air Circulation Effect</label>
+            </value>
+            <value>
+                <fullName>Poor air frying effect</fullName>
+                <default>false</default>
+                <label>Poor air frying effect</label>
+            </value>
+            <value>
+                <fullName>Poor Allergy Effect</fullName>
+                <default>false</default>
+                <label>Poor Allergy Effect</label>
+            </value>
+            <value>
+                <fullName>Poor animal hair cleaning</fullName>
+                <default>false</default>
+                <label>Poor animal hair cleaning</label>
+            </value>
+            <value>
+                <fullName>Poor Battery Quality</fullName>
+                <default>false</default>
+                <label>Poor Battery Quality</label>
+            </value>
+            <value>
+                <fullName>Poor button placement design</fullName>
+                <default>false</default>
+                <label>Poor button placement design</label>
+            </value>
+            <value>
+                <fullName>Poor carpet cleaning</fullName>
+                <default>false</default>
+                <label>Poor carpet cleaning</label>
+            </value>
+            <value>
+                <fullName>Poor Cleaning Effectiveness</fullName>
+                <default>false</default>
+                <label>Poor Cleaning Effectiveness</label>
+            </value>
+            <value>
+                <fullName>Poor cooking results</fullName>
+                <default>false</default>
+                <label>Poor cooking results</label>
+            </value>
+            <value>
+                <fullName>Poor Dust Removal</fullName>
+                <default>false</default>
+                <label>Poor Dust Removal</label>
+            </value>
+            <value>
+                <fullName>Poor Hair/Dander Removal</fullName>
+                <default>false</default>
+                <label>Poor Hair/Dander Removal</label>
+            </value>
+            <value>
+                <fullName>Poor human hair cleaning</fullName>
+                <default>false</default>
+                <label>Poor human hair cleaning</label>
+            </value>
+            <value>
+                <fullName>Poor Humidifying Effect</fullName>
+                <default>false</default>
+                <label>Poor Humidifying Effect</label>
+            </value>
+            <value>
+                <fullName>Poor insulation</fullName>
+                <default>false</default>
+                <label>Poor insulation</label>
+            </value>
+            <value>
+                <fullName>Poor keep warm function</fullName>
+                <default>false</default>
+                <label>Poor keep warm function</label>
+            </value>
+            <value>
+                <fullName>Poorly Printed Labels</fullName>
+                <default>false</default>
+                <label>Poorly Printed Labels</label>
+            </value>
+            <value>
+                <fullName>Poor packaging material</fullName>
+                <default>false</default>
+                <label>Poor packaging material</label>
+            </value>
+            <value>
+                <fullName>Poor performance</fullName>
+                <default>false</default>
+                <label>Poor performance</label>
+            </value>
+            <value>
+                <fullName>Poor purification effect (general)</fullName>
+                <default>false</default>
+                <label>Poor purification effect (general)</label>
+            </value>
+            <value>
+                <fullName>Poor quality - electrode adhesive</fullName>
+                <default>false</default>
+                <label>Poor quality - electrode adhesive</label>
+            </value>
+            <value>
+                <fullName>Poor quality - handle</fullName>
+                <default>false</default>
+                <label>Poor quality - handle</label>
+            </value>
+            <value>
+                <fullName>Poor Switch Design</fullName>
+                <default>false</default>
+                <label>Poor Switch Design</label>
+            </value>
+            <value>
+                <fullName>Poor toast effect</fullName>
+                <default>false</default>
+                <label>Poor toast effect</label>
+            </value>
+            <value>
+                <fullName>Poor Translation</fullName>
+                <default>false</default>
+                <label>Poor Translation</label>
+            </value>
+            <value>
+                <fullName>Poor Unlock Design</fullName>
+                <default>false</default>
+                <label>Poor Unlock Design</label>
+            </value>
+            <value>
+                <fullName>Power button</fullName>
+                <default>false</default>
+                <label>Power button</label>
+            </value>
+            <value>
+                <fullName>Power Cord Too Long</fullName>
+                <default>false</default>
+                <label>Power Cord Too Long</label>
+            </value>
+            <value>
+                <fullName>Power Cord Too Short</fullName>
+                <default>false</default>
+                <label>Power Cord Too Short</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Product too heavy</fullName>
+                <default>false</default>
+                <label>Product too heavy</label>
+            </value>
+            <value>
+                <fullName>Product too light</fullName>
+                <default>false</default>
+                <label>Product too light</label>
+            </value>
+            <value>
+                <fullName>Prone to blockage</fullName>
+                <default>false</default>
+                <label>Prone to blockage</label>
+            </value>
+            <value>
+                <fullName>Purchasing Parts</fullName>
+                <default>false</default>
+                <label>Purchasing Parts</label>
+            </value>
+            <value>
+                <fullName>Purification effect not as good as device&apos;s own filter</fullName>
+                <default>false</default>
+                <label>Purification effect not as good as device&apos;s own filter</label>
+            </value>
+            <value>
+                <fullName>Rapid Power Consumption</fullName>
+                <default>false</default>
+                <label>Rapid Power Consumption</label>
+            </value>
+            <value>
+                <fullName>Removing Packaging Paper</fullName>
+                <default>false</default>
+                <label>Removing Packaging Paper</label>
+            </value>
+            <value>
+                <fullName>Repeated Notifications</fullName>
+                <default>false</default>
+                <label>Repeated Notifications</label>
+            </value>
+            <value>
+                <fullName>Requesting additional gifts with purchase</fullName>
+                <default>false</default>
+                <label>Requesting additional gifts with purchase</label>
+            </value>
+            <value>
+                <fullName>Requires phone</fullName>
+                <default>false</default>
+                <label>Requires phone</label>
+            </value>
+            <value>
+                <fullName>Requires too many permissions</fullName>
+                <default>false</default>
+                <label>Requires too many permissions</label>
+            </value>
+            <value>
+                <fullName>Resets to Zero When Restarted During Weighing</fullName>
+                <default>false</default>
+                <label>Resets to Zero When Restarted During Weighing</label>
+            </value>
+            <value>
+                <fullName>Resume at 5% difference issues</fullName>
+                <default>false</default>
+                <label>Resume at 5% difference issues</label>
+            </value>
+            <value>
+                <fullName>Rotisserie fork size issue</fullName>
+                <default>false</default>
+                <label>Rotisserie fork size issue</label>
+            </value>
+            <value>
+                <fullName>Scale bowl does not fit well when inverted</fullName>
+                <default>false</default>
+                <label>Scale bowl does not fit well when inverted</label>
+            </value>
+            <value>
+                <fullName>Scale does not display weather data</fullName>
+                <default>false</default>
+                <label>Scale does not display weather data</label>
+            </value>
+            <value>
+                <fullName>Scale easy to leave fingerprints</fullName>
+                <default>false</default>
+                <label>Scale easy to leave fingerprints</label>
+            </value>
+            <value>
+                <fullName>Scale surface is slippery</fullName>
+                <default>false</default>
+                <label>Scale surface is slippery</label>
+            </value>
+            <value>
+                <fullName>Scale unstable</fullName>
+                <default>false</default>
+                <label>Scale unstable</label>
+            </value>
+            <value>
+                <fullName>Scan Food to Directly Read Weight Result</fullName>
+                <default>false</default>
+                <label>Scan Food to Directly Read Weight Result</label>
+            </value>
+            <value>
+                <fullName>Screen Cannot Stay On</fullName>
+                <default>false</default>
+                <label>Screen Cannot Stay On</label>
+            </value>
+            <value>
+                <fullName>Screen is small</fullName>
+                <default>false</default>
+                <label>Screen is small</label>
+            </value>
+            <value>
+                <fullName>Screen Not Always On</fullName>
+                <default>false</default>
+                <label>Screen Not Always On</label>
+            </value>
+            <value>
+                <fullName>Seal Ring Smells Bad</fullName>
+                <default>false</default>
+                <label>Seal Ring Smells Bad</label>
+            </value>
+            <value>
+                <fullName>Sensitive Mode Not Good</fullName>
+                <default>false</default>
+                <label>Sensitive Mode Not Good</label>
+            </value>
+            <value>
+                <fullName>Set specific dates for weight reminders</fullName>
+                <default>false</default>
+                <label>Set specific dates for weight reminders</label>
+            </value>
+            <value>
+                <fullName>Short battery life</fullName>
+                <default>false</default>
+                <label>Short battery life</label>
+            </value>
+            <value>
+                <fullName>Short charging cable</fullName>
+                <default>false</default>
+                <label>Short charging cable</label>
+            </value>
+            <value>
+                <fullName>Short lifespan</fullName>
+                <default>false</default>
+                <label>Short lifespan</label>
+            </value>
+            <value>
+                <fullName>Short Power Cord</fullName>
+                <default>false</default>
+                <label>Short Power Cord</label>
+            </value>
+            <value>
+                <fullName>Short Wires</fullName>
+                <default>false</default>
+                <label>Short Wires</label>
+            </value>
+            <value>
+                <fullName>Side Buttons Hard to Press</fullName>
+                <default>false</default>
+                <label>Side Buttons Hard to Press</label>
+            </value>
+            <value>
+                <fullName>Skip preheat</fullName>
+                <default>false</default>
+                <label>Skip preheat</label>
+            </value>
+            <value>
+                <fullName>Sleep mode auto oscillation</fullName>
+                <default>false</default>
+                <label>Sleep mode auto oscillation</label>
+            </value>
+            <value>
+                <fullName>Slight Itching</fullName>
+                <default>false</default>
+                <label>Slight Itching</label>
+            </value>
+            <value>
+                <fullName>Slow Blood Pressure Measurement</fullName>
+                <default>false</default>
+                <label>Slow Blood Pressure Measurement</label>
+            </value>
+            <value>
+                <fullName>Slow deflation</fullName>
+                <default>false</default>
+                <label>Slow deflation</label>
+            </value>
+            <value>
+                <fullName>Slow inflation</fullName>
+                <default>false</default>
+                <label>Slow inflation</label>
+            </value>
+            <value>
+                <fullName>Small applicable area</fullName>
+                <default>false</default>
+                <label>Small applicable area</label>
+            </value>
+            <value>
+                <fullName>Small dust box capacity</fullName>
+                <default>false</default>
+                <label>Small dust box capacity</label>
+            </value>
+            <value>
+                <fullName>Small Humidifying Area</fullName>
+                <default>false</default>
+                <label>Small Humidifying Area</label>
+            </value>
+            <value>
+                <fullName>Small illumination range</fullName>
+                <default>false</default>
+                <label>Small illumination range</label>
+            </value>
+            <value>
+                <fullName>Small outlet</fullName>
+                <default>false</default>
+                <label>Small outlet</label>
+            </value>
+            <value>
+                <fullName>Small Purification Area</fullName>
+                <default>false</default>
+                <label>Small Purification Area</label>
+            </value>
+            <value>
+                <fullName>Specific recipe type</fullName>
+                <default>false</default>
+                <label>Specific recipe type</label>
+            </value>
+            <value>
+                <fullName>Stainless Steel Bowl Too Small</fullName>
+                <default>false</default>
+                <label>Stainless Steel Bowl Too Small</label>
+            </value>
+            <value>
+                <fullName>Steam Release</fullName>
+                <default>false</default>
+                <label>Steam Release</label>
+            </value>
+            <value>
+                <fullName>Suitable only for hard floors</fullName>
+                <default>false</default>
+                <label>Suitable only for hard floors</label>
+            </value>
+            <value>
+                <fullName>Support Data Sharing Between Different Accounts</fullName>
+                <default>false</default>
+                <label>Support Data Sharing Between Different Accounts</label>
+            </value>
+            <value>
+                <fullName>Support Vitamin Selection in mcg</fullName>
+                <default>false</default>
+                <label>Support Vitamin Selection in mcg</label>
+            </value>
+            <value>
+                <fullName>Suspected Weight Memory</fullName>
+                <default>false</default>
+                <label>Suspected Weight Memory</label>
+            </value>
+            <value>
+                <fullName>Switching to Sensitive Mode is Troublesome</fullName>
+                <default>false</default>
+                <label>Switching to Sensitive Mode is Troublesome</label>
+            </value>
+            <value>
+                <fullName>Switch units on App</fullName>
+                <default>false</default>
+                <label>Switch units on App</label>
+            </value>
+            <value>
+                <fullName>Temperature too high</fullName>
+                <default>false</default>
+                <label>Temperature too high</label>
+            </value>
+            <value>
+                <fullName>Temperature too low</fullName>
+                <default>false</default>
+                <label>Temperature too low</label>
+            </value>
+            <value>
+                <fullName>Temperature variance</fullName>
+                <default>false</default>
+                <label>Temperature variance</label>
+            </value>
+            <value>
+                <fullName>Test leads too short</fullName>
+                <default>false</default>
+                <label>Test leads too short</label>
+            </value>
+            <value>
+                <fullName>Too large</fullName>
+                <default>false</default>
+                <label>Too large</label>
+            </value>
+            <value>
+                <fullName>Too small</fullName>
+                <default>false</default>
+                <label>Too small</label>
+            </value>
+            <value>
+                <fullName>Total weight change widget</fullName>
+                <default>false</default>
+                <label>Total weight change widget</label>
+            </value>
+            <value>
+                <fullName>Tray easily falls off</fullName>
+                <default>false</default>
+                <label>Tray easily falls off</label>
+            </value>
+            <value>
+                <fullName>Tray size issue</fullName>
+                <default>false</default>
+                <label>Tray size issue</label>
+            </value>
+            <value>
+                <fullName>Trickle charging</fullName>
+                <default>false</default>
+                <label>Trickle charging</label>
+            </value>
+            <value>
+                <fullName>Two-Wire Heating Not Supported</fullName>
+                <default>false</default>
+                <label>Two-Wire Heating Not Supported</label>
+            </value>
+            <value>
+                <fullName>UI Issues</fullName>
+                <default>false</default>
+                <label>UI Issues</label>
+            </value>
+            <value>
+                <fullName>Unable to Adjust Screen Brightness</fullName>
+                <default>false</default>
+                <label>Unable to Adjust Screen Brightness</label>
+            </value>
+            <value>
+                <fullName>Unable to adjust time/temperature while cooking</fullName>
+                <default>false</default>
+                <label>Unable to adjust time/temperature while cooking</label>
+            </value>
+            <value>
+                <fullName>Unable to dehydrate</fullName>
+                <default>false</default>
+                <label>Unable to dehydrate</label>
+            </value>
+            <value>
+                <fullName>Unable to Detect Odors</fullName>
+                <default>false</default>
+                <label>Unable to Detect Odors</label>
+            </value>
+            <value>
+                <fullName>Unable to extend cooking time</fullName>
+                <default>false</default>
+                <label>Unable to extend cooking time</label>
+            </value>
+            <value>
+                <fullName>Unable to locate recipe</fullName>
+                <default>false</default>
+                <label>Unable to locate recipe</label>
+            </value>
+            <value>
+                <fullName>Unable to open door fully</fullName>
+                <default>false</default>
+                <label>Unable to open door fully</label>
+            </value>
+            <value>
+                <fullName>Unable to switch temperature units</fullName>
+                <default>false</default>
+                <label>Unable to switch temperature units</label>
+            </value>
+            <value>
+                <fullName>Unattractive</fullName>
+                <default>false</default>
+                <label>Unattractive</label>
+            </value>
+            <value>
+                <fullName>Unclear manual instructions</fullName>
+                <default>false</default>
+                <label>Unclear manual instructions</label>
+            </value>
+            <value>
+                <fullName>Unclear Water Level Mark</fullName>
+                <default>false</default>
+                <label>Unclear Water Level Mark</label>
+            </value>
+            <value>
+                <fullName>Uncomfortable</fullName>
+                <default>false</default>
+                <label>Uncomfortable</label>
+            </value>
+            <value>
+                <fullName>Unresponsive startup</fullName>
+                <default>false</default>
+                <label>Unresponsive startup</label>
+            </value>
+            <value>
+                <fullName>Unsatisfactory cooking results</fullName>
+                <default>false</default>
+                <label>Unsatisfactory cooking results</label>
+            </value>
+            <value>
+                <fullName>Unstable Base</fullName>
+                <default>false</default>
+                <label>Unstable Base</label>
+            </value>
+            <value>
+                <fullName>Unwilling to download VeSync app</fullName>
+                <default>false</default>
+                <label>Unwilling to download VeSync app</label>
+            </value>
+            <value>
+                <fullName>USB charging is inconvenient</fullName>
+                <default>false</default>
+                <label>USB charging is inconvenient</label>
+            </value>
+            <value>
+                <fullName>Vesync App Can&apos;t Find Product</fullName>
+                <default>false</default>
+                <label>Vesync App Can&apos;t Find Product</label>
+            </value>
+            <value>
+                <fullName>View Nutritional Analysis of Diet Plans</fullName>
+                <default>false</default>
+                <label>View Nutritional Analysis of Diet Plans</label>
+            </value>
+            <value>
+                <fullName>Warranty Issues</fullName>
+                <default>false</default>
+                <label>Warranty Issues</label>
+            </value>
+            <value>
+                <fullName>Warranty Registration Issues</fullName>
+                <default>false</default>
+                <label>Warranty Registration Issues</label>
+            </value>
+            <value>
+                <fullName>Water Accumulation in Base</fullName>
+                <default>false</default>
+                <label>Water Accumulation in Base</label>
+            </value>
+            <value>
+                <fullName>Water Boils but Doesn&apos;t Turn Off Immediately</fullName>
+                <default>false</default>
+                <label>Water Boils but Doesn&apos;t Turn Off Immediately</label>
+            </value>
+            <value>
+                <fullName>Water damage may occur</fullName>
+                <default>false</default>
+                <label>Water damage may occur</label>
+            </value>
+            <value>
+                <fullName>Water residue</fullName>
+                <default>false</default>
+                <label>Water residue</label>
+            </value>
+            <value>
+                <fullName>Weaker lower heating element</fullName>
+                <default>false</default>
+                <label>Weaker lower heating element</label>
+            </value>
+            <value>
+                <fullName>Zeroing time too long</fullName>
+                <default>false</default>
+                <label>Zeroing time too long</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

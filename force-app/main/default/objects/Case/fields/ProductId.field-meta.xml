@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductId</fullName>
+    <inlineHelpText>Dependent on Brand, Country and Product Category</inlineHelpText>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.Brand__c</field>
+            <operation>equals</operation>
+            <valueField>Product2.Brand__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Product_Category__c</field>
+            <operation>equals</operation>
+            <valueField>Product2.Product_Category__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Country__c</field>
+            <operation>contains</operation>
+            <valueField>Product2.Country_Code__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>Product2.Is_Deleted__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </filterItems>
+        <filterItems>
+            <field>Product2.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <infoMessage>Products are filtered on the basis of Brand and Category</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

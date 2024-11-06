@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Air Fryer</fullName>
+        <default>false</default>
+        <label>Air Fryer</label>
+    </customValue>
+    <customValue>
+        <fullName>Air Fryer Toaster Oven</fullName>
+        <default>false</default>
+        <label>Air Fryer Toaster Oven</label>
+    </customValue>
+    <customValue>
+        <fullName>Air Mattress</fullName>
+        <default>false</default>
+        <label>Air Mattress</label>
+    </customValue>
+    <customValue>
+        <fullName>Air Pump</fullName>
+        <default>false</default>
+        <label>Air Pump</label>
+    </customValue>
+    <customValue>
+        <fullName>Air Purifier</fullName>
+        <default>false</default>
+        <label>Air Purifier</label>
+    </customValue>
+    <customValue>
+        <fullName>Air Purifier Filter</fullName>
+        <default>false</default>
+        <label>Air Purifier Filter</label>
+    </customValue>
+    <customValue>
+        <fullName>Automatic Pets Feeders</fullName>
+        <default>false</default>
+        <label>Automatic Pets Feeders</label>
+    </customValue>
+    <customValue>
+        <fullName>Blood Pressure Monitor</fullName>
+        <default>false</default>
+        <label>Blood Pressure Monitor</label>
+    </customValue>
+    <customValue>
+        <fullName>Body Fat Scale</fullName>
+        <default>false</default>
+        <label>Body Fat Scale</label>
+    </customValue>
+    <customValue>
+        <fullName>Body Weight Scale</fullName>
+        <default>false</default>
+        <label>Body Weight Scale</label>
+    </customValue>
+    <customValue>
+        <fullName>Camping Lantern</fullName>
+        <default>false</default>
+        <label>Camping Lantern</label>
+    </customValue>
+    <customValue>
+        <fullName>Coffee Grinder</fullName>
+        <default>false</default>
+        <label>Coffee Grinder</label>
+    </customValue>
+    <customValue>
+        <fullName>Coffee Maker</fullName>
+        <default>false</default>
+        <label>Coffee Maker</label>
+    </customValue>
+    <customValue>
+        <fullName>Coffee Warmer</fullName>
+        <default>false</default>
+        <label>Coffee Warmer</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Kettle</fullName>
+        <default>false</default>
+        <label>Electric Kettle</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Toothbrush</fullName>
+        <default>false</default>
+        <label>Electric Toothbrush</label>
+    </customValue>
+    <customValue>
+        <fullName>Fitness Tracker</fullName>
+        <default>false</default>
+        <label>Fitness Tracker</label>
+    </customValue>
+    <customValue>
+        <fullName>Food Dehydrator</fullName>
+        <default>false</default>
+        <label>Food Dehydrator</label>
+    </customValue>
+    <customValue>
+        <fullName>Foot Massager</fullName>
+        <default>false</default>
+        <label>Foot Massager</label>
+    </customValue>
+    <customValue>
+        <fullName>Gooseneck Kettle</fullName>
+        <default>false</default>
+        <label>Gooseneck Kettle</label>
+    </customValue>
+    <customValue>
+        <fullName>Humidifier</fullName>
+        <default>false</default>
+        <label>Humidifier</label>
+    </customValue>
+    <customValue>
+        <fullName>Hygrothermograph</fullName>
+        <default>false</default>
+        <label>Hygrothermograph</label>
+    </customValue>
+    <customValue>
+        <fullName>Indoor Grill</fullName>
+        <default>false</default>
+        <label>Indoor Grill</label>
+    </customValue>
+    <customValue>
+        <fullName>Kitchen Scale</fullName>
+        <default>false</default>
+        <label>Kitchen Scale</label>
+    </customValue>
+    <customValue>
+        <fullName>Luggage Scale</fullName>
+        <default>false</default>
+        <label>Luggage Scale</label>
+    </customValue>
+    <customValue>
+        <fullName>Massager</fullName>
+        <default>false</default>
+        <label>Massager</label>
+    </customValue>
+    <customValue>
+        <fullName>Multimeter</fullName>
+        <default>false</default>
+        <label>Multimeter</label>
+    </customValue>
+    <customValue>
+        <fullName>Nutrition Scales</fullName>
+        <default>false</default>
+        <label>Nutrition Scales</label>
+    </customValue>
+    <customValue>
+        <fullName>Outdoor Remote Outlet</fullName>
+        <default>false</default>
+        <label>Outdoor Remote Outlet</label>
+    </customValue>
+    <customValue>
+        <fullName>Pressure Cooker</fullName>
+        <default>false</default>
+        <label>Pressure Cooker</label>
+    </customValue>
+    <customValue>
+        <fullName>Rice Cooker</fullName>
+        <default>false</default>
+        <label>Rice Cooker</label>
+    </customValue>
+    <customValue>
+        <fullName>Smart 3-way Light Switch</fullName>
+        <default>false</default>
+        <label>Smart 3-way Light Switch</label>
+    </customValue>
+    <customValue>
+        <fullName>Smart Plug</fullName>
+        <default>false</default>
+        <label>Smart Plug</label>
+    </customValue>
+    <customValue>
+        <fullName>Smart Bulb</fullName>
+        <default>false</default>
+        <label>Smart Bulb</label>
+    </customValue>
+    <customValue>
+        <fullName>Smart Single Pole Light Switch</fullName>
+        <default>false</default>
+        <label>Smart Single Pole Light Switch</label>
+    </customValue>
+    <customValue>
+        <fullName>Smart Switch</fullName>
+        <default>false</default>
+        <label>Smart Switch</label>
+    </customValue>
+    <customValue>
+        <fullName>Smart Thermostat &amp; Power Extended Kit</fullName>
+        <default>false</default>
+        <label>Smart Thermostat &amp; Power Extended Kit</label>
+    </customValue>
+    <customValue>
+        <fullName>Teapot</fullName>
+        <default>false</default>
+        <label>Teapot</label>
+    </customValue>
+    <customValue>
+        <fullName>TENS Unit</fullName>
+        <default>false</default>
+        <label>TENS Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Thermometer</fullName>
+        <default>false</default>
+        <label>Thermometer</label>
+    </customValue>
+    <customValue>
+        <fullName>Toaster Oven</fullName>
+        <default>false</default>
+        <label>Toaster Oven</label>
+    </customValue>
+    <customValue>
+        <fullName>Tower Fans</fullName>
+        <default>false</default>
+        <label>Tower Fans</label>
+    </customValue>
+    <customValue>
+        <fullName>Vaccum Cleaner</fullName>
+        <default>false</default>
+        <label>Vaccum Cleaner</label>
+    </customValue>
+    <customValue>
+        <fullName>All products</fullName>
+        <default>false</default>
+        <label>All products</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Drill</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Electric Drill</label>
+    </customValue>
+    <masterLabel>Product Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
