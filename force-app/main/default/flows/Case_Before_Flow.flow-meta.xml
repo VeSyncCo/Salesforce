@@ -5,7 +5,7 @@
         <name>Assign_Cosori_as_Brand</name>
         <label>Assign Cosori as Brand</label>
         <locationX>314</locationX>
-        <locationY>1319</locationY>
+        <locationY>1619</locationY>
         <assignmentItems>
             <assignToReference>$Record.Brand__c</assignToReference>
             <operator>Assign</operator>
@@ -21,7 +21,7 @@
         <name>Assign_Customer_to_Case</name>
         <label>Assign Customer to Case</label>
         <locationX>248</locationX>
-        <locationY>2327</locationY>
+        <locationY>2627</locationY>
         <assignmentItems>
             <assignToReference>$Record.ContactId</assignToReference>
             <operator>Assign</operator>
@@ -47,8 +47,8 @@
     <assignments>
         <name>Assign_Escalated_Date</name>
         <label>Assign Escalated Date</label>
-        <locationX>2096</locationX>
-        <locationY>3227</locationY>
+        <locationX>2272</locationX>
+        <locationY>3527</locationY>
         <assignmentItems>
             <assignToReference>$Record.Escalated_Date__c</assignToReference>
             <operator>Assign</operator>
@@ -64,7 +64,7 @@
         <name>Assign_Etaekcity_as_Brand</name>
         <label>Assign Etaekcity as Brand</label>
         <locationX>578</locationX>
-        <locationY>1319</locationY>
+        <locationY>1619</locationY>
         <assignmentItems>
             <assignToReference>$Record.Brand__c</assignToReference>
             <operator>Assign</operator>
@@ -80,7 +80,7 @@
         <name>Assign_Levoit_as_Brand</name>
         <label>Assign Levoit as Brand</label>
         <locationX>50</locationX>
-        <locationY>1319</locationY>
+        <locationY>1619</locationY>
         <assignmentItems>
             <assignToReference>$Record.Brand__c</assignToReference>
             <operator>Assign</operator>
@@ -95,8 +95,8 @@
     <assignments>
         <name>Assign_Metric_Value</name>
         <label>Assign Metric Value</label>
-        <locationX>2635</locationX>
-        <locationY>2111</locationY>
+        <locationX>2899</locationX>
+        <locationY>2411</locationY>
         <assignmentItems>
             <assignToReference>$Record.Full_Resolution_Time_Minutes__c</assignToReference>
             <operator>Assign</operator>
@@ -125,8 +125,8 @@
     <assignments>
         <name>Assign_Order_Customer_to_Case</name>
         <label>Assign Order Customer to Case</label>
-        <locationX>2635</locationX>
-        <locationY>611</locationY>
+        <locationX>2899</locationX>
+        <locationY>911</locationY>
         <assignmentItems>
             <assignToReference>$Record.Requester__c</assignToReference>
             <operator>Assign</operator>
@@ -156,7 +156,7 @@
         <name>Assign_PawSync_as_Brand</name>
         <label>Assign PawSync as Brand</label>
         <locationX>842</locationX>
-        <locationY>1319</locationY>
+        <locationY>1619</locationY>
         <assignmentItems>
             <assignToReference>$Record.Brand__c</assignToReference>
             <operator>Assign</operator>
@@ -172,7 +172,7 @@
         <name>Assign_Region_Country_to_Case</name>
         <label>Assign Region, Country to Case</label>
         <locationX>446</locationX>
-        <locationY>1019</locationY>
+        <locationY>1319</locationY>
         <assignmentItems>
             <assignToReference>$Record.Country__c</assignToReference>
             <operator>Assign</operator>
@@ -187,8 +187,8 @@
     <assignments>
         <name>Assign_Value_Assigned_At</name>
         <label>Assign Value - Assigned At</label>
-        <locationX>2635</locationX>
-        <locationY>1211</locationY>
+        <locationX>2899</locationX>
+        <locationY>1511</locationY>
         <assignmentItems>
             <assignToReference>$Record.Assigned_At__c</assignToReference>
             <operator>Assign</operator>
@@ -203,8 +203,8 @@
     <assignments>
         <name>Assign_value_Case_Opened_At</name>
         <label>Assign value - Case Opened At</label>
-        <locationX>2635</locationX>
-        <locationY>911</locationY>
+        <locationX>2899</locationX>
+        <locationY>1211</locationY>
         <assignmentItems>
             <assignToReference>$Record.Case_Opened_At__c</assignToReference>
             <operator>Assign</operator>
@@ -219,8 +219,8 @@
     <assignments>
         <name>Assign_Value_First_Resolution_Time_Minutes</name>
         <label>Assign Value - &quot;First Resolution Time - Minutes&quot;</label>
-        <locationX>2635</locationX>
-        <locationY>1811</locationY>
+        <locationX>2899</locationX>
+        <locationY>2111</locationY>
         <assignmentItems>
             <assignToReference>$Record.First_Resolution_Time_Minutes__c</assignToReference>
             <operator>Assign</operator>
@@ -236,7 +236,7 @@
         <name>Assign_Value_Initially_Assigned_At</name>
         <label>Assign Value - Initially Assigned At</label>
         <locationX>446</locationX>
-        <locationY>1919</locationY>
+        <locationY>2219</locationY>
         <assignmentItems>
             <assignToReference>$Record.Initially_Assigned_At__c</assignToReference>
             <operator>Assign</operator>
@@ -252,7 +252,7 @@
         <name>Assign_Value_to_Assigned_At</name>
         <label>Assign Value to &quot;Assigned At&quot;</label>
         <locationX>446</locationX>
-        <locationY>1619</locationY>
+        <locationY>1919</locationY>
         <assignmentItems>
             <assignToReference>$Record.Assigned_At__c</assignToReference>
             <operator>Assign</operator>
@@ -267,8 +267,8 @@
     <assignments>
         <name>Assign_Value_to_Initially_Assigned_At</name>
         <label>Assign Value to &quot;Initially Assigned At&quot;</label>
-        <locationX>2635</locationX>
-        <locationY>1511</locationY>
+        <locationX>2899</locationX>
+        <locationY>1811</locationY>
         <assignmentItems>
             <assignToReference>$Record.Initially_Assigned_At__c</assignToReference>
             <operator>Assign</operator>
@@ -281,10 +281,56 @@
         </connector>
     </assignments>
     <assignments>
+        <name>AssignAccount_Fields</name>
+        <label>Assign Account Fields</label>
+        <locationX>446</locationX>
+        <locationY>911</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.AccountId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Requester__r.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.ContactId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Requester__r.PersonContactId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Case_Origin_Check</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>AssignAccount_Fields_1</name>
+        <label>Assign Account Fields</label>
+        <locationX>2899</locationX>
+        <locationY>611</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.AccountId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Requester__r.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.ContactId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Requester__r.PersonContactId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Case_Order_Check</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
         <name>Feedback_Picklists_NULL</name>
         <label>Feedback Picklists - NULL</label>
-        <locationX>2635</locationX>
-        <locationY>2711</locationY>
+        <locationX>2899</locationX>
+        <locationY>3011</locationY>
         <assignmentItems>
             <assignToReference>$Record.Feedback_Type__c</assignToReference>
             <operator>Assign</operator>
@@ -320,8 +366,8 @@
     <assignments>
         <name>Onwer_Laura</name>
         <label>Onwer - Laura</label>
-        <locationX>1722</locationX>
-        <locationY>3851</locationY>
+        <locationX>1810</locationX>
+        <locationY>4151</locationY>
         <assignmentItems>
             <assignToReference>$Record.OwnerId</assignToReference>
             <operator>Assign</operator>
@@ -333,8 +379,8 @@
     <assignments>
         <name>Owner_Elijah</name>
         <label>Owner - Elijah</label>
-        <locationX>2162</locationX>
-        <locationY>3851</locationY>
+        <locationX>2338</locationX>
+        <locationY>4151</locationY>
         <assignmentItems>
             <assignToReference>$Record.OwnerId</assignToReference>
             <operator>Assign</operator>
@@ -347,7 +393,7 @@
         <name>Owner_Pauline</name>
         <label>Owner - Pauline</label>
         <locationX>1282</locationX>
-        <locationY>3851</locationY>
+        <locationY>4151</locationY>
         <assignmentItems>
             <assignToReference>$Record.OwnerId</assignToReference>
             <operator>Assign</operator>
@@ -359,8 +405,8 @@
     <assignments>
         <name>Owner_Todd</name>
         <label>Owner - Todd</label>
-        <locationX>2602</locationX>
-        <locationY>3851</locationY>
+        <locationX>2866</locationX>
+        <locationY>4151</locationY>
         <assignmentItems>
             <assignToReference>$Record.OwnerId</assignToReference>
             <operator>Assign</operator>
@@ -382,14 +428,14 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Case_Origin_Check</targetReference>
+            <targetReference>Sync_Requestor_With_Default_Fields</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>Set_Priority</name>
         <label>Set Priority</label>
-        <locationX>2228</locationX>
-        <locationY>3011</locationY>
+        <locationX>2404</locationX>
+        <locationY>3311</locationY>
         <assignmentItems>
             <assignToReference>$Record.Priority</assignToReference>
             <operator>Assign</operator>
@@ -404,8 +450,8 @@
     <assignments>
         <name>Warranty_Picklists_NULL</name>
         <label>Warranty Picklists - NULL</label>
-        <locationX>2635</locationX>
-        <locationY>2411</locationY>
+        <locationX>2899</locationX>
+        <locationY>2711</locationY>
         <assignmentItems>
             <assignToReference>$Record.Alleged_Issue__c</assignToReference>
             <operator>Assign</operator>
@@ -469,8 +515,8 @@
     <decisions>
         <name>Brand_Based_Assignment</name>
         <label>Brand Based Assignment</label>
-        <locationX>2228</locationX>
-        <locationY>3419</locationY>
+        <locationX>2404</locationX>
+        <locationY>3719</locationY>
         <defaultConnectorLabel>No Brand</defaultConnectorLabel>
         <rules>
             <name>Levoit_Based</name>
@@ -537,7 +583,7 @@
         <name>Brand_Check_for_Case</name>
         <label>Brand Check for Case</label>
         <locationX>578</locationX>
-        <locationY>1211</locationY>
+        <locationY>1511</locationY>
         <defaultConnector>
             <targetReference>Case_Owner_Decision_Creation</targetReference>
         </defaultConnector>
@@ -648,7 +694,7 @@
     <decisions>
         <name>ByPass_check</name>
         <label>ByPass check</label>
-        <locationX>2621</locationX>
+        <locationX>2863</locationX>
         <locationY>287</locationY>
         <defaultConnectorLabel>Bypass Required</defaultConnectorLabel>
         <rules>
@@ -670,8 +716,8 @@
     <decisions>
         <name>Case_Opening_Check</name>
         <label>Case Opening Check</label>
-        <locationX>2767</locationX>
-        <locationY>803</locationY>
+        <locationX>3031</locationX>
+        <locationY>1103</locationY>
         <defaultConnector>
             <targetReference>Case_Owner_Decision_Updation</targetReference>
         </defaultConnector>
@@ -702,8 +748,8 @@
     <decisions>
         <name>Case_Order_Check</name>
         <label>Case Order Check</label>
-        <locationX>2767</locationX>
-        <locationY>503</locationY>
+        <locationX>3031</locationX>
+        <locationY>803</locationY>
         <defaultConnector>
             <targetReference>Case_Opening_Check</targetReference>
         </defaultConnector>
@@ -749,7 +795,7 @@
         <name>Case_Origin_Check</name>
         <label>Case Origin Check</label>
         <locationX>578</locationX>
-        <locationY>803</locationY>
+        <locationY>1103</locationY>
         <defaultConnector>
             <targetReference>Brand_Check_for_Case</targetReference>
         </defaultConnector>
@@ -774,7 +820,7 @@
         <name>Case_Owner_Decision_Creation</name>
         <label>Case Owner Decision - Creation</label>
         <locationX>578</locationX>
-        <locationY>1511</locationY>
+        <locationY>1811</locationY>
         <defaultConnector>
             <targetReference>Prior_Owner_Check</targetReference>
         </defaultConnector>
@@ -798,8 +844,8 @@
     <decisions>
         <name>Case_Owner_Decision_Updation</name>
         <label>Case Owner Decision - Updation</label>
-        <locationX>2767</locationX>
-        <locationY>1103</locationY>
+        <locationX>3031</locationX>
+        <locationY>1403</locationY>
         <defaultConnector>
             <targetReference>Prior_Owner_Check_Updation</targetReference>
         </defaultConnector>
@@ -837,8 +883,8 @@
     <decisions>
         <name>Check_for_First_Resolution_Time_Minutes</name>
         <label>Check for &quot;First Resolution Time - Minutes&quot;</label>
-        <locationX>2767</locationX>
-        <locationY>1703</locationY>
+        <locationX>3031</locationX>
+        <locationY>2003</locationY>
         <defaultConnector>
             <targetReference>Status_Check</targetReference>
         </defaultConnector>
@@ -879,7 +925,7 @@
         <locationX>578</locationX>
         <locationY>503</locationY>
         <defaultConnector>
-            <targetReference>Case_Origin_Check</targetReference>
+            <targetReference>Sync_Requestor_With_Default_Fields</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Contact/Account Absent</defaultConnectorLabel>
         <rules>
@@ -908,10 +954,10 @@
     <decisions>
         <name>Context_Decision</name>
         <label>Context Decision</label>
-        <locationX>1672</locationX>
+        <locationX>1804</locationX>
         <locationY>395</locationY>
         <defaultConnector>
-            <targetReference>Case_Order_Check</targetReference>
+            <targetReference>Requester_Change_Check</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Record is Updated</defaultConnectorLabel>
         <rules>
@@ -933,8 +979,8 @@
     <decisions>
         <name>Empty_Check_Cosori</name>
         <label>Empty Check - Cosori</label>
-        <locationX>1854</locationX>
-        <locationY>3743</locationY>
+        <locationX>1942</locationX>
+        <locationY>4043</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Representative_Found_Cosori</name>
@@ -955,8 +1001,8 @@
     <decisions>
         <name>Empty_Check_Etekcity</name>
         <label>Empty Check - Etekcity</label>
-        <locationX>2294</locationX>
-        <locationY>3743</locationY>
+        <locationX>2470</locationX>
+        <locationY>4043</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Representative_Found_Etekcity</name>
@@ -978,7 +1024,7 @@
         <name>Empty_Check_Levoit</name>
         <label>Empty Check - Levoit</label>
         <locationX>1414</locationX>
-        <locationY>3743</locationY>
+        <locationY>4043</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Representative_Found_Levoit</name>
@@ -999,8 +1045,8 @@
     <decisions>
         <name>Empty_Check_PawSync</name>
         <label>Empty Check - PawSync</label>
-        <locationX>2734</locationX>
-        <locationY>3743</locationY>
+        <locationX>2998</locationX>
+        <locationY>4043</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Representative_Found_PawSync</name>
@@ -1021,8 +1067,8 @@
     <decisions>
         <name>Escalation_Check</name>
         <label>Escalation Check</label>
-        <locationX>2767</locationX>
-        <locationY>2903</locationY>
+        <locationX>3031</locationX>
+        <locationY>3203</locationY>
         <defaultConnectorLabel>Main Category - Other Value</defaultConnectorLabel>
         <rules>
             <name>Main_Category_High_Priority_Issue</name>
@@ -1057,8 +1103,8 @@
     <decisions>
         <name>Feedback_Checkbox_Value</name>
         <label>Feedback Checkbox Value</label>
-        <locationX>2767</locationX>
-        <locationY>2603</locationY>
+        <locationX>3031</locationX>
+        <locationY>2903</locationY>
         <defaultConnector>
             <targetReference>Escalation_Check</targetReference>
         </defaultConnector>
@@ -1082,8 +1128,8 @@
     <decisions>
         <name>Main_Category_Change_Check</name>
         <label>Main Category Change Check</label>
-        <locationX>2228</locationX>
-        <locationY>3119</locationY>
+        <locationX>2404</locationX>
+        <locationY>3419</locationY>
         <defaultConnector>
             <targetReference>Brand_Based_Assignment</targetReference>
         </defaultConnector>
@@ -1108,7 +1154,7 @@
         <name>Order_Check</name>
         <label>Order Check</label>
         <locationX>578</locationX>
-        <locationY>2111</locationY>
+        <locationY>2411</locationY>
         <defaultConnectorLabel>Order Not Present</defaultConnectorLabel>
         <rules>
             <name>Order_Present</name>
@@ -1144,7 +1190,7 @@
         <name>Order_Customer_Check</name>
         <label>Order Customer Check</label>
         <locationX>380</locationX>
-        <locationY>2219</locationY>
+        <locationY>2519</locationY>
         <defaultConnectorLabel>Customer Record not Present</defaultConnectorLabel>
         <rules>
             <name>Customer_Record_Present</name>
@@ -1166,7 +1212,7 @@
         <name>Prior_Owner_Check</name>
         <label>Prior Owner Check</label>
         <locationX>578</locationX>
-        <locationY>1811</locationY>
+        <locationY>2111</locationY>
         <defaultConnector>
             <targetReference>Order_Check</targetReference>
         </defaultConnector>
@@ -1190,8 +1236,8 @@
     <decisions>
         <name>Prior_Owner_Check_Updation</name>
         <label>Prior Owner Check - Updation</label>
-        <locationX>2767</locationX>
-        <locationY>1403</locationY>
+        <locationX>3031</locationX>
+        <locationY>1703</locationY>
         <defaultConnector>
             <targetReference>Check_for_First_Resolution_Time_Minutes</targetReference>
         </defaultConnector>
@@ -1222,8 +1268,8 @@
     <decisions>
         <name>Record_Type_Check</name>
         <label>Record Type Check</label>
-        <locationX>2767</locationX>
-        <locationY>2303</locationY>
+        <locationX>3031</locationX>
+        <locationY>2603</locationY>
         <defaultConnector>
             <targetReference>Feedback_Checkbox_Value</targetReference>
         </defaultConnector>
@@ -1245,10 +1291,35 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Requester_Change_Check</name>
+        <label>Requester Change Check</label>
+        <locationX>3031</locationX>
+        <locationY>503</locationY>
+        <defaultConnector>
+            <targetReference>Case_Order_Check</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>IsChanged</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Requester__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AssignAccount_Fields_1</targetReference>
+            </connector>
+            <label>IsChanged</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Status_Check</name>
         <label>Status Check</label>
-        <locationX>2767</locationX>
-        <locationY>2003</locationY>
+        <locationX>3031</locationX>
+        <locationY>2303</locationY>
         <defaultConnector>
             <targetReference>Record_Type_Check</targetReference>
         </defaultConnector>
@@ -1274,6 +1345,38 @@
                 <targetReference>Assign_Metric_Value</targetReference>
             </connector>
             <label>Case Status - Closed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Sync_Requestor_With_Default_Fields</name>
+        <label>Sync Requestor With Default Fields</label>
+        <locationX>578</locationX>
+        <locationY>803</locationY>
+        <defaultConnector>
+            <targetReference>Case_Origin_Check</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Contact_and_Account_Fields_are_Blank</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AccountId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ContactId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AssignAccount_Fields</targetReference>
+            </connector>
+            <label>Contact and Account Fields are Blank</label>
         </rules>
     </decisions>
     <environments>Default</environments>
@@ -1333,8 +1436,8 @@
     <recordLookups>
         <name>Cosori_Escalation</name>
         <label>Cosori Escalation</label>
-        <locationX>1854</locationX>
-        <locationY>3527</locationY>
+        <locationX>1942</locationX>
+        <locationY>3827</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Escalation_Representative_Cosori</targetReference>
@@ -1355,7 +1458,7 @@
         <name>Custom_Metadata_Fetch</name>
         <label>Custom Metadata Fetch</label>
         <locationX>446</locationX>
-        <locationY>911</locationY>
+        <locationY>1211</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Assign_Region_Country_to_Case</targetReference>
@@ -1375,8 +1478,8 @@
     <recordLookups>
         <name>Etekcity_Escalation</name>
         <label>Etekcity Escalation</label>
-        <locationX>2294</locationX>
-        <locationY>3527</locationY>
+        <locationX>2470</locationX>
+        <locationY>3827</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Escalation_Representative_Etekcity</targetReference>
@@ -1396,8 +1499,8 @@
     <recordLookups>
         <name>Get_Escalation_Representative_Cosori</name>
         <label>Get Escalation Representative - Cosori</label>
-        <locationX>1854</locationX>
-        <locationY>3635</locationY>
+        <locationX>1942</locationX>
+        <locationY>3935</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Empty_Check_Cosori</targetReference>
@@ -1417,8 +1520,8 @@
     <recordLookups>
         <name>Get_Escalation_Representative_Etekcity</name>
         <label>Get Escalation Representative - Etekcity</label>
-        <locationX>2294</locationX>
-        <locationY>3635</locationY>
+        <locationX>2470</locationX>
+        <locationY>3935</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Empty_Check_Etekcity</targetReference>
@@ -1439,7 +1542,7 @@
         <name>Get_Escalation_Representative_Levoit</name>
         <label>Get Escalation Representative - Levoit</label>
         <locationX>1414</locationX>
-        <locationY>3635</locationY>
+        <locationY>3935</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Empty_Check_Levoit</targetReference>
@@ -1459,8 +1562,8 @@
     <recordLookups>
         <name>Get_Escalation_Representative_PawSync</name>
         <label>Get Escalation Representative - PawSync</label>
-        <locationX>2734</locationX>
-        <locationY>3635</locationY>
+        <locationX>2998</locationX>
+        <locationY>3935</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Empty_Check_PawSync</targetReference>
@@ -1481,7 +1584,7 @@
         <name>Levoit_Escalation</name>
         <label>Levoit Escalation</label>
         <locationX>1414</locationX>
-        <locationY>3527</locationY>
+        <locationY>3827</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Escalation_Representative_Levoit</targetReference>
@@ -1501,8 +1604,8 @@
     <recordLookups>
         <name>PawSync_Escalation</name>
         <label>PawSync Escalation</label>
-        <locationX>2734</locationX>
-        <locationY>3527</locationY>
+        <locationX>2998</locationX>
+        <locationY>3827</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Escalation_Representative_PawSync</targetReference>
@@ -1520,7 +1623,7 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <start>
-        <locationX>2495</locationX>
+        <locationX>2737</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>ByPass_check</targetReference>
