@@ -4,7 +4,7 @@
         <name>Email_on_Case_Creation_Default</name>
         <label>Email on Case Creation - Default</label>
         <locationX>1810</locationX>
-        <locationY>1763</locationY>
+        <locationY>1871</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -49,7 +49,7 @@
         <name>Email_on_Case_Creation_English</name>
         <label>Email on Case Creation - English</label>
         <locationX>1370</locationX>
-        <locationY>1763</locationY>
+        <locationY>1871</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -94,7 +94,7 @@
         <name>Email_on_Case_Creation_French</name>
         <label>Email on Case Creation - French</label>
         <locationX>842</locationX>
-        <locationY>1763</locationY>
+        <locationY>1871</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -139,7 +139,7 @@
         <name>Email_on_Case_Creation_German</name>
         <label>Email on Case Creation - German</label>
         <locationX>314</locationX>
-        <locationY>1763</locationY>
+        <locationY>1871</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -184,7 +184,7 @@
         <name>Email_on_Case_Creation_Italian</name>
         <label>Email on Case Creation - Italian</label>
         <locationX>1106</locationX>
-        <locationY>1763</locationY>
+        <locationY>1871</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -229,7 +229,7 @@
         <name>Email_on_Case_Creation_Spanish</name>
         <label>Email on Case Creation - Spanish</label>
         <locationX>578</locationX>
-        <locationY>1763</locationY>
+        <locationY>1871</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -274,7 +274,7 @@
         <name>Manual_Case_Creation_Email</name>
         <label>Manual Case Creation Email</label>
         <locationX>50</locationX>
-        <locationY>1655</locationY>
+        <locationY>1763</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -368,8 +368,8 @@
     <assignments>
         <name>Org_Wide_Email_Cosori</name>
         <label>Org Wide Email - Cosori</label>
-        <locationX>798</locationX>
-        <locationY>1247</locationY>
+        <locationX>930</locationX>
+        <locationY>1355</locationY>
         <assignmentItems>
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
@@ -384,8 +384,8 @@
     <assignments>
         <name>Org_Wide_Email_Etekcity</name>
         <label>Org Wide Email - Etekcity</label>
-        <locationX>1062</locationX>
-        <locationY>1247</locationY>
+        <locationX>1458</locationX>
+        <locationY>1355</locationY>
         <assignmentItems>
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
@@ -400,8 +400,8 @@
     <assignments>
         <name>Org_Wide_Email_Levoit</name>
         <label>Org Wide Email - Levoit</label>
-        <locationX>534</locationX>
-        <locationY>1247</locationY>
+        <locationX>666</locationX>
+        <locationY>1355</locationY>
         <assignmentItems>
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
@@ -416,8 +416,8 @@
     <assignments>
         <name>Org_Wide_Email_PawSync</name>
         <label>Org Wide Email - PawSync</label>
-        <locationX>1326</locationX>
-        <locationY>1247</locationY>
+        <locationX>1194</locationX>
+        <locationY>1355</locationY>
         <assignmentItems>
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
@@ -433,11 +433,11 @@
         <name>Brand_Check</name>
         <label>Brand Check</label>
         <locationX>1062</locationX>
-        <locationY>1139</locationY>
+        <locationY>1247</locationY>
         <defaultConnector>
-            <targetReference>Origin_Check</targetReference>
+            <targetReference>Org_Wide_Email_Etekcity</targetReference>
         </defaultConnector>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <defaultConnectorLabel>Default/Etekcity</defaultConnectorLabel>
         <rules>
             <name>Brand_Levoit</name>
             <conditionLogic>and</conditionLogic>
@@ -467,21 +467,6 @@
                 <targetReference>Org_Wide_Email_Cosori</targetReference>
             </connector>
             <label>Brand - Cosori</label>
-        </rules>
-        <rules>
-            <name>Brand_Etekcity</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Brand__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Etekcity</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Org_Wide_Email_Etekcity</targetReference>
-            </connector>
-            <label>Brand - Etekcity</label>
         </rules>
         <rules>
             <name>Brand_PawSync</name>
@@ -582,7 +567,7 @@
         <name>Check_Origin</name>
         <label>Check Origin</label>
         <locationX>1062</locationX>
-        <locationY>2039</locationY>
+        <locationY>2147</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Email_or_Web</name>
@@ -611,7 +596,7 @@
         <name>Country_Check</name>
         <label>Country Check</label>
         <locationX>1062</locationX>
-        <locationY>1655</locationY>
+        <locationY>1763</locationY>
         <defaultConnector>
             <targetReference>Email_on_Case_Creation_Default</targetReference>
         </defaultConnector>
@@ -775,7 +760,7 @@
         <name>Origin_Check</name>
         <label>Origin Check</label>
         <locationX>1062</locationX>
-        <locationY>1439</locationY>
+        <locationY>1547</locationY>
         <defaultConnector>
             <targetReference>Check_Origin</targetReference>
         </defaultConnector>
@@ -959,7 +944,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Create_a_Customer_Account</targetReference>
+                <targetReference>Person_Acc_Rec_Type</targetReference>
             </connector>
             <label>Key Fields Present</label>
         </rules>
@@ -1010,7 +995,7 @@
         <name>Create_a_Customer_Account</name>
         <label>Create a Customer Account</label>
         <locationX>974</locationX>
-        <locationY>755</locationY>
+        <locationY>863</locationY>
         <connector>
             <targetReference>Update_Requester_Field</targetReference>
         </connector>
@@ -1029,7 +1014,7 @@
         <inputAssignments>
             <field>RecordTypeId</field>
             <value>
-                <elementReference>$Label.Person_Account_Record_Type_ID</elementReference>
+                <elementReference>Person_Acc_Rec_Type.Id</elementReference>
             </value>
         </inputAssignments>
         <object>Account</object>
@@ -1049,7 +1034,7 @@
         <name>Get_OrgWideEmail_Automation</name>
         <label>Get OrgWideEmail - Automation</label>
         <locationX>1062</locationX>
-        <locationY>1547</locationY>
+        <locationY>1655</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Country_Check</targetReference>
@@ -1070,7 +1055,7 @@
         <name>Get_OrgWideEmail_Manual</name>
         <label>Get OrgWideEmail - Manual</label>
         <locationX>50</locationX>
-        <locationY>1547</locationY>
+        <locationY>1655</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Manual_Case_Creation_Email</targetReference>
@@ -1108,6 +1093,34 @@
         <object>PendingServiceRouting</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
+    <recordLookups>
+        <name>Person_Acc_Rec_Type</name>
+        <label>Person Acc Rec Type</label>
+        <locationX>974</locationX>
+        <locationY>755</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Create_a_Customer_Account</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>SobjectType</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Account</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Person Account</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>RecordType</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <recordUpdates>
         <name>Assign_Requester</name>
         <label>Assign Requester</label>
@@ -1128,7 +1141,7 @@
         <name>Update_Requester_Field</name>
         <label>Update &quot;Requester&quot; Field</label>
         <locationX>974</locationX>
-        <locationY>863</locationY>
+        <locationY>971</locationY>
         <connector>
             <targetReference>Brand_Check</targetReference>
         </connector>
@@ -1176,7 +1189,7 @@
         <name>Route_Case</name>
         <label>Route Case</label>
         <locationX>930</locationX>
-        <locationY>2147</locationY>
+        <locationY>2255</locationY>
         <flowName>Case_Omnichannel_Routing</flowName>
         <inputAssignments>
             <name>Context</name>
