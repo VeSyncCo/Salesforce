@@ -10,13 +10,13 @@
     <columns>CASES.CREATED_DATE</columns>
     <columns>CORE.USERS.ALIAS</columns>
     <columns>CASES.RECORDTYPE</columns>
-
     <filterScope>Mine</filterScope>
     <filters>
         <field>CASES.CLOSED</field>
         <operation>equals</operation>
         <value>0</value>
     </filters>
+
 
     <filters>
         <field>CASES.STATUS</field>
