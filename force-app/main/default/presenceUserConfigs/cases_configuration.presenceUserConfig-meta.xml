@@ -3,11 +3,9 @@
     <assignments>
         <profiles>
             <profile>Admin</profile>
-            <profile>Standard</profile>
+            <profile>Salesforce Internal User</profile>
         </profiles>
-        <users>
-            <user>robert.chung@vesync.com</user>
-        </users>
+
     </assignments>
     <capacity>20</capacity>
     <declineReasons>Busy</declineReasons>
