@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>MyOpenCases</fullName>
+<<<<<<< Updated upstream
+=======
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.RECORDTYPE</columns>
+>>>>>>> Stashed changes
     <filterScope>Mine</filterScope>
     <filters>
         <field>CASES.CLOSED</field>
         <operation>equals</operation>
         <value>0</value>
     </filters>
+<<<<<<< Updated upstream
+=======
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+>>>>>>> Stashed changes
     <label>My Open Cases</label>
 </ListView>
