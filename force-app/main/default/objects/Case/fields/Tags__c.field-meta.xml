@@ -6,7 +6,7 @@
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>Picklist</type>
+    <type>MultiselectPicklist</type>
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>
@@ -23,8 +23,7 @@
             </value>
         </valueSetDefinition>
     </valueSet>
-<<<<<<< Updated upstream
-=======
+
     <visibleLines>4</visibleLines>
->>>>>>> Stashed changes
+
 </CustomField>
