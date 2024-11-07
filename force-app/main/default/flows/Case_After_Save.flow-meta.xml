@@ -487,7 +487,7 @@
     <decisions>
         <name>Bypass_Check</name>
         <label>Bypass Check</label>
-        <locationX>2365</locationX>
+        <locationX>2332</locationX>
         <locationY>323</locationY>
         <defaultConnectorLabel>Bypass Required</defaultConnectorLabel>
         <rules>
@@ -511,6 +511,9 @@
         <label>Case Close Check</label>
         <locationX>2536</locationX>
         <locationY>1139</locationY>
+        <defaultConnector>
+            <targetReference>Product_Changed_Decision</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Case_is_Closed</name>
@@ -843,6 +846,28 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Product_Changed_Decision</name>
+        <label>Product Change Decision</label>
+        <locationX>2536</locationX>
+        <locationY>1547</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Product_Changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ProductId</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Route_Case_1</targetReference>
+            </connector>
+            <label>Product Changed</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Requester_Check</name>
         <label>Requester Check</label>
         <locationX>1062</locationX>
@@ -1158,6 +1183,9 @@
         <label>Update Survey Invitation Time</label>
         <locationX>2404</locationX>
         <locationY>1355</locationY>
+        <connector>
+            <targetReference>Product_Changed_Decision</targetReference>
+        </connector>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -1175,7 +1203,7 @@
         <object>Account</object>
     </recordUpdates>
     <start>
-        <locationX>2239</locationX>
+        <locationX>2206</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Bypass_Check</targetReference>
@@ -1190,6 +1218,25 @@
         <label>Route Case</label>
         <locationX>930</locationX>
         <locationY>2255</locationY>
+        <flowName>Case_Omnichannel_Routing</flowName>
+        <inputAssignments>
+            <name>Context</name>
+            <value>
+                <elementReference>Creation</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <name>Route_Case_1</name>
+        <label>Route Case</label>
+        <locationX>2404</locationX>
+        <locationY>1655</locationY>
         <flowName>Case_Omnichannel_Routing</flowName>
         <inputAssignments>
             <name>Context</name>
