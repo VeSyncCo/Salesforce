@@ -5,42 +5,42 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Email Template ID - English</shortDescription>
-        <value>00XD2000000HZKeMAO</value>
+        <value>00XD2000000cijc</value>
     </labels>
     <labels>
         <fullName>Email_Template_ID_French</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Email Template ID - French</shortDescription>
-        <value>00XD2000000ciPRMAY</value>
+        <value>00XD2000000cijd</value>
     </labels>
     <labels>
         <fullName>Email_Template_ID_German</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Email Template ID - German</shortDescription>
-        <value>00XD2000000ciPHMAY</value>
+        <value>00XD2000000cije</value>
     </labels>
     <labels>
         <fullName>Email_Template_ID_Italian</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Email Template ID - Italian</shortDescription>
-        <value>00XD2000000ciPWMAY</value>
+        <value>00XD2000000cijf</value>
     </labels>
     <labels>
         <fullName>Email_Template_ID_Manual</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Email Template ID - Manual</shortDescription>
-        <value>00XD2000000ciQKMAY</value>
+        <value>00XD2000000cijb</value>
     </labels>
     <labels>
         <fullName>Email_Template_ID_Spanish</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Email Template ID - Spanish</shortDescription>
-        <value>00XD2000000ciPMMAY</value>
+        <value>00XD2000000cijg</value>
     </labels>
     <labels>
         <fullName>Label_Survey_Name</fullName>
