@@ -16,7 +16,7 @@ public without sharing class CentralDispatcher {
             Boolean bypassAllAutomations =  Boolean.valueOf(mapCustomSettings.get('Bypass_All_Automations__c'));
             String bypassTrigger = String.valueOf(mapCustomSettings.get('Bypass_Trigger__c'));	
             
-            triggerEnabled = (bypassAllAutomations == true || bypassTrigger.contains(triggerName)) ? false : true;
+            triggerEnabled = (bypassAllAutomations == true || (bypassTrigger != null && bypassTrigger.contains(triggerName))) ? false : true;
         }
         
         if(triggerEnabled){
