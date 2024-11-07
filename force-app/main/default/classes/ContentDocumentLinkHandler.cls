@@ -13,7 +13,7 @@ public class ContentDocumentLinkHandler extends TriggerHandlerBase {
             }
             
             if(inputParam.isInsert && inputParam.isAfter){
-                
+                publishPlatformEvent((Map<Id,ContentDocumentLink>)inputParam.newMap);
             }
             
             if(inputParam.isUpdate && inputParam.isAfter){
@@ -27,7 +27,7 @@ public class ContentDocumentLinkHandler extends TriggerHandlerBase {
     }
     
     
-    public Static void publishPlatformEvent(Map<Id,ContentDocumentLink> newMap){
+    public void publishPlatformEvent(Map<Id,ContentDocumentLink> newMap){
         List<Case_Attachment_Event__e> eventList = new List<Case_Attachment_Event__e>();
         List<ContentVersion > versionDataList = new List<ContentVersion>();
         Set<Id> caseDocumentIdSet = new Set<Id>();
@@ -63,7 +63,7 @@ public class ContentDocumentLinkHandler extends TriggerHandlerBase {
         Insert distributionLinkList;
         
         if(eventList.size() > 0){
-            system.debug(eventList);
+            
             EventBus.publish(eventList);
         }
     }
