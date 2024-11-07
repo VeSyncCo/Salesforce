@@ -49,6 +49,20 @@
         <shortDescription>Label - Survey Name</shortDescription>
         <value>demo_survey_raghav</value>
     </labels>
+	    <labels>
+        <fullName>Follow_Up_Email_Address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Follow Up Email Address</shortDescription>
+        <value>nikhil.elias@caeliusconsulting.com</value>
+    </labels>
+	<labels>
+        <fullName>Exclude_From_Reminders</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Exclude From Reminders</shortDescription>
+        <value>n</value>
+    </labels>
     <labels>
         <fullName>Notify_Requester_Email_Template</fullName>
         <language>en_US</language>

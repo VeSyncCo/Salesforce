@@ -13,6 +13,7 @@ Customer Name : {!Case.Requester__c}
 Case Number : {!Case.CaseNumber}
 Case Age : Escalated Since {!Case.Escalated_Date__c}
 Priority Level : {!Case.Priority}
+Case Link : {!CaseLink}
 
 Your timely attention to this case is essential to meet our service commitments. Thank you for your dedication and prompt action.
 
