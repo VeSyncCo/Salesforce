@@ -1199,6 +1199,11 @@
         <field>Case.Cut_Cord__c</field>
         <readable>true</readable>
     </fieldPermissions>
+	    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.High_Priority_Identified__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.DSRR_Request_Details__c</field>
