@@ -161,7 +161,11 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Dialpad Call Logs</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Dialpad__AgentName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Dialpad__CallFrom__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Dialpad__CallTo__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
