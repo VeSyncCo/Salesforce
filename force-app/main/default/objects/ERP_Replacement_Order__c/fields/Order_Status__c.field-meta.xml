@@ -14,7 +14,7 @@
             <sorted>false</sorted>
             <value>
                 <fullName>NEW</fullName>
-                <default>true</default>
+                <default>false</default>
                 <label>NEW</label>
             </value>
             <value>
@@ -36,6 +36,11 @@
                 <fullName>CANCELLED</fullName>
                 <default>false</default>
                 <label>CANCELLED</label>
+            </value>
+            <value>
+                <fullName>DRAFT</fullName>
+                <default>true</default>
+                <label>DRAFT</label>
             </value>
         </valueSetDefinition>
     </valueSet>

@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>ERP_Replacement_Order__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
     <label>ERP Replacement Order</label>
     <referenceTo>ERP_Replacement_Order__c</referenceTo>
     <relationshipLabel>Cases</relationshipLabel>

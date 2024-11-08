@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>MyOpenCases</fullName>
-
     <columns>CASES.CASE_NUMBER</columns>
     <columns>NAME</columns>
     <columns>CASES.SUBJECT</columns>
@@ -16,13 +15,5 @@
         <operation>equals</operation>
         <value>0</value>
     </filters>
-
-
-    <filters>
-        <field>CASES.STATUS</field>
-        <operation>equals</operation>
-        <value>Open</value>
-    </filters>
-
     <label>My Open Cases</label>
 </ListView>

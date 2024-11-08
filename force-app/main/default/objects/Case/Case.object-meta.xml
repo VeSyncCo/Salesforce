@@ -223,6 +223,8 @@
         <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>External_System_ID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Zendesk_Email__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Requester_Email__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
