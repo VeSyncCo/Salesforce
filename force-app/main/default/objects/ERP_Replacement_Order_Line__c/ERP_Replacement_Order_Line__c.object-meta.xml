@@ -166,6 +166,12 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>ERP Replacement Order Lines</pluralLabel>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>Product__c</fields>
+        <fields>Quantity__c</fields>
+        <profileName>System Administrator</profileName>
+    </profileSearchLayouts>
     <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

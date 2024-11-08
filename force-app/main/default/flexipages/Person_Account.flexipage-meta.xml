@@ -157,6 +157,16 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Zendesk_Email__pc</fieldItem>
+                <identifier>RecordZendesk_Email_pcField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Accept_Marketing__pc</fieldItem>
                 <identifier>RecordAccept_Marketing_pcField</identifier>
             </fieldInstance>
