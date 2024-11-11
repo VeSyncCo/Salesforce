@@ -12,9 +12,9 @@
         <label>Urgent</label>
     </standardValue>
     <standardValue>
-        <fullName>Standard</fullName>
+        <fullName>Medium</fullName>
         <default>false</default>
-        <label>Standard</label>
+        <label>Medium</label>
     </standardValue>
     <standardValue>
         <fullName>Low</fullName>

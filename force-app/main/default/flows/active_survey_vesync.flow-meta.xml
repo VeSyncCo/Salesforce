@@ -217,7 +217,7 @@
             <choiceReferences>c_1bcff62f_2b89_4f57_a55c_c47580c3f9d4</choiceReferences>
             <dataType>Number</dataType>
             <extensionName>survey:runtimeRating</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong&gt;Overall, how satisfied are you with the service that your representative provided?&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;Overall, the agent I worked with was friendly.&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentChoice</fieldType>
             <isRequired>false</isRequired>
             <scale>0</scale>
@@ -320,7 +320,7 @@
             <name>q_9dce0967_5dd7_416d_8736_47ee3bcfbbe5</name>
             <dataType>Number</dataType>
             <extensionName>survey:runtimeNps</extensionName>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;Based on your recent service interaction with our support team, how likely are you to recommend us to a friend or colleague?&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;Based on your recent service interaction with our support team, how likely are you to recommend us to a friend or colleague?&lt;/strong&gt;&lt;/p&gt;</fieldText>
             <fieldType>ComponentInput</fieldType>
             <isRequired>false</isRequired>
             <scale>0</scale>
