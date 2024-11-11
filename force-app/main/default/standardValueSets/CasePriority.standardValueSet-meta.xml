@@ -21,4 +21,9 @@
         <default>true</default>
         <label>Low</label>
     </standardValue>
+	<standardValue>
+        <fullName>Standard</fullName>
+        <default>false</default>
+        <label>Standard</label>
+    </standardValue>
 </StandardValueSet>
