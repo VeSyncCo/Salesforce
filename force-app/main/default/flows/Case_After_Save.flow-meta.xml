@@ -4,7 +4,7 @@
         <name>Email_on_Case_Creation_Default</name>
         <label>Email on Case Creation - Default</label>
         <locationX>1810</locationX>
-        <locationY>1871</locationY>
+        <locationY>2171</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -49,7 +49,7 @@
         <name>Email_on_Case_Creation_English</name>
         <label>Email on Case Creation - English</label>
         <locationX>1370</locationX>
-        <locationY>1871</locationY>
+        <locationY>2171</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -94,7 +94,7 @@
         <name>Email_on_Case_Creation_French</name>
         <label>Email on Case Creation - French</label>
         <locationX>842</locationX>
-        <locationY>1871</locationY>
+        <locationY>2171</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -139,7 +139,7 @@
         <name>Email_on_Case_Creation_German</name>
         <label>Email on Case Creation - German</label>
         <locationX>314</locationX>
-        <locationY>1871</locationY>
+        <locationY>2171</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -184,7 +184,7 @@
         <name>Email_on_Case_Creation_Italian</name>
         <label>Email on Case Creation - Italian</label>
         <locationX>1106</locationX>
-        <locationY>1871</locationY>
+        <locationY>2171</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -229,7 +229,7 @@
         <name>Email_on_Case_Creation_Spanish</name>
         <label>Email on Case Creation - Spanish</label>
         <locationX>578</locationX>
-        <locationY>1871</locationY>
+        <locationY>2171</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -274,7 +274,7 @@
         <name>Manual_Case_Creation_Email</name>
         <label>Manual Case Creation Email</label>
         <locationX>50</locationX>
-        <locationY>1763</locationY>
+        <locationY>2063</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -316,7 +316,7 @@
         <name>Send_Survey_on_Case_Closure</name>
         <label>Send Survey on Case Closure</label>
         <locationX>2404</locationX>
-        <locationY>1547</locationY>
+        <locationY>1247</locationY>
         <actionName>sendSurveyInvitation</actionName>
         <actionType>sendSurveyInvitation</actionType>
         <connector>
@@ -369,7 +369,7 @@
         <name>Org_Wide_Email_Cosori</name>
         <label>Org Wide Email - Cosori</label>
         <locationX>930</locationX>
-        <locationY>1355</locationY>
+        <locationY>1655</locationY>
         <assignmentItems>
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
@@ -385,7 +385,7 @@
         <name>Org_Wide_Email_Etekcity</name>
         <label>Org Wide Email - Etekcity</label>
         <locationX>1458</locationX>
-        <locationY>1355</locationY>
+        <locationY>1655</locationY>
         <assignmentItems>
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
@@ -401,7 +401,7 @@
         <name>Org_Wide_Email_Levoit</name>
         <label>Org Wide Email - Levoit</label>
         <locationX>666</locationX>
-        <locationY>1355</locationY>
+        <locationY>1655</locationY>
         <assignmentItems>
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
@@ -417,7 +417,7 @@
         <name>Org_Wide_Email_PawSync</name>
         <label>Org Wide Email - PawSync</label>
         <locationX>1194</locationX>
-        <locationY>1355</locationY>
+        <locationY>1655</locationY>
         <assignmentItems>
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
@@ -433,7 +433,7 @@
         <name>Brand_Check</name>
         <label>Brand Check</label>
         <locationX>1062</locationX>
-        <locationY>1247</locationY>
+        <locationY>1547</locationY>
         <defaultConnector>
             <targetReference>Org_Wide_Email_Etekcity</targetReference>
         </defaultConnector>
@@ -510,7 +510,7 @@
         <name>Case_Close_Check</name>
         <label>Case Close Check</label>
         <locationX>2536</locationX>
-        <locationY>1439</locationY>
+        <locationY>1139</locationY>
         <defaultConnector>
             <targetReference>Product_Changed_Decision</targetReference>
         </defaultConnector>
@@ -567,35 +567,10 @@
         </rules>
     </decisions>
     <decisions>
-        <name>Check_for_Dialpad</name>
-        <label>Check for Dialpad</label>
-        <locationX>2536</locationX>
-        <locationY>539</locationY>
-        <defaultConnector>
-            <targetReference>Owner_Changed</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Null</defaultConnectorLabel>
-        <rules>
-            <name>Dialpad_Record_ID</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Dialpad_record_ID__c</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Update_Dialpad_Records</targetReference>
-            </connector>
-            <label>Dialpad Record ID</label>
-        </rules>
-    </decisions>
-    <decisions>
         <name>Check_Origin</name>
         <label>Check Origin</label>
         <locationX>1062</locationX>
-        <locationY>2147</locationY>
+        <locationY>2447</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Email_or_Web</name>
@@ -624,7 +599,7 @@
         <name>Country_Check</name>
         <label>Country Check</label>
         <locationX>1062</locationX>
-        <locationY>1763</locationY>
+        <locationY>2063</locationY>
         <defaultConnector>
             <targetReference>Email_on_Case_Creation_Default</targetReference>
         </defaultConnector>
@@ -740,7 +715,7 @@
         <locationX>1799</locationX>
         <locationY>431</locationY>
         <defaultConnector>
-            <targetReference>Check_for_Dialpad</targetReference>
+            <targetReference>Owner_Changed</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Record is Updated</defaultConnectorLabel>
         <rules>
@@ -760,10 +735,35 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Dialpad_Log</name>
+        <label>Dialpad Log Check</label>
+        <locationX>1062</locationX>
+        <locationY>1247</locationY>
+        <defaultConnector>
+            <targetReference>Brand_Check</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Dialpad Log Not Present</defaultConnectorLabel>
+        <rules>
+            <name>Dialpad_Log_Present</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Dialpad_record_ID__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Dialpad_Records</targetReference>
+            </connector>
+            <label>Dialpad Log Present?</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Null_Check_PSR</name>
         <label>Null Check - PSR</label>
         <locationX>2382</locationX>
-        <locationY>1055</locationY>
+        <locationY>755</locationY>
         <defaultConnector>
             <targetReference>Case_Close_Check</targetReference>
         </defaultConnector>
@@ -788,7 +788,7 @@
         <name>Origin_Check</name>
         <label>Origin Check</label>
         <locationX>1062</locationX>
-        <locationY>1547</locationY>
+        <locationY>1847</locationY>
         <defaultConnector>
             <targetReference>Check_Origin</targetReference>
         </defaultConnector>
@@ -849,7 +849,7 @@
         <name>Owner_Changed</name>
         <label>Owner Changed</label>
         <locationX>2536</locationX>
-        <locationY>839</locationY>
+        <locationY>539</locationY>
         <defaultConnector>
             <targetReference>Case_Close_Check</targetReference>
         </defaultConnector>
@@ -874,7 +874,7 @@
         <name>Product_Changed_Decision</name>
         <label>Product Change Decision</label>
         <locationX>2536</locationX>
-        <locationY>1847</locationY>
+        <locationY>1547</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Product_Changed</name>
@@ -898,7 +898,7 @@
         <locationX>1062</locationX>
         <locationY>539</locationY>
         <defaultConnector>
-            <targetReference>Brand_Check</targetReference>
+            <targetReference>Dialpad_Log</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Only Requester Present</defaultConnectorLabel>
         <rules>
@@ -980,7 +980,7 @@
         <locationX>1106</locationX>
         <locationY>647</locationY>
         <defaultConnector>
-            <targetReference>Brand_Check</targetReference>
+            <targetReference>Dialpad_Log</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Key Fields Missing</defaultConnectorLabel>
         <rules>
@@ -1074,7 +1074,7 @@
         <name>Delete_PSR</name>
         <label>Delete PSR</label>
         <locationX>2250</locationX>
-        <locationY>1163</locationY>
+        <locationY>863</locationY>
         <connector>
             <targetReference>Case_Close_Check</targetReference>
         </connector>
@@ -1084,7 +1084,7 @@
         <name>Get_OrgWideEmail_Automation</name>
         <label>Get OrgWideEmail - Automation</label>
         <locationX>1062</locationX>
-        <locationY>1655</locationY>
+        <locationY>1955</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Country_Check</targetReference>
@@ -1105,7 +1105,7 @@
         <name>Get_OrgWideEmail_Manual</name>
         <label>Get OrgWideEmail - Manual</label>
         <locationX>50</locationX>
-        <locationY>1655</locationY>
+        <locationY>1955</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Manual_Case_Creation_Email</targetReference>
@@ -1126,7 +1126,7 @@
         <name>Get_PSR_Record</name>
         <label>Get PSR Record</label>
         <locationX>2382</locationX>
-        <locationY>947</locationY>
+        <locationY>647</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Null_Check_PSR</targetReference>
@@ -1177,7 +1177,7 @@
         <locationX>710</locationX>
         <locationY>647</locationY>
         <connector>
-            <targetReference>Brand_Check</targetReference>
+            <targetReference>Dialpad_Log</targetReference>
         </connector>
         <inputAssignments>
             <field>Requester__c</field>
@@ -1190,10 +1190,10 @@
     <recordUpdates>
         <name>Update_Dialpad_Records</name>
         <label>Update Dialpad Records</label>
-        <locationX>2404</locationX>
-        <locationY>647</locationY>
+        <locationX>930</locationX>
+        <locationY>1355</locationY>
         <connector>
-            <targetReference>Owner_Changed</targetReference>
+            <targetReference>Brand_Check</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -1217,7 +1217,7 @@
         <locationX>974</locationX>
         <locationY>971</locationY>
         <connector>
-            <targetReference>Brand_Check</targetReference>
+            <targetReference>Dialpad_Log</targetReference>
         </connector>
         <inputAssignments>
             <field>Requester__c</field>
@@ -1231,7 +1231,7 @@
         <name>Update_Survey_Invitation_Time</name>
         <label>Update Survey Invitation Time</label>
         <locationX>2404</locationX>
-        <locationY>1655</locationY>
+        <locationY>1355</locationY>
         <connector>
             <targetReference>Product_Changed_Decision</targetReference>
         </connector>
@@ -1266,7 +1266,7 @@
         <name>Route_Case</name>
         <label>Route Case</label>
         <locationX>930</locationX>
-        <locationY>2255</locationY>
+        <locationY>2555</locationY>
         <flowName>Case_Omnichannel_Routing</flowName>
         <inputAssignments>
             <name>Context</name>
@@ -1285,7 +1285,7 @@
         <name>Route_Case_1</name>
         <label>Route Case</label>
         <locationX>2404</locationX>
-        <locationY>1955</locationY>
+        <locationY>1655</locationY>
         <flowName>Case_Omnichannel_Routing</flowName>
         <inputAssignments>
             <name>Context</name>

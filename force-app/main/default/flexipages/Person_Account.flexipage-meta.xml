@@ -327,6 +327,16 @@
                 <identifier>RecordExternal_System_Name_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Zendesk_Email__pc</fieldItem>
+                <identifier>RecordZendesk_Email_pcField2</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-984c1af7-f272-408f-be40-cc90d431d9da</name>
         <type>Facet</type>
     </flexiPageRegions>
