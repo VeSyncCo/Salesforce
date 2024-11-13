@@ -1,4 +1,4 @@
-public class CaseEscalationNotificationBatch implements Database.Batchable<sObject> {
+public class CaseEscalationNotificationBatch implements Database.Batchable<sObject>,Schedulable {
 
     private static final String HREF = '<a href="';
     private static final String HYPERLINKVAR1 = '/';
@@ -53,5 +53,9 @@ public class CaseEscalationNotificationBatch implements Database.Batchable<sObje
     }
 
     public void finish(Database.BatchableContext bc){
+    }
+    
+    public void execute(System.SchedulableContext cntxt){
+        Database.executeBatch(new CaseEscalationNotificationBatch());
     }
 }
