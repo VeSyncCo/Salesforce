@@ -4490,19 +4490,11 @@
     <picklistValues>
         <picklist>Priority</picklist>
         <values>
-            <fullName>High Priority</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Low</fullName>
             <default>true</default>
         </values>
         <values>
-            <fullName>Standard</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Urgent</fullName>
+            <fullName>Medium</fullName>
             <default>false</default>
         </values>
     </picklistValues>

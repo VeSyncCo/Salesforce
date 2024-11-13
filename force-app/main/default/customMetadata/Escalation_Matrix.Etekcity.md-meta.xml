@@ -8,6 +8,6 @@
     </values>
     <values>
         <field>Escalation_Representative__c</field>
-        <value xsi:type="xsd:string">elijah.delosreyes@vesync.com.invalid</value>
+        <value xsi:type="xsd:string">elijah.delosreyes@vesync.com</value>
     </values>
 </CustomMetadata>
