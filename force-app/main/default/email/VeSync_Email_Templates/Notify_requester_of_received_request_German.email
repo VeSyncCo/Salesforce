@@ -1,18 +1,16 @@
 Hallo {!Contact.Name},
 
-DAS IST EINE AUTOMATISIERTE E-MAIL.
-
 Vielen Dank, dass Sie sich an den Support von {!Case.Brand__c} gewendet haben. Wir haben Ihre E-Mail erhalten und ein Vertreter von {!Case.Brand__c} wird Ihnen in Kürze antworten. Wenn Sie innerhalb von 2-3 Werktagen nichts von uns hören, überprüfen Sie bitte Ihren Spam-Ordner!
 
 Unsere normalen Geschäftszeiten sind Montag – Freitag, 9:00 – 17:00 Uhr PST/PDT.
 
 Ihre Ticket-ID lautet: {!Case.CaseNumber} und Sie erhalten E-Mails von „Zendesk“ bezüglich Ihres Ticketstatus.
 
-In der Zwischenzeit können Sie alle unsere verfügbaren Handbücher "Link to be put later" durchsuchen. Bei Neukauf bei einem verifizierten Verkäufer erhalten Sie auf Ihr Produkt Herstellergarantie von zwei Jahren!
+Bei Neukauf bei einem verifizierten Verkäufer erhalten Sie auf Ihr Produkt Herstellergarantie von zwei Jahren!
 
 Bitte antworten Sie nicht auf diese E-Mail – wir danken Ihnen für Ihre Geduld und freuen uns darauf, mit Ihnen zu chatten!
 
-Mit freundlichen Grüßen und einen schönen Tag. 
+Mit freundlichen Grüßen und einen schönen Tag.
 {!Case.Brand__c}Support
 
 
