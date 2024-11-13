@@ -1,14 +1,12 @@
 Hi {!Contact.Name},
 
-THIS IS AN AUTOMATED EMAIL. Do not reply to this message.
-
 Thank you for contacting {!Case.Brand__c} Support. We received your message, and a representative will reach out to you. Your Ticket ID is: {!Case.CaseNumber}.
 
 If you do not hear from us within 2-3 business days, please check your spam folder.
 
 Please note that there may be a delay after weekends and holidays. Our hours are Monday through Friday, 9:00 AM - 5:00 PM Pacific Time.
 
-In the meantime, you’re welcome to browse all our available manuals "Link to be inserted Later". If purchased brand-new from a verified seller, your product also comes with the maximum manufacturer's warranty of two years!
+In the meantime, you’re welcome to browse all our available manuals. If purchased brand-new from a verified seller, your product also comes with the maximum manufacturer's warranty of two years!
 
 Thank you for your patience. We look forward to chatting with you!
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to be sent to the customer after case is closed with a survey invitation link.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Survey Invitation on Case Closure</name>
+    <style>none</style>
+    <subject>Your Feedback is Important to us!</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
