@@ -951,10 +951,10 @@
             <name>High_Priority_Issues</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>$Record.Priority</leftValueReference>
+                <leftValueReference>$Record.Main_Category__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>High Priority</stringValue>
+                    <stringValue>High Priority Issues</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -1472,6 +1472,9 @@
             <label>Contact and Account Fields are Blank</label>
         </rules>
     </decisions>
+    <description>Manual Changes made on 14/11/2024
+
+Changes made for the Case Escalation Process</description>
     <environments>Default</environments>
     <formulas>
         <name>AccountId</name>
