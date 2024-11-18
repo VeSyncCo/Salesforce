@@ -245,6 +245,16 @@
                 <identifier>RecordPersonMailingAddressField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Survey_Invitation_Date__pc</fieldItem>
+                <identifier>RecordSurvey_Invitation_Date_pcField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-f8b5c379-db70-431e-b5b8-691c0a6b99a1</name>
         <type>Facet</type>
     </flexiPageRegions>
