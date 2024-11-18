@@ -5,20 +5,6 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>lookupFieldName</name>
-                    <value>Id</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>updateQuickActionName</name>
-                    <value>Case._LightningUpdateCase</value>
-                </componentInstanceProperties>
-                <componentName>console:relatedRecord</componentName>
-                <identifier>console_relatedRecord2</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>lookupFieldName</name>
                     <value>ContactId</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
@@ -907,8 +893,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.DSRR_Request_Details__c</fieldItem>
-                <identifier>RecordDSRR_Request_Sub_Type_cField</identifier>
+                <fieldItem>Record.DSRR_Request_Type__c</fieldItem>
+                <identifier>RecordDSRR_Request_Type_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -931,8 +917,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.DSRR_Request_Type__c</fieldItem>
-                <identifier>RecordDSRR_Request_Type_cField</identifier>
+                <fieldItem>Record.DSRR_Request_Details__c</fieldItem>
+                <identifier>RecordDSRR_Request_Sub_Type_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-6d5c251f-4ba9-4ffd-b282-ed7648b48649</name>
@@ -1747,6 +1733,13 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection8</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.RecordType.DeveloperName}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>DSRR</rightValue>
+                    </criteria>
+                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -1816,10 +1809,16 @@
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection15</identifier>
                 <visibilityRule>
+                    <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
                         <leftValue>{!Record.RecordType.Name}</leftValue>
                         <operator>NE</operator>
                         <rightValue>General Questions</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.RecordType.DeveloperName}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>DSRR</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>
@@ -1841,10 +1840,16 @@
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection16</identifier>
                 <visibilityRule>
+                    <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
                         <leftValue>{!Record.RecordType.Name}</leftValue>
                         <operator>NE</operator>
                         <rightValue>General Questions</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.RecordType.DeveloperName}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>DSRR</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>
@@ -1866,10 +1871,16 @@
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection17</identifier>
                 <visibilityRule>
+                    <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
                         <leftValue>{!Record.RecordType.Name}</leftValue>
                         <operator>NE</operator>
                         <rightValue>General Questions</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.RecordType.DeveloperName}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>DSRR</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>
