@@ -17,16 +17,6 @@
         <label>Web</label>
     </standardValue>
     <standardValue>
-        <fullName>Facebook</fullName>
-        <default>false</default>
-        <label>Facebook</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Twitter</fullName>
-        <default>false</default>
-        <label>Twitter</label>
-    </standardValue>
-    <standardValue>
         <fullName>Salesforce</fullName>
         <default>true</default>
         <label>Salesforce</label>
@@ -34,6 +24,11 @@
     <standardValue>
         <fullName>api</fullName>
         <default>false</default>
-        <label>api</label>
+        <label>API</label>
+    </standardValue>
+    <standardValue>
+        <fullName>APP</fullName>
+        <default>false</default>
+        <label>APP</label>
     </standardValue>
 </StandardValueSet>
