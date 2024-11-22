@@ -47,9 +47,14 @@
                 <label>UK</label>
             </value>
             <value>
-                <fullName>NA</fullName>
+                <fullName>US</fullName>
                 <default>false</default>
-                <label>NA</label>
+                <label>US</label>
+            </value>
+            <value>
+                <fullName>CA</fullName>
+                <default>false</default>
+                <label>CA</label>
             </value>
         </valueSetDefinition>
     </valueSet>

@@ -1,15 +1,13 @@
 Salve {!Contact.Name},
 
-Grazie per aver contattato il {!Case.Brand__c} Assistenza. Abbiamo ricevuto la tua e-mail e un rappresentante di {!Case.Brand__c} ti risponderà a breve. Se non ricevi una risposta entro 2-3 giorni lavorativi, controlla la cartella spam!
+Questa risposta automatica conferma che la tua richiesta è stata ricevuta.
+Per tuo riferimento, il numero del tuo caso è {!Case.CaseNumber}.
+Non preoccuparti di memorizzarlo o di scriverlo; possiamo sempre localizzarlo utilizzando il tuo indirizzo email.
 
-Il nostro normale orario di lavoro è dal lunedì al venerdì, dalle 9:00 alle 17:00 PST/PDT.
+Il nostro obiettivo è rispondere a tutte le richieste entro 1 giorno lavorativo.
 
-Se acquistato nuovo di zecca da un venditore verificato, il prodotto viene fornito con la garanzia del produttore di due anni! Sebbene non sia necessario, è comunque possibile registrare il prodotto "Link inserted later" qui.
-
-Non rispondete a questa e-mail: vi ringraziamo per la vostra pazienza e non vediamo l'ora di chiacchierare con voi!
-
-Cordiali saluti,
-Supporto {!Case.Brand__c}
+Non vediamo l'ora di lavorare con te.
+Il team di supporto di {!Case.Brand__c}.
 
 
 {!Case.Thread_Token}

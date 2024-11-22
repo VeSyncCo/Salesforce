@@ -1,15 +1,13 @@
 Hola {{ticket.requester.first_name}},
 
-Gracias por comunicarse con {{ticket.brand.name}} COSORI Support. Hemos recibido su correo electrónico y un representante de {{ticket.brand.name}} le responderá en breve. Si no recibe noticias nuestras dentro de 2-3 días hábiles, ¡verifique su carpeta de correo no deseado!
+Esta respuesta automática confirma que se ha recibido su consulta.
+Para su referencia, su número de caso es {!Case.CaseNumber}.
+No te preocupes por memorizarlo o escribirlo; Siempre podemos localizarlo utilizando su dirección de correo electrónico.
 
-Nuestro horario comercial habitual es de lunes a viernes, de 9:00 a. m. a 5:00 p. m. PST/PDT.
+Nuestro objetivo es responder a todas las consultas dentro de 1 día hábil.
 
-Si lo compró nuevo de un vendedor verificado, ¡su producto también viene con la garantía máxima del fabricante de dos años!
-
-No responda a este correo electrónico; le agradecemos su paciencia y esperamos conversar con usted.
-
-Sinceramente,
-Soporte de {!Case.Brand__c}
+Esperamos trabajar con usted.
+El equipo de soporte de {!Case.Brand__c}.
 
 
 {!Case.Thread_Token}

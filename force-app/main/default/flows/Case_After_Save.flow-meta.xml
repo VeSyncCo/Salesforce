@@ -1,145 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
-        <name>Email_on_Case_Creation_Default</name>
-        <label>Email on Case Creation - Default</label>
-        <locationX>1810</locationX>
-        <locationY>2171</locationY>
-        <actionName>emailSimple</actionName>
-        <actionType>emailSimple</actionType>
-        <connector>
-            <targetReference>Check_Origin</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>senderType</name>
-            <value>
-                <stringValue>OrgWideEmailAddress</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>senderAddress</name>
-            <value>
-                <elementReference>Get_OrgWideEmail_Automation.Address</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>relatedRecordId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipientId</name>
-            <value>
-                <elementReference>$Record.Requester__r.PersonContact.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>emailTemplateId</name>
-            <value>
-                <elementReference>$Label.Email_Template_ID_English</elementReference>
-            </value>
-        </inputParameters>
-        <nameSegment>emailSimple</nameSegment>
-        <offset>0</offset>
-        <versionSegment>1</versionSegment>
-    </actionCalls>
-    <actionCalls>
-        <name>Email_on_Case_Creation_English</name>
-        <label>Email on Case Creation - English</label>
-        <locationX>1370</locationX>
-        <locationY>2171</locationY>
-        <actionName>emailSimple</actionName>
-        <actionType>emailSimple</actionType>
-        <connector>
-            <targetReference>Check_Origin</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>senderType</name>
-            <value>
-                <stringValue>OrgWideEmailAddress</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>senderAddress</name>
-            <value>
-                <elementReference>Get_OrgWideEmail_Automation.Address</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>relatedRecordId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipientId</name>
-            <value>
-                <elementReference>$Record.Requester__r.PersonContact.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>emailTemplateId</name>
-            <value>
-                <elementReference>$Label.Email_Template_ID_English</elementReference>
-            </value>
-        </inputParameters>
-        <nameSegment>emailSimple</nameSegment>
-        <offset>0</offset>
-        <versionSegment>1</versionSegment>
-    </actionCalls>
-    <actionCalls>
-        <name>Email_on_Case_Creation_French</name>
-        <label>Email on Case Creation - French</label>
-        <locationX>842</locationX>
-        <locationY>2171</locationY>
-        <actionName>emailSimple</actionName>
-        <actionType>emailSimple</actionType>
-        <connector>
-            <targetReference>Check_Origin</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>senderType</name>
-            <value>
-                <stringValue>OrgWideEmailAddress</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>senderAddress</name>
-            <value>
-                <elementReference>Get_OrgWideEmail_Automation.Address</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>relatedRecordId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipientId</name>
-            <value>
-                <elementReference>$Record.Requester__r.PersonContact.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>emailTemplateId</name>
-            <value>
-                <elementReference>$Label.Email_Template_ID_French</elementReference>
-            </value>
-        </inputParameters>
-        <nameSegment>emailSimple</nameSegment>
-        <offset>0</offset>
-        <versionSegment>1</versionSegment>
-    </actionCalls>
-    <actionCalls>
-        <name>Email_on_Case_Creation_German</name>
-        <label>Email on Case Creation - German</label>
+        <name>Customer_Email_on_Manual_Creation</name>
+        <label>Customer Email on Manual Creation</label>
         <locationX>314</locationX>
-        <locationY>2171</locationY>
+        <locationY>1979</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -155,7 +20,7 @@
         <inputParameters>
             <name>senderAddress</name>
             <value>
-                <elementReference>Get_OrgWideEmail_Automation.Address</elementReference>
+                <elementReference>Get_OrgWideEmail_Address.Address</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -167,139 +32,7 @@
         <inputParameters>
             <name>recipientId</name>
             <value>
-                <elementReference>$Record.Requester__r.PersonContact.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>emailTemplateId</name>
-            <value>
-                <elementReference>$Label.Email_Template_ID_German</elementReference>
-            </value>
-        </inputParameters>
-        <nameSegment>emailSimple</nameSegment>
-        <offset>0</offset>
-        <versionSegment>1</versionSegment>
-    </actionCalls>
-    <actionCalls>
-        <name>Email_on_Case_Creation_Italian</name>
-        <label>Email on Case Creation - Italian</label>
-        <locationX>1106</locationX>
-        <locationY>2171</locationY>
-        <actionName>emailSimple</actionName>
-        <actionType>emailSimple</actionType>
-        <connector>
-            <targetReference>Check_Origin</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>senderType</name>
-            <value>
-                <stringValue>OrgWideEmailAddress</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>senderAddress</name>
-            <value>
-                <elementReference>Get_OrgWideEmail_Automation.Address</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>relatedRecordId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipientId</name>
-            <value>
-                <elementReference>$Record.Requester__r.PersonContact.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>emailTemplateId</name>
-            <value>
-                <elementReference>$Label.Email_Template_ID_Italian</elementReference>
-            </value>
-        </inputParameters>
-        <nameSegment>emailSimple</nameSegment>
-        <offset>0</offset>
-        <versionSegment>1</versionSegment>
-    </actionCalls>
-    <actionCalls>
-        <name>Email_on_Case_Creation_Spanish</name>
-        <label>Email on Case Creation - Spanish</label>
-        <locationX>578</locationX>
-        <locationY>2171</locationY>
-        <actionName>emailSimple</actionName>
-        <actionType>emailSimple</actionType>
-        <connector>
-            <targetReference>Check_Origin</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>senderType</name>
-            <value>
-                <stringValue>OrgWideEmailAddress</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>senderAddress</name>
-            <value>
-                <elementReference>Get_OrgWideEmail_Automation.Address</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>relatedRecordId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipientId</name>
-            <value>
-                <elementReference>$Record.Requester__r.PersonContact.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>emailTemplateId</name>
-            <value>
-                <elementReference>$Label.Email_Template_ID_Spanish</elementReference>
-            </value>
-        </inputParameters>
-        <nameSegment>emailSimple</nameSegment>
-        <offset>0</offset>
-        <versionSegment>1</versionSegment>
-    </actionCalls>
-    <actionCalls>
-        <name>Manual_Case_Creation_Email</name>
-        <label>Manual Case Creation Email</label>
-        <locationX>50</locationX>
-        <locationY>2063</locationY>
-        <actionName>emailSimple</actionName>
-        <actionType>emailSimple</actionType>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>senderType</name>
-            <value>
-                <stringValue>OrgWideEmailAddress</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>senderAddress</name>
-            <value>
-                <elementReference>Get_OrgWideEmail_Manual.Address</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>relatedRecordId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipientId</name>
-            <value>
-                <elementReference>$Record.Requester__r.PersonContact.Id</elementReference>
+                <elementReference>$Record.Requester__r.PersonContactId</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -315,7 +48,7 @@
     <actionCalls>
         <name>Send_Survey_on_Case_Closure</name>
         <label>Send Survey on Case Closure</label>
-        <locationX>2404</locationX>
+        <locationX>1260</locationX>
         <locationY>1247</locationY>
         <actionName>sendSurveyInvitation</actionName>
         <actionType>sendSurveyInvitation</actionType>
@@ -326,7 +59,7 @@
         <inputParameters>
             <name>surveyName</name>
             <value>
-                <stringValue>active_survey_vesync</stringValue>
+                <stringValue>vesync_survey_active</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -366,128 +99,73 @@
     </actionCalls>
     <apiVersion>62.0</apiVersion>
     <assignments>
-        <name>Org_Wide_Email_Cosori</name>
-        <label>Org Wide Email - Cosori</label>
-        <locationX>930</locationX>
-        <locationY>1655</locationY>
+        <name>Cosori_OrgWide</name>
+        <label>Cosori OrgWide</label>
+        <locationX>314</locationX>
+        <locationY>1571</locationY>
         <assignmentItems>
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>support@cosori.com</stringValue>
+                <stringValue>nikhil.elias@caeliusconsulting.com</stringValue>
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Origin_Check</targetReference>
+            <targetReference>Get_OrgWideEmail_Address</targetReference>
         </connector>
     </assignments>
     <assignments>
-        <name>Org_Wide_Email_Etekcity</name>
-        <label>Org Wide Email - Etekcity</label>
-        <locationX>1458</locationX>
-        <locationY>1655</locationY>
+        <name>Etekcity_OrgWide</name>
+        <label>Etekcity OrgWide</label>
+        <locationX>842</locationX>
+        <locationY>1571</locationY>
         <assignmentItems>
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>support@etekcity.com</stringValue>
+                <stringValue>nikhil.elias@caeliusconsulting.com</stringValue>
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Origin_Check</targetReference>
+            <targetReference>Get_OrgWideEmail_Address</targetReference>
         </connector>
     </assignments>
     <assignments>
-        <name>Org_Wide_Email_Levoit</name>
-        <label>Org Wide Email - Levoit</label>
-        <locationX>666</locationX>
-        <locationY>1655</locationY>
+        <name>Levoit_OrgWide</name>
+        <label>Levoit OrgWide</label>
+        <locationX>50</locationX>
+        <locationY>1571</locationY>
         <assignmentItems>
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>support@levoit.com</stringValue>
+                <stringValue>nikhil.elias@caeliusconsulting.com</stringValue>
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Origin_Check</targetReference>
+            <targetReference>Get_OrgWideEmail_Address</targetReference>
         </connector>
     </assignments>
     <assignments>
-        <name>Org_Wide_Email_PawSync</name>
-        <label>Org Wide Email - PawSync</label>
-        <locationX>1194</locationX>
-        <locationY>1655</locationY>
+        <name>PawSync_OrgWide</name>
+        <label>PawSync OrgWide</label>
+        <locationX>578</locationX>
+        <locationY>1571</locationY>
         <assignmentItems>
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>support@pawsync.com</stringValue>
+                <stringValue>nikhil.elias@caeliusconsulting.com</stringValue>
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Origin_Check</targetReference>
+            <targetReference>Get_OrgWideEmail_Address</targetReference>
         </connector>
     </assignments>
-    <decisions>
-        <name>Brand_Check</name>
-        <label>Brand Check</label>
-        <locationX>1062</locationX>
-        <locationY>1547</locationY>
-        <defaultConnector>
-            <targetReference>Org_Wide_Email_Etekcity</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default/Etekcity</defaultConnectorLabel>
-        <rules>
-            <name>Brand_Levoit</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Brand__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Levoit</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Org_Wide_Email_Levoit</targetReference>
-            </connector>
-            <label>Brand - Levoit</label>
-        </rules>
-        <rules>
-            <name>Brand_Cosori</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Brand__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Cosori</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Org_Wide_Email_Cosori</targetReference>
-            </connector>
-            <label>Brand - Cosori</label>
-        </rules>
-        <rules>
-            <name>Brand_PawSync</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Brand__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>PawSync</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Org_Wide_Email_PawSync</targetReference>
-            </connector>
-            <label>Brand - PawSync</label>
-        </rules>
-    </decisions>
     <decisions>
         <name>Bypass_Check</name>
         <label>Bypass Check</label>
-        <locationX>2365</locationX>
+        <locationX>1353</locationX>
         <locationY>323</locationY>
         <defaultConnectorLabel>Bypass Required</defaultConnectorLabel>
         <rules>
@@ -509,7 +187,7 @@
     <decisions>
         <name>Case_Close_Check</name>
         <label>Case Close Check</label>
-        <locationX>2536</locationX>
+        <locationX>1392</locationX>
         <locationY>1139</locationY>
         <defaultConnector>
             <targetReference>Product_Changed_Decision</targetReference>
@@ -569,8 +247,8 @@
     <decisions>
         <name>Check_Origin</name>
         <label>Check Origin</label>
-        <locationX>1062</locationX>
-        <locationY>2447</locationY>
+        <locationX>446</locationX>
+        <locationY>2171</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Email_or_Web</name>
@@ -582,137 +260,16 @@
                     <stringValue>Web</stringValue>
                 </rightValue>
             </conditions>
-            <conditions>
-                <leftValueReference>$Record.Origin</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Email</stringValue>
-                </rightValue>
-            </conditions>
             <connector>
                 <targetReference>Route_Case</targetReference>
             </connector>
-            <label>Email or Web</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Country_Check</name>
-        <label>Country Check</label>
-        <locationX>1062</locationX>
-        <locationY>2063</locationY>
-        <defaultConnector>
-            <targetReference>Email_on_Case_Creation_Default</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Other Countries</defaultConnectorLabel>
-        <rules>
-            <name>Germany</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Country__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Germany</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Email_on_Case_Creation_German</targetReference>
-            </connector>
-            <label>Germany</label>
-        </rules>
-        <rules>
-            <name>Spain</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Country__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Spain</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Email_on_Case_Creation_Spanish</targetReference>
-            </connector>
-            <label>Spain</label>
-        </rules>
-        <rules>
-            <name>France</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Country__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>France</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Email_on_Case_Creation_French</targetReference>
-            </connector>
-            <label>France</label>
-        </rules>
-        <rules>
-            <name>Italy</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Country__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Italy</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Email_on_Case_Creation_Italian</targetReference>
-            </connector>
-            <label>Italy</label>
-        </rules>
-        <rules>
-            <name>United_Kingdoms_and_Northern_America</name>
-            <conditionLogic>or</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Country__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>United Kingdom of Great Britain and Northern Ireland</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Country__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>United States of America,Canada</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Email_on_Case_Creation_English</targetReference>
-            </connector>
-            <label>United Kingdoms and Northern America</label>
-        </rules>
-        <rules>
-            <name>No_Recipients</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.ContactId</leftValueReference>
-                <operator>IsBlank</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.SuppliedEmail</leftValueReference>
-                <operator>IsBlank</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Check_Origin</targetReference>
-            </connector>
-            <label>No Recipients</label>
+            <label>Web</label>
         </rules>
     </decisions>
     <decisions>
         <name>Creation_Check</name>
         <label>Creation Check</label>
-        <locationX>1799</locationX>
+        <locationX>919</locationX>
         <locationY>431</locationY>
         <defaultConnector>
             <targetReference>Owner_Changed</targetReference>
@@ -729,7 +286,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Requester_Check</targetReference>
+                <targetReference>Person_Acc_Record_Type</targetReference>
             </connector>
             <label>Record is Created</label>
         </rules>
@@ -737,10 +294,10 @@
     <decisions>
         <name>Dialpad_Log</name>
         <label>Dialpad Log Check</label>
-        <locationX>1062</locationX>
-        <locationY>1247</locationY>
+        <locationX>446</locationX>
+        <locationY>1163</locationY>
         <defaultConnector>
-            <targetReference>Brand_Check</targetReference>
+            <targetReference>OrgWideEmail_To_Be_Used</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Dialpad Log Not Present</defaultConnectorLabel>
         <rules>
@@ -762,7 +319,7 @@
     <decisions>
         <name>Null_Check_PSR</name>
         <label>Null Check - PSR</label>
-        <locationX>2382</locationX>
+        <locationX>1238</locationX>
         <locationY>755</locationY>
         <defaultConnector>
             <targetReference>Case_Close_Check</targetReference>
@@ -785,17 +342,72 @@
         </rules>
     </decisions>
     <decisions>
+        <name>OrgWideEmail_To_Be_Used</name>
+        <label>OrgWideEmail To Be Used</label>
+        <locationX>446</locationX>
+        <locationY>1463</locationY>
+        <defaultConnector>
+            <targetReference>Etekcity_OrgWide</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Etekcity/Default</defaultConnectorLabel>
+        <rules>
+            <name>Levoit</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Brand__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Levoit</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Levoit_OrgWide</targetReference>
+            </connector>
+            <label>Levoit</label>
+        </rules>
+        <rules>
+            <name>Cosori</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Brand__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cosori</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Cosori_OrgWide</targetReference>
+            </connector>
+            <label>Cosori</label>
+        </rules>
+        <rules>
+            <name>Pawsync</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Brand__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>PawSync</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>PawSync_OrgWide</targetReference>
+            </connector>
+            <label>Pawsync</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Origin_Check</name>
         <label>Origin Check</label>
-        <locationX>1062</locationX>
-        <locationY>1847</locationY>
+        <locationX>446</locationX>
+        <locationY>1871</locationY>
         <defaultConnector>
             <targetReference>Check_Origin</targetReference>
         </defaultConnector>
-        <defaultConnectorLabel>Default Path</defaultConnectorLabel>
+        <defaultConnectorLabel>Other Origin</defaultConnectorLabel>
         <rules>
-            <name>Record_Manually_Created</name>
-            <conditionLogic>and</conditionLogic>
+            <name>Manual_Creation</name>
+            <conditionLogic>(1 OR 4) AND (2 OR 3)</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Origin</leftValueReference>
                 <operator>EqualTo</operator>
@@ -804,51 +416,36 @@
                 </rightValue>
             </conditions>
             <conditions>
-                <leftValueReference>$Record.Requester__r.PersonContact.Email</leftValueReference>
-                <operator>IsBlank</operator>
+                <leftValueReference>$Record.Requester__r.PersonEmail</leftValueReference>
+                <operator>IsNull</operator>
                 <rightValue>
                     <booleanValue>false</booleanValue>
                 </rightValue>
             </conditions>
-            <connector>
-                <targetReference>Get_OrgWideEmail_Manual</targetReference>
-            </connector>
-            <label>Record Manually Created</label>
-        </rules>
-        <rules>
-            <name>Automation_Used</name>
-            <conditionLogic>(1 OR 2) AND 3</conditionLogic>
             <conditions>
-                <leftValueReference>$Record.Origin</leftValueReference>
-                <operator>EqualTo</operator>
+                <leftValueReference>$Record.Requester__r.Zendesk_Email__pc</leftValueReference>
+                <operator>IsNull</operator>
                 <rightValue>
-                    <stringValue>Web</stringValue>
+                    <booleanValue>false</booleanValue>
                 </rightValue>
             </conditions>
             <conditions>
                 <leftValueReference>$Record.Origin</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Email</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Requester__r.PersonContact.Email</leftValueReference>
-                <operator>IsBlank</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
+                    <stringValue>APP</stringValue>
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Get_OrgWideEmail_Automation</targetReference>
+                <targetReference>Customer_Email_on_Manual_Creation</targetReference>
             </connector>
-            <label>Automation Used</label>
+            <label>Manual Creation</label>
         </rules>
     </decisions>
     <decisions>
         <name>Owner_Changed</name>
         <label>Owner Changed</label>
-        <locationX>2536</locationX>
+        <locationX>1392</locationX>
         <locationY>539</locationY>
         <defaultConnector>
             <targetReference>Case_Close_Check</targetReference>
@@ -873,7 +470,7 @@
     <decisions>
         <name>Product_Changed_Decision</name>
         <label>Product Change Decision</label>
-        <locationX>2536</locationX>
+        <locationX>1392</locationX>
         <locationY>1547</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -887,7 +484,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Route_Case_1</targetReference>
+                <targetReference>Route_Case_Update</targetReference>
             </connector>
             <label>Product Changed</label>
         </rules>
@@ -895,97 +492,22 @@
     <decisions>
         <name>Requester_Check</name>
         <label>Requester Check</label>
-        <locationX>1062</locationX>
-        <locationY>539</locationY>
+        <locationX>446</locationX>
+        <locationY>755</locationY>
         <defaultConnector>
             <targetReference>Dialpad_Log</targetReference>
         </defaultConnector>
-        <defaultConnectorLabel>Only Requester Present</defaultConnectorLabel>
+        <defaultConnectorLabel>Default Path</defaultConnectorLabel>
         <rules>
-            <name>Contact_Account_Present</name>
-            <conditionLogic>(1 OR 2) AND (3 OR 4)</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.AccountId</leftValueReference>
-                <operator>IsBlank</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.ContactId</leftValueReference>
-                <operator>IsBlank</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Origin</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Email</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Origin</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Web</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Assign_Requester</targetReference>
-            </connector>
-            <label>Contact/Account Present</label>
-        </rules>
-        <rules>
-            <name>Contact_Account_Not_Present</name>
-            <conditionLogic>(1 AND 2) AND (3 OR 4)</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.ContactId</leftValueReference>
-                <operator>IsBlank</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.AccountId</leftValueReference>
-                <operator>IsBlank</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Origin</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Web</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Origin</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Email</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Value_Check</targetReference>
-            </connector>
-            <label>Contact/Account Not Present</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Value_Check</name>
-        <label>Value Check</label>
-        <locationX>1106</locationX>
-        <locationY>647</locationY>
-        <defaultConnector>
-            <targetReference>Dialpad_Log</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Key Fields Missing</defaultConnectorLabel>
-        <rules>
-            <name>Key_Fields_Present</name>
+            <name>Web_Email_not_Matched</name>
             <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Account</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
             <conditions>
                 <leftValueReference>$Record.SuppliedName</leftValueReference>
                 <operator>IsBlank</operator>
@@ -994,11 +516,12 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Person_Acc_Rec_Type</targetReference>
+                <targetReference>Create_Account</targetReference>
             </connector>
-            <label>Key Fields Present</label>
+            <label>Web Email not Matched</label>
         </rules>
     </decisions>
+    <description>Latest Version with &quot;Email Message for Case&quot; Flow considered</description>
     <environments>Default</environments>
     <formulas>
         <name>BypassFormula</name>
@@ -1042,12 +565,12 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordCreates>
-        <name>Create_a_Customer_Account</name>
-        <label>Create a Customer Account</label>
-        <locationX>974</locationX>
+        <name>Create_Account</name>
+        <label>Create Account</label>
+        <locationX>314</locationX>
         <locationY>863</locationY>
         <connector>
-            <targetReference>Update_Requester_Field</targetReference>
+            <targetReference>Update_Requester</targetReference>
         </connector>
         <inputAssignments>
             <field>LastName</field>
@@ -1064,7 +587,7 @@
         <inputAssignments>
             <field>RecordTypeId</field>
             <value>
-                <elementReference>Person_Acc_Rec_Type.Id</elementReference>
+                <elementReference>Person_Acc_Record_Type.Id</elementReference>
             </value>
         </inputAssignments>
         <object>Account</object>
@@ -1073,7 +596,7 @@
     <recordDeletes>
         <name>Delete_PSR</name>
         <label>Delete PSR</label>
-        <locationX>2250</locationX>
+        <locationX>1106</locationX>
         <locationY>863</locationY>
         <connector>
             <targetReference>Case_Close_Check</targetReference>
@@ -1081,34 +604,48 @@
         <inputReference>Get_PSR_Record</inputReference>
     </recordDeletes>
     <recordLookups>
-        <name>Get_OrgWideEmail_Automation</name>
-        <label>Get OrgWideEmail - Automation</label>
-        <locationX>1062</locationX>
-        <locationY>1955</locationY>
+        <name>Get_Account</name>
+        <label>Get Account</label>
+        <locationX>446</locationX>
+        <locationY>647</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Country_Check</targetReference>
+            <targetReference>Requester_Check</targetReference>
         </connector>
-        <filterLogic>and</filterLogic>
+        <filterLogic>1 AND (2 OR 3)</filterLogic>
         <filters>
-            <field>Address</field>
+            <field>RecordTypeId</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>OrgWideEmail</elementReference>
+                <elementReference>Person_Acc_Record_Type.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>PersonEmail</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.SuppliedEmail</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Zendesk_Email__pc</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.SuppliedEmail</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>OrgWideEmailAddress</object>
+        <object>Account</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
-        <name>Get_OrgWideEmail_Manual</name>
-        <label>Get OrgWideEmail - Manual</label>
-        <locationX>50</locationX>
-        <locationY>1955</locationY>
+        <name>Get_OrgWideEmail_Address</name>
+        <label>Get OrgWideEmail Address</label>
+        <locationX>446</locationX>
+        <locationY>1763</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Manual_Case_Creation_Email</targetReference>
+            <targetReference>Origin_Check</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -1125,7 +662,7 @@
     <recordLookups>
         <name>Get_PSR_Record</name>
         <label>Get PSR Record</label>
-        <locationX>2382</locationX>
+        <locationX>1238</locationX>
         <locationY>647</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -1144,13 +681,13 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
-        <name>Person_Acc_Rec_Type</name>
-        <label>Person Acc Rec Type</label>
-        <locationX>974</locationX>
-        <locationY>755</locationY>
+        <name>Person_Acc_Record_Type</name>
+        <label>Person Acc Record Type</label>
+        <locationX>446</locationX>
+        <locationY>539</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Create_a_Customer_Account</targetReference>
+            <targetReference>Get_Account</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -1172,28 +709,12 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
-        <name>Assign_Requester</name>
-        <label>Assign Requester</label>
-        <locationX>710</locationX>
-        <locationY>647</locationY>
-        <connector>
-            <targetReference>Dialpad_Log</targetReference>
-        </connector>
-        <inputAssignments>
-            <field>Requester__c</field>
-            <value>
-                <elementReference>$Record.Account.Id</elementReference>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record</inputReference>
-    </recordUpdates>
-    <recordUpdates>
         <name>Update_Dialpad_Records</name>
         <label>Update Dialpad Records</label>
-        <locationX>930</locationX>
-        <locationY>1355</locationY>
+        <locationX>314</locationX>
+        <locationY>1271</locationY>
         <connector>
-            <targetReference>Brand_Check</targetReference>
+            <targetReference>OrgWideEmail_To_Be_Used</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -1212,17 +733,23 @@
         <object>Dialpad__Call_Log__c</object>
     </recordUpdates>
     <recordUpdates>
-        <name>Update_Requester_Field</name>
-        <label>Update &quot;Requester&quot; Field</label>
-        <locationX>974</locationX>
+        <name>Update_Requester</name>
+        <label>Update Requester</label>
+        <locationX>314</locationX>
         <locationY>971</locationY>
         <connector>
             <targetReference>Dialpad_Log</targetReference>
         </connector>
         <inputAssignments>
+            <field>AccountId</field>
+            <value>
+                <elementReference>Create_Account</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Requester__c</field>
             <value>
-                <elementReference>Create_a_Customer_Account</elementReference>
+                <elementReference>Create_Account</elementReference>
             </value>
         </inputAssignments>
         <inputReference>$Record</inputReference>
@@ -1230,7 +757,7 @@
     <recordUpdates>
         <name>Update_Survey_Invitation_Time</name>
         <label>Update Survey Invitation Time</label>
-        <locationX>2404</locationX>
+        <locationX>1260</locationX>
         <locationY>1355</locationY>
         <connector>
             <targetReference>Product_Changed_Decision</targetReference>
@@ -1252,7 +779,7 @@
         <object>Account</object>
     </recordUpdates>
     <start>
-        <locationX>2239</locationX>
+        <locationX>1227</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Bypass_Check</targetReference>
@@ -1265,8 +792,8 @@
     <subflows>
         <name>Route_Case</name>
         <label>Route Case</label>
-        <locationX>930</locationX>
-        <locationY>2555</locationY>
+        <locationX>314</locationX>
+        <locationY>2279</locationY>
         <flowName>Case_Omnichannel_Routing</flowName>
         <inputAssignments>
             <name>Context</name>
@@ -1282,15 +809,15 @@
         </inputAssignments>
     </subflows>
     <subflows>
-        <name>Route_Case_1</name>
-        <label>Route Case</label>
-        <locationX>2404</locationX>
+        <name>Route_Case_Update</name>
+        <label>Route Case - Update</label>
+        <locationX>1260</locationX>
         <locationY>1655</locationY>
-        <flowName>Case_Omnichannel_Routing</flowName>
+        <flowName>Case_OmniChannel_Routing_Update</flowName>
         <inputAssignments>
             <name>Context</name>
             <value>
-                <elementReference>Creation</elementReference>
+                <booleanValue>false</booleanValue>
             </value>
         </inputAssignments>
         <inputAssignments>

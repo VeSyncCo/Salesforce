@@ -310,6 +310,14 @@
             <fullName>American Samoa</fullName>
             <default>false</default>
         </values>
+		<values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+		<values>
+            <fullName>United States of America</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>Austrilia</fullName>
             <default>false</default>

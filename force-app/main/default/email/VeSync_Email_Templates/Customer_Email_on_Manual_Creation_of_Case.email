@@ -1,3 +1,13 @@
-A new {!Case.Brand__c} ticket has been created, and the ticket number is {!Case.CaseNumber}. 
+Hi {!Contact.Name},
 
-To add additional comments, reply to this email. Repeated responses will cause the ticket to be moved to the end of the queue, resulting in extended waiting periods.
+This auto-reply confirms that your inquiry has been received.
+For your reference, your case number is {!Case.CaseNumber}.
+Don't worry about memorizing or writing it down; we can always locate it using your email address.
+
+We aim to respond to all inquiries within 1-business day.
+
+We look forward to working with you.
+The {!Case.Brand__c} support team.
+
+
+{!Case.Thread_Token}

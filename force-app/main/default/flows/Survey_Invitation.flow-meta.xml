@@ -4,7 +4,7 @@
     <assignments>
         <name>Assign_Additional_Feedback</name>
         <label>Assign Additional Feedback</label>
-        <locationX>1194</locationX>
+        <locationX>930</locationX>
         <locationY>971</locationY>
         <assignmentItems>
             <assignToReference>Additional_Feedback_Value</assignToReference>
@@ -20,7 +20,7 @@
     <assignments>
         <name>Assign_Likely_to_Recommend</name>
         <label>Assign Likely to Recommend</label>
-        <locationX>930</locationX>
+        <locationX>666</locationX>
         <locationY>971</locationY>
         <assignmentItems>
             <assignToReference>Likely_To_Recommend_Value</assignToReference>
@@ -52,26 +52,10 @@
     <assignments>
         <name>Assign_Service_Efficiency</name>
         <label>Assign Service Efficiency</label>
-        <locationX>666</locationX>
-        <locationY>971</locationY>
-        <assignmentItems>
-            <assignToReference>Service_Efficiency_Value</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Loop_Question_Responses.NumberValue</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Loop_Question_Responses</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>Assign_Service_Request_Rating</name>
-        <label>Assign Service Request Rating</label>
         <locationX>402</locationX>
         <locationY>971</locationY>
         <assignmentItems>
-            <assignToReference>Service_Request_Rating_Value</assignToReference>
+            <assignToReference>Service_Efficiency_Value</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>Loop_Question_Responses.NumberValue</elementReference>
@@ -106,7 +90,7 @@
     <decisions>
         <name>Check_for_Empty_Response</name>
         <label>Check for Empty Response</label>
-        <locationX>1216</locationX>
+        <locationX>1018</locationX>
         <locationY>755</locationY>
         <defaultConnector>
             <targetReference>Loop_Question_Responses</targetReference>
@@ -131,7 +115,7 @@
     <decisions>
         <name>Question_Check</name>
         <label>Question Check</label>
-        <locationX>798</locationX>
+        <locationX>666</locationX>
         <locationY>863</locationY>
         <defaultConnector>
             <targetReference>Loop_Question_Responses</targetReference>
@@ -144,7 +128,7 @@
                 <leftValueReference>Loop_Question_Responses.Question.QuestionName</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Overall, how satisfied are you with the service that your representative provided?</stringValue>
+                    <stringValue>Overall, how satisfied are you with the service that you were provided?</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -153,28 +137,13 @@
             <label>Overall Satisfaction</label>
         </rules>
         <rules>
-            <name>Service_Request_Rating</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Loop_Question_Responses.Question.QuestionName</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>How would you rate the representative&apos;s knowledge of your service request?</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Assign_Service_Request_Rating</targetReference>
-            </connector>
-            <label>Service Request Rating</label>
-        </rules>
-        <rules>
             <name>Service_Efficiency</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>Loop_Question_Responses.Question.QuestionName</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>How would you rate the efficiency of the service that you received?</stringValue>
+                    <stringValue>How easy was it to get support from the customer service team?</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -189,7 +158,7 @@
                 <leftValueReference>Loop_Question_Responses.Question.QuestionName</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Based on your recent service interaction with our support team, how likely are you to recommend us to a friend or colleague?</stringValue>
+                    <stringValue>Based on the recent support you received from us, how likely are you to recommend our business to a friend or colleague?</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -204,7 +173,7 @@
                 <leftValueReference>Loop_Question_Responses.Question.QuestionName</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Please share more about your experience with us.</stringValue>
+                    <stringValue>Can you share more details about the scores you provided us?</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -213,11 +182,12 @@
             <label>Additional Feedback</label>
         </rules>
     </decisions>
+    <description>Changes made according to the new flow provided by nathan</description>
     <environments>Default</environments>
     <formulas>
         <name>BypassFormula</name>
         <dataType>Boolean</dataType>
-        <expression>OR({!$Setup.VeSync_Bypass_Setting__c.Bypass_All_Automations__c} ,REGEX({!$Setup.VeSync_Bypass_Setting__c.Bypass_Object_Automations__c}, &apos;.*\\bCase\\b.*&apos;) ,CONTAINS({!$Setup.VeSync_Bypass_Setting__c.Bypass_Flows__c}, &apos;Case_Before_Flow&apos;))</expression>
+        <expression>OR({!$Setup.VeSync_Bypass_Setting__c.Bypass_All_Automations__c} ,REGEX({!$Setup.VeSync_Bypass_Setting__c.Bypass_Object_Automations__c}, &apos;.*\\bCase\\b.*&apos;) ,CONTAINS({!$Setup.VeSync_Bypass_Setting__c.Bypass_Flows__c}, &apos;Survey_Invitation&apos;))</expression>
     </formulas>
     <interviewLabel>Survey Invitation {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Survey Invitation</label>
