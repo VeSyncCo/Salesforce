@@ -1,17 +1,13 @@
 Hallo {!Contact.Name},
 
-Vielen Dank, dass Sie sich an den Support von {!Case.Brand__c} gewendet haben. Wir haben Ihre E-Mail erhalten und ein Vertreter von {!Case.Brand__c} wird Ihnen in Kürze antworten. Wenn Sie innerhalb von 2-3 Werktagen nichts von uns hören, überprüfen Sie bitte Ihren Spam-Ordner!
+Diese automatische Antwort bestätigt, dass Ihre Anfrage eingegangen ist.
+Zu Ihrer Information: Ihre Fallnummer lautet {!Case.CaseNumber}.
+Machen Sie sich keine Gedanken über das Auswendiglernen oder Aufschreiben. Wir können es jederzeit mithilfe Ihrer E-Mail-Adresse finden.
 
-Unsere normalen Geschäftszeiten sind Montag – Freitag, 9:00 – 17:00 Uhr PST/PDT.
+Unser Ziel ist es, alle Anfragen innerhalb eines Werktages zu beantworten.
 
-Ihre Ticket-ID lautet: {!Case.CaseNumber} und Sie erhalten E-Mails von „Zendesk“ bezüglich Ihres Ticketstatus.
-
-Bei Neukauf bei einem verifizierten Verkäufer erhalten Sie auf Ihr Produkt Herstellergarantie von zwei Jahren!
-
-Bitte antworten Sie nicht auf diese E-Mail – wir danken Ihnen für Ihre Geduld und freuen uns darauf, mit Ihnen zu chatten!
-
-Mit freundlichen Grüßen und einen schönen Tag.
-{!Case.Brand__c}Support
+Wir freuen uns auf die Zusammenarbeit mit Ihnen.
+Das {!Case.Brand__c}-Supportteam.
 
 
 {!Case.Thread_Token}

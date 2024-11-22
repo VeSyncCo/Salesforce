@@ -318,6 +318,14 @@
             <fullName>Eastern Asia</fullName>
             <default>false</default>
         </values>
+		<values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+		<values>
+            <fullName>United States of America</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>European Union</fullName>
             <default>false</default>

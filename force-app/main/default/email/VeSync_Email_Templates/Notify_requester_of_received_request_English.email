@@ -1,17 +1,13 @@
 Hi {!Contact.Name},
 
-Thank you for contacting {!Case.Brand__c} Support. We received your message, and a representative will reach out to you. Your Ticket ID is: {!Case.CaseNumber}.
+This auto-reply confirms that your inquiry has been received.
+For your reference, your case number is {!Case.CaseNumber}.
+Don't worry about memorizing or writing it down; we can always locate it using your email address.
 
-If you do not hear from us within 2-3 business days, please check your spam folder.
+We aim to respond to all inquiries within 1-business day.
 
-Please note that there may be a delay after weekends and holidays. Our hours are Monday through Friday, 9:00 AM - 5:00 PM Pacific Time.
-
-In the meantime, you’re welcome to browse all our available manuals. If purchased brand-new from a verified seller, your product also comes with the maximum manufacturer's warranty of two years!
-
-Thank you for your patience. We look forward to chatting with you!
-
-Sincerely,
-{!Case.Brand__c} Support.
+We look forward to working with you.
+The {!Case.Brand__c} support team.
 
 
 {!Case.Thread_Token}

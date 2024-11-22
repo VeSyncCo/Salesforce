@@ -22,6 +22,11 @@
                 <label>Austrilia</label>
             </value>
             <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
                 <fullName>Eastern Asia</fullName>
                 <default>false</default>
                 <label>Eastern Asia</label>
@@ -102,9 +107,9 @@
                 <label>United Kingdom of Great Britain and Northern Ireland</label>
             </value>
             <value>
-                <fullName>United States of America,Canada</fullName>
+                <fullName>United States of America</fullName>
                 <default>false</default>
-                <label>United States of America,Canada</label>
+                <label>United States of America</label>
             </value>
             <value>
                 <fullName>Vietnam</fullName>
