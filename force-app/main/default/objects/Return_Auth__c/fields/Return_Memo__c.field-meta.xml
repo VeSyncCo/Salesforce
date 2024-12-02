@@ -3,10 +3,40 @@
     <fullName>Return_Memo__c</fullName>
     <externalId>false</externalId>
     <label>Return Memo</label>
-    <length>255</length>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>Text</type>
-    <unique>false</unique>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CC</fullName>
+                <default>false</default>
+                <label>CC</label>
+            </value>
+            <value>
+                <fullName>PTE</fullName>
+                <default>false</default>
+                <label>PTE</label>
+            </value>
+            <value>
+                <fullName>PTE-E</fullName>
+                <default>false</default>
+                <label>PTE-E</label>
+            </value>
+            <value>
+                <fullName>QC</fullName>
+                <default>false</default>
+                <label>QC</label>
+            </value>
+            <value>
+                <fullName>RF</fullName>
+                <default>false</default>
+                <label>RF</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
 </CustomField>

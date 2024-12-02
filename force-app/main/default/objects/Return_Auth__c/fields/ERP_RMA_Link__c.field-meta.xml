@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERP_RMA_Link__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISNULL(ERP_RMA_ID__c),&quot;&quot;,(&quot;https://5624281-sb1.app.netsuite.com/app/accounting/transactions/rtnauth.nl?id=&quot; &amp;  ERP_RMA_ID__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ERP RMA Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

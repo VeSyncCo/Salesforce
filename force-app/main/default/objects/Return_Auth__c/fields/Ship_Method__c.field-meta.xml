@@ -14,7 +14,6 @@
         <isOptional>false</isOptional>
     </lookupFilter>
     <referenceTo>Ship_Method__c</referenceTo>
-    <relationshipLabel>Return Authorizations</relationshipLabel>
     <relationshipName>Return_Authorizations</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>

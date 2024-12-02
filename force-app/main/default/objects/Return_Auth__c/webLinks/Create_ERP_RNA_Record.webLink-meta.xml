@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Create_Return_Label</fullName>
+    <fullName>Create_ERP_RNA_Record</fullName>
     <availability>online</availability>
     <displayType>button</displayType>
     <encodingKey>UTF-8</encodingKey>
@@ -10,11 +10,12 @@
     <height>600</height>
     <isResizable>true</isResizable>
     <linkType>url</linkType>
-    <masterLabel>Create Return Label</masterLabel>
+    <masterLabel>Create ERP RNA Record</masterLabel>
     <openType>newWindow</openType>
     <position>none</position>
     <protected>false</protected>
     <showsLocation>false</showsLocation>
     <showsStatus>false</showsStatus>
-    <url>https://etekcity1234--dev--c.sandbox.vf.force.com/apex/returnLabel_Create?Id={!Return_Auth__c.Id}</url>
+    <url>https://etekcity1234--dev--c.sandbox.vf.force.com/apex/erpReturnAuth_Create
+?Id={!Return_Auth__c.Id}</url>
 </WebLink>

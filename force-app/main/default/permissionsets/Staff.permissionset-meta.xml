@@ -88,6 +88,51 @@
         <field>Account.Dialpad__Powerdialer_Dialed_List__c</field>
         <readable>true</readable>
     </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Cloud_Attachment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Has_Image_Video_Attachments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Image_Attachment_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Other_Attachment_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.S3_Attachment_Params__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.S3_PreSigned_URL_Expire_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Vesync_APP_Feedback_Msg__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Vesync_APP_Image_URLs__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Video_Attachment_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Dialpad__Powerdialer_Last_Dialed_via__c</field>
@@ -1340,6 +1385,11 @@
     </fieldPermissions>
 	<fieldPermissions>
         <editable>true</editable>
+        <field>Subsidiary__c.Subsidiary_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
         <field>SurveyInvitation.Case__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1540,6 +1590,21 @@
     </fieldPermissions>
 	<fieldPermissions>
         <editable>true</editable>
+        <field>Return_Auth_Line__c.Product__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth_Line__c.Quantity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth_Line__c.Tax_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
         <field>Ship_Method__c.Carrier_Service_Code__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1556,6 +1621,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>State__c.Full_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
+        <field>Warehouse__c.Address_2__c</field>
         <readable>true</readable>
     </fieldPermissions>
 	<fieldPermissions>
@@ -1581,6 +1651,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>ERP_Customer__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+	<objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Return_Auth_Line__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
 	<objectPermissions>
@@ -1844,6 +1923,42 @@
         <tab>Location__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
+	<tabVisibilities>
+        <tab>Country__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>State__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Warehouse__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ERP_Customer__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ERP_Replacement_Order_Line__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ERP_Replacement_Order__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Return_Auth__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+	<tabSettings>
+        <tab>Return_Auth_Line__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabVisibilities>
+        <tab>Ship_Method__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
     <tabSettings>
         <tab>Order_Line_Item__c</tab>
         <visibility>Visible</visibility>

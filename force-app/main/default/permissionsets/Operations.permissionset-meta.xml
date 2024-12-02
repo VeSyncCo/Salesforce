@@ -88,6 +88,51 @@
         <field>Account.Dialpad__Timezone__c</field>
         <readable>true</readable>
     </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Cloud_Attachment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Has_Image_Video_Attachments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Image_Attachment_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Other_Attachment_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.S3_Attachment_Params__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.S3_PreSigned_URL_Expire_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Vesync_APP_Feedback_Msg__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Vesync_APP_Image_URLs__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Video_Attachment_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Dialpad__TotalNumberOfTimesDialed__c</field>
@@ -1365,6 +1410,11 @@
     </fieldPermissions>
 	<fieldPermissions>
         <editable>true</editable>
+        <field>Subsidiary__c.Subsidiary_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
         <field>SurveyInvitation.Case__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1388,7 +1438,67 @@
         <field>ERP_Replacement_Order__c.ERP_SO_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
-	    <fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ERP_Replacement_Order__c.ERP_SO_Link__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERP_Replacement_Order__c.ERP_SO_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERP_Replacement_Order__c.Error_Message__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERP_Replacement_Order__c.Order_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERP_Replacement_Order__c.Order_Memo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERP_Replacement_Order__c.Replacement_Ship_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERP_Replacement_Order__c.Replacement_Tracking_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERP_Replacement_Order__c.Rush_Order__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERP_Replacement_Order__c.Ship_Carrier__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERP_Replacement_Order__c.Ship_Method__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERP_Replacement_Order__c.State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ERP_Replacement_Order__c.ZIP__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
         <editable>false</editable>
         <field>Knowledge__kav.Answer__c</field>
         <readable>true</readable>
@@ -1494,8 +1604,33 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Return_Auth__c.ERP_RMA_Link__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Return_Auth__c.ERP_RMA_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth__c.Refund_Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth__c.Refund_Method__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth__c.Refund_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth__c.Return_Dropped_Off__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1506,6 +1641,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Return_Auth__c.Return_Memo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth__c.Return_To_China__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1530,6 +1670,21 @@
     </fieldPermissions>
 	<fieldPermissions>
         <editable>true</editable>
+        <field>Return_Auth_Line__c.Product__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth_Line__c.Quantity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth_Line__c.Tax_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
         <field>Ship_Method__c.Carrier_Service_Code__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1546,6 +1701,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>State__c.Full_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
+        <field>Warehouse__c.Address_2__c</field>
         <readable>true</readable>
     </fieldPermissions>
 	<fieldPermissions>
@@ -1580,6 +1740,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>ERP_Replacement_Order__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+	<objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Return_Auth_Line__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
 	<objectPermissions>
@@ -1859,6 +2028,42 @@
         <tab>Stock_Level__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
+	    <tabVisibilities>
+        <tab>Country__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>State__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Warehouse__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ERP_Customer__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ERP_Replacement_Order_Line__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ERP_Replacement_Order__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Return_Auth__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
+	<tabSettings>
+        <tab>Return_Auth_Line__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabVisibilities>
+        <tab>Ship_Method__c</tab>
+        <visibility>Visible</visibility>
+    </tabVisibilities>
     <tabSettings>
         <tab>Subsidiary__c</tab>
         <visibility>Visible</visibility>
@@ -1867,6 +2072,14 @@
         <tab>standard-Case</tab>
         <visibility>Visible</visibility>
     </tabSettings>
+	<userPermissions>
+        <enabled>true</enabled>
+        <name>ManageCases</name>
+    </userPermissions>
+	    <userPermissions>
+        <enabled>true</enabled>
+        <name>TransferAnyCase</name>
+    </userPermissions>
 	<userPermissions>
         <enabled>true</enabled>
         <name>CreateCustomizeReports</name>
