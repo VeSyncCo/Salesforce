@@ -14,7 +14,6 @@
         <isOptional>false</isOptional>
     </lookupFilter>
     <referenceTo>State__c</referenceTo>
-    <relationshipLabel>Return Authorizations</relationshipLabel>
     <relationshipName>Return_Authorizations</relationshipName>
     <required>true</required>
     <trackHistory>false</trackHistory>

@@ -5,7 +5,6 @@
     <externalId>false</externalId>
     <label>Ship From Country</label>
     <referenceTo>Country__c</referenceTo>
-    <relationshipLabel>Return Authorizations</relationshipLabel>
     <relationshipName>Return_Authorizations</relationshipName>
     <required>true</required>
     <trackHistory>false</trackHistory>

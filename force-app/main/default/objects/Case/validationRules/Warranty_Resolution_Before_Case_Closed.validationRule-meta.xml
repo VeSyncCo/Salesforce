@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warranty_Resolution_Before_Case_Closed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(
+        OR(
+            $Setup.VeSync_Bypass_Setting__c.Bypass_All_Validations__c,
+            REGEX($Setup.VeSync_Bypass_Setting__c.Bypass_Object_Validations__c , &apos;.*\\bCase\\b.*&apos;),
+            Contains($Setup.VeSync_Bypass_Setting__c.Bypass_Validation_Rules__c , &apos;Warranty_Resolution_Before_Case_Closed&apos;)
+        )
+    ),
+    ISPICKVAL(Status, &apos;Closed - Resolved&apos;),
+    ISBLANK(TEXT(Warranty_Resolution__c)),
+    $RecordType.Name = &apos;Warranty&apos;
+)</errorConditionFormula>
+    <errorDisplayField>Warranty_Resolution__c</errorDisplayField>
+    <errorMessage>Please fill in Warranty Resolution before closing the case.</errorMessage>
+</ValidationRule>

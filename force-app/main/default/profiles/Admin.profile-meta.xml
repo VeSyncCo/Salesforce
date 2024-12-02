@@ -2874,6 +2874,31 @@
         <field>Dialpad__Call_Log__c.Dialpad__TaskSubtype__c</field>
         <readable>true</readable>
     </fieldPermissions>
+	 <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.S3_Attachment_Params__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.S3_PreSigned_URL_Expire_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Vesync_APP_Feedback_Msg__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Vesync_APP_Image_URLs__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.Video_Attachment_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Dialpad__Call_Log__c.Dialpad__Time_in_Hours_rpt__c</field>
@@ -3751,11 +3776,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ERP_Replacement_Order__c.ShipStation_Return_Label__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>ERP_Replacement_Order__c.Ship_Carrier__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3772,6 +3792,21 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ERP_Replacement_Order__c.ZIP__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth_Line__c.Product__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth_Line__c.Quantity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth_Line__c.Tax_Amount__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4510,8 +4545,33 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Return_Auth__c.ERP_RMA_Link__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Return_Auth__c.ERP_RMA_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth__c.Refund_Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth__c.Refund_Method__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth__c.Refund_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth__c.Return_Dropped_Off__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4522,6 +4582,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Return_Auth__c.Return_Memo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Return_Auth__c.Return_To_China__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6219,6 +6284,16 @@
         <field>WorkOrderLineItem.EndDate</field>
         <readable>true</readable>
     </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
+        <field>Ship_Method__c.Carrier_Service_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Ship_Method__c.Ship_Carrier__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>WorkOrderLineItem.IsClosed</field>
@@ -6233,6 +6308,11 @@
         <editable>false</editable>
         <field>Warehouse__c.Phone__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+	<fieldPermissions>
+        <editable>true</editable>
+        <field>Warehouse__c.Address_2__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -7345,6 +7425,15 @@
         <object>Dialpad__Dialpad_Activity_Log__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+	    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Ship_Method__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -7766,6 +7855,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>MktCalculatedInsight</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+	    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Return_Auth_Line__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -8267,7 +8365,7 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>true</default>
+        <default>false</default>
         <personAccountDefault>true</personAccountDefault>
         <recordType>Case.DSRR</recordType>
         <visible>true</visible>
@@ -8283,7 +8381,7 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
         <recordType>Case.Warranty</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -8336,6 +8434,10 @@
         <tab>Order__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+	    <tabVisibilities>
+        <tab>Warehouse__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Stock_Level__c</tab>
         <visibility>DefaultOn</visibility>
@@ -8366,6 +8468,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AuthorizationFormText</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+	<tabVisibilities>
+        <tab>State__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -8424,6 +8530,23 @@
         <tab>standard-CommSubscriptionTiming</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+	    <tabVisibilities>
+        <tab>ERP_Customer__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+	<tabVisibilities>
+        <tab>Country__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+	    <tabVisibilities>
+        <tab>ERP_Replacement_Order_Line__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ERP_Replacement_Order__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
     <tabVisibilities>
         <tab>standard-Contact</tab>
         <visibility>DefaultOn</visibility>
@@ -8440,6 +8563,10 @@
         <tab>standard-ContactRequest</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+	<tabVisibilities>
+        <tab>Ship_Carrier__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Contract</tab>
         <visibility>DefaultOn</visibility>
@@ -8452,12 +8579,6 @@
         <tab>standard-Customer</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
-    
-    
-    
-    
     <tabVisibilities>
         <tab>standard-DataUseLegalBasis</tab>
         <visibility>DefaultOn</visibility>
@@ -8478,6 +8599,10 @@
     <tabVisibilities>
         <tab>standard-EngagementChannelType</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+	<tabVisibilities>
+        <tab>Return_Auth_Line__c</tab>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-EngagementInteraction</tab>
@@ -8562,8 +8687,10 @@
         <tab>standard-MessagingSession</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
+    <tabVisibilities>
+        <tab>Ship_Method__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Opportunity</tab>
         <visibility>DefaultOn</visibility>
@@ -8663,6 +8790,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-WorkBadgeDefinition</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+	<tabVisibilities>
+        <tab>Return_Auth__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
