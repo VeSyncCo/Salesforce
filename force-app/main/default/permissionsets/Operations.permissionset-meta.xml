@@ -2028,42 +2028,42 @@
         <tab>Stock_Level__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
-	    <tabVisibilities>
+	<tabSettings>
         <tab>Country__c</tab>
         <visibility>Visible</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
+    </tabSettings>
+    <tabSettings>
         <tab>State__c</tab>
         <visibility>Visible</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
+    </tabSettings>
+    <tabSettings>
         <tab>Warehouse__c</tab>
         <visibility>Visible</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
+    </tabSettings>
+    <tabSettings>
         <tab>ERP_Customer__c</tab>
         <visibility>Visible</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
+    </tabSettings>
+    <tabSettings>
         <tab>ERP_Replacement_Order_Line__c</tab>
         <visibility>Visible</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
+    </tabSettings>
+    <tabSettings>
         <tab>ERP_Replacement_Order__c</tab>
         <visibility>Visible</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
+    </tabSettings>
+    <tabSettings>
         <tab>Return_Auth__c</tab>
         <visibility>Visible</visibility>
-    </tabVisibilities>
+    </tabSettings>
 	<tabSettings>
         <tab>Return_Auth_Line__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
-    <tabVisibilities>
+    <tabSettings>
         <tab>Ship_Method__c</tab>
         <visibility>Visible</visibility>
-    </tabVisibilities>
+    </tabSettings>
     <tabSettings>
         <tab>Subsidiary__c</tab>
         <visibility>Visible</visibility>
@@ -2072,14 +2072,6 @@
         <tab>standard-Case</tab>
         <visibility>Visible</visibility>
     </tabSettings>
-	<userPermissions>
-        <enabled>true</enabled>
-        <name>ManageCases</name>
-    </userPermissions>
-	    <userPermissions>
-        <enabled>true</enabled>
-        <name>TransferAnyCase</name>
-    </userPermissions>
 	<userPermissions>
         <enabled>true</enabled>
         <name>CreateCustomizeReports</name>
