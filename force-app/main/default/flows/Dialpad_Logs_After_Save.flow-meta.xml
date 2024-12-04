@@ -2,9 +2,38 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>62.0</apiVersion>
     <decisions>
+        <name>AI_Summary_Check</name>
+        <label>AI Summary Check</label>
+        <locationX>182</locationX>
+        <locationY>947</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>AI_Summary_is_Available</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Dialpad__Ai_Summary_RichText__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Dialpad__Ai_Summary_RichText__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Summaries are currently not generated for short calls or voicemails.</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Create_Case_Comment</targetReference>
+            </connector>
+            <label>AI Summary is Available</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Bypass_Check</name>
         <label>Bypass Check</label>
-        <locationX>380</locationX>
+        <locationX>1205</locationX>
         <locationY>323</locationY>
         <defaultConnectorLabel>Bypass</defaultConnectorLabel>
         <rules>
@@ -18,7 +47,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Check_for_Related_Contact</targetReference>
+                <targetReference>Record_Creation_Check</targetReference>
             </connector>
             <label>Do Not Bypass</label>
         </rules>
@@ -26,8 +55,11 @@
     <decisions>
         <name>Check_for_Related_Contact</name>
         <label>Check for Related Contact</label>
-        <locationX>182</locationX>
-        <locationY>431</locationY>
+        <locationX>974</locationX>
+        <locationY>647</locationY>
+        <defaultConnector>
+            <targetReference>Copy_1_of_AI_Summary_Check</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Related_Contact_Present</name>
@@ -45,11 +77,146 @@
             <label>Related Contact Present?</label>
         </rules>
     </decisions>
+    <decisions>
+        <name>Copy_1_of_AI_Summary_Check</name>
+        <label>AI Summary Check</label>
+        <locationX>974</locationX>
+        <locationY>947</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_1_of_AI_Summary_is_Available</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Dialpad__Ai_Summary_RichText__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Dialpad__Ai_Summary_RichText__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Summaries are currently not generated for short calls or voicemails.</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Create_Case_Comment</targetReference>
+            </connector>
+            <label>AI Summary is Available</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Copy_1_of_Check_for_Related_Contact</name>
+        <label>Check for Related Contact</label>
+        <locationX>182</locationX>
+        <locationY>647</locationY>
+        <defaultConnector>
+            <targetReference>AI_Summary_Check</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_1_of_Related_Contact_Present</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Contact__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Update_Related_Case</targetReference>
+            </connector>
+            <label>Related Contact Present?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Record_Creation_Check</name>
+        <label>Record Creation Check</label>
+        <locationX>776</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Related_Case_Change_Check</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Is Updated</defaultConnectorLabel>
+        <rules>
+            <name>Is_Created</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Related_Case_Check</targetReference>
+            </connector>
+            <label>Is Created</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Related_Case_Change_Check</name>
+        <label>Related Case Change Check</label>
+        <locationX>1172</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Case_is_Changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Dialpad__RelatedObjectIds__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Dialpad__RelatedObjectIds__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Check_for_Related_Contact</targetReference>
+            </connector>
+            <label>Case is Changed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Related_Case_Check</name>
+        <label>Related Case Check</label>
+        <locationX>380</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Related_Case_is_Available</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Dialpad__RelatedObjectIds__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Check_for_Related_Contact</targetReference>
+            </connector>
+            <label>Related Case is Available</label>
+        </rules>
+    </decisions>
     <environments>Default</environments>
     <formulas>
         <name>BypassFormula</name>
         <dataType>Boolean</dataType>
         <expression>OR({!$Setup.VeSync_Bypass_Setting__c.Bypass_All_Automations__c} ,REGEX({!$Setup.VeSync_Bypass_Setting__c.Bypass_Object_Automations__c}, &apos;.*\\bCase\\b.*&apos;) ,CONTAINS({!$Setup.VeSync_Bypass_Setting__c.Bypass_Flows__c}, &apos;Dialpad_Logs_After_Save&apos;))</expression>
+    </formulas>
+    <formulas>
+        <name>ISNEW</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
     </formulas>
     <interviewLabel>Dialpad Logs - After Save {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Dialpad Logs - After Save</label>
@@ -72,11 +239,84 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Copy_1_of_Create_Case_Comment</name>
+        <label>Create Case Comment</label>
+        <locationX>842</locationX>
+        <locationY>1055</locationY>
+        <inputAssignments>
+            <field>CommentBody</field>
+            <value>
+                <elementReference>$Record.Dialpad__Ai_Summary_RichText__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ParentId</field>
+            <value>
+                <elementReference>$Record.Dialpad__RelatedObjectIds__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>CaseComment</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Create_Case_Comment</name>
+        <label>Create Case Comment</label>
+        <locationX>50</locationX>
+        <locationY>1055</locationY>
+        <inputAssignments>
+            <field>CommentBody</field>
+            <value>
+                <elementReference>$Record.Dialpad__Ai_Summary_RichText__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ParentId</field>
+            <value>
+                <elementReference>$Record.Dialpad__RelatedObjectIds__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>CaseComment</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordUpdates>
+        <name>Copy_1_of_Update_Related_Case</name>
+        <label>Update Related Case</label>
+        <locationX>50</locationX>
+        <locationY>755</locationY>
+        <connector>
+            <targetReference>AI_Summary_Check</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Dialpad__RelatedObjectIds__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>ContactId</field>
+            <value>
+                <elementReference>$Record.Dialpad__ParentObjectId__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Requester__c</field>
+            <value>
+                <elementReference>$Record.Contact__r.AccountId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
     <recordUpdates>
         <name>Update_Related_Case</name>
         <label>Update Related Case</label>
-        <locationX>50</locationX>
-        <locationY>539</locationY>
+        <locationX>842</locationX>
+        <locationY>755</locationY>
+        <connector>
+            <targetReference>Copy_1_of_AI_Summary_Check</targetReference>
+        </connector>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -100,7 +340,7 @@
         <object>Case</object>
     </recordUpdates>
     <start>
-        <locationX>254</locationX>
+        <locationX>1079</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Bypass_Check</targetReference>

@@ -77,7 +77,7 @@
     <formulas>
         <name>BypassFormula</name>
         <dataType>Boolean</dataType>
-        <expression>OR({!$Setup.VeSync_Bypass_Setting__c.Bypass_All_Automations__c} ,REGEX({!$Setup.VeSync_Bypass_Setting__c.Bypass_Object_Automations__c}, &apos;.*\\bCase\\b.*&apos;) ,CONTAINS({!$Setup.VeSync_Bypass_Setting__c.Bypass_Flows__c}, &apos;Dialpad_Logs_After_Save&apos;))</expression>
+        <expression>OR({!$Setup.VeSync_Bypass_Setting__c.Bypass_All_Automations__c} ,REGEX({!$Setup.VeSync_Bypass_Setting__c.Bypass_Object_Automations__c}, &apos;.*\\bCase\\b.*&apos;) ,CONTAINS({!$Setup.VeSync_Bypass_Setting__c.Bypass_Flows__c}, &apos;Dialpad_Before_Save&apos;))</expression>
     </formulas>
     <interviewLabel>Dialpad Before Save {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Dialpad Before Save</label>
