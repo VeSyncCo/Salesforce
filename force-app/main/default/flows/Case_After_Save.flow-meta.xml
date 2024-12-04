@@ -107,7 +107,7 @@
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>nikhil.elias@caeliusconsulting.com</stringValue>
+                <stringValue>support@cosori.com</stringValue>
             </value>
         </assignmentItems>
         <connector>
@@ -123,7 +123,7 @@
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>nikhil.elias@caeliusconsulting.com</stringValue>
+                <stringValue>support@etekcity.com</stringValue>
             </value>
         </assignmentItems>
         <connector>
@@ -139,7 +139,7 @@
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>nikhil.elias@caeliusconsulting.com</stringValue>
+                <stringValue>support@levoit.com</stringValue>
             </value>
         </assignmentItems>
         <connector>
@@ -155,7 +155,7 @@
             <assignToReference>OrgWideEmail</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>nikhil.elias@caeliusconsulting.com</stringValue>
+                <stringValue>support@pawsync.com</stringValue>
             </value>
         </assignmentItems>
         <connector>
