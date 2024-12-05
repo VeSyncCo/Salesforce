@@ -315,15 +315,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Eastern Asia</fullName>
-            <default>false</default>
-        </values>
-		<values>
             <fullName>Canada</fullName>
             <default>false</default>
         </values>
-		<values>
-            <fullName>United States of America</fullName>
+        <values>
+            <fullName>Eastern Asia</fullName>
             <default>false</default>
         </values>
         <values>
@@ -384,6 +380,10 @@
         </values>
         <values>
             <fullName>United Kingdom of Great Britain and Northern Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United States of America</fullName>
             <default>false</default>
         </values>
         <values>
@@ -4466,6 +4466,10 @@
     </picklistValues>
     <picklistValues>
         <picklist>Origin</picklist>
+        <values>
+            <fullName>APP</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>Email</fullName>
             <default>false</default>

@@ -91,6 +91,12 @@
                 <identifier>RecordCase_Comment_ID__cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Email_Message_ID__c</fieldItem>
+                <identifier>RecordEmail_Message_ID__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-28c80319-a3f8-44c2-b9bd-109ea58924da</name>
         <type>Facet</type>
     </flexiPageRegions>
