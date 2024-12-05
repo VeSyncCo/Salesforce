@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Follow Up Emails</name>
+    <style>none</style>
+    <subject>Urgent Case Reminder</subject>
+    <textOnly>Dear {!Case.OwnerFullName},
+
+This is a reminder regarding the high-priority case {!Case.CaseNumber}, which was escalated on {!Case.Escalated_Date__c}. Please review and address any outstanding actions on this case as soon as possible to ensure a prompt resolution.
+
+Customer Name : {!Case.Requester__c}
+Case Number : {!Case.CaseNumber}
+Case Age : Escalated Since {!Case.Escalated_Date__c}
+Priority Level : {!Case.Priority}
+Case Link : {!CaseLink}
+
+Your timely attention to this case is essential to meet our service commitments. Thank you for your dedication and prompt action.
+
+Best regards,
+
+VeSync Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

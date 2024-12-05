@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <assignments>
+        <description>Set Related Case for the logged call</description>
+        <name>Case_Linkup</name>
+        <label>Case Linkup</label>
+        <locationX>50</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Related_Case__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Dialpad__RelatedObjectIds__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Contact__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Dialpad__ParentObjectId__c</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Bypass_Check</name>
+        <label>Bypass Check</label>
+        <locationX>380</locationX>
+        <locationY>287</locationY>
+        <defaultConnectorLabel>Bypass</defaultConnectorLabel>
+        <rules>
+            <name>Do_Not_Bypass</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>BypassFormula</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Related_Object_Case</targetReference>
+            </connector>
+            <label>Do Not Bypass</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Related_Object_Case</name>
+        <label>Related Object - Case</label>
+        <locationX>182</locationX>
+        <locationY>395</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Call_Logged_For_Case</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Dialpad__RelatedObjectIds__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Dialpad__RelatedObjectIds__c</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>500</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Case_Linkup</targetReference>
+            </connector>
+            <label>Call Logged For Case</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>BypassFormula</name>
+        <dataType>Boolean</dataType>
+        <expression>OR({!$Setup.VeSync_Bypass_Setting__c.Bypass_All_Automations__c} ,REGEX({!$Setup.VeSync_Bypass_Setting__c.Bypass_Object_Automations__c}, &apos;.*\\bCase\\b.*&apos;) ,CONTAINS({!$Setup.VeSync_Bypass_Setting__c.Bypass_Flows__c}, &apos;Dialpad_Before_Save&apos;))</expression>
+    </formulas>
+    <interviewLabel>Dialpad Before Save {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Dialpad Before Save</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>254</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Bypass_Check</targetReference>
+        </connector>
+        <object>Dialpad__Call_Log__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

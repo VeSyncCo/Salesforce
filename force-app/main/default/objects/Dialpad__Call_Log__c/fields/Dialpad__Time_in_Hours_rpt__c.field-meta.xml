@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dialpad__Time_in_Hours_rpt__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>CASE(
+VALUE(LEFT(RIGHT(text(CreatedDate),FIND(&quot; &quot;, TEXT( CreatedDate ))-2),2)),
+00,19,
+01,20,
+02,21,
+03,22,
+04,23,
+05,00,
+06,01,
+07,02,
+08,03,
+09,04,
+10,05,
+11,06,
+12,07,
+13,08,
+14,09,
+15,10,
+16,11,
+17,12,
+18,13,
+19,14,
+20,15,
+21,16,
+22,17,
+23,18,
+00
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Time in Hours</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

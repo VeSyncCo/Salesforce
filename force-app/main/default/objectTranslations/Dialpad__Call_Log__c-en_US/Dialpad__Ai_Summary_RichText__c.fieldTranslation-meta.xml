@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Ai Summary --></label>
+    <name>Dialpad__Ai_Summary_RichText__c</name>
+</CustomFieldTranslation>

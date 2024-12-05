@@ -1,0 +1,13 @@
+Salve {!Contact.Name},
+
+Questa risposta automatica conferma che la tua richiesta è stata ricevuta.
+Per tuo riferimento, il numero del tuo caso è {!Case.CaseNumber}.
+Non preoccuparti di memorizzarlo o di scriverlo; possiamo sempre localizzarlo utilizzando il tuo indirizzo email.
+
+Il nostro obiettivo è rispondere a tutte le richieste entro 1 giorno lavorativo.
+
+Non vediamo l'ora di lavorare con te.
+Il team di supporto di {!Case.Brand__c}.
+
+
+{!Case.Thread_Token}

@@ -1,0 +1,13 @@
+Bonjour {!Contact.Name},
+
+Cette réponse automatique confirme que votre demande a été reçue.
+Pour votre information, votre numéro de dossier est {!Case.CaseNumber}.
+Ne vous inquiétez pas de le mémoriser ou de l'écrire ; nous pouvons toujours le localiser en utilisant votre adresse e-mail.
+
+Notre objectif est de répondre à toutes les demandes dans un délai d’un jour ouvrable.
+
+Nous sommes impatients de travailler avec vous.
+L'équipe d'assistance {!Case.Brand__c}.
+
+
+{!Case.Thread_Token}

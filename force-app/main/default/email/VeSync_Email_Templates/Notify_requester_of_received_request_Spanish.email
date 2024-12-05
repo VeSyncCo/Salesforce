@@ -1,0 +1,13 @@
+Hola {{ticket.requester.first_name}},
+
+Esta respuesta automática confirma que se ha recibido su consulta.
+Para su referencia, su número de caso es {!Case.CaseNumber}.
+No te preocupes por memorizarlo o escribirlo; Siempre podemos localizarlo utilizando su dirección de correo electrónico.
+
+Nuestro objetivo es responder a todas las consultas dentro de 1 día hábil.
+
+Esperamos trabajar con usted.
+El equipo de soporte de {!Case.Brand__c}.
+
+
+{!Case.Thread_Token}

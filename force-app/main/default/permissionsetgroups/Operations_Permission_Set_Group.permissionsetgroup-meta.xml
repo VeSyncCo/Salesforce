@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Operations Permission Set Group</label>
+    <permissionSets>Omni_Supervisor</permissionSets>
+    <permissionSets>Operations</permissionSets>
+    <permissionSets>Operations_Modify_All</permissionSets>
+    <permissionSets>Operations_View_All</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

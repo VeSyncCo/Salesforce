@@ -1,0 +1,5 @@
+<apex:page standardController="ERP_Replacement_Order__c" extensions="erpReplacementOrderClass" action="{!voidReplacementOrder}">
+<apex:form >
+<apex:inputHidden value="{!ERP_Replacement_Order__c.Id}"/>
+</apex:form>
+</apex:page>

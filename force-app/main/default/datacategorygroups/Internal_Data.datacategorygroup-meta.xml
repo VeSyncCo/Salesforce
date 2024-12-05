@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Onboarding</label>
+            <name>Onboarding</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Soft Skills</label>
+            <name>Soft_Skills</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Fulfillment SOPS</label>
+            <name>Fulfillment_SOPS</name>
+        </dataCategory>
+        <dataCategory>
+            <label>SalesForce SOPs</label>
+            <name>SalesForce_SOPs</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Cosori Internal</label>
+            <name>Cosori_Internal</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Levoit Internal</label>
+            <name>Levoit_Internal</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Etekcity Internal</label>
+            <name>Etekcity_Internal</name>
+        </dataCategory>
+        <dataCategory>
+            <label>PawSync Internal</label>
+            <name>PawSync_Internal</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <description>For SOPS, Onboarding, Brand Specific Internal information</description>
+    <label>Internal Data</label>
+    <objectUsage>
+        <object>SvcCatalogItemDef</object>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>
