@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Ship_Carrier__c</fullName>
-    <deleteConstraint>Restrict</deleteConstraint>
-    <label>Ship Carrier</label>
-    <referenceTo>Ship_Carrier__c</referenceTo>
+    <fullName>Linked_Replacement_Record__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Linked Replacement Record</label>
+    <referenceTo>ERP_Replacement_Order__c</referenceTo>
     <relationshipLabel>Return &amp; Refund</relationshipLabel>
-    <relationshipName>Return_Authorizations</relationshipName>
+    <relationshipName>Return_Refund</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -3,19 +3,10 @@
     <fullName>Create_ERP_RNA_Record</fullName>
     <availability>online</availability>
     <displayType>button</displayType>
-    <encodingKey>UTF-8</encodingKey>
-    <hasMenubar>false</hasMenubar>
-    <hasScrollbars>true</hasScrollbars>
-    <hasToolbar>false</hasToolbar>
     <height>600</height>
-    <isResizable>true</isResizable>
-    <linkType>url</linkType>
+    <linkType>page</linkType>
     <masterLabel>Create ERP RNA Record</masterLabel>
-    <openType>newWindow</openType>
-    <position>none</position>
+    <openType>sidebar</openType>
+    <page>returnLabel_Create_V2</page>
     <protected>false</protected>
-    <showsLocation>false</showsLocation>
-    <showsStatus>false</showsStatus>
-    <url>https://etekcity1234--dev--c.sandbox.vf.force.com/apex/erpReturnAuth_Create
-?Id={!Return_Auth__c.Id}</url>
 </WebLink>

@@ -13,8 +13,9 @@ public without sharing class CentralDispatcher {
         if(bypassRecord != null){
             Map<String, Object> mapCustomSettings = bypassRecord.getPopulatedFieldsAsMap();   
             
-            Boolean bypassAllAutomations =  Boolean.valueOf(mapCustomSettings.get('Bypass_All_Automations__c'));
-            String bypassTrigger = String.valueOf(mapCustomSettings.get('Bypass_Trigger__c'));	
+            
+            Boolean bypassAllAutomations =  mapCustomSettings.containskey('Bypass_All_Automations__c')? Boolean.valueOf(mapCustomSettings.get('Bypass_All_Automations__c')) : false;
+            String bypassTrigger =mapCustomSettings.containskey('Bypass_Trigger__c')? String.valueOf(mapCustomSettings.get('Bypass_Trigger__c')):null;	
             
             triggerEnabled = (bypassAllAutomations == true || (bypassTrigger != null && bypassTrigger.contains(triggerName))) ? false : true;
         }

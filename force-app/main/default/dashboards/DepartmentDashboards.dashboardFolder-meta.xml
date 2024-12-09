@@ -25,10 +25,5 @@
         <sharedTo>Knowledge_Admin</sharedTo>
         <sharedToType>Role</sharedToType>
     </folderShares>
-    <folderShares>
-        <accessLevel>View</accessLevel>
-        <sharedTo>Admin</sharedTo>
-        <sharedToType>RoleAndSubordinatesInternal</sharedToType>
-    </folderShares>
     <name>Department Dashboards</name>
 </DashboardFolder>
