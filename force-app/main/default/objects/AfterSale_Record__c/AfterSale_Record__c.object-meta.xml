@@ -129,16 +129,16 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Return_And_Refund_Form</content>
-        <formFactor>Large</formFactor>
+        <content>AfterSale_Record_Page</content>
+        <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Return_And_Refund_Form</content>
-        <formFactor>Small</formFactor>
+        <content>AfterSale_Record_Page</content>
+        <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -149,24 +149,23 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>true</enableActivities>
+    <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>true</enableHistory>
+    <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>true</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Return &amp; Refund</label>
+    <label>AfterSale Record</label>
     <nameField>
-        <displayFormat>SF-RT-{0000000000}</displayFormat>
-        <label>Return Authorization Name</label>
-        <trackHistory>false</trackHistory>
+        <displayFormat>AS-{YYYY}{MM}{DD}-{00000}</displayFormat>
+        <label>AS Record Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Return &amp; Refund</pluralLabel>
+    <pluralLabel>AfterSale Records</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

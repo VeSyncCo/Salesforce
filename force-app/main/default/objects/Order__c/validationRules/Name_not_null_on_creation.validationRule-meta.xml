@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name_not_null_on_creation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(
+OR(
+$Setup.VeSync_Bypass_Setting__c.Bypass_All_Validations__c,
+REGEX($Setup.VeSync_Bypass_Setting__c.Bypass_Object_Validations__c , &apos;.*\\bShopify_Order__c\\b.*&apos;),
+Contains($Setup.VeSync_Bypass_Setting__c.Bypass_Validation_Rules__c , &apos;Name_not_null_on_creation&apos;)
+)
+
+),
+
+
+ISNEW() &amp;&amp; ISBLANK(Name)
+
+)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Please enter value for the Order Name</errorMessage>
+</ValidationRule>

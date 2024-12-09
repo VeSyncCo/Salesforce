@@ -3,18 +3,17 @@
     <fullName>Void_Return_Label</fullName>
     <availability>online</availability>
     <displayType>button</displayType>
-    <encodingKey>UTF-8</encodingKey>
     <hasMenubar>false</hasMenubar>
     <hasScrollbars>true</hasScrollbars>
     <hasToolbar>false</hasToolbar>
     <height>600</height>
     <isResizable>true</isResizable>
-    <linkType>url</linkType>
+    <linkType>page</linkType>
     <masterLabel>Void Return Label</masterLabel>
     <openType>newWindow</openType>
+    <page>returnLabel_Void</page>
     <position>none</position>
     <protected>false</protected>
     <showsLocation>false</showsLocation>
     <showsStatus>false</showsStatus>
-    <url>https://etekcity1234--dev--c.sandbox.vf.force.com/apex/returnLabel_Void?Id={!Return_Auth__c.Id}</url>
 </WebLink>

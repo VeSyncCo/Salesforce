@@ -24,8 +24,8 @@
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <serverIsDown>SNA_12AJm_sf_default_cdn_Community_Website_VeSync1</serverIsDown>
-    <siteAdmin>raghav.sharma@caeliusconsulting.com.vesync</siteAdmin>
-    <siteGuestRecordDefaultOwner>raghav.sharma@caeliusconsulting.com.vesync</siteGuestRecordDefaultOwner>
+    <siteAdmin>nikhil.elias@caeliusconsulting.com.vesync</siteAdmin>
+    <siteGuestRecordDefaultOwner>nikhil.elias@caeliusconsulting.com.vesync</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <urlPathPrefix>vesync</urlPathPrefix>
 </CustomSite>

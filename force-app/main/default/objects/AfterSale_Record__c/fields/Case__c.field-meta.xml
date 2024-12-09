@@ -3,10 +3,10 @@
     <fullName>Case__c</fullName>
     <label>Case</label>
     <referenceTo>Case</referenceTo>
-    <relationshipName>Return_Authorizations</relationshipName>
+    <relationshipLabel>AfterSale Records</relationshipLabel>
+    <relationshipName>AfterSale_Records</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
-    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>MasterDetail</type>
     <writeRequiresMasterRead>false</writeRequiresMasterRead>
