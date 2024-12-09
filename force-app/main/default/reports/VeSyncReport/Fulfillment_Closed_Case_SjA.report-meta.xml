@@ -29,7 +29,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>,Case.DSRR,Case.Fulfillment,Case.Questions,Case.Warranty</value>
+            <value>Case.Fulfillment</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
@@ -39,7 +39,7 @@
         <field>RECORDTYPE</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>All Closed Case</name>
+    <name>Fulfillment Closed Case</name>
     <params>
         <name>units</name>
         <value>h</value>
