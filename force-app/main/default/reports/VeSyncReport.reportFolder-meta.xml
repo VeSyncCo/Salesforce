@@ -2,7 +2,9 @@
 <ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
     <folderShares>
         <accessLevel>Manage</accessLevel>
-        <sharedTo>nikhil.elias@caeliusconsulting.com.vesync</sharedTo>
+
+        <sharedTo>nikhil.elias@caeliusconsulting.com</sharedTo>
+
         <sharedToType>User</sharedToType>
     </folderShares>
     <name>VeSync Report</name>

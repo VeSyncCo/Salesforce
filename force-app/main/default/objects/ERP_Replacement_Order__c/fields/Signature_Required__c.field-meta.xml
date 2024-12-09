@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ShipStation_Return_Label__c</fullName>
+    <fullName>Signature_Required__c</fullName>
     <defaultValue>false</defaultValue>
-    <label>ShipStation Return Label</label>
+    <label>Signature Required</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
