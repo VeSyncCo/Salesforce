@@ -2,7 +2,11 @@
 <DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
     <folderShares>
         <accessLevel>Manage</accessLevel>
+<<<<<<< Updated upstream
         <sharedTo>raghav.sharma@caeliusconsulting.com.vesync</sharedTo>
+=======
+        <sharedTo>nikhil.elias@caeliusconsulting.com</sharedTo>
+>>>>>>> Stashed changes
         <sharedToType>User</sharedToType>
     </folderShares>
     <name>VeSync Dashboards</name>

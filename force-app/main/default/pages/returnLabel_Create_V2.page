@@ -1,0 +1,8 @@
+<apex:page id="createReturnLabelPage" standardController="Return_Auth__c" extensions="erpReturnAuthClass" action="{!createReturnAuth}" >
+    <div class="slds-scope">
+    <apex:form id="form" style="height: 200px;">
+        <Apex:pagemessages id="showmsg"></Apex:pagemessages>
+        <apex:inputHidden value="{!Return_Auth__c.Id}"/>
+    </apex:form>
+    </div>
+</apex:page>

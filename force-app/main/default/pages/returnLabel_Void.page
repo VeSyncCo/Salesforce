@@ -1,0 +1,5 @@
+<apex:page standardController="Return_Auth__c" extensions="erpReturnAuthClass" action="{!voidReturnLabel}">
+<apex:form >
+<apex:inputHidden value="{!Return_Auth__c.Id}"/>
+</apex:form>
+</apex:page>
