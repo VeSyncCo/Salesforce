@@ -26,6 +26,10 @@
                 <behavior>Edit</behavior>
                 <field>S3_Path__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Email_Message_ID__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
