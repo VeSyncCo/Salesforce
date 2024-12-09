@@ -15,6 +15,9 @@
             <layoutItems>
                 <field>CurrencyIsoCode</field>
             </layoutItems>
+            <layoutItems>
+                <field>External_Links__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
