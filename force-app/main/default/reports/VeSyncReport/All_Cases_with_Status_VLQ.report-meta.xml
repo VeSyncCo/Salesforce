@@ -7,39 +7,22 @@
         <field>ACCOUNT.NAME</field>
     </columns>
     <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
         <field>SUBJECT</field>
     </columns>
     <columns>
         <field>CREATED_DATE</field>
     </columns>
-    <columns>
-        <field>CLOSED</field>
-    </columns>
     <currency>USD</currency>
-    <filter>
-        <criteriaItems>
-            <column>STATUS</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>equals</operator>
-            <value>Closed - Unresolved,Closed - Resolved</value>
-        </criteriaItems>
-        <criteriaItems>
-            <column>RECORDTYPE</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>equals</operator>
-            <value>,Case.DSRR,Case.Fulfillment,Case.Questions,Case.Warranty</value>
-        </criteriaItems>
-        <language>en_US</language>
-    </filter>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>RECORDTYPE</field>
+        <field>STATUS</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>All Closed Case</name>
+    <name>All Cases with Status</name>
     <params>
         <name>units</name>
         <value>h</value>

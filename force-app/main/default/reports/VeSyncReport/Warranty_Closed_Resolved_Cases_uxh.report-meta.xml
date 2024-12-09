@@ -22,14 +22,14 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>Closed - Unresolved,Closed - Resolved</value>
+            <value>Closed - Resolved</value>
         </criteriaItems>
         <criteriaItems>
             <column>RECORDTYPE</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>,Case.DSRR,Case.Fulfillment,Case.Questions,Case.Warranty</value>
+            <value>Case.Warranty</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
@@ -39,7 +39,7 @@
         <field>RECORDTYPE</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>All Closed Case</name>
+    <name>Warranty Closed - Resolved Cases</name>
     <params>
         <name>units</name>
         <value>h</value>

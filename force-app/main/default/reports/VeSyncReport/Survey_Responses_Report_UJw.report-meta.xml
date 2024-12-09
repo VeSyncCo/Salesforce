@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
     <columns>
-        <field>OWNER</field>
+        <field>Case.Requester__c</field>
     </columns>
     <columns>
-        <field>ACCOUNT.NAME</field>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case.Service_Efficiency__c</field>
     </columns>
     <columns>
-        <field>SUBJECT</field>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case.Overall_Satisfaction__c</field>
     </columns>
     <columns>
-        <field>CREATED_DATE</field>
-    </columns>
-    <columns>
-        <field>CLOSED</field>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case.Likely_to_Recommend__c</field>
     </columns>
     <currency>USD</currency>
     <filter>
@@ -22,14 +22,28 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>Closed - Unresolved,Closed - Resolved</value>
+            <value>Closed - Resolved</value>
         </criteriaItems>
         <criteriaItems>
-            <column>RECORDTYPE</column>
+            <column>Case.Service_Efficiency__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
-            <operator>equals</operator>
-            <value>,Case.DSRR,Case.Fulfillment,Case.Questions,Case.Warranty</value>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Overall_Satisfaction__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Likely_to_Recommend__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
@@ -39,7 +53,7 @@
         <field>RECORDTYPE</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>All Closed Case</name>
+    <name>Survey Responses Report</name>
     <params>
         <name>units</name>
         <value>h</value>
