@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Ship_From_Name__c</fullName>
+    <fullName>Refund_Tax_Amount_Total__c</fullName>
     <externalId>false</externalId>
-    <label>Ship From Name</label>
-    <length>255</length>
+    <label>Refund Tax Amount Total</label>
+    <precision>10</precision>
     <required>false</required>
+    <scale>2</scale>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>Text</type>
+    <type>Number</type>
     <unique>false</unique>
 </CustomField>
