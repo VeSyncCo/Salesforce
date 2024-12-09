@@ -6,6 +6,7 @@ public class netsuiteNodeClass {
         Http http = new Http();
         HttpRequest request = new HttpRequest();
         request.setEndpoint(endPoint);
+        request.setTimeout(120000);
         request.setMethod('POST');
         request.setHeader('Content-Type', 'application/json;charset=UTF-8');
         // Set the body as a JSON object

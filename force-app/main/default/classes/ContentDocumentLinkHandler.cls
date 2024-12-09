@@ -19,13 +19,12 @@ public class ContentDocumentLinkHandler extends TriggerHandlerBase {
             if(inputParam.isUpdate && inputParam.isAfter){
                 
             }
-  
+            
         }
         catch(Exception e){
             
         }
     }
-    
     
     public void publishPlatformEvent(Map<Id,ContentDocumentLink> newMap){
         List<Case_Attachment_Event__e> eventList = new List<Case_Attachment_Event__e>();
@@ -33,18 +32,53 @@ public class ContentDocumentLinkHandler extends TriggerHandlerBase {
         Set<Id> caseDocumentIdSet = new Set<Id>();
         Set<Id> caseLinkIdSet = new Set<Id>();
         Set<Id> caseIdSet = new Set<Id>();
+        Map<Id,Id> emailContentDocumentMap = new Map<Id,Id>();
         for(ContentDocumentLink contentLink : newMap.Values()){
             if(String.valueOf(contentLink.LinkedEntityId.getSobjectType()) == 'Case'){
                 caseDocumentIdSet.add(contentLink.ContentDocumentId);
                 caseLinkIdSet.add(contentLink.Id);
                 caseIdSet.add(contentLink.LinkedEntityId);
             }
+            
+            if(String.valueOf(contentLink.LinkedEntityId.getSobjectType()) == 'EmailMessage'){
+                emailContentDocumentMap.put(contentLink.LinkedEntityId, contentLink.ContentDocumentId);
+                
+            }
         }
-        system.debug(caseLinkIdSet);
+        if(emailContentDocumentMap.size() > 0){
+            List<ContentDocumentLink> caseLinkedList = new List<ContentDocumentLink>();
+            for(EmailMessage email : [Select Id, relatedToId from emailMessage where Id in: emailContentDocumentMap.keyset()]){
+                if(String.ValueOf(email.relatedToId.getSobjectType()) == 'Case'){
+                    ContentDocumentLink link = new ContentDocumentLink();
+                    link.LinkedEntityId = email.relatedToId;
+                    link.ContentDocumentId = emailContentDocumentMap.get(email.Id);
+                    caseLinkedList.add(link);
+                }
+            }
+             
+            if(caseLinkedList.size() > 0){
+                Insert caseLinkedList;
+            }
+        }
+        
+        
         Map<Id, ContentDocument> contentDocumentMap = new Map<Id, ContentDocument>([SELECT Id,title,LatestPublishedVersionId FROM ContentDocument WHERE Id in: caseDocumentIdSet ]);
         Map<Id, Case> caseMap =new Map<Id, Case>([SELECT Id, CaseNumber FROM case WHERE ID in: caseIdSet]);
         List<ContentDistribution > distributionLinkList = new List<ContentDistribution >();
-    
+        
+        Map<Id,Id> linkedEmailMessageMap = new Map<Id,Id>() ;       
+        
+        for(ContentDocumentLink documentLink : [SELECT Id, LinkedEntityId, ContentDocumentId 
+                                                FROM ContentDocumentLink 
+                                                WHERE ContentDocumentId IN :caseDocumentIdSet 
+                                                AND Id NOT IN :newMap.keySet()]){
+                                                    
+                                                    if(String.valueOf(documentLink.LinkedEntityId.getSobjectType()) == 'EmailMessage'){
+                                                        linkedEmailMessageMap.put(documentLink.ContentDocumentId,documentLink.LinkedEntityId);
+                                                    }
+                                                    
+                                                }
+        
         
         for(Id caseLink : caseLinkIdSet){
             Case_Attachment_Event__e event  = new Case_Attachment_Event__e();
@@ -52,6 +86,9 @@ public class ContentDocumentLinkHandler extends TriggerHandlerBase {
             event.Content_Document_ID__c = contentDocumentMap.get(newMap.get(caseLink).ContentDocumentId).Id;
             event.Content_Version_ID__c = contentDocumentMap.get(newMap.get(caseLink).ContentDocumentId).LatestPublishedVersionId;
             event.Case_Number__c = caseMap.get(newMap.get(caseLink).LinkedEntityId).CaseNumber;
+            if(linkedEmailMessageMap.containsKey(event.Content_Document_ID__c)){
+                event.Email_Message_Id__c = linkedEmailMessageMap.get(event.Content_Document_ID__c);
+            }
             eventList.add(event);
             
             ContentDistribution  distributionLink = new ContentDistribution();
@@ -67,4 +104,5 @@ public class ContentDocumentLinkHandler extends TriggerHandlerBase {
             EventBus.publish(eventList);
         }
     }
+    
 }
